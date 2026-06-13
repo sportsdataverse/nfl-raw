@@ -71,8 +71,8 @@ def test_ep_label_to_score_keys():
 
 def test_ep_label_to_score_values():
     mapping = EP_LABEL_TO_SCORE
-    assert mapping["Touchdown"] == 6.0
-    assert mapping["Opp_Touchdown"] == -6.0
+    assert mapping["Touchdown"] == 7.0
+    assert mapping["Opp_Touchdown"] == -7.0
     assert mapping["Field_Goal"] == 3.0
     assert mapping["Opp_Field_Goal"] == -3.0
     assert mapping["Safety"] == 2.0

@@ -33,8 +33,8 @@ EP_FEATURES: list[str] = [
 EP_NUM_CLASSES: int = 7
 
 EP_LABEL_TO_SCORE: dict[str, float] = {
-    "Touchdown": 6.0,
-    "Opp_Touchdown": -6.0,
+    "Touchdown": 7.0,
+    "Opp_Touchdown": -7.0,
     "Field_Goal": 3.0,
     "Opp_Field_Goal": -3.0,
     "Safety": 2.0,
