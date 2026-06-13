@@ -13,8 +13,8 @@ from typing import Literal, Optional
 
 import polars as pl
 
-from .constants import EP_CLASS_ORDER, EP_FEATURES, WP_SPREAD_FEATURES, WP_NAIVE_FEATURES
-from .features import make_model_mutations, prepare_ep_data, prepare_wp_data
+from .constants import CP_FEATURES, EP_CLASS_ORDER, EP_FEATURES, WP_NAIVE_FEATURES, WP_SPREAD_FEATURES
+from .features import make_model_mutations, prepare_cp_data, prepare_ep_data, prepare_wp_data
 
 # ---------------------------------------------------------------------------
 # Class index mapping (Touchdown=0 … No_Score=6)
@@ -234,7 +234,7 @@ def build_wp_training_set(
         variant: ``"spread"`` or ``"naive"``.
 
     Returns:
-        Training-ready DataFrame with WP feature columns + ``wp_label``.
+        Training-ready DataFrame with WP feature columns + ``label`` (0.0/1.0).
     """
     from .features import _add_wp_aux, _add_receive_2h_ko
 
@@ -246,4 +246,24 @@ def build_wp_training_set(
     # Drop tied games (wp_label null) before selecting final columns
     df = df.filter(pl.col("wp_label").is_not_null())
     feats = WP_SPREAD_FEATURES if variant == "spread" else WP_NAIVE_FEATURES
-    return df.select([*feats, "wp_label"])
+    return df.select([*feats, pl.col("wp_label").alias("label")])
+
+
+def build_cp_training_set(df: pl.DataFrame) -> pl.DataFrame:
+    """Full CP training set pipeline from raw nflverse PBP.
+
+    1. Apply ``make_model_mutations()`` (era/roof/down one-hots, home indicator).
+    2. Apply ``prepare_cp_data()`` (air_is_zero, pass_middle, distance_to_sticks, valid_pass).
+    3. Filter to valid passes only (``valid_pass == 1``).
+    4. Select ``CP_FEATURES + complete_pass``.
+
+    Args:
+        df: Raw nflverse PBP frame containing pass play columns.
+
+    Returns:
+        Training-ready DataFrame with ``CP_FEATURES`` columns + ``complete_pass`` label.
+    """
+    df = make_model_mutations(df)
+    df = prepare_cp_data(df)
+    df = df.filter(pl.col("valid_pass") == 1.0)
+    return df.select([*CP_FEATURES, "complete_pass"])

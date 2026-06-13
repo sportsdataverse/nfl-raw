@@ -249,7 +249,7 @@ class TestBuildWpTrainingSet:
         result = build_wp_training_set(df, variant="spread")
         for col in WP_SPREAD_FEATURES:
             assert col in result.columns, f"Missing WP feature: {col}"
-        assert "wp_label" in result.columns
+        assert "label" in result.columns
 
     def test_overtime_plays_excluded(self):
         plays = [
