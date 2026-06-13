@@ -1,0 +1,26 @@
+[project]
+name = "nfl-raw-pipeline"
+version = "0.1.0"
+description = "NFL EP/WP/CP model training pipeline (Track 6)"
+requires-python = ">=3.9"
+dependencies = [
+    "polars>=1.0,<2.0",
+    "xgboost>=2.0",
+    "numpy>=1.24",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["python*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

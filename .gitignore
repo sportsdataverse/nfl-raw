@@ -1,0 +1,20 @@
+# Data / model outputs (never commit raw or trained artifacts)
+data/
+models/
+*.ubj
+*.parquet
+*.rds
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Dev notes
+dev/
