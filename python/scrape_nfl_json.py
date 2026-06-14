@@ -28,6 +28,7 @@ Usage::
 from __future__ import annotations
 
 import argparse
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -93,11 +94,39 @@ def build_parser() -> argparse.ArgumentParser:
         "--no-extract", action="store_true",
         help="Only fetch the weekly cache; skip per-game extraction.",
     )
+    ap.add_argument(
+        "--commit", action="store_true",
+        help="git add + commit each season's per-game files as they finish "
+             "(one commit per season). Requires extraction.",
+    )
+    ap.add_argument(
+        "--skip-existing", action="store_true",
+        help="Skip a season whose output dir already has game files (resume a "
+             "backfill without re-fetching completed seasons).",
+    )
     return ap
+
+
+def _git_commit_season(output_dir: str, season: int, n_games: int) -> None:
+    """Stage and commit one season's per-game files (no-op if nothing staged)."""
+    subprocess.run(["git", "add", f"{output_dir}/{season}"], check=True)
+    staged = subprocess.run(
+        ["git", "diff", "--cached", "--quiet", "--", f"{output_dir}/{season}"]
+    ).returncode
+    if staged == 0:
+        print(f"[scrape] {season}: nothing new to commit")
+        return
+    subprocess.run(
+        ["git", "commit", "-q", "-m", f"NFL Raw: {season} ({n_games} games)"],
+        check=True,
+    )
+    print(f"[scrape] {season}: committed {n_games} games")
 
 
 def main(argv: list[str] | None = None) -> None:
     args = build_parser().parse_args(argv)
+    if args.commit and args.no_extract:
+        raise SystemExit("--commit requires extraction (drop --no-extract).")
     end = args.end if args.end is not None else _current_season()
     if end < args.start:
         raise SystemExit(f"--end ({end}) is before --start ({args.start}).")
@@ -106,7 +135,6 @@ def main(argv: list[str] | None = None) -> None:
     if args.reverse:
         seasons.reverse()
 
-    headers = nfl_headers_gen()
     print(
         f"[scrape] seasons {seasons[0]}..{seasons[-1]} "
         f"({len(seasons)}) | types={args.season_types} | delay={args.delay}s "
@@ -118,6 +146,14 @@ def main(argv: list[str] | None = None) -> None:
     total_games = 0
     for season in seasons:
         s0 = time.monotonic()
+        season_out = Path(args.output_dir) / str(season)
+        if args.skip_existing and season_out.is_dir() and any(season_out.glob("*.json")):
+            print(f"[scrape] {season}: already present, skipping")
+            continue
+
+        # Re-fetch headers each season so a long backfill rides nfl_token_gen's
+        # cache + auto-renewal (a once-minted dict would freeze an expiring token).
+        headers = nfl_headers_gen()
         written = build_raw_library(
             seasons=[season],
             output_dir=Path(args.data_dir),
@@ -138,8 +174,11 @@ def main(argv: list[str] | None = None) -> None:
             )
             total_games += len(games)
             msg += f" -> extracted {len(games)} game file(s)"
-
-        print(f"{msg} in {time.monotonic() - s0:.1f}s")
+            print(f"{msg} in {time.monotonic() - s0:.1f}s")
+            if args.commit:
+                _git_commit_season(args.output_dir, season, len(games))
+        else:
+            print(f"{msg} in {time.monotonic() - s0:.1f}s")
 
     elapsed = time.monotonic() - grand_start
     print(
