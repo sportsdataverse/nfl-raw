@@ -247,3 +247,155 @@ def list_library_files(
     if not week_dir.is_dir():
         return []
     return sorted(week_dir.glob("wk*.json"))
+
+
+# ---------------------------------------------------------------------------
+# Per-game extraction (nflverse-style game_id naming)
+# ---------------------------------------------------------------------------
+
+# NFL Shield club abbreviations that differ from the nflverse game_id convention.
+# The Shield API exposes each club's abbreviation as the trailing path segment of
+# its ``currentLogo`` URL (e.g. ``.../clubs/logos/PHI``). All 32 current clubs match
+# nflverse except Arizona, which the league renders as ``AZ`` but nflverse spells
+# ``ARI``. The Rams already render as ``LA`` (matching nflverse), not ``LAR``.
+_NFLVERSE_ABBR_FIXUPS = {"AZ": "ARI"}
+
+
+def _team_abbr(team: dict) -> str:
+    """Return a club's nflverse-style abbreviation from a Shield team object.
+
+    Reads the trailing path segment of ``team["currentLogo"]`` and applies the
+    ``_NFLVERSE_ABBR_FIXUPS`` normalization (currently only ``AZ`` -> ``ARI``).
+
+    Args:
+        team: A Shield ``homeTeam`` / ``awayTeam`` object (must carry
+            ``currentLogo``).
+
+    Returns:
+        The nflverse club abbreviation (e.g. ``"PHI"``, ``"ARI"``).
+
+    Raises:
+        ValueError: When no abbreviation can be derived (missing/empty
+            ``currentLogo``).
+    """
+    raw = (team.get("currentLogo") or "").rstrip("/").rsplit("/", 1)[-1].strip()
+    if not raw:
+        raise ValueError(f"Cannot derive team abbreviation from team object: {team!r}")
+    return _NFLVERSE_ABBR_FIXUPS.get(raw, raw)
+
+
+def nflverse_game_id(game: dict, reg_weeks: int = 18) -> str:
+    """Build the nflverse ``game_id`` (``{season}_{week:02d}_{away}_{home}``).
+
+    Regular-season games keep their API week number. Postseason games continue
+    the numbering past the regular season, matching nflverse: with the default
+    ``reg_weeks=18`` (the 2021+ schedule), Wild Card -> 19, Divisional -> 20,
+    Conference -> 21, Super Bowl -> 22.
+
+    Args:
+        game: A Shield game object (carrying ``season``, ``week``,
+            ``seasonType``, ``homeTeam``, ``awayTeam``).
+        reg_weeks: Number of regular-season weeks for the season, used as the
+            postseason offset. Pass ``17`` for pre-2021 seasons.
+
+    Returns:
+        The nflverse game_id string, e.g. ``"2025_01_DAL_PHI"`` or
+        ``"2025_19_LA_CAR"`` (Wild Card).
+    """
+    season = int(game["season"])
+    api_week = int(game["week"])
+    season_type = game.get("seasonType", "REG")
+    week = api_week if season_type == "REG" else reg_weeks + api_week
+    away = _team_abbr(game["awayTeam"])
+    home = _team_abbr(game["homeTeam"])
+    return f"{season}_{week:02d}_{away}_{home}"
+
+
+def _detect_reg_weeks(season: int, data_dir: Path, season_types: List[str]) -> int:
+    """Return the max REG week present on disk for a season (postseason offset).
+
+    Falls back to ``18`` when no REG library files are found, so the modern
+    (2021+) postseason offset is used by default.
+    """
+    if "REG" not in [s.upper() for s in season_types]:
+        return 18
+    weeks: list[int] = []
+    for path in list_library_files(season, "REG", data_dir=data_dir):
+        payload = load_weekly_raw(path)
+        games = payload if isinstance(payload, list) else (
+            payload.get("games") or payload.get("data") or []
+        )
+        for game in games:
+            try:
+                weeks.append(int(game["week"]))
+            except (KeyError, TypeError, ValueError):
+                pass
+    return max(weeks) if weeks else 18
+
+
+def extract_library_to_games(
+    season: int,
+    data_dir: Path = Path("data/raw"),
+    output_dir: Path = Path("nfl/raw"),
+    *,
+    season_types: List[str] = ("REG", "POST"),
+) -> list[Path]:
+    """Split weekly library payloads into per-game nflverse-named JSON files.
+
+    Reads every ``{data_dir}/{season}/{season_type}/wk*.json`` weekly payload,
+    unpacks each game object, and writes it to
+    ``{output_dir}/{season}/{nflverse_game_id}.json`` (one file per game). The
+    postseason week offset is auto-detected from the regular-season payloads via
+    :func:`_detect_reg_weeks`.
+
+    Args:
+        season: NFL season year (e.g. ``2025``).
+        data_dir: Root of the weekly raw library (``build_raw_library`` output).
+        output_dir: Root of the per-game library to write. Files land under
+            ``{output_dir}/{season}/``.
+        season_types: Season type codes to process. Defaults to
+            ``("REG", "POST")``.
+
+    Returns:
+        Sorted list of :class:`pathlib.Path` objects for every per-game file
+        written.
+
+    Raises:
+        ValueError: When two games resolve to the same nflverse game_id (should
+            never happen for real NFL schedules — surfaces a data defect).
+
+    Example:
+        Extract a fetched season into the committed per-game library::
+
+            from pathlib import Path
+            from python.model_training.track6_nfl_ep_wp.fetcher import (
+                extract_library_to_games,
+            )
+
+            paths = extract_library_to_games(2025)
+            print(f"Wrote {len(paths)} per-game files")
+    """
+    data_dir = Path(data_dir)
+    season_dir = Path(output_dir) / str(season)
+    season_dir.mkdir(parents=True, exist_ok=True)
+    reg_weeks = _detect_reg_weeks(season, data_dir, list(season_types))
+
+    written: dict[str, Path] = {}
+    for season_type in list(season_types):
+        for week_path in list_library_files(season, season_type, data_dir=data_dir):
+            payload = load_weekly_raw(week_path)
+            games = payload if isinstance(payload, list) else (
+                payload.get("games") or payload.get("data") or []
+            )
+            for game in games:
+                gid = nflverse_game_id(game, reg_weeks=reg_weeks)
+                if gid in written:
+                    raise ValueError(
+                        f"Duplicate nflverse game_id {gid!r} "
+                        f"(already wrote {written[gid]}); possible schedule defect."
+                    )
+                out = season_dir / f"{gid}.json"
+                out.write_text(json.dumps(game, indent=2), encoding="utf-8")
+                written[gid] = out
+
+    return sorted(written.values())
