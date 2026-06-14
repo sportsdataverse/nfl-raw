@@ -1,0 +1,83 @@
+{
+  "id": "10012000-1008-001c-4c47-4eb20186cbc1",
+  "homeTeam": {
+    "id": "10402700-1662-d8ad-f45c-0b0ea460d045",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/MIA",
+    "fullName": "Miami Dolphins"
+  },
+  "awayTeam": {
+    "id": "10400610-c40e-a673-1743-2ce2a5d5d731",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/BUF",
+    "fullName": "Buffalo Bills"
+  },
+  "category": "OTHER",
+  "date": "2000-10-08",
+  "time": "2000-10-08T09:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [],
+    "awayNetworkChannels": [],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [],
+    "territory": null,
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082475-4308-d8ae-8935-f685fe5d20f2",
+    "name": "Hard Rock Stadium",
+    "city": "Opa Locka",
+    "country": "USA"
+  },
+  "season": 2000,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 6,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2000100800"
+    },
+    {
+      "source": "gamedetail",
+      "id": "10160000-0010-64be-e888-c69b35dad158"
+    },
+    {
+      "source": "gsis",
+      "id": "1064"
+    },
+    {
+      "source": "shield",
+      "id": "10012000-1008-001c-4c47-4eb20186cbc1"
+    },
+    {
+      "source": "slug",
+      "id": "bills-at-dolphins-2000-reg-6"
+    }
+  ],
+  "ticketUrl": null,
+  "ticketVendors": [],
+  "extensions": [],
+  "version": 1,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}
