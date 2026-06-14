@@ -4,10 +4,17 @@ version = "0.1.0"
 description = "NFL EP/WP/CP model training pipeline (Track 6)"
 requires-python = ">=3.9"
 dependencies = [
+    "sportsdataverse>=0.0.59",
     "polars>=1.0,<2.0",
     "xgboost>=2.0",
     "numpy>=1.24",
 ]
+
+# NOTE: sportsdataverse>=0.0.59 supplies the NFL Shield API wrappers the raw fetcher
+# imports (sportsdataverse.nfl.nfl_api / nfl_games). It resolves from PyPI so a clean
+# `uv sync` works without a sibling checkout. For local co-development against an
+# unreleased sdv-py, run `uv pip install -e ../../sdv-py` after `uv sync` (do not add a
+# path source to [tool.uv.sources] — it would break any environment lacking the sibling).
 
 [dependency-groups]
 dev = [

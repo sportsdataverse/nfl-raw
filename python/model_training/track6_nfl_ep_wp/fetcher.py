@@ -27,6 +27,7 @@ Usage::
 from __future__ import annotations
 
 import json
+import time
 from pathlib import Path
 from typing import List, Union
 
@@ -127,6 +128,7 @@ def build_raw_library(
     season_types: List[str] = ("REG", "POST"),
     resume: bool = True,
     headers: dict | None = None,
+    delay_s: float = 0.0,
 ) -> list[Path]:
     """Download and store weekly NFL game details JSON for the given seasons.
 
@@ -143,6 +145,12 @@ def build_raw_library(
         resume: Skip weeks whose JSON file already exists on disk when ``True``.
         headers: Pre-minted auth headers to reuse across all requests.
             A fresh anonymous ``WEB_DESKTOP`` token is minted when ``None``.
+        delay_s: Seconds to sleep after each network request (both the
+            week-calendar lookup and each weekly-details fetch). Use a small
+            positive value (e.g. ``2.0``) to throttle a sequential pull and stay
+            polite to ``api.nfl.com``. A skipped (already-on-disk) week does not
+            trigger a sleep, so resumed runs aren't penalized. Defaults to ``0.0``
+            (no throttle).
 
     Returns:
         List of :class:`pathlib.Path` objects for each file written this run
@@ -160,6 +168,14 @@ def build_raw_library(
                 season_types=["REG"],
             )
             print(f"Wrote {len(paths)} weekly files")
+
+        Throttled sequential pull (2s between requests)::
+
+            paths = build_raw_library(
+                seasons=[2025],
+                output_dir=Path("data/raw"),
+                delay_s=2.0,
+            )
     """
     output_dir = Path(output_dir)
     written: list[Path] = []
@@ -167,6 +183,8 @@ def build_raw_library(
     for season in seasons:
         for stype in list(season_types):
             week_nums = list_season_weeks(season, stype, headers=headers)
+            if delay_s > 0:
+                time.sleep(delay_s)
             if not week_nums:
                 continue
             season_dir = output_dir / str(season) / stype
@@ -178,8 +196,10 @@ def build_raw_library(
                     continue
                 payload = _fetch_weekly_details(season, stype, week, headers=headers)
                 out.write_text(json.dumps(payload, indent=2), encoding="utf-8")
-                print(f"[fetcher] {season}/{stype} wk{week:02d} → {out}")
+                print(f"[fetcher] {season}/{stype} wk{week:02d} -> {out}")
                 written.append(out)
+                if delay_s > 0:
+                    time.sleep(delay_s)
 
     return written
 
