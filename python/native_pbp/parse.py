@@ -138,7 +138,8 @@ def _posteam_for(seq: Optional[float], ranges: List[tuple[float, float, Optional
 _BASE_INDICATORS = [
     "pass_attempt", "complete_pass", "incomplete_pass", "interception", "rush_attempt",
     "sack", "touchdown", "pass_touchdown", "rush_touchdown", "return_touchdown",
-    "field_goal_attempt", "extra_point_attempt", "two_point_attempt", "punt_attempt",
+    "field_goal_attempt", "field_goal_made", "field_goal_missed", "field_goal_blocked",
+    "extra_point_attempt", "two_point_attempt", "punt_attempt",
     "kickoff_attempt", "penalty", "fumble", "fumble_lost", "qb_hit", "safety", "timeout",
     "first_down_rush", "first_down_pass", "first_down_penalty",
 ]
@@ -235,6 +236,7 @@ def parse_game(game: Dict[str, Any], game_id: Optional[str] = None) -> pl.DataFr
             "desc": p.get("playDescription"),
             "shield_play_type": p.get("playType"),
             "special_teams_play_type": p.get("specialTeamsPlayType"),
+            "sp": 1 if p.get("playScored") else 0,  # nflverse scoring-play indicator
         }
         # Merge the requested stable columns (default 0 / None when absent).
         for col in _BASE_INDICATORS:
