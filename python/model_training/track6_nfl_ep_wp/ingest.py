@@ -129,6 +129,83 @@ def download_pbp(
     return written
 
 
+def build_schedule_lookup(seasons: List[int]) -> dict:
+    """Build ``{game_id: {"roof", "spread_line"}}`` from sdv-py schedules.
+
+    These two game-level fields are the only inputs the native Shield
+    reconstruction cannot derive from the raw feed; the nflverse schedule (a
+    small, stable table) supplies them, mirroring nflfastR's own join.
+
+    Args:
+        seasons: Seasons to pull schedule rows for.
+
+    Returns:
+        Mapping of nflverse game_id -> {"roof", "spread_line"}. Empty when the
+        schedule cannot be loaded.
+    """
+    try:
+        from sportsdataverse.nfl import load_nfl_schedule
+    except Exception:  # noqa: BLE001
+        return {}
+    sched = load_nfl_schedule(seasons=seasons)
+    if not isinstance(sched, pl.DataFrame):
+        sched = pl.from_pandas(sched)
+    have = [c for c in ("game_id", "roof", "spread_line") if c in sched.columns]
+    if "game_id" not in have:
+        return {}
+    out: dict = {}
+    for row in sched.select(have).iter_rows(named=True):
+        out[row["game_id"]] = {"roof": row.get("roof"), "spread_line": row.get("spread_line")}
+    return out
+
+
+def load_native_pbp(
+    seasons: List[int],
+    *,
+    raw_dir: Path = Path("nfl/raw"),
+    use_schedule: bool = True,
+    validate: bool = True,
+) -> pl.DataFrame:
+    """Reconstruct PBP natively from the committed ``nfl/raw`` Shield library.
+
+    The self-sufficient alternative to :func:`download_pbp` / :func:`load_local_pbp`:
+    builds nflverse-shape play-by-play from the repo's own raw JSON (no nflverse
+    PBP dependency). ``roof`` / ``spread_line`` come from a light schedule join
+    when ``use_schedule`` is True.
+
+    Args:
+        seasons: Seasons to build.
+        raw_dir: Root of the committed per-game library.
+        use_schedule: Join roof/spread_line from sdv-py schedules (else left null).
+        validate: Run :func:`validate_pbp` on the result.
+
+    Returns:
+        Concatenated polars DataFrame carrying the Track 6 REQUIRED_COLUMNS.
+
+    Example:
+        Train EP off native data::
+
+            from python.model_training.track6_nfl_ep_wp.ingest import load_native_pbp
+            from python.model_training.track6_nfl_ep_wp.label import build_ep_training_set
+            df = load_native_pbp([2022, 2023, 2024])
+            ep = build_ep_training_set(df)
+    """
+    from python.native_pbp.build import build_season
+
+    lookup = build_schedule_lookup(seasons) if use_schedule else {}
+    frames: list[pl.DataFrame] = []
+    for season in seasons:
+        df = build_season(season, raw_dir=raw_dir, schedule_lookup=lookup)
+        if df.height:
+            frames.append(df)
+    if not frames:
+        raise ValueError(f"No native PBP built for seasons {seasons} under {raw_dir}.")
+    out = pl.concat(frames, how="diagonal_relaxed")
+    if validate:
+        validate_pbp(out)
+    return out
+
+
 def load_local_pbp(seasons: List[int], data_dir: Path = Path("data")) -> pl.DataFrame:
     """Load previously-downloaded PBP parquets from disk.
 

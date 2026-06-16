@@ -64,6 +64,7 @@ def build_season(
     raw_dir: str | Path = "nfl/raw",
     *,
     schedule_lookup: Optional[Dict[str, Dict[str, Any]]] = None,
+    game_ids: Optional[List[str]] = None,
 ) -> pl.DataFrame:
     """Build every game in a season into one concatenated PBP frame.
 
@@ -73,13 +74,17 @@ def build_season(
         schedule_lookup: Optional ``{game_id: {"roof": ..., "spread_line": ...}}``
             map (from a schedules join) supplying the game-level fields the Shield
             feed omits. Missing games fall back to ``roof=None``, ``spread_line=None``.
+        game_ids: Optional subset of game_ids to build (default: all in the season).
 
     Returns:
         Concatenated polars DataFrame across all games (diagonal_relaxed union).
     """
     season_dir = Path(raw_dir) / str(season)
+    wanted = set(game_ids) if game_ids is not None else None
     frames: List[pl.DataFrame] = []
     for path in sorted(season_dir.glob(f"{season}_*.json")):
+        if wanted is not None and path.stem not in wanted:
+            continue
         meta = (schedule_lookup or {}).get(path.stem, {})
         df = build_pbp_from_file(path, roof=meta.get("roof"), spread_line=meta.get("spread_line"))
         if df.height:
