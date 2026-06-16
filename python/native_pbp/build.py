@@ -42,9 +42,14 @@ def build_pbp(
     if df.height == 0:
         return df
     df = add_description_features(df)
-    df = add_game_state(df, game, roof=roof, spread_line=spread_line)
+    df = add_game_state(df, roof=roof, spread_line=spread_line)
     df = add_labels(df, game)
-    return df
+    # Drop TIMEOUT rows (timeouts + two-minute warnings) to match nflverse's row
+    # set — done AFTER add_game_state so the timeout cumsum already counted them.
+    # fill_null keeps rows whose shield_play_type is null (null != "TIMEOUT" is null
+    # in polars and would otherwise be filtered out).
+    df = df.filter(pl.col("shield_play_type").fill_null("") != "TIMEOUT")
+    return df.drop("_points_home", "_points_away")
 
 
 def build_pbp_from_file(

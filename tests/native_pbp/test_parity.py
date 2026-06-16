@@ -33,7 +33,7 @@ THRESHOLDS = {
     "air_yards": 1.0,
     "posteam_timeouts_remaining": 0.99,
     "defteam_timeouts_remaining": 0.99,
-    "score_differential": 0.95,
+    "score_differential": 0.99,  # per-play points stepping -> exact on the BAL_KC anchor
     "touchdown": 1.0,
 }
 

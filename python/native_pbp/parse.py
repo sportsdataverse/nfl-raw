@@ -149,6 +149,11 @@ _BASE_PLAYERS = ["passer_player_id", "passer_player_name", "rusher_player_id",
                  "rusher_player_name", "receiver_player_id", "receiver_player_name",
                  "td_player_id", "td_player_name", "td_team", "penalty_team", "timeout_team"]
 
+# Points scored ON a play by its scoringPlayType (attributed to scoringTeamId).
+# Drives the per-play running score, which steps correctly at each scoring play
+# (TD +6 at the TD, PAT +1 at the PAT) — unlike a bundled TD+PAT summary step.
+_SCORING_POINTS = {"TOUCHDOWN": 6, "PAT": 1, "PAT2": 2, "FIELD_GOAL": 3, "SAFETY": 2}
+
 
 def parse_game(game: Dict[str, Any], game_id: Optional[str] = None) -> pl.DataFrame:
     """Parse one Shield game payload into a base play-level polars frame.
@@ -245,6 +250,11 @@ def parse_game(game: Dict[str, Any], game_id: Optional[str] = None) -> pl.DataFr
             row[col] = stat_row.get(col)
         for col in _BASE_PLAYERS:
             row[col] = stat_row.get(col)
+        # Per-play points (for the running score), attributed to home/away.
+        pts = _SCORING_POINTS.get(p.get("scoringPlayType"), 0) if p.get("playScored") else 0
+        score_team = team_by_id.get(p.get("scoringTeamId"))
+        row["_points_home"] = pts if score_team == home_abbr else 0
+        row["_points_away"] = pts if score_team == away_abbr else 0
         rows.append(row)
 
     if not rows:

@@ -11,36 +11,13 @@ passed in as scalars rather than parsed from the Shield feed, which omits them.
 """
 from __future__ import annotations
 
-from typing import Any, Dict, Optional
+from typing import Optional
 
 import polars as pl
 
 
-def _scoring_events(df: pl.DataFrame, game: Dict[str, Any]) -> pl.DataFrame:
-    """Build (key, home_running, away_running) score steps keyed just AFTER each
-    scoring play's sequence, so an as-of backward join yields the PRE-snap score.
-    """
-    dc = game.get("driveChart") or {}
-    summaries = dc.get("scoringSummaries") or []
-    # Map scoringPlayId -> play_seq from the parsed frame.
-    seq_by_pid = dict(zip(df["play_id"].to_list(), df["play_seq"].to_list()))
-    rows = [{"key": -1.0, "home_running": 0, "away_running": 0}]
-    for s in summaries:
-        pid = s.get("scoringPlayId")
-        seq = seq_by_pid.get(pid)
-        if seq is None:
-            continue
-        rows.append({
-            "key": float(seq) + 0.5,  # +0.5 makes the as-of backward join strict (< play_seq)
-            "home_running": int(s.get("homeScore") or 0),
-            "away_running": int(s.get("awayScore") or 0),
-        })
-    return pl.DataFrame(rows).sort("key")
-
-
 def add_game_state(
     df: pl.DataFrame,
-    game: Dict[str, Any],
     *,
     roof: Optional[str] = None,
     spread_line: Optional[float] = None,
@@ -49,9 +26,9 @@ def add_game_state(
 
     Args:
         df: Base play frame (post parse, ideally post description) — must carry
-            ``play_id``, ``play_seq``, ``game_half``, ``posteam``, ``home_team``,
-            ``timeout``, ``timeout_team``.
-        game: The raw Shield game payload (for scoringSummaries).
+            ``play_seq``, ``game_id``, ``game_half``, ``posteam``, ``home_team``,
+            ``away_team``, ``timeout``, ``timeout_team``, and the per-play
+            ``_points_home`` / ``_points_away`` produced by the parser.
         roof: Game roof (``outdoors``/``dome``/``closed``/``open``/``retractable``)
             from a schedules join; ``None`` left as-is for downstream model_roof
             handling.
@@ -66,21 +43,22 @@ def add_game_state(
 
     df = df.sort("play_seq")
 
-    # --- running score (pre-snap) via strict as-of backward join ---
-    events = _scoring_events(df, game)
-    df = df.join_asof(events, left_on="play_seq", right_on="key", strategy="backward")
+    # --- running score (PRE-snap) from per-play points ---
+    # Cumulative points include the current play; subtracting the current play's
+    # points yields the score the play STARTED with (what nflverse reports), so a
+    # PAT shows post-TD (not post-PAT) and a FG shows pre-FG.
     df = df.with_columns(
-        home_running=pl.col("home_running").fill_null(0),
-        away_running=pl.col("away_running").fill_null(0),
+        _home_pre=(pl.col("_points_home").cum_sum().over("game_id") - pl.col("_points_home")),
+        _away_pre=(pl.col("_points_away").cum_sum().over("game_id") - pl.col("_points_away")),
     )
     df = df.with_columns(
         posteam_score=pl.when(pl.col("posteam") == pl.col("home_team"))
-        .then(pl.col("home_running")).otherwise(pl.col("away_running")),
+        .then(pl.col("_home_pre")).otherwise(pl.col("_away_pre")),
         defteam_score=pl.when(pl.col("posteam") == pl.col("home_team"))
-        .then(pl.col("away_running")).otherwise(pl.col("home_running")),
+        .then(pl.col("_away_pre")).otherwise(pl.col("_home_pre")),
     ).with_columns(
         score_differential=(pl.col("posteam_score") - pl.col("defteam_score")),
-    ).drop("key", "home_running", "away_running")
+    ).drop("_home_pre", "_away_pre")
 
     # --- timeouts remaining (cumsum per half, capped at 3) ---
     df = df.with_columns(
