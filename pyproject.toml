@@ -20,6 +20,12 @@ dependencies = [
 dev = [
     "pytest>=8.0",
 ]
+# Calibration plots + nflfastR signature curves (figures.py). Imported lazily so
+# the package works without this group; scikit-misc upgrades the smoother to loess.
+figures = [
+    "plotnine>=0.13",
+    "scikit-misc>=0.3",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

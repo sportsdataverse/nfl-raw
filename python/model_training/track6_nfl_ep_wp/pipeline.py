@@ -205,6 +205,7 @@ def run_full_pipeline(
     models_dir: Path = Path("models"),
     download: bool = True,
     source: str = "nflverse",
+    write_cards: bool = True,
 ) -> dict[str, Path]:
     """Train all four models (EP, WP-spread, WP-naive, CP) in one shot.
 
@@ -246,11 +247,23 @@ def run_full_pipeline(
     df = _resolve_pbp(seasons, data_dir, download, source)
     print(f"[pipeline] loaded {df.height:,} plays")
 
+    from .constants import (
+        CP_FEATURES, CP_HYPERPARAMS, EP_FEATURES, EP_HYPERPARAMS,
+        WP_NAIVE_FEATURES, WP_NAIVE_HYPERPARAMS, WP_SPREAD_FEATURES, WP_SPREAD_HYPERPARAMS,
+    )
+    from .model_card import write_model_card
+
+    def _card(path, mtype, feats, label, hp, n_rows):
+        if write_cards:
+            write_model_card(path, model_type=mtype, features=feats, label=label,
+                             seasons=seasons, n_rows=n_rows, hyperparams=hp, source=source)
+
     print("[pipeline] building EP training set...")
     ep_df = _build_ep(df)
     print(f"[pipeline] EP: {ep_df.height:,} plays → training")
     ep_path = models_dir / "ep_model.ubj"
     _train_ep(ep_df, ep_path)
+    _card(ep_path, "ep", EP_FEATURES, "next_score_class", EP_HYPERPARAMS, ep_df.height)
     print(f"[pipeline] EP model saved → {ep_path}")
 
     print("[pipeline] building WP-spread training set...")
@@ -258,6 +271,7 @@ def run_full_pipeline(
     print(f"[pipeline] WP-spread: {wp_spread_df.height:,} plays → training")
     wp_spread_path = models_dir / "wp_spread.ubj"
     _train_wp_spread(wp_spread_df, wp_spread_path)
+    _card(wp_spread_path, "wp_spread", WP_SPREAD_FEATURES, "label", WP_SPREAD_HYPERPARAMS, wp_spread_df.height)
     print(f"[pipeline] WP-spread model saved → {wp_spread_path}")
 
     print("[pipeline] building WP-naive training set...")
@@ -265,6 +279,7 @@ def run_full_pipeline(
     print(f"[pipeline] WP-naive: {wp_naive_df.height:,} plays → training")
     wp_naive_path = models_dir / "wp_naive.ubj"
     _train_wp_naive(wp_naive_df, wp_naive_path)
+    _card(wp_naive_path, "wp_naive", WP_NAIVE_FEATURES, "label", WP_NAIVE_HYPERPARAMS, wp_naive_df.height)
     print(f"[pipeline] WP-naive model saved → {wp_naive_path}")
 
     print("[pipeline] building CP training set...")
@@ -272,6 +287,7 @@ def run_full_pipeline(
     print(f"[pipeline] CP: {cp_df.height:,} valid passes → training")
     cp_path = models_dir / "cp_model.ubj"
     _train_cp(cp_df, cp_path)
+    _card(cp_path, "cp", CP_FEATURES, "complete_pass", CP_HYPERPARAMS, cp_df.height)
     print(f"[pipeline] CP model saved → {cp_path}")
 
     return {

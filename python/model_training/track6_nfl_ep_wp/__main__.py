@@ -58,11 +58,32 @@ def _cmd_train(args: argparse.Namespace) -> int:
         data_dir=Path(args.data_dir),
         models_dir=Path(args.models_dir),
         download=args.download,
+        source=args.source,
     )
 
-    print("[train] Models saved:")
+    print("[train] Models saved (+ model_card.json sidecars):")
     for key, path in paths.items():
         print(f"  {key:12s} → {path}")
+    return 0
+
+
+def _cmd_report(args: argparse.Namespace) -> int:
+    from .report import run_report
+
+    seasons = _parse_season_range(args.seasons)
+    print(f"[report] seasons={seasons[0]}–{seasons[-1]}  source={args.source}  out={args.out_dir}")
+    metrics = run_report(
+        seasons=seasons,
+        source=args.source,
+        out_dir=Path(args.out_dir),
+        data_dir=Path(args.data_dir),
+        nrounds=args.nrounds,
+        make_figures=not args.no_figures,
+    )
+    print(f"[report] EP cal_error={metrics['ep']['cal_error']:.4f}  "
+          f"WP cal_error={metrics['wp']['cal_error']:.4f} brier={metrics['wp']['brier']:.4f}  "
+          f"CP cal_error={metrics['cp']['cal_error']['overall']:.4f} brier={metrics['cp']['brier']:.4f}")
+    print(f"[report] wrote metrics.json + report.md (+ figures) to {args.out_dir}")
     return 0
 
 
@@ -118,6 +139,23 @@ def _build_parser() -> argparse.ArgumentParser:
                          help="Directory where .ubj model files are written")
     p_train.add_argument("--download", action="store_true",
                          help="Download PBP from nflverse before training")
+    p_train.add_argument("--source", choices=["nflverse", "native"], default="nflverse",
+                         help="PBP source: nflverse parquet or native nfl/raw reconstruction")
+
+    # ----------------------------------------------------------------- report
+    p_report = sub.add_parser("report", help="LOSO calibration report (tables + figures + metrics)")
+    p_report.add_argument("--seasons", nargs="+", required=True, metavar="YEAR",
+                          help="One season, two as a range, or an explicit list")
+    p_report.add_argument("--source", choices=["nflverse", "native"], default="native",
+                          help="PBP source (default native)")
+    p_report.add_argument("--out-dir", default="reports", metavar="DIR",
+                          help="Directory for figures, calibration tables, metrics.json, report.md")
+    p_report.add_argument("--data-dir", default="data", metavar="DIR",
+                          help="PBP parquet cache (nflverse source only)")
+    p_report.add_argument("--nrounds", type=int, default=None, metavar="N",
+                          help="Per-fold boosting rounds (small=quick; default canonical)")
+    p_report.add_argument("--no-figures", action="store_true",
+                          help="Skip PNG generation (write tables + metrics only)")
 
     # --------------------------------------------------------------- validate
     p_val = sub.add_parser("validate", help="Run EP/WP parity gate")
@@ -158,6 +196,8 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command == "train":
         return _cmd_train(args)
+    if args.command == "report":
+        return _cmd_report(args)
     if args.command == "validate":
         return _cmd_validate(args)
     if args.command == "fetch":
