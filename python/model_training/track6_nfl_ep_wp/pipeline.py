@@ -42,6 +42,27 @@ def _load_pbp(seasons: List[int], data_dir: Path) -> pl.DataFrame:
     return load_local_pbp(seasons, data_dir=data_dir)
 
 
+def _load_native(seasons: List[int]) -> pl.DataFrame:
+    """Reconstruct PBP from the committed nfl/raw Shield library (no nflverse dep)."""
+    from .ingest import load_native_pbp
+    return load_native_pbp(seasons)
+
+
+def _resolve_pbp(seasons: List[int], data_dir: Path, download: bool, source: str) -> pl.DataFrame:
+    """Load the training PBP frame from the chosen source.
+
+    ``source="nflverse"`` (default) downloads (optional) + reads local parquet;
+    ``source="native"`` reconstructs from the committed nfl/raw Shield library.
+    """
+    if source == "native":
+        return _load_native(seasons)
+    if source != "nflverse":
+        raise ValueError(f"Unknown source {source!r}; expected 'nflverse' or 'native'.")
+    if download:
+        _download_pbp(seasons, data_dir)
+    return _load_pbp(seasons, data_dir)
+
+
 def _build_ep(df: pl.DataFrame) -> pl.DataFrame:
     from .label import build_ep_training_set
     return build_ep_training_set(df)
@@ -183,6 +204,7 @@ def run_full_pipeline(
     data_dir: Path = Path("data"),
     models_dir: Path = Path("models"),
     download: bool = True,
+    source: str = "nflverse",
 ) -> dict[str, Path]:
     """Train all four models (EP, WP-spread, WP-naive, CP) in one shot.
 
@@ -220,11 +242,8 @@ def run_full_pipeline(
     models_dir.mkdir(parents=True, exist_ok=True)
     data_dir = Path(data_dir)
 
-    if download:
-        _download_pbp(seasons, data_dir)
-
-    print(f"[pipeline] loading {len(seasons)} season(s) of PBP...")
-    df = _load_pbp(seasons, data_dir)
+    print(f"[pipeline] loading {len(seasons)} season(s) of PBP (source={source})...")
+    df = _resolve_pbp(seasons, data_dir, download, source)
     print(f"[pipeline] loaded {df.height:,} plays")
 
     print("[pipeline] building EP training set...")

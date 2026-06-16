@@ -187,7 +187,12 @@ def prepare_cp_data(df: pl.DataFrame) -> pl.DataFrame:
         .otherwise(pl.lit(0.0))
         .alias("valid_pass")
     )
-    return df.select([*CP_FEATURES, "valid_pass"])
+    # Keep complete_pass (the CP label) when present so build_cp_training_set can
+    # select it; absent at inference time, where only the features are needed.
+    keep = [*CP_FEATURES, "valid_pass"]
+    if "complete_pass" in df.columns:
+        keep.append("complete_pass")
+    return df.select(keep)
 
 
 def label_next_score_half(df: pl.DataFrame) -> pl.DataFrame:

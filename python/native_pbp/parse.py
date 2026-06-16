@@ -250,5 +250,8 @@ def parse_game(game: Dict[str, Any], game_id: Optional[str] = None) -> pl.DataFr
     if not rows:
         return pl.DataFrame()
 
-    df = pl.DataFrame(rows)
+    # infer_schema_length=None scans all rows: sparse player/team columns are null
+    # for the first 100+ plays in many games, which would otherwise be inferred as
+    # Null dtype and then fail when a later string value appears.
+    df = pl.DataFrame(rows, infer_schema_length=None)
     return df.sort("play_seq")
