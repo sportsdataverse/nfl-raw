@@ -36,7 +36,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from sportsdataverse.nfl.nfl_games import nfl_headers_gen  # noqa: E402
-from python.model_training.track6_nfl_ep_wp.fetcher import (  # noqa: E402
+from python.raw_fetcher import (  # noqa: E402
     NFL_JSON_DETAIL_START,
     build_raw_library,
     extract_library_to_games,
