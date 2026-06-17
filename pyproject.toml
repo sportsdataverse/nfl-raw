@@ -1,13 +1,11 @@
 [project]
 name = "nfl-raw-pipeline"
 version = "0.1.0"
-description = "NFL EP/WP/CP model training pipeline (Track 6)"
+description = "Scrapes NFL Shield-API game JSON into a committed raw library (sibling of nfl-data, which owns modeling)."
 requires-python = ">=3.9"
 dependencies = [
     "sportsdataverse>=0.0.59",
     "polars>=1.0,<2.0",
-    "xgboost>=2.0",
-    "numpy>=1.24",
 ]
 
 # NOTE: sportsdataverse>=0.0.59 supplies the NFL Shield API wrappers the raw fetcher
@@ -20,12 +18,8 @@ dependencies = [
 dev = [
     "pytest>=8.0",
 ]
-# Calibration plots + nflfastR signature curves (figures.py). Imported lazily so
-# the package works without this group; scikit-misc upgrades the smoother to loess.
-figures = [
-    "plotnine>=0.13",
-    "scikit-misc>=0.3",
-]
+# NOTE: modeling-only deps (xgboost, numpy) and the `figures` group (plotnine,
+# scikit-misc) were dropped in the SP3 decommission — modeling now lives in nfl-data.
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
