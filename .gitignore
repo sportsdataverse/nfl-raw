@@ -19,3 +19,6 @@ dist/
 # Dev notes
 dev/
 reports/
+
+# Claude Code personal wiring (machine-specific paths)
+.claude/settings.local.json

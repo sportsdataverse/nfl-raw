@@ -1,0 +1,25 @@
+# pre-commit for the nfl-raw Python scraper:
+#   - ruff lint + format on staged .py (the scrapers were previously un-linted)
+#   - SDV no-AI-attribution policy at commit time (human is the sole attributable author)
+#
+# Conventional-commit formatting is intentionally NOT enforced -- automated scraper
+# commits ("NFL Raw Update ...") are not conventional and must pass. ruff only touches
+# .py, so JSON/parquet data-update commits are unaffected.
+#
+# Wire it up once per clone:  pre-commit install
+# (default_install_hook_types installs both the pre-commit and commit-msg stages).
+default_install_hook_types: [pre-commit, commit-msg]
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.17
+    hooks:
+      - id: ruff-check
+        args: ["--fix"]
+      - id: ruff-format
+  - repo: local
+    hooks:
+      - id: no-ai-coauthor
+        name: forbid AI co-author trailers (SDV policy)
+        entry: python tools/hooks/check_commit_msg.py
+        language: system
+        stages: [commit-msg]
