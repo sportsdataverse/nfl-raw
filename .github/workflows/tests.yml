@@ -1,0 +1,46 @@
+name: tests
+
+# Offline test gate, mirroring the hoopR-mbb-raw / wehoop-wbb-raw template. Without
+# it the suite never runs automatically -- there's no cron here either, so a broken
+# import or a raw_fetcher regression would only surface manually. These tests touch
+# no network (test_fetcher.py monkeypatches every Shield-API call).
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # nfl/raw/ is a ~3GB committed per-game JSON library; a full checkout
+          # spends minutes cloning it and never reaches the tests. Sparse-checkout
+          # the code only -- nothing under tests/ reads nfl/raw/.
+          sparse-checkout: |
+            python
+            tests
+            pyproject.toml
+            uv.lock
+          sparse-checkout-cone-mode: false
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.12'
+          cache-dependency-glob: uv.lock
+
+      - name: Install
+        # --frozen: a PR must not silently re-resolve the lockfile.
+        run: uv sync --frozen --dev
+
+      - name: Tests
+        run: uv run --no-sync pytest -q
+
+      - name: Lint
+        run: uv run --no-sync ruff check python tests
