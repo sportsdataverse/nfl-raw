@@ -84,4 +84,15 @@ LOG="logs/daily_nfl_$(date -u +%Y%m%d).log"
   echo "[$(date -u '+%F %T')Z] nfl raw scrape done (scrape=$rc push=$push_rc)"
   exit "$push_rc"
 } 2>&1 | tee -a "$LOG"
-exit "${PIPESTATUS[0]}"
+RC="${PIPESTATUS[0]}"
+
+# The block has closed, so tee has flushed $LOG -- only now is it complete
+# enough to commit. Run logs are tracked here (same as the cfb/hoopR/wehoop raw
+# repos): the log IS the record of what a scheduled run did, and the whole point
+# is that it survives somewhere readable rather than only on the box.
+git add -- "$LOG"
+if ! git diff --cached --quiet -- "$LOG"; then
+  git commit -q -m "NFL Raw log update ($(date -u +%F))"
+  git push -q origin main || echo "WARN: log push failed"
+fi
+exit "$RC"
