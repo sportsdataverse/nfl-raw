@@ -1,0 +1,55 @@
+name: Scrape NFL Raw Data
+
+# nfl-raw had no workflow at all before 2026-08-19, which is why nfl/raw/
+# stopped at season 2025 while 2026 was already in preseason. Note the month
+# list: an NFL season is labelled by the year it STARTS in and runs into
+# February, so Jan/Feb belong to the previous season and the window is not a
+# calendar year.
+on:
+  schedule:
+    - cron: '45 11 * 8 *'          # August -- preseason
+    - cron: '45 11 * 9-12 *'       # Sept-Dec -- regular season
+    - cron: '45 11 * 1,2 *'        # Jan-Feb -- playoffs + Super Bowl
+  workflow_dispatch:
+    inputs:
+      start_year:
+        description: 'Start season (default: current)'
+        required: false
+        type: string
+      end_year:
+        description: 'End season (default: same as start)'
+        required: false
+        type: string
+      season_types:
+        description: 'Season types, space separated'
+        required: false
+        type: string
+        default: 'PRE REG POST'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape_nfl_raw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Scrape
+        run: |
+          ARGS=""
+          [ -n "${{ inputs.start_year }}" ] && ARGS="$ARGS -s ${{ inputs.start_year }}"
+          [ -n "${{ inputs.end_year }}" ]   && ARGS="$ARGS -e ${{ inputs.end_year }}"
+          [ -n "${{ inputs.season_types }}" ] && ARGS="$ARGS -t '${{ inputs.season_types }}'"
+          # No args at all => the driver picks the current season itself.
+          eval bash scripts/daily_nfl_scraper.sh $ARGS
