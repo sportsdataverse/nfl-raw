@@ -1,0 +1,124 @@
+{
+  "id": "ac7f6aff-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10402310-a47e-10ea-7442-16b633633637",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/KC",
+    "fullName": "Kansas City Chiefs"
+  },
+  "awayTeam": {
+    "id": "10403200-69ab-9ea6-5af5-e240fbc08bea",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NE",
+    "fullName": "New England Patriots"
+  },
+  "category": "MNF",
+  "date": "2026-12-22",
+  "time": "2026-12-22T01:15:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "ESPN",
+      "ABC",
+      "ESPN DEPORTES"
+    ],
+    "awayNetworkChannels": [
+      "ESPN",
+      "ABC",
+      "ESPN DEPORTES"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "ESPN",
+        "networks": [
+          "ESPN",
+          "ABC"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "ESPNDEPORTES",
+        "networks": [
+          "ESPNDEPORTES"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00081552-5c92-a7d0-fa55-fc0bb887fb88",
+    "name": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 15,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026122100"
+    },
+    {
+      "source": "gsis",
+      "id": "60401"
+    },
+    {
+      "source": "slug",
+      "id": "patriots-at-chiefs-2026-reg-15"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0600646B840A6E3F?wt.mc_id=NFL_LEAGUE_SCHED_PG_KC_LINK6&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_KC_LINK6&campaign=kc-ti-iw-sp-2072611",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=GEHA+Field+at+Arrowhead+Stadium&cid=PMO_GLB0003VDI_GLE00095QK_GLF000HKF5&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0600646B840A6E3F?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_KC_LINK6&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_KC_LINK6&campaign=kc-ti-na-vg-2072165"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0600646B840A6E3F?wt.mc_id=NFL_LEAGUE_SCHED_PG_KC_LINK6&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_KC_LINK6&campaign=kc-ti-iw-sp-2072611"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

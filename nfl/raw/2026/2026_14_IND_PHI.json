@@ -1,0 +1,100 @@
+{
+  "id": "ac411814-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PHI",
+    "fullName": "Philadelphia Eagles"
+  },
+  "awayTeam": {
+    "id": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/IND",
+    "fullName": "Indianapolis Colts"
+  },
+  "category": null,
+  "date": "2026-12-13",
+  "time": "2026-12-13T18:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082769-1a91-621b-0c2d-27234c215dc0",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 14,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026121306"
+    },
+    {
+      "source": "gsis",
+      "id": "60378"
+    },
+    {
+      "source": "slug",
+      "id": "colts-at-eagles-2026-reg-14"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0200646D9617A6F6?wt.mc_id=NFL_LEAGUE_SCHED_PG_PHI_LINK7&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_PHI_LINK7&campaign=phi-ti-iw-sp-2072712",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Lincoln+Financial+Field&cid=PMO_GLB0003VDI_GLE00095QS_GLF000HKFL&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0200646D9617A6F6?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_PHI_LINK7&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_PHI_LINK7&campaign=phi-ti-na-vg-2072276"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0200646D9617A6F6?wt.mc_id=NFL_LEAGUE_SCHED_PG_PHI_LINK7&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_PHI_LINK7&campaign=phi-ti-iw-sp-2072712"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

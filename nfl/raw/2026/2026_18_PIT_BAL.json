@@ -1,0 +1,100 @@
+{
+  "id": "ace0b48a-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10400325-48de-3d6a-be29-8f829437f4c8",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/BAL",
+    "fullName": "Baltimore Ravens"
+  },
+  "awayTeam": {
+    "id": "10403900-8251-6892-d81c-4348525c2d47",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PIT",
+    "fullName": "Pittsburgh Steelers"
+  },
+  "category": null,
+  "date": null,
+  "time": null,
+  "broadcastInfo": {
+    "homeNetworkChannels": [],
+    "awayNetworkChannels": [],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [],
+    "territory": null,
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00083695-126e-1517-91fe-aab634a526ea",
+    "name": "M&T Bank Stadium",
+    "city": "Baltimore",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 18,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2027011001"
+    },
+    {
+      "source": "gsis",
+      "id": "60435"
+    },
+    {
+      "source": "slug",
+      "id": "steelers-at-ravens-2026-reg-18"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1500648DB79E9D4E?wt.mc_id=NFL_LEAGUE_SCHED_PG_BAL_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_BAL_LINK9&campaign=bal-ti-iw-sp-2072494",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=M+T+Bank+Stadium&cid=PMO_GLB0003VDI_GLE00095Q4_GLF000HKCK&deviceType=desktop-web&view=list#/0/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1500648DB79E9D4E?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_BAL_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_BAL_LINK9&campaign=bal-ti-na-vg-2072048"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1500648DB79E9D4E?wt.mc_id=NFL_LEAGUE_SCHED_PG_BAL_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_BAL_LINK9&campaign=bal-ti-iw-sp-2072494"
+    }
+  ],
+  "extensions": [],
+  "version": 8,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

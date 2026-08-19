@@ -1,0 +1,100 @@
+{
+  "id": "a8fc1864-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403900-8251-6892-d81c-4348525c2d47",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PIT",
+    "fullName": "Pittsburgh Steelers"
+  },
+  "awayTeam": {
+    "id": "10400200-f401-4e53-5175-0974e4f16cf7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/ATL",
+    "fullName": "Atlanta Falcons"
+  },
+  "category": null,
+  "date": "2026-09-13",
+  "time": "2026-09-13T17:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00085411-4ecf-6807-abb8-f9309b0cf6b0",
+    "name": "Acrisure Stadium",
+    "city": "Pittsburgh",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 1,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026091306"
+    },
+    {
+      "source": "gsis",
+      "id": "60186"
+    },
+    {
+      "source": "slug",
+      "id": "falcons-at-steelers-2026-reg-1"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/16006470DEFDBBD0?wt.mc_id=NFL_LEAGUE_SCHED_PG_PIT_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_PIT_LINK3&campaign=pit-ti-iw-sp-2072718",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Heinz+Field+Stadium&cid=PMO_GLB0003VDI_GLE00095QT_GLF000HKFN&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/16006470DEFDBBD0?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_PIT_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_PIT_LINK3&campaign=pit-ti-na-vg-2072282"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/16006470DEFDBBD0?wt.mc_id=NFL_LEAGUE_SCHED_PG_PIT_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_PIT_LINK3&campaign=pit-ti-iw-sp-2072718"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

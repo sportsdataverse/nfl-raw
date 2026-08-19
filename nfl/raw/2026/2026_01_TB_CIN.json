@@ -1,0 +1,100 @@
+{
+  "id": "a8fc106b-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10400920-57c1-7656-e77e-1af3d900483e",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/CIN",
+    "fullName": "Cincinnati Bengals"
+  },
+  "awayTeam": {
+    "id": "10404900-d59e-b449-ef75-961e09ca027e",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/TB",
+    "fullName": "Tampa Bay Buccaneers"
+  },
+  "category": null,
+  "date": "2026-09-13",
+  "time": "2026-09-13T17:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00083530-fc9f-2795-83d8-308b54d591fe",
+    "name": "Paycor Stadium",
+    "city": "Cincinnati",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 1,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026091301"
+    },
+    {
+      "source": "gsis",
+      "id": "60181"
+    },
+    {
+      "source": "slug",
+      "id": "buccaneers-at-bengals-2026-reg-1"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/16006469BBDC93F4?wt.mc_id=NFL_LEAGUE_SCHED_PG_CIN_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_CIN_LINK9&campaign=cin-ti-iw-sp-2072534",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Paycor+Stadium&cid=PMO_GLB0003VDI_GLE00095QB_GLF000HKEN&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/16006469BBDC93F4?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_CIN_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_CIN_LINK9&campaign=cin-ti-na-vg-2072088"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/16006469BBDC93F4?wt.mc_id=NFL_LEAGUE_SCHED_PG_CIN_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_CIN_LINK9&campaign=cin-ti-iw-sp-2072534"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

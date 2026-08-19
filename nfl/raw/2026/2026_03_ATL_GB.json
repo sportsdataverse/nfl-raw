@@ -1,0 +1,120 @@
+{
+  "id": "aa049c95-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10401800-ab22-323d-721a-cee4713c4c2d",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/GB",
+    "fullName": "Green Bay Packers"
+  },
+  "awayTeam": {
+    "id": "10400200-f401-4e53-5175-0974e4f16cf7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/ATL",
+    "fullName": "Atlanta Falcons"
+  },
+  "category": "TNF",
+  "date": "2026-09-25",
+  "time": "2026-09-25T00:15:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "Prime Video"
+    ],
+    "awayNetworkChannels": [
+      "Prime Video"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "PRIME",
+        "networks": [
+          "PRIME"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "PRIMESPANISH",
+        "networks": [
+          "PRIMESPANISH"
+        ],
+        "streamType": "es-alt-1"
+      },
+      {
+        "hostNetwork": "PRIMEALT1",
+        "networks": [
+          "PRIMEALT1"
+        ],
+        "streamType": "en-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082606-f7cb-15ed-a40a-f85cfda3ecdd",
+    "name": "Lambeau Field",
+    "city": "Green Bay",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 3,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026092400"
+    },
+    {
+      "source": "gsis",
+      "id": "60210"
+    },
+    {
+      "source": "slug",
+      "id": "falcons-at-packers-2026-reg-3"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0700646BCF5188A5?wt.mc_id=NFL_LEAGUE_SCHED_PG_GB_LINK2&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_GB_LINK2&campaign=gb-tg-it-sp-2076248",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Lambeau+Field&cid=PMO_GLB0003VDI_GLE00095QG_GLF000HKEX&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0700646BCF5188A5?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_GB_LINK2&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_GB_LINK2&campaign=gb-tg-na-vg-2076258"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0700646BCF5188A5?wt.mc_id=NFL_LEAGUE_SCHED_PG_GB_LINK2&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_GB_LINK2&campaign=gb-tg-it-sp-2076248"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

@@ -1,0 +1,121 @@
+{
+  "id": "ace0ab32-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10404500-e7cb-7fce-3f10-4eeb269bd179",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/SF",
+    "fullName": "San Francisco 49ers"
+  },
+  "awayTeam": {
+    "id": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PHI",
+    "fullName": "Philadelphia Eagles"
+  },
+  "category": "SNF",
+  "date": "2027-01-04",
+  "time": "2027-01-04T01:20:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "NBC",
+      "UNIVERSO"
+    ],
+    "awayNetworkChannels": [
+      "NBC",
+      "UNIVERSO"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "NBC",
+        "networks": [
+          "NBC"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "UNIVERSO",
+        "networks": [
+          "UNIVERSO"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082099-57dc-7d8f-dbdb-9a693342cda6",
+    "name": "Levi's\u00ae Stadium",
+    "city": "Santa Clara",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 17,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2027010313"
+    },
+    {
+      "source": "gsis",
+      "id": "60432"
+    },
+    {
+      "source": "slug",
+      "id": "eagles-at-49ers-2026-reg-17"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1C006463D0B74533?wt.mc_id=NFL_LEAGUE_SCHED_PG_SF_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_SF_LINK8&campaign=sf-ti-iw-sp-2072733",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Levis+Stadium&cid=PMO_GLB0003VDI_GLE00095QU_GLF000HKFP&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1C006463D0B74533?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_SF_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_SF_LINK8&campaign=sf-ti-na-vg-2072298"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1C006463D0B74533?wt.mc_id=NFL_LEAGUE_SCHED_PG_SF_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_SF_LINK8&campaign=sf-ti-iw-sp-2072733"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

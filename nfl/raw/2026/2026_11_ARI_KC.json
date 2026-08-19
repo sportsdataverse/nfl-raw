@@ -1,0 +1,112 @@
+{
+  "id": "ab999891-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10402310-a47e-10ea-7442-16b633633637",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/KC",
+    "fullName": "Kansas City Chiefs"
+  },
+  "awayTeam": {
+    "id": "10403800-517c-7b8c-65a3-c61b95d86123",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/AZ",
+    "fullName": "Arizona Cardinals"
+  },
+  "category": null,
+  "date": "2026-11-22",
+  "time": "2026-11-22T18:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "CBS"
+    ],
+    "awayNetworkChannels": [
+      "CBS"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "CBS",
+        "networks": [
+          "CBS"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00081552-5c92-a7d0-fa55-fc0bb887fb88",
+    "name": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 11,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026112205"
+    },
+    {
+      "source": "gsis",
+      "id": "60334"
+    },
+    {
+      "source": "slug",
+      "id": "cardinals-at-chiefs-2026-reg-11"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0600646B83F36E12?wt.mc_id=NFL_LEAGUE_SCHED_PG_KC_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_KC_LINK8&campaign=kc-ti-iw-sp-2072613",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=GEHA+Field+at+Arrowhead+Stadium&cid=PMO_GLB0003VDI_GLE00095QK_GLF000HKF5&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0600646B83F36E12?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_KC_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_KC_LINK8&campaign=kc-ti-na-vg-2072167"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0600646B83F36E12?wt.mc_id=NFL_LEAGUE_SCHED_PG_KC_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_KC_LINK8&campaign=kc-ti-iw-sp-2072613"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

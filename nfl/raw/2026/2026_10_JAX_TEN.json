@@ -1,0 +1,100 @@
+{
+  "id": "ab789e15-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10402100-447f-396e-8149-0a434ffb2f23",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/TEN",
+    "fullName": "Tennessee Titans"
+  },
+  "awayTeam": {
+    "id": "10402250-89fe-7b86-ef98-9062cd354256",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/JAX",
+    "fullName": "Jacksonville Jaguars"
+  },
+  "category": null,
+  "date": "2026-11-15",
+  "time": "2026-11-15T18:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082350-52f3-e11f-8c49-0193cb89e66f",
+    "name": "Nissan Stadium",
+    "city": "Nashville",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 10,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026111507"
+    },
+    {
+      "source": "gsis",
+      "id": "60322"
+    },
+    {
+      "source": "slug",
+      "id": "jaguars-at-titans-2026-reg-10"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1B006470D20DF658?wt.mc_id=NFL_LEAGUE_SCHED_PG_TEN_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_TEN_LINK8&campaign=ten-ti-iw-sp-2072763",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Nissan+Stadium&cid=PMO_GLB0003VDI_GLE00095QX_GLF000HKFV&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1B006470D20DF658?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_TEN_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_TEN_LINK8&campaign=ten-ti-na-vg-2072328"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1B006470D20DF658?wt.mc_id=NFL_LEAGUE_SCHED_PG_TEN_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_TEN_LINK8&campaign=ten-ti-iw-sp-2072763"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

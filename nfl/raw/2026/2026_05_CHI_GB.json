@@ -1,0 +1,100 @@
+{
+  "id": "aa94c2ef-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10401800-ab22-323d-721a-cee4713c4c2d",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/GB",
+    "fullName": "Green Bay Packers"
+  },
+  "awayTeam": {
+    "id": "10400810-db30-43d6-221c-620006f3ca19",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/CHI",
+    "fullName": "Chicago Bears"
+  },
+  "category": null,
+  "date": "2026-10-11",
+  "time": "2026-10-11T20:25:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082606-f7cb-15ed-a40a-f85cfda3ecdd",
+    "name": "Lambeau Field",
+    "city": "Green Bay",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 5,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026101110"
+    },
+    {
+      "source": "gsis",
+      "id": "60253"
+    },
+    {
+      "source": "slug",
+      "id": "bears-at-packers-2026-reg-5"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0700646BCF5888A9?wt.mc_id=NFL_LEAGUE_SCHED_PG_GB_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_GB_LINK3&campaign=gb-tg-it-sp-2076249",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Lambeau+Field&cid=PMO_GLB0003VDI_GLE00095QG_GLF000HKEX&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0700646BCF5888A9?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_GB_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_GB_LINK3&campaign=gb-tg-na-vg-2076259"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0700646BCF5888A9?wt.mc_id=NFL_LEAGUE_SCHED_PG_GB_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_GB_LINK3&campaign=gb-tg-it-sp-2076249"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

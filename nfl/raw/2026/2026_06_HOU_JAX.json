@@ -1,0 +1,111 @@
+{
+  "id": "aab56e82-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10402250-89fe-7b86-ef98-9062cd354256",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/JAX",
+    "fullName": "Jacksonville Jaguars"
+  },
+  "awayTeam": {
+    "id": "10402120-b0bc-693d-098a-803014096eb0",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/HOU",
+    "fullName": "Houston Texans"
+  },
+  "category": null,
+  "date": "2026-10-18",
+  "time": "2026-10-18T13:30:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "NFL NETWORK"
+    ],
+    "awayNetworkChannels": [
+      "NFL NETWORK"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "NFLN",
+        "networks": [
+          "NFLN"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": true,
+  "neutralSite": true,
+  "venue": {
+    "id": "00085525-dc80-0059-df54-7c8d69e9fcfd",
+    "name": "Wembley Stadium",
+    "city": "London",
+    "country": "England"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 6,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026101800"
+    },
+    {
+      "source": "gsis",
+      "id": "60258"
+    },
+    {
+      "source": "slug",
+      "id": "texans-at-jaguars-2026-reg-6"
+    }
+  ],
+  "ticketUrl": null,
+  "ticketVendors": [],
+  "extensions": [],
+  "version": 6,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

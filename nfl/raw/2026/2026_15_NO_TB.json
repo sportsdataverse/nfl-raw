@@ -1,0 +1,100 @@
+{
+  "id": "ac60584b-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10404900-d59e-b449-ef75-961e09ca027e",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/TB",
+    "fullName": "Tampa Bay Buccaneers"
+  },
+  "awayTeam": {
+    "id": "10403300-f235-cf9b-6d3a-2f182be48dd1",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NO",
+    "fullName": "New Orleans Saints"
+  },
+  "category": null,
+  "date": "2026-12-20",
+  "time": "2026-12-20T18:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00083697-451e-88a5-6695-aa32961fba3a",
+    "name": "Raymond James Stadium",
+    "city": "Tampa",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 15,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026122007"
+    },
+    {
+      "source": "gsis",
+      "id": "60394"
+    },
+    {
+      "source": "slug",
+      "id": "saints-at-buccaneers-2026-reg-15"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0D00645AC824FC01?wt.mc_id=NFL_LEAGUE_SCHED_PG_TB_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_TB_LINK9&campaign=tb-ti-iw-sp-2072754",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Raymond+James+Stadium&cid=PMO_GLB0003VDI_GLE00095QW_GLF000HKFT&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D00645AC824FC01?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_TB_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_TB_LINK9&campaign=tb-ti-na-vg-2072319"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D00645AC824FC01?wt.mc_id=NFL_LEAGUE_SCHED_PG_TB_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_TB_LINK9&campaign=tb-ti-iw-sp-2072754"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

@@ -1,0 +1,100 @@
+{
+  "id": "ac014f46-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10400200-f401-4e53-5175-0974e4f16cf7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/ATL",
+    "fullName": "Atlanta Falcons"
+  },
+  "awayTeam": {
+    "id": "10401540-f97c-2d19-6fcd-fac6490a48b7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DET",
+    "fullName": "Detroit Lions"
+  },
+  "category": null,
+  "date": "2026-12-06",
+  "time": "2026-12-06T18:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "CBS"
+    ],
+    "awayNetworkChannels": [
+      "CBS"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "CBS",
+        "networks": [
+          "CBS"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082076-29a1-1a41-96a5-14b0d14d1317",
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 13,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026120600"
+    },
+    {
+      "source": "gsis",
+      "id": "60358"
+    },
+    {
+      "source": "slug",
+      "id": "lions-at-falcons-2026-reg-13"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0E00647F8E206D8F?wt.mc_id=NFL_LEAGUE_SCHED_PG_ATL_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_ATL_LINK8&campaign=atl-ti-iw-sp-2072483",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Mercedes-Benz+Stadium&cid=PMO_GLB0003VDI_GLE0008YOQ_GLF000H9R6&deviceType=desktop-web&view=list#/0/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0E00647F8E206D8F?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_ATL_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_ATL_LINK8&campaign=atl-tg-na-vg-2072037"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0E00647F8E206D8F?wt.mc_id=NFL_LEAGUE_SCHED_PG_ATL_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_ATL_LINK8&campaign=atl-ti-iw-sp-2072483"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

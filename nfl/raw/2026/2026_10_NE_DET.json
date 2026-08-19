@@ -1,0 +1,108 @@
+{
+  "id": "ab582c2f-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10401540-f97c-2d19-6fcd-fac6490a48b7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DET",
+    "fullName": "Detroit Lions"
+  },
+  "awayTeam": {
+    "id": "10403200-69ab-9ea6-5af5-e240fbc08bea",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NE",
+    "fullName": "New England Patriots"
+  },
+  "category": null,
+  "date": "2026-11-15",
+  "time": "2026-11-15T14:30:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX",
+      "FOX DEPORTES"
+    ],
+    "awayNetworkChannels": [
+      "FOX",
+      "FOX DEPORTES"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "FOXDEPORTES",
+        "networks": [
+          "FOXDEPORTES"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": true,
+  "neutralSite": true,
+  "venue": {
+    "id": "00081909-44a3-45e8-2bda-7bf41d5f30fc",
+    "name": "FC Bayern Munich Stadium",
+    "city": "Munich",
+    "country": "Germany"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 10,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026111500"
+    },
+    {
+      "source": "gsis",
+      "id": "60315"
+    },
+    {
+      "source": "slug",
+      "id": "patriots-at-lions-2026-reg-10"
+    }
+  ],
+  "ticketUrl": null,
+  "ticketVendors": [],
+  "extensions": [],
+  "version": 6,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

@@ -1,0 +1,88 @@
+{
+  "id": "c71af76f-5f68-11f1-b1d0-bb70a4640075",
+  "homeTeam": {
+    "id": "10401540-f97c-2d19-6fcd-fac6490a48b7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DET",
+    "fullName": "Detroit Lions"
+  },
+  "awayTeam": {
+    "id": "10405110-ec3c-669e-2614-db3dc1736e95",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/WAS",
+    "fullName": "Washington Commanders"
+  },
+  "category": null,
+  "date": "2026-08-22",
+  "time": "2026-08-22T16:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [],
+    "awayNetworkChannels": [],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [],
+    "territory": "LOCAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082026-23fe-63b7-7d18-43cec01cfcfb",
+    "name": "Ford Field",
+    "city": "Detroit",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "PRE",
+  "status": "SCHEDULED",
+  "week": 2,
+  "weekType": "PRE",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026082251"
+    },
+    {
+      "source": "gsis",
+      "id": "60472"
+    },
+    {
+      "source": "slug",
+      "id": "commanders-at-lions-2026-pre-2"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/080064718D7839ED?wt.mc_id=NFL_LEAGUE_SCHED_PG_DET_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_DET_LINK1&campaign=det-ti-iw-sp-2072566",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Ford+Field&cid=PMO_GLB0003VDI_GLE00095QF_GLF000HKEV&deviceType=desktop-web&view=list#/0/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/080064718D7839ED?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_DET_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_DET_LINK1&campaign=det-ti-na-vg-2072120"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/080064718D7839ED?wt.mc_id=NFL_LEAGUE_SCHED_PG_DET_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_DET_LINK1&campaign=det-ti-iw-sp-2072566"
+    }
+  ],
+  "extensions": [],
+  "version": 9,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

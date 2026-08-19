@@ -1,0 +1,112 @@
+{
+  "id": "c74e1c92-5f68-11f1-b1d0-bb70a4640075",
+  "homeTeam": {
+    "id": "10403800-517c-7b8c-65a3-c61b95d86123",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/AZ",
+    "fullName": "Arizona Cardinals"
+  },
+  "awayTeam": {
+    "id": "10401200-a308-98ca-ad5f-95df2fefea68",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DAL",
+    "fullName": "Dallas Cowboys"
+  },
+  "category": null,
+  "date": "2026-08-23",
+  "time": "2026-08-23T02:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "NFL NETWORK"
+    ],
+    "awayNetworkChannels": [
+      "NFL NETWORK"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "NFLN",
+        "networks": [
+          "NFLN"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "LOCAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00081907-ad83-307e-8d26-209df8e6df50",
+    "name": "State Farm Stadium",
+    "city": "Glendale",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "PRE",
+  "status": "SCHEDULED",
+  "week": 2,
+  "weekType": "PRE",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026082260"
+    },
+    {
+      "source": "gsis",
+      "id": "60481"
+    },
+    {
+      "source": "slug",
+      "id": "cowboys-at-cardinals-2026-pre-2"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1900646DDA09C017?wt.mc_id=NFL_LEAGUE_SCHED_PG_ARI_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_ARI_LINK1&campaign=ari-ti-iw-sp-2072466",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=State+Farm+Stadium&cid=PMO_GLB0003VDI_GLE0008YMD_GLF000H9R2&deviceType=desktop-web&view=list"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1900646DDA09C017?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_ARI_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_ARI_LINK1&campaign=ari-ti-na-vg-2072020"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1900646DDA09C017?wt.mc_id=NFL_LEAGUE_SCHED_PG_ARI_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_ARI_LINK1&campaign=ari-ti-iw-sp-2072466"
+    }
+  ],
+  "extensions": [],
+  "version": 8,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

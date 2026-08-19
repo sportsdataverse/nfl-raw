@@ -1,0 +1,99 @@
+{
+  "id": "a8fc08da-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10402510-8931-0d5f-9815-79bb79649a65",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/LA",
+    "fullName": "Los Angeles Rams"
+  },
+  "awayTeam": {
+    "id": "10404500-e7cb-7fce-3f10-4eeb269bd179",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/SF",
+    "fullName": "San Francisco 49ers"
+  },
+  "category": null,
+  "date": "2026-09-11",
+  "time": "2026-09-11T00:35:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "NETFLIX"
+    ],
+    "awayNetworkChannels": [
+      "NETFLIX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "NETFLIX",
+        "networks": [
+          "NETFLIX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": true,
+  "neutralSite": true,
+  "venue": {
+    "id": "00086001-ac21-5b8e-1a38-6bade051be83",
+    "name": "Melbourne Cricket Ground",
+    "city": "East Melbourne",
+    "country": "Australia"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 1,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026091100"
+    },
+    {
+      "source": "gsis",
+      "id": "60179"
+    },
+    {
+      "source": "slug",
+      "id": "49ers-at-rams-2026-reg-1"
+    }
+  ],
+  "ticketUrl": null,
+  "ticketVendors": [],
+  "extensions": [],
+  "version": 6,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

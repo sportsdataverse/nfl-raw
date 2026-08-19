@@ -1,0 +1,100 @@
+{
+  "id": "a9a87603-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10404400-3b35-073f-197e-194bb8240723",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/LAC",
+    "fullName": "Los Angeles Chargers"
+  },
+  "awayTeam": {
+    "id": "10403800-517c-7b8c-65a3-c61b95d86123",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/AZ",
+    "fullName": "Arizona Cardinals"
+  },
+  "category": null,
+  "date": "2026-09-13",
+  "time": "2026-09-13T20:25:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "CBS"
+    ],
+    "awayNetworkChannels": [
+      "CBS"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "CBS",
+        "networks": [
+          "CBS"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00083005-73cf-76e4-0b7c-b1a83f72b2c5",
+    "name": "SoFi Stadium",
+    "city": "Inglewood",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 1,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026091308"
+    },
+    {
+      "source": "gsis",
+      "id": "60188"
+    },
+    {
+      "source": "slug",
+      "id": "cardinals-at-chargers-2026-reg-1"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0A00646BA4ABE474?wt.mc_id=NFL_LEAGUE_SCHED_PG_LAC_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_LAC_LINK8&campaign=lac-ti-iw-sp-2072633",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=SoFi+Stadium&cid=PMO_GLB0003VDI_GLE00095QM_GLF000HKF9&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0A00646BA4ABE474?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_LAC_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_LAC_LINK8&campaign=lac-ti-na-vg-2072187"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0A00646BA4ABE474?wt.mc_id=NFL_LEAGUE_SCHED_PG_LAC_LINK8&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_LAC_LINK8&campaign=lac-ti-iw-sp-2072633"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

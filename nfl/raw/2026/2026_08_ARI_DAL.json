@@ -1,0 +1,112 @@
+{
+  "id": "ab16512c-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10401200-a308-98ca-ad5f-95df2fefea68",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DAL",
+    "fullName": "Dallas Cowboys"
+  },
+  "awayTeam": {
+    "id": "10403800-517c-7b8c-65a3-c61b95d86123",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/AZ",
+    "fullName": "Arizona Cardinals"
+  },
+  "category": null,
+  "date": "2026-11-01",
+  "time": "2026-11-01T18:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00084948-addf-5f39-b283-02455f77c178",
+    "name": "AT&T Stadium",
+    "city": "Arlington",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 8,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026110102"
+    },
+    {
+      "source": "gsis",
+      "id": "60288"
+    },
+    {
+      "source": "slug",
+      "id": "cardinals-at-cowboys-2026-reg-8"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0C00646CBC678FED?wt.mc_id=NFL_LEAGUE_SCHED_PG_DAL_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_DAL_LINK3&campaign=dal-ti-iw-sp-2072548",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=AT+T+Stadium&cid=PMO_GLB0003VDI_GLE00095QD_GLF000HKER&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0C00646CBC678FED?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_DAL_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_DAL_LINK3&campaign=dal-ti-na-vg-2072102"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0C00646CBC678FED?wt.mc_id=NFL_LEAGUE_SCHED_PG_DAL_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_DAL_LINK3&campaign=dal-ti-iw-sp-2072548"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

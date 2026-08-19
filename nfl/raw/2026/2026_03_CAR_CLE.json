@@ -1,0 +1,100 @@
+{
+  "id": "aa04a395-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10401050-5e38-b907-1be1-55b91b19c057",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/CLE",
+    "fullName": "Cleveland Browns"
+  },
+  "awayTeam": {
+    "id": "10400750-259b-33ac-eee3-a3852e83cd1f",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/CAR",
+    "fullName": "Carolina Panthers"
+  },
+  "category": null,
+  "date": "2026-09-27",
+  "time": "2026-09-27T17:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00081048-4259-348c-7701-2fa3c98bcd53",
+    "name": "Huntington Bank Field",
+    "city": "Cleveland",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 3,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026092701"
+    },
+    {
+      "source": "gsis",
+      "id": "60212"
+    },
+    {
+      "source": "slug",
+      "id": "panthers-at-browns-2026-reg-3"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0500646D9E3B88CA?wt.mc_id=NFL_LEAGUE_SCHED_PG_CLE_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_CLE_LINK9&campaign=cle-ti-iw-sp-2072544",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Huntington+Bank+Field&cid=PMO_GLB0003VDI_GLE00095QC_GLF000HKEP&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0500646D9E3B88CA?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_CLE_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_CLE_LINK9&campaign=cle-ti-na-vg-2072098"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0500646D9E3B88CA?wt.mc_id=NFL_LEAGUE_SCHED_PG_CLE_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_CLE_LINK9&campaign=cle-ti-iw-sp-2072544"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

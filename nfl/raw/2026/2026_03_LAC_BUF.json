@@ -1,0 +1,100 @@
+{
+  "id": "aa04a02f-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10400610-c40e-a673-1743-2ce2a5d5d731",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/BUF",
+    "fullName": "Buffalo Bills"
+  },
+  "awayTeam": {
+    "id": "10404400-3b35-073f-197e-194bb8240723",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/LAC",
+    "fullName": "Los Angeles Chargers"
+  },
+  "category": null,
+  "date": "2026-09-27",
+  "time": "2026-09-27T17:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00085780-1313-e95c-caa9-c352f75eb57e",
+    "name": "Highmark Stadium",
+    "city": "Orchard Park",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 3,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026092700"
+    },
+    {
+      "source": "gsis",
+      "id": "60211"
+    },
+    {
+      "source": "slug",
+      "id": "chargers-at-bills-2026-reg-3"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/03006471AC690F0A?wt.mc_id=NFL_LEAGUE_SCHED_PG_BUF_LINK7&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_BUF_LINK7&campaign=buf-ti-iw-sp-2072502",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Highmark+Stadium&cid=PMO_GLB0003VDI_GLE00095Q8_GLF000HKEH&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/03006471AC690F0A?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_BUF_LINK7&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_BUF_LINK7&campaign=buf-ti-na-vg-2072056"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/03006471AC690F0A?wt.mc_id=NFL_LEAGUE_SCHED_PG_BUF_LINK7&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_BUF_LINK7&campaign=buf-ti-iw-sp-2072502"
+    }
+  ],
+  "extensions": [],
+  "version": 9,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

@@ -1,0 +1,112 @@
+{
+  "id": "aad59e95-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10402120-b0bc-693d-098a-803014096eb0",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/HOU",
+    "fullName": "Houston Texans"
+  },
+  "awayTeam": {
+    "id": "10403410-997c-9c75-256b-3b012f468bd0",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NYG",
+    "fullName": "New York Giants"
+  },
+  "category": null,
+  "date": "2026-10-25",
+  "time": "2026-10-25T17:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00083698-a263-8c18-f063-4dc45196bfef",
+    "name": "Reliant Stadium",
+    "city": "Houston",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 7,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026102504"
+    },
+    {
+      "source": "gsis",
+      "id": "60276"
+    },
+    {
+      "source": "slug",
+      "id": "giants-at-texans-2026-reg-7"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/3A00647B803447D0?wt.mc_id=NFL_LEAGUE_SCHED_PG_HOU_LINK10&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_HOU_LINK10&campaign=hou-ti-iw-sp-2072585",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=NRG+Stadium&cid=PMO_GLB0003VDI_GLE00095QH_GLF000HKEZ&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/3A00647B803447D0?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_HOU_LINK10&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_HOU_LINK10&campaign=hou-ti-na-vg-2072139"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/3A00647B803447D0?wt.mc_id=NFL_LEAGUE_SCHED_PG_HOU_LINK10&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_HOU_LINK10&campaign=hou-ti-iw-sp-2072585"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

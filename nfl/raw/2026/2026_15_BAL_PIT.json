@@ -1,0 +1,112 @@
+{
+  "id": "ac60550d-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403900-8251-6892-d81c-4348525c2d47",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PIT",
+    "fullName": "Pittsburgh Steelers"
+  },
+  "awayTeam": {
+    "id": "10400325-48de-3d6a-be29-8f829437f4c8",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/BAL",
+    "fullName": "Baltimore Ravens"
+  },
+  "category": null,
+  "date": "2026-12-20",
+  "time": "2026-12-20T18:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "CBS"
+    ],
+    "awayNetworkChannels": [
+      "CBS"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "CBS",
+        "networks": [
+          "CBS"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00085411-4ecf-6807-abb8-f9309b0cf6b0",
+    "name": "Acrisure Stadium",
+    "city": "Pittsburgh",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 15,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026122006"
+    },
+    {
+      "source": "gsis",
+      "id": "60393"
+    },
+    {
+      "source": "slug",
+      "id": "ravens-at-steelers-2026-reg-15"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/16006470DF01BBD5?wt.mc_id=NFL_LEAGUE_SCHED_PG_PIT_LINK4&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_PIT_LINK4&campaign=pit-ti-iw-sp-2072719",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Heinz+Field+Stadium&cid=PMO_GLB0003VDI_GLE00095QT_GLF000HKFN&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/16006470DF01BBD5?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_PIT_LINK4&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_PIT_LINK4&campaign=pit-ti-na-vg-2072283"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/16006470DF01BBD5?wt.mc_id=NFL_LEAGUE_SCHED_PG_PIT_LINK4&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_PIT_LINK4&campaign=pit-ti-iw-sp-2072719"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

@@ -1,0 +1,88 @@
+{
+  "id": "c74e12b2-5f68-11f1-b1d0-bb70a4640075",
+  "homeTeam": {
+    "id": "10404900-d59e-b449-ef75-961e09ca027e",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/TB",
+    "fullName": "Tampa Bay Buccaneers"
+  },
+  "awayTeam": {
+    "id": "10402310-a47e-10ea-7442-16b633633637",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/KC",
+    "fullName": "Kansas City Chiefs"
+  },
+  "category": null,
+  "date": "2026-08-22",
+  "time": "2026-08-22T23:30:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [],
+    "awayNetworkChannels": [],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [],
+    "territory": "LOCAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00083697-451e-88a5-6695-aa32961fba3a",
+    "name": "Raymond James Stadium",
+    "city": "Tampa",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "PRE",
+  "status": "SCHEDULED",
+  "week": 2,
+  "weekType": "PRE",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026082259"
+    },
+    {
+      "source": "gsis",
+      "id": "60480"
+    },
+    {
+      "source": "slug",
+      "id": "chiefs-at-buccaneers-2026-pre-2"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0D00645AC830FC14?wt.mc_id=NFL_LEAGUE_SCHED_PG_TB_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_TB_LINK1&campaign=tb-ti-iw-sp-2072746",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Raymond+James+Stadium&cid=PMO_GLB0003VDI_GLE00095QW_GLF000HKFT&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D00645AC830FC14?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_TB_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_TB_LINK1&campaign=tb-ti-na-vg-2072311"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D00645AC830FC14?wt.mc_id=NFL_LEAGUE_SCHED_PG_TB_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_TB_LINK1&campaign=tb-ti-iw-sp-2072746"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

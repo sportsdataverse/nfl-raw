@@ -1,0 +1,100 @@
+{
+  "id": "ad1f2595-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10405110-ec3c-669e-2614-db3dc1736e95",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/WAS",
+    "fullName": "Washington Commanders"
+  },
+  "awayTeam": {
+    "id": "10401200-a308-98ca-ad5f-95df2fefea68",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DAL",
+    "fullName": "Dallas Cowboys"
+  },
+  "category": null,
+  "date": null,
+  "time": null,
+  "broadcastInfo": {
+    "homeNetworkChannels": [],
+    "awayNetworkChannels": [],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [],
+    "territory": null,
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082389-5f81-bc7b-7280-78260ea1be2a",
+    "name": "Northwest Stadium",
+    "city": "Landover",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 18,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2027011015"
+    },
+    {
+      "source": "gsis",
+      "id": "60449"
+    },
+    {
+      "source": "slug",
+      "id": "cowboys-at-commanders-2026-reg-18"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1500647994E85B47?wt.mc_id=NFL_LEAGUE_SCHED_PG_WAS_LINK2&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_WAS_LINK2&campaign=was-ti-iw-sp-2072767",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=FedEx+Field&cid=PMO_GLB0003VDI_GLE00095QY_GLF000HKFX&deviceType=desktop-web&view=list"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1500647994E85B47?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_WAS_LINK2&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_WAS_LINK2&campaign=was-ti-na-vg-2072332"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1500647994E85B47?wt.mc_id=NFL_LEAGUE_SCHED_PG_WAS_LINK2&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_WAS_LINK2&campaign=was-ti-iw-sp-2072767"
+    }
+  ],
+  "extensions": [],
+  "version": 8,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

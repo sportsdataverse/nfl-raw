@@ -1,0 +1,100 @@
+{
+  "id": "a9a88631-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403000-5851-f9d5-da45-78365a05b6b0",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/MIN",
+    "fullName": "Minnesota Vikings"
+  },
+  "awayTeam": {
+    "id": "10401800-ab22-323d-721a-cee4713c4c2d",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/GB",
+    "fullName": "Green Bay Packers"
+  },
+  "category": null,
+  "date": "2026-09-13",
+  "time": "2026-09-13T20:25:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "CBS"
+    ],
+    "awayNetworkChannels": [
+      "CBS"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "CBS",
+        "networks": [
+          "CBS"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00081652-d8a8-d698-5b3f-31487c6624f7",
+    "name": "U.S. Bank Stadium",
+    "city": "Minneapolis",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 1,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026091310"
+    },
+    {
+      "source": "gsis",
+      "id": "60190"
+    },
+    {
+      "source": "slug",
+      "id": "packers-at-vikings-2026-reg-1"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/06006479D9C2FB97?wt.mc_id=NFL_LEAGUE_SCHED_PG_MIN_LINK4&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_MIN_LINK4&campaign=min-ti-iw-sp-2072659",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=US+Bank+Stadium&cid=PMO_GLB0003VDI_GLE00095QO_GLF000HKFD&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/06006479D9C2FB97?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_MIN_LINK4&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_MIN_LINK4&campaign=min-ti-na-vg-2072213"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/06006479D9C2FB97?wt.mc_id=NFL_LEAGUE_SCHED_PG_MIN_LINK4&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_MIN_LINK4&campaign=min-ti-iw-sp-2072659"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

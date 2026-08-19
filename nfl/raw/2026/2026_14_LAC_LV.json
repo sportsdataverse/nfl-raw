@@ -1,0 +1,100 @@
+{
+  "id": "ac4128a9-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10402520-96bf-e9f2-4f68-8521ca896060",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/LV",
+    "fullName": "Las Vegas Raiders"
+  },
+  "awayTeam": {
+    "id": "10404400-3b35-073f-197e-194bb8240723",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/LAC",
+    "fullName": "Los Angeles Chargers"
+  },
+  "category": null,
+  "date": "2026-12-13",
+  "time": "2026-12-13T21:05:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "CBS"
+    ],
+    "awayNetworkChannels": [
+      "CBS"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "CBS",
+        "networks": [
+          "CBS"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00081510-8d44-0c8b-d478-07ace72fbbef",
+    "name": "Allegiant Stadium",
+    "city": "Paradise",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 14,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026121308"
+    },
+    {
+      "source": "gsis",
+      "id": "60380"
+    },
+    {
+      "source": "slug",
+      "id": "chargers-at-raiders-2026-reg-14"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1700646CC3D4C40E?wt.mc_id=NFL_LEAGUE_SCHED_PG_LV_LINK5&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_LV_LINK5&campaign=lv-ti-iw-sp-2072620",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Allegiant+Stadium&cid=PMO_GLB0003VDI_GLE00095QL_GLF000HKF7&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1700646CC3D4C40E?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_LV_LINK5&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_LV_LINK5&campaign=lv-ti-na-vg-2072174"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1700646CC3D4C40E?wt.mc_id=NFL_LEAGUE_SCHED_PG_LV_LINK5&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_LV_LINK5&campaign=lv-ti-iw-sp-2072620"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

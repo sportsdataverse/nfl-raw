@@ -1,0 +1,88 @@
+{
+  "id": "c71b02b9-5f68-11f1-b1d0-bb70a4640075",
+  "homeTeam": {
+    "id": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/IND",
+    "fullName": "Indianapolis Colts"
+  },
+  "awayTeam": {
+    "id": "10400200-f401-4e53-5175-0974e4f16cf7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/ATL",
+    "fullName": "Atlanta Falcons"
+  },
+  "category": null,
+  "date": "2026-08-22",
+  "time": "2026-08-22T17:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [],
+    "awayNetworkChannels": [],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [],
+    "territory": "LOCAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082878-4c6e-d80a-0da7-6f8355c339c2",
+    "name": "Lucas Oil Stadium",
+    "city": "Indianapolis",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "PRE",
+  "status": "SCHEDULED",
+  "week": 2,
+  "weekType": "PRE",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026082253"
+    },
+    {
+      "source": "gsis",
+      "id": "60474"
+    },
+    {
+      "source": "slug",
+      "id": "falcons-at-colts-2026-pre-2"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/05006474BEF9A755?wt.mc_id=NFL_LEAGUE_SCHED_PG_IND_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_IND_LINK1&campaign=ind-ti-iw-sp-2072586",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Lucas+Oil+Stadium&cid=PMO_GLB0003VDI_GLE00095QI_GLF000HKF1&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/05006474BEF9A755?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_IND_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_IND_LINK1&campaign=ind-ti-na-vg-2072140"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/05006474BEF9A755?wt.mc_id=NFL_LEAGUE_SCHED_PG_IND_LINK1&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_IND_LINK1&campaign=ind-ti-iw-sp-2072586"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

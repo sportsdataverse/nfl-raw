@@ -1,0 +1,133 @@
+{
+  "id": "ab167386-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10405110-ec3c-669e-2614-db3dc1736e95",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/WAS",
+    "fullName": "Washington Commanders"
+  },
+  "awayTeam": {
+    "id": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PHI",
+    "fullName": "Philadelphia Eagles"
+  },
+  "category": "SNF",
+  "date": "2026-11-02",
+  "time": "2026-11-02T01:20:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "NBC",
+      "UNIVERSO"
+    ],
+    "awayNetworkChannels": [
+      "NBC",
+      "UNIVERSO"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "NBC",
+        "networks": [
+          "NBC"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "UNIVERSO",
+        "networks": [
+          "UNIVERSO"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082389-5f81-bc7b-7280-78260ea1be2a",
+    "name": "Northwest Stadium",
+    "city": "Landover",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 8,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026110111"
+    },
+    {
+      "source": "gsis",
+      "id": "60297"
+    },
+    {
+      "source": "slug",
+      "id": "eagles-at-commanders-2026-reg-8"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1500647995125B72?wt.mc_id=NFL_LEAGUE_SCHED_PG_WAS_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_WAS_LINK3&campaign=was-ti-iw-sp-2072768",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=FedEx+Field&cid=PMO_GLB0003VDI_GLE00095QY_GLF000HKFX&deviceType=desktop-web&view=list"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1500647995125B72?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_WAS_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_WAS_LINK3&campaign=was-ti-na-vg-2072333"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1500647995125B72?wt.mc_id=NFL_LEAGUE_SCHED_PG_WAS_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_WAS_LINK3&campaign=was-ti-iw-sp-2072768"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

@@ -1,0 +1,112 @@
+{
+  "id": "ab38203e-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PHI",
+    "fullName": "Philadelphia Eagles"
+  },
+  "awayTeam": {
+    "id": "10403410-997c-9c75-256b-3b012f468bd0",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NYG",
+    "fullName": "New York Giants"
+  },
+  "category": null,
+  "date": "2026-11-08",
+  "time": "2026-11-08T18:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082769-1a91-621b-0c2d-27234c215dc0",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 9,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026110806"
+    },
+    {
+      "source": "gsis",
+      "id": "60306"
+    },
+    {
+      "source": "slug",
+      "id": "giants-at-eagles-2026-reg-9"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0200646D961FA70E?wt.mc_id=NFL_LEAGUE_SCHED_PG_PHI_LINK5&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_PHI_LINK5&campaign=phi-ti-iw-sp-2072710",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Lincoln+Financial+Field&cid=PMO_GLB0003VDI_GLE00095QS_GLF000HKFL&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0200646D961FA70E?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_PHI_LINK5&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_PHI_LINK5&campaign=phi-ti-na-vg-2072274"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0200646D961FA70E?wt.mc_id=NFL_LEAGUE_SCHED_PG_PHI_LINK5&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_PHI_LINK5&campaign=phi-ti-iw-sp-2072710"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

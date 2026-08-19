@@ -1,0 +1,111 @@
+{
+  "id": "aad58d7d-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403300-f235-cf9b-6d3a-2f182be48dd1",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NO",
+    "fullName": "New Orleans Saints"
+  },
+  "awayTeam": {
+    "id": "10403900-8251-6892-d81c-4348525c2d47",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PIT",
+    "fullName": "Pittsburgh Steelers"
+  },
+  "category": null,
+  "date": "2026-10-25",
+  "time": "2026-10-25T13:30:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "NFL NETWORK"
+    ],
+    "awayNetworkChannels": [
+      "NFL NETWORK"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "NFLN",
+        "networks": [
+          "NFLN"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": true,
+  "neutralSite": true,
+  "venue": {
+    "id": "00081391-76c1-d051-ce70-e5047db9c186",
+    "name": "Stade de France",
+    "city": "Saint-Denis",
+    "country": "France"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 7,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026102500"
+    },
+    {
+      "source": "gsis",
+      "id": "60272"
+    },
+    {
+      "source": "slug",
+      "id": "steelers-at-saints-2026-reg-7"
+    }
+  ],
+  "ticketUrl": null,
+  "ticketVendors": [],
+  "extensions": [],
+  "version": 6,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

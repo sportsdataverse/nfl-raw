@@ -1,0 +1,121 @@
+{
+  "id": "aa6b5517-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403300-f235-cf9b-6d3a-2f182be48dd1",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NO",
+    "fullName": "New Orleans Saints"
+  },
+  "awayTeam": {
+    "id": "10400200-f401-4e53-5175-0974e4f16cf7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/ATL",
+    "fullName": "Atlanta Falcons"
+  },
+  "category": "MNF",
+  "date": "2026-10-06",
+  "time": "2026-10-06T00:15:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "ESPN",
+      "ESPN DEPORTES"
+    ],
+    "awayNetworkChannels": [
+      "ESPN",
+      "ESPN DEPORTES"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "ESPN",
+        "networks": [
+          "ESPN"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "ESPNDEPORTES",
+        "networks": [
+          "ESPNDEPORTES"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082870-94c7-53ad-b2bf-a1d334cf1512",
+    "name": "Caesars Superdome",
+    "city": "New Orleans",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 4,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026100500"
+    },
+    {
+      "source": "gsis",
+      "id": "60241"
+    },
+    {
+      "source": "slug",
+      "id": "falcons-at-saints-2026-reg-4"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1B00646DBDC72367?wt.mc_id=NFL_LEAGUE_SCHED_PG_NO_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_NO_LINK3&campaign=no-ti-iw-sp-2072678",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Caesars+Superdome&cid=PMO_GLB0003VDI_GLE00095QQ_GLF000HKFH&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1B00646DBDC72367?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_NO_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_NO_LINK3&campaign=no-ti-na-vg-2072222"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1B00646DBDC72367?wt.mc_id=NFL_LEAGUE_SCHED_PG_NO_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_NO_LINK3&campaign=no-ti-iw-sp-2072678"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

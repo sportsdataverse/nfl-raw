@@ -1,0 +1,136 @@
+{
+  "id": "aa29d6db-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10400810-db30-43d6-221c-620006f3ca19",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/CHI",
+    "fullName": "Chicago Bears"
+  },
+  "awayTeam": {
+    "id": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PHI",
+    "fullName": "Philadelphia Eagles"
+  },
+  "category": "MNF",
+  "date": "2026-09-29",
+  "time": "2026-09-29T00:15:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "ESPN",
+      "ABC",
+      "ESPN DEPORTES"
+    ],
+    "awayNetworkChannels": [
+      "ESPN",
+      "ABC",
+      "ESPN DEPORTES"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "ESPN",
+        "networks": [
+          "ESPN",
+          "ABC"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "ESPNDEPORTES",
+        "networks": [
+          "ESPNDEPORTES"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00084620-af4a-a315-44ad-cdc562bfc3ad",
+    "name": "Soldier Field",
+    "city": "Chicago",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 3,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026092800"
+    },
+    {
+      "source": "gsis",
+      "id": "60225"
+    },
+    {
+      "source": "slug",
+      "id": "eagles-at-bears-2026-reg-3"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/04006453E951BDF2?wt.mc_id=NFL_LEAGUE_SCHED_PG_CHI_LINK10&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_CHI_LINK10&campaign=chi-ti-iw-sp-2072525",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Soldier+Field&cid=PMO_GLB0003VDI_GLE00095QA_GLF000HKEL&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/04006453E951BDF2?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_CHI_LINK10&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_CHI_LINK10&campaign=chi-ti-na-vg-2072079"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/04006453E951BDF2?wt.mc_id=NFL_LEAGUE_SCHED_PG_CHI_LINK10&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_CHI_LINK10&campaign=chi-ti-iw-sp-2072525"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

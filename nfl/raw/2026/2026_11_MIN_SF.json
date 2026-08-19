@@ -1,0 +1,108 @@
+{
+  "id": "abbf2213-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10404500-e7cb-7fce-3f10-4eeb269bd179",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/SF",
+    "fullName": "San Francisco 49ers"
+  },
+  "awayTeam": {
+    "id": "10403000-5851-f9d5-da45-78365a05b6b0",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/MIN",
+    "fullName": "Minnesota Vikings"
+  },
+  "category": "SNF",
+  "date": "2026-11-23",
+  "time": "2026-11-23T01:20:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "NBC",
+      "UNIVERSO"
+    ],
+    "awayNetworkChannels": [
+      "NBC",
+      "UNIVERSO"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "NBC",
+        "networks": [
+          "NBC"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "UNIVERSO",
+        "networks": [
+          "UNIVERSO"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": true,
+  "neutralSite": true,
+  "venue": {
+    "id": "00082108-46a8-fb55-f264-c8faa1c1849e",
+    "name": "Estadio Banorte",
+    "city": "Mexico City",
+    "country": "Mexico"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 11,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026112210"
+    },
+    {
+      "source": "gsis",
+      "id": "60339"
+    },
+    {
+      "source": "slug",
+      "id": "vikings-at-49ers-2026-reg-11"
+    }
+  ],
+  "ticketUrl": null,
+  "ticketVendors": [],
+  "extensions": [],
+  "version": 6,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

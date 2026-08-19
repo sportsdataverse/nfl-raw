@@ -1,0 +1,100 @@
+{
+  "id": "ad1f1cde-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403410-997c-9c75-256b-3b012f468bd0",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NYG",
+    "fullName": "New York Giants"
+  },
+  "awayTeam": {
+    "id": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PHI",
+    "fullName": "Philadelphia Eagles"
+  },
+  "category": null,
+  "date": null,
+  "time": null,
+  "broadcastInfo": {
+    "homeNetworkChannels": [],
+    "awayNetworkChannels": [],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [],
+    "territory": null,
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00083757-62dd-de21-f672-4d0ca5ad5a9e",
+    "name": "MetLife Stadium",
+    "city": "East Rutherford",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 18,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2027011014"
+    },
+    {
+      "source": "gsis",
+      "id": "60448"
+    },
+    {
+      "source": "slug",
+      "id": "eagles-at-giants-2026-reg-18"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/00006491C2D6E02E?wt.mc_id=NFL_LEAGUE_SCHED_PG_NYG_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_NYG_LINK3&campaign=nyg-ti-iw-sp-2072688",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=MetLife+Stadium&cid=PMO_GLB0003VDI_GLE00095QR_GLF000HKFJ&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/00006491C2D6E02E?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_NYG_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_NYG_LINK3&campaign=nyg-ti-na-vg-2072242"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/00006491C2D6E02E?wt.mc_id=NFL_LEAGUE_SCHED_PG_NYG_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_NYG_LINK3&campaign=nyg-ti-iw-sp-2072688"
+    }
+  ],
+  "extensions": [],
+  "version": 8,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

@@ -1,0 +1,121 @@
+{
+  "id": "ab78ad5a-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10400325-48de-3d6a-be29-8f829437f4c8",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/BAL",
+    "fullName": "Baltimore Ravens"
+  },
+  "awayTeam": {
+    "id": "10404400-3b35-073f-197e-194bb8240723",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/LAC",
+    "fullName": "Los Angeles Chargers"
+  },
+  "category": "MNF",
+  "date": "2026-11-17",
+  "time": "2026-11-17T01:15:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "ESPN",
+      "ESPN DEPORTES"
+    ],
+    "awayNetworkChannels": [
+      "ESPN",
+      "ESPN DEPORTES"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "ESPN",
+        "networks": [
+          "ESPN"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "ESPNDEPORTES",
+        "networks": [
+          "ESPNDEPORTES"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00083695-126e-1517-91fe-aab634a526ea",
+    "name": "M&T Bank Stadium",
+    "city": "Baltimore",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 10,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026111600"
+    },
+    {
+      "source": "gsis",
+      "id": "60327"
+    },
+    {
+      "source": "slug",
+      "id": "chargers-at-ravens-2026-reg-10"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1500648DB7939D34?wt.mc_id=NFL_LEAGUE_SCHED_PG_BAL_LINK7&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_BAL_LINK7&campaign=bal-ti-iw-sp-2072492",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=M+T+Bank+Stadium&cid=PMO_GLB0003VDI_GLE00095Q4_GLF000HKCK&deviceType=desktop-web&view=list#/0/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1500648DB7939D34?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_BAL_LINK7&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_BAL_LINK7&campaign=bal-ti-na-vg-2072046"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1500648DB7939D34?wt.mc_id=NFL_LEAGUE_SCHED_PG_BAL_LINK7&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_BAL_LINK7&campaign=bal-ti-iw-sp-2072492"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

@@ -1,0 +1,99 @@
+{
+  "id": "ab380bc7-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10400200-f401-4e53-5175-0974e4f16cf7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/ATL",
+    "fullName": "Atlanta Falcons"
+  },
+  "awayTeam": {
+    "id": "10400920-57c1-7656-e77e-1af3d900483e",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/CIN",
+    "fullName": "Cincinnati Bengals"
+  },
+  "category": null,
+  "date": "2026-11-08",
+  "time": "2026-11-08T14:30:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "NFL NETWORK"
+    ],
+    "awayNetworkChannels": [
+      "NFL NETWORK"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "NFLN",
+        "networks": [
+          "NFLN"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": true,
+  "neutralSite": true,
+  "venue": {
+    "id": "00084386-115f-c4e8-d258-c39e2b29f95e",
+    "name": "Bernabeu",
+    "city": "Madrid",
+    "country": "Spain"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 9,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026110800"
+    },
+    {
+      "source": "gsis",
+      "id": "60300"
+    },
+    {
+      "source": "slug",
+      "id": "bengals-at-falcons-2026-reg-9"
+    }
+  ],
+  "ticketUrl": null,
+  "ticketVendors": [],
+  "extensions": [],
+  "version": 6,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

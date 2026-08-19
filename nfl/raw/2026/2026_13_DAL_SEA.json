@@ -1,0 +1,124 @@
+{
+  "id": "ac207eae-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10404600-adcd-28ac-5826-b4d95ec2a228",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/SEA",
+    "fullName": "Seattle Seahawks"
+  },
+  "awayTeam": {
+    "id": "10401200-a308-98ca-ad5f-95df2fefea68",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DAL",
+    "fullName": "Dallas Cowboys"
+  },
+  "category": "MNF",
+  "date": "2026-12-08",
+  "time": "2026-12-08T01:15:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "ESPN",
+      "ABC",
+      "ESPN DEPORTES"
+    ],
+    "awayNetworkChannels": [
+      "ESPN",
+      "ABC",
+      "ESPN DEPORTES"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "ESPN",
+        "networks": [
+          "ESPN",
+          "ABC"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "ESPNDEPORTES",
+        "networks": [
+          "ESPNDEPORTES"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00085315-d5b8-18a5-6c08-f91cd9144cb5",
+    "name": "Lumen Field",
+    "city": "Seattle",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 13,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026120700"
+    },
+    {
+      "source": "gsis",
+      "id": "60370"
+    },
+    {
+      "source": "slug",
+      "id": "cowboys-at-seahawks-2026-reg-13"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0F006482E68C74B1?wt.mc_id=NFL_LEAGUE_SCHED_PG_SEA_LINK6&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_SEA_LINK6&campaign=sea-ti-iw-sp-2072741",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Lumen+Field&cid=PMO_GLB0003VDI_GLE00095QV_GLF000HKFR&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0F006482E68C74B1?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_SEA_LINK6&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_SEA_LINK6&campaign=sea-ti-na-vg-2072306"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0F006482E68C74B1?wt.mc_id=NFL_LEAGUE_SCHED_PG_SEA_LINK6&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_SEA_LINK6&campaign=sea-ti-iw-sp-2072741"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

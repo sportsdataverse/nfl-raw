@@ -1,0 +1,100 @@
+{
+  "id": "aa6b5f66-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10402700-1662-d8ad-f45c-0b0ea460d045",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/MIA",
+    "fullName": "Miami Dolphins"
+  },
+  "awayTeam": {
+    "id": "10400920-57c1-7656-e77e-1af3d900483e",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/CIN",
+    "fullName": "Cincinnati Bengals"
+  },
+  "category": null,
+  "date": "2026-10-11",
+  "time": "2026-10-11T17:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082475-4308-d8ae-8935-f685fe5d20f2",
+    "name": "Hard Rock Stadium",
+    "city": "Opa Locka",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 5,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026101101"
+    },
+    {
+      "source": "gsis",
+      "id": "60244"
+    },
+    {
+      "source": "slug",
+      "id": "bengals-at-dolphins-2026-reg-5"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0D00646CE56D131E?wt.mc_id=NFL_LEAGUE_SCHED_PG_MIA_LINK5&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_MIA_LINK5&campaign=mia-ti-iw-sp-2072650",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Hard+Rock+Stadium&cid=PMO_GLB0003VDI_GLE00095QN_GLF000HKFB&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D00646CE56D131E?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_MIA_LINK5&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_MIA_LINK5&campaign=mia-ti-na-vg-2072204"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D00646CE56D131E?wt.mc_id=NFL_LEAGUE_SCHED_PG_MIA_LINK5&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_MIA_LINK5&campaign=mia-ti-iw-sp-2072650"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

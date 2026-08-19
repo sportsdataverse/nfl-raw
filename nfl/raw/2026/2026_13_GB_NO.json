@@ -1,0 +1,100 @@
+{
+  "id": "ac01603b-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403300-f235-cf9b-6d3a-2f182be48dd1",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NO",
+    "fullName": "New Orleans Saints"
+  },
+  "awayTeam": {
+    "id": "10401800-ab22-323d-721a-cee4713c4c2d",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/GB",
+    "fullName": "Green Bay Packers"
+  },
+  "category": null,
+  "date": "2026-12-06",
+  "time": "2026-12-06T18:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082870-94c7-53ad-b2bf-a1d334cf1512",
+    "name": "Caesars Superdome",
+    "city": "New Orleans",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 13,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026120603"
+    },
+    {
+      "source": "gsis",
+      "id": "60361"
+    },
+    {
+      "source": "slug",
+      "id": "packers-at-saints-2026-reg-13"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1B00646DBDD62398?wt.mc_id=NFL_LEAGUE_SCHED_PG_NO_LINK6&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_NO_LINK6&campaign=no-ti-iw-sp-2072681",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Caesars+Superdome&cid=PMO_GLB0003VDI_GLE00095QQ_GLF000HKFH&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1B00646DBDD62398?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_NO_LINK6&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_NO_LINK6&campaign=no-ti-na-vg-2072225"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1B00646DBDD62398?wt.mc_id=NFL_LEAGUE_SCHED_PG_NO_LINK6&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_NO_LINK6&campaign=no-ti-iw-sp-2072681"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

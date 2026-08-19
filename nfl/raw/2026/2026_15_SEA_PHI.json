@@ -1,0 +1,121 @@
+{
+  "id": "ac414151-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/PHI",
+    "fullName": "Philadelphia Eagles"
+  },
+  "awayTeam": {
+    "id": "10404600-adcd-28ac-5826-b4d95ec2a228",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/SEA",
+    "fullName": "Seattle Seahawks"
+  },
+  "category": null,
+  "date": "2026-12-19",
+  "time": "2026-12-19T22:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX",
+      "FOX DEPORTES"
+    ],
+    "awayNetworkChannels": [
+      "FOX",
+      "FOX DEPORTES"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "FOXDEPORTES",
+        "networks": [
+          "FOXDEPORTES"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082769-1a91-621b-0c2d-27234c215dc0",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 15,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026121901"
+    },
+    {
+      "source": "gsis",
+      "id": "60387"
+    },
+    {
+      "source": "slug",
+      "id": "seahawks-at-eagles-2026-reg-15"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/0200646D962BA73A?wt.mc_id=NFL_LEAGUE_SCHED_PG_PHI_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_PHI_LINK3&campaign=phi-ti-iw-sp-2072708",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Lincoln+Financial+Field&cid=PMO_GLB0003VDI_GLE00095QS_GLF000HKFL&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/0200646D962BA73A?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_PHI_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_PHI_LINK3&campaign=phi-ti-na-vg-2072272"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/0200646D962BA73A?wt.mc_id=NFL_LEAGUE_SCHED_PG_PHI_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_PHI_LINK3&campaign=phi-ti-iw-sp-2072708"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

@@ -1,0 +1,100 @@
+{
+  "id": "aa4b51c9-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10400610-c40e-a673-1743-2ce2a5d5d731",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/BUF",
+    "fullName": "Buffalo Bills"
+  },
+  "awayTeam": {
+    "id": "10403200-69ab-9ea6-5af5-e240fbc08bea",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NE",
+    "fullName": "New England Patriots"
+  },
+  "category": null,
+  "date": "2026-10-04",
+  "time": "2026-10-04T17:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "CBS"
+    ],
+    "awayNetworkChannels": [
+      "CBS"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "CBS",
+        "networks": [
+          "CBS"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00085780-1313-e95c-caa9-c352f75eb57e",
+    "name": "Highmark Stadium",
+    "city": "Orchard Park",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 4,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026100402"
+    },
+    {
+      "source": "gsis",
+      "id": "60229"
+    },
+    {
+      "source": "slug",
+      "id": "patriots-at-bills-2026-reg-4"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/03006471AC700F0E?wt.mc_id=NFL_LEAGUE_SCHED_PG_BUF_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_BUF_LINK9&campaign=buf-ti-iw-sp-2072504",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Highmark+Stadium&cid=PMO_GLB0003VDI_GLE00095Q8_GLF000HKEH&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/03006471AC700F0E?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_BUF_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_BUF_LINK9&campaign=buf-ti-na-vg-2072058"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/03006471AC700F0E?wt.mc_id=NFL_LEAGUE_SCHED_PG_BUF_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_BUF_LINK9&campaign=buf-ti-iw-sp-2072504"
+    }
+  ],
+  "extensions": [],
+  "version": 9,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

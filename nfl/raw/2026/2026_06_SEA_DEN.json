@@ -1,0 +1,120 @@
+{
+  "id": "aa94cffe-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10401400-b89b-96e5-55d1-caa7e18de3d8",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DEN",
+    "fullName": "Denver Broncos"
+  },
+  "awayTeam": {
+    "id": "10404600-adcd-28ac-5826-b4d95ec2a228",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/SEA",
+    "fullName": "Seattle Seahawks"
+  },
+  "category": "TNF",
+  "date": "2026-10-16",
+  "time": "2026-10-16T00:15:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "Prime Video"
+    ],
+    "awayNetworkChannels": [
+      "Prime Video"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "PRIME",
+        "networks": [
+          "PRIME"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "PRIMESPANISH",
+        "networks": [
+          "PRIMESPANISH"
+        ],
+        "streamType": "es-alt-1"
+      },
+      {
+        "hostNetwork": "PRIMEALT1",
+        "networks": [
+          "PRIMEALT1"
+        ],
+        "streamType": "en-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00085786-61c2-c519-196f-576acb0dcd5f",
+    "name": "Empower Field at Mile High",
+    "city": "Denver",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 6,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026101500"
+    },
+    {
+      "source": "gsis",
+      "id": "60257"
+    },
+    {
+      "source": "slug",
+      "id": "seahawks-at-broncos-2026-reg-6"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1E006478043637A2?wt.mc_id=NFL_LEAGUE_SCHED_PG_DEN_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_DEN_LINK9&campaign=den-ti-iw-sp-2072564",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Empower+Field+at+Mile+High&cid=PMO_GLB0003VDI_GLE00095QE_GLF000HKET&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1E006478043637A2?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_DEN_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_DEN_LINK9&campaign=den-ti-na-vg-2072118"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1E006478043637A2?wt.mc_id=NFL_LEAGUE_SCHED_PG_DEN_LINK9&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_DEN_LINK9&campaign=den-ti-iw-sp-2072564"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

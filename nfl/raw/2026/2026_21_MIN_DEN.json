@@ -1,0 +1,112 @@
+{
+  "id": "c77f26f1-5f68-11f1-b1d0-bb70a4640075",
+  "homeTeam": {
+    "id": "10401400-b89b-96e5-55d1-caa7e18de3d8",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DEN",
+    "fullName": "Denver Broncos"
+  },
+  "awayTeam": {
+    "id": "10403000-5851-f9d5-da45-78365a05b6b0",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/MIN",
+    "fullName": "Minnesota Vikings"
+  },
+  "category": null,
+  "date": "2026-08-29",
+  "time": "2026-08-29T01:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "NFL NETWORK"
+    ],
+    "awayNetworkChannels": [
+      "NFL NETWORK"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "NFLN",
+        "networks": [
+          "NFLN"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "LOCAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00085786-61c2-c519-196f-576acb0dcd5f",
+    "name": "Empower Field at Mile High",
+    "city": "Denver",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "PRE",
+  "status": "SCHEDULED",
+  "week": 3,
+  "weekType": "PRE",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026082859"
+    },
+    {
+      "source": "gsis",
+      "id": "60495"
+    },
+    {
+      "source": "slug",
+      "id": "vikings-at-broncos-2026-pre-3"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/1E00648AC87BDD84?wt.mc_id=NFL_LEAGUE_SCHED_PG_DEN_LINK2&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_DEN_LINK2&campaign=den-ti-iw-sp-2072557",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Empower+Field+at+Mile+High&cid=PMO_GLB0003VDI_GLE00095QE_GLF000HKET&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/1E00648AC87BDD84?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_DEN_LINK2&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_DEN_LINK2&campaign=den-ti-na-vg-2072111"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/1E00648AC87BDD84?wt.mc_id=NFL_LEAGUE_SCHED_PG_DEN_LINK2&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_DEN_LINK2&campaign=den-ti-iw-sp-2072557"
+    }
+  ],
+  "extensions": [],
+  "version": 8,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

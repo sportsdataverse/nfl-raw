@@ -1,0 +1,100 @@
+{
+  "id": "ab165aa8-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10401540-f97c-2d19-6fcd-fac6490a48b7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DET",
+    "fullName": "Detroit Lions"
+  },
+  "awayTeam": {
+    "id": "10403000-5851-f9d5-da45-78365a05b6b0",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/MIN",
+    "fullName": "Minnesota Vikings"
+  },
+  "category": null,
+  "date": "2026-11-01",
+  "time": "2026-11-01T18:00:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "FOX"
+    ],
+    "awayNetworkChannels": [
+      "FOX"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "FOX",
+        "networks": [
+          "FOX"
+        ],
+        "streamType": "en-pri"
+      }
+    ],
+    "territory": "REGIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00082026-23fe-63b7-7d18-43cec01cfcfb",
+    "name": "Ford Field",
+    "city": "Detroit",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 8,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026110103"
+    },
+    {
+      "source": "gsis",
+      "id": "60289"
+    },
+    {
+      "source": "slug",
+      "id": "vikings-at-lions-2026-reg-8"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/080064718D883A15?wt.mc_id=NFL_LEAGUE_SCHED_PG_DET_LINK4&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_DET_LINK4&campaign=det-ti-iw-sp-2072569",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=Ford+Field&cid=PMO_GLB0003VDI_GLE00095QF_GLF000HKEV&deviceType=desktop-web&view=list#/0/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/080064718D883A15?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_DET_LINK4&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_DET_LINK4&campaign=det-ti-na-vg-2072123"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/080064718D883A15?wt.mc_id=NFL_LEAGUE_SCHED_PG_DET_LINK4&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_DET_LINK4&campaign=det-ti-iw-sp-2072569"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}

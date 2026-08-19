@@ -1,0 +1,121 @@
+{
+  "id": "ac7f6703-4feb-11f1-abca-2c54536568a9",
+  "homeTeam": {
+    "id": "10403000-5851-f9d5-da45-78365a05b6b0",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/MIN",
+    "fullName": "Minnesota Vikings"
+  },
+  "awayTeam": {
+    "id": "10401540-f97c-2d19-6fcd-fac6490a48b7",
+    "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DET",
+    "fullName": "Detroit Lions"
+  },
+  "category": "SNF",
+  "date": "2026-12-21",
+  "time": "2026-12-21T01:20:00Z",
+  "broadcastInfo": {
+    "homeNetworkChannels": [
+      "NBC",
+      "UNIVERSO"
+    ],
+    "awayNetworkChannels": [
+      "NBC",
+      "UNIVERSO"
+    ],
+    "internationalWatchOptions": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "NBC",
+        "networks": [
+          "NBC"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "UNIVERSO",
+        "networks": [
+          "UNIVERSO"
+        ],
+        "streamType": "es-alt-1"
+      }
+    ],
+    "territory": "NATIONAL",
+    "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "gameType": "UNSPECIFIED",
+  "international": false,
+  "neutralSite": false,
+  "venue": {
+    "id": "00081652-d8a8-d698-5b3f-31487c6624f7",
+    "name": "U.S. Bank Stadium",
+    "city": "Minneapolis",
+    "country": "USA"
+  },
+  "season": 2026,
+  "seasonType": "REG",
+  "status": "SCHEDULED",
+  "week": 15,
+  "weekType": "REG",
+  "externalIds": [
+    {
+      "source": "elias",
+      "id": "2026122013"
+    },
+    {
+      "source": "gsis",
+      "id": "60400"
+    },
+    {
+      "source": "slug",
+      "id": "lions-at-vikings-2026-reg-15"
+    }
+  ],
+  "ticketUrl": "https://www.ticketmaster.com/event/06006479D8ECFAA3?wt.mc_id=NFL_LEAGUE_SCHED_PG_MIN_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_MIN_LINK3&campaign=min-ti-iw-sp-2072658",
+  "ticketVendors": [
+    {
+      "vendorName": "lodgingUrl",
+      "ticketUrl": "https://www.marriott.com/search/findHotels.mi?pageType=advanced&showMore=true&destinationAddress.location=US+Bank+Stadium&cid=PMO_GLB0003VDI_GLE00095QO_GLF000HKFD&deviceType=desktop-web&view=list#/1/"
+    },
+    {
+      "vendorName": "oneBoxUrl",
+      "ticketUrl": "https://www.ticketmaster.com/event/06006479D8ECFAA3?wt.mc_id=NFL_LEAGUE_GOOGLE_ONEBOX_MIN_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=GOOGLE_ONEBOX_MIN_LINK3&campaign=min-ti-na-vg-2072212"
+    },
+    {
+      "vendorName": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.com/event/06006479D8ECFAA3?wt.mc_id=NFL_LEAGUE_SCHED_PG_MIN_LINK3&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_LEAGUE&utm_content=SCHED_PG_MIN_LINK3&campaign=min-ti-iw-sp-2072658"
+    }
+  ],
+  "extensions": [],
+  "version": 7,
+  "summary": null,
+  "driveChart": null,
+  "replays": null,
+  "taggedVideos": null,
+  "awayTeamStandings": null,
+  "homeTeamStandings": null
+}
