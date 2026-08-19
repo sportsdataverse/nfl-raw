@@ -22,3 +22,6 @@ reports/
 
 # Claude Code personal wiring (machine-specific paths)
 .claude/settings.local.json
+
+# Run logs from scripts/daily_nfl_scraper.sh -- never repo content.
+logs/
