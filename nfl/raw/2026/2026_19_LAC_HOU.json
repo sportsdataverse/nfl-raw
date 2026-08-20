@@ -128,7 +128,7 @@
   "version": 8,
   "summary": {
     "gameId": "c66e0006-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 436,
+    "offset": 444,
     "attendance": 67655,
     "clock": "00:33",
     "distance": 10,
@@ -176,7 +176,7 @@
   },
   "driveChart": {
     "gameId": "c66e0006-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 436,
+    "offset": 444,
     "drives": [
       {
         "sequence": 1,
@@ -1836,10 +1836,10 @@
         "playId": 404,
         "clockTime": "08:54",
         "down": 2,
-        "driveNetYards": 44,
-        "drivePlayCount": 4,
+        "driveNetYards": 75,
+        "drivePlayCount": 11,
         "driveSequence": 2,
-        "driveTimeOfPossession": "2:09",
+        "driveTimeOfPossession": "5:46",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "HOU  2-2  HOU 33",
@@ -1889,7 +1889,7 @@
             "personId": "32004d49-4c67-8397-4c7b-81c6636ba80e",
             "statType": 111,
             "teamId": "10402120-b0bc-693d-098a-803014096eb0",
-            "yards": 25
+            "yards": 21
           },
           {
             "playStatId": "10330060-4540-4040-0210-004a3c804a1d",
@@ -1919,7 +1919,7 @@
             "personId": "32004b4c-4525-8860-6aa5-a9adcf755793",
             "statType": 113,
             "teamId": "10402120-b0bc-693d-098a-803014096eb0",
-            "yards": 6
+            "yards": 10
           },
           {
             "playStatId": "10330060-4540-4040-0790-0072f5d29250",
@@ -2209,8 +2209,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "HOU  4-1  LAC 27",
         "playDeleted": false,
-        "playDescription": "(6:43) D.Mills pass incomplete deep right to M.Klein.\r\nPENALTY on LAC-G.Smith, Defensive Pass Interference, 9 yards, enforced at LAC 27 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(6:43) 10-D.Mills pass incomplete deep right to 83-M.Klein.\r\nPENALTY on LAC-22-G.Smith, Defensive Pass Interference, 9 yards, enforced at LAC 27 - No Play.",
+        "playDescription": "(6:43) D.Mills pass incomplete deep right to M.Klein [T.Edwards].\r\nPENALTY on LAC-G.Smith, Defensive Pass Interference, 9 yards, enforced at LAC 27 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(6:43) 10-D.Mills pass incomplete deep right to 83-M.Klein [96-T.Edwards].\r\nPENALTY on LAC-22-G.Smith, Defensive Pass Interference, 9 yards, enforced at LAC 27 - No Play.",
         "playEndTime": "2026-08-14T00:24:14.287Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -2873,13 +2873,13 @@
         "driveNetYards": 13,
         "drivePlayCount": 4,
         "driveSequence": 3,
-        "driveTimeOfPossession": "1:55",
+        "driveTimeOfPossession": "2:16",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  1-10  LAC 22",
         "playDeleted": false,
-        "playDescription": "(3:45) (Shotgun) T.Lance pass short middle to K.Lambert-Smith to LAC 38 for 16 yards (C.Wright).",
-        "playDescriptionWithJerseyNumbers": "(3:45) (Shotgun) 5-T.Lance pass short middle to 84-K.Lambert-Smith to LAC 38 for 16 yards (37-C.Wright).",
+        "playDescription": "(3:45) (Shotgun) T.Lance pass deep middle to K.Lambert-Smith to LAC 38 for 16 yards (C.Wright).",
+        "playDescriptionWithJerseyNumbers": "(3:45) (Shotgun) 5-T.Lance pass deep middle to 84-K.Lambert-Smith to LAC 38 for 16 yards (37-C.Wright).",
         "playEndTime": "2026-08-14T00:33:11.677Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -2923,7 +2923,7 @@
             "personId": "32004c41-4e01-6787-f7d5-ee3cea053121",
             "statType": 111,
             "teamId": "10404400-3b35-073f-197e-194bb8240723",
-            "yards": 14
+            "yards": 16
           },
           {
             "playStatId": "10330060-4540-7380-0210-004f09e31f21",
@@ -2953,7 +2953,7 @@
             "personId": "32004c41-4d54-4943-5877-584673e6154b",
             "statType": 113,
             "teamId": "10404400-3b35-073f-197e-194bb8240723",
-            "yards": 2
+            "yards": 0
           },
           {
             "playStatId": "10330060-4540-7380-0790-007f61982bdf",
@@ -6364,8 +6364,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "HOU  2-14  HOU 48",
         "playDeleted": false,
-        "playDescription": "(:28) (Shotgun) G.Mertz scrambles up the middle to LAC 46 for 6 yards (E.Johnson).",
-        "playDescriptionWithJerseyNumbers": "(:28) (Shotgun) 18-G.Mertz scrambles up the middle to LAC 46 for 6 yards (50-E.Johnson).",
+        "playDescription": "(:28) (No Huddle, Shotgun) G.Mertz scrambles up the middle to LAC 46 for 6 yards (E.Johnson).",
+        "playDescriptionWithJerseyNumbers": "(:28) (No Huddle, Shotgun) 18-G.Mertz scrambles up the middle to LAC 46 for 6 yards (50-E.Johnson).",
         "playEndTime": "2026-08-14T01:23:30.887Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6986,12 +6986,12 @@
         "playDeleted": false,
         "playDescription": "(12:47) (Shotgun) D.Mills pass incomplete short right.",
         "playDescriptionWithJerseyNumbers": "(12:47) (Shotgun) 10-D.Mills pass incomplete short right.",
-        "playEndTime": "2026-08-14T01:45:10.847Z",
+        "playEndTime": "2026-08-14T01:45:10.803Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": false,
         "playSequenceNumber": 2184.0,
-        "playStartTime": "2026-08-14T01:45:05.453Z",
+        "playStartTime": "2026-08-14T01:45:05.410Z",
         "playType": "PASS",
         "quarter": 3,
         "scoringPlayType": "UNSPECIFIED",
@@ -7019,7 +7019,7 @@
             "personId": "32004d49-4c67-8397-4c7b-81c6636ba80e",
             "statType": 112,
             "teamId": "10402120-b0bc-693d-098a-803014096eb0",
-            "yards": 6
+            "yards": 1
           }
         ]
       },
@@ -8442,8 +8442,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "HOU  4-1  HOU 25",
         "playDeleted": false,
-        "playDescription": "(3:39) K.Kroeger punts 60 yards to LAC 15, Center-A.Brinkman. D.Ross MUFFS catch, and recovers at LAC 10. D.Ross pushed ob at LAC 19 for 9 yards (N.Whittington).",
-        "playDescriptionWithJerseyNumbers": "(3:39) 38-K.Kroeger punts 60 yards to LAC 15, Center-40-A.Brinkman. 24O-D.Ross MUFFS catch, and recovers at LAC 10. 24O-D.Ross pushed ob at LAC 19 for 9 yards (26-N.Whittington).",
+        "playDescription": "(3:39) K.Kroeger punts 59 yards to LAC 16, Center-A.Brinkman. D.Ross MUFFS catch, and recovers at LAC 10. D.Ross pushed ob at LAC 19 for 9 yards (N.Whittington).",
+        "playDescriptionWithJerseyNumbers": "(3:39) 38-K.Kroeger punts 59 yards to LAC 16, Center-40-A.Brinkman. 24O-D.Ross MUFFS catch, and recovers at LAC 10. 24O-D.Ross pushed ob at LAC 19 for 9 yards (26-N.Whittington).",
         "playEndTime": "2026-08-14T02:03:00.083Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10789,13 +10789,13 @@
         "driveNetYards": 3,
         "drivePlayCount": 3,
         "driveSequence": 18,
-        "driveTimeOfPossession": "1:21",
+        "driveTimeOfPossession": "1:31",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  3-7  LAC 42",
         "playDeleted": false,
-        "playDescription": "(6:01) (Shotgun) D.Uiagalelei pass incomplete short right to J.Jackson.",
-        "playDescriptionWithJerseyNumbers": "(6:01) (Shotgun) 7-D.Uiagalelei pass incomplete short right to 82-J.Jackson.",
+        "playDescription": "(6:01) (Shotgun) D.Uiagalelei pass incomplete deep right to J.Jackson.",
+        "playDescriptionWithJerseyNumbers": "(6:01) (Shotgun) 7-D.Uiagalelei pass incomplete deep right to 82-J.Jackson.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10849,7 +10849,7 @@
             "personId": "32005549-4141-5291-4d37-ce1f118e7433",
             "statType": 112,
             "teamId": "10404400-3b35-073f-197e-194bb8240723",
-            "yards": 15
+            "yards": 19
           }
         ]
       },

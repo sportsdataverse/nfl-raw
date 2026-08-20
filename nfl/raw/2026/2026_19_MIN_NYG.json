@@ -140,7 +140,7 @@
   "version": 8,
   "summary": {
     "gameId": "c6e86329-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 410,
+    "offset": 417,
     "attendance": 77494,
     "clock": "00:38",
     "distance": 11,
@@ -188,7 +188,7 @@
   },
   "driveChart": {
     "gameId": "c6e86329-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 410,
+    "offset": 417,
     "drives": [
       {
         "sequence": 1,
@@ -5174,7 +5174,7 @@
       },
       {
         "playId": 1607,
-        "clockTime": "02:11",
+        "clockTime": "02:17",
         "down": 3,
         "driveNetYards": 1,
         "drivePlayCount": 3,
@@ -5184,8 +5184,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIN  3-1  MIN 17",
         "playDeleted": false,
-        "playDescription": "(2:11) PENALTY on MIN, Illegal Shift, 4 yards, enforced at MIN 17 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(2:11) PENALTY on MIN, Illegal Shift, 4 yards, enforced at MIN 17 - No Play.",
+        "playDescription": "(2:17) Z.Scott up the middle to MIN 20 for 3 yards (N.Jones).\r\nPENALTY on MIN, Illegal Shift, 4 yards, enforced at MIN 17 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(2:17) 36-Z.Scott up the middle to MIN 20 for 3 yards (31-N.Jones).\r\nPENALTY on MIN, Illegal Shift, 4 yards, enforced at MIN 17 - No Play.",
         "playEndTime": "2026-08-15T18:09:12.937Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6254,7 +6254,7 @@
         "driveNetYards": 8,
         "drivePlayCount": 3,
         "driveSequence": 9,
-        "driveTimeOfPossession": "1:33",
+        "driveTimeOfPossession": "2:32",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYG  3-11  NYG 25",
@@ -6304,7 +6304,7 @@
             "personId": "32005749-4e62-3708-9650-e59a3f7bea83",
             "statType": 111,
             "teamId": "10403410-997c-9c75-256b-3b012f468bd0",
-            "yards": 2
+            "yards": -3
           },
           {
             "playStatId": "10330060-4621-9990-0210-004a080ab84f",
@@ -6334,7 +6334,7 @@
             "personId": "32004245-5245-6050-b9d8-8b288006bd46",
             "statType": 113,
             "teamId": "10403410-997c-9c75-256b-3b012f468bd0",
-            "yards": 7
+            "yards": 12
           },
           {
             "playStatId": "10330060-4621-9990-0790-007951e08dfd",
@@ -6542,8 +6542,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIN  2-7  MIN 11",
         "playDeleted": false,
-        "playDescription": "(11:46) C.Wentz pass deep left to M.Price to MIN 39 for 28 yards (J.Pinnock; J.Kelly).",
-        "playDescriptionWithJerseyNumbers": "(11:46) 11-C.Wentz pass deep left to 4-M.Price to MIN 39 for 28 yards (25D-J.Pinnock; 51-J.Kelly).",
+        "playDescription": "(11:46) C.Wentz pass deep left to M.Price to MIN 39 for 28 yards (J.Pinnock; J.Kelly) [K.Kareem].",
+        "playDescriptionWithJerseyNumbers": "(11:46) 11-C.Wentz pass deep left to 4-M.Price to MIN 39 for 28 yards (25D-J.Pinnock; 51-J.Kelly) [54-K.Kareem].",
         "playEndTime": "2026-08-15T18:44:20.930Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6620,7 +6620,17 @@
             "yards": 12
           },
           {
-            "playStatId": "10330060-4622-0900-0820-0076649b93cb",
+            "playStatId": "10330060-4622-0900-1100-007dbe51932d",
+            "gsisPlayerId": "00-0036341",
+            "gsisPlayerName": "K.Kareem",
+            "gsisPlayerJerseyNumber": "54",
+            "personId": "32004b41-5225-9489-fd0c-044abf6bbb38",
+            "statType": 110,
+            "teamId": "10403410-997c-9c75-256b-3b012f468bd0",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-4622-0900-0820-008725e93245",
             "gsisPlayerId": "00-0036502",
             "gsisPlayerName": "J.Pinnock",
             "gsisPlayerJerseyNumber": "25D",
@@ -6630,7 +6640,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4622-0900-0820-008725e93245",
+            "playStatId": "10330060-4622-0900-0820-009e7ccb9504",
             "gsisPlayerId": "00-0041102",
             "gsisPlayerName": "J.Kelly",
             "gsisPlayerJerseyNumber": "51",
@@ -8186,8 +8196,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYG  4-17  NYG 17",
         "playDeleted": false,
-        "playDescription": "(1:56) J.Stout punts 55 yards to MIN 28, Center-B.Mann. D.Fleming to NYG 46 for 26 yards (M.Fields).\r\nPENALTY on MIN-B.Kamara, Offensive Holding, 10 yards, enforced at MIN 46.",
-        "playDescriptionWithJerseyNumbers": "(1:56) 15-J.Stout punts 55 yards to MIN 28, Center-58-B.Mann. 19-D.Fleming to NYG 46 for 26 yards (0O-M.Fields).\r\nPENALTY on MIN-59-B.Kamara, Offensive Holding, 10 yards, enforced at MIN 46.",
+        "playDescription": "(1:56) J.Stout punts 55 yards to MIN 28, Center-B.Mann. D.Fleming pushed ob at MIN 46 for 18 yards (M.Fields).\r\nPENALTY on MIN-B.Kamara, Offensive Holding, 10 yards, enforced at MIN 46.",
+        "playDescriptionWithJerseyNumbers": "(1:56) 15-J.Stout punts 55 yards to MIN 28, Center-58-B.Mann. 19-D.Fleming pushed ob at MIN 46 for 18 yards (0O-M.Fields).\r\nPENALTY on MIN-59-B.Kamara, Offensive Holding, 10 yards, enforced at MIN 46.",
         "playEndTime": "2026-08-15T19:08:38.900Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9563,8 +9573,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYG  4-7  NYG 11",
         "playDeleted": false,
-        "playDescription": "(10:57) J.Stout punts 60 yards to MIN 29, Center-B.Mann. D.Fleming to MIN 38 for 9 yards (D.Muasau; T.Fidone).",
-        "playDescriptionWithJerseyNumbers": "(10:57) 15-J.Stout punts 60 yards to MIN 29, Center-58-B.Mann. 19-D.Fleming to MIN 38 for 9 yards (53-D.Muasau; 86-T.Fidone).",
+        "playDescription": "(10:57) J.Stout punts 60 yards to MIN 29, Center-B.Mann. D.Fleming to MIN 38 for 9 yards (B.Mann; T.Fidone).",
+        "playDescriptionWithJerseyNumbers": "(10:57) 15-J.Stout punts 60 yards to MIN 29, Center-58-B.Mann. 19-D.Fleming to MIN 38 for 9 yards (58-B.Mann; 86-T.Fidone).",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9602,10 +9612,10 @@
           },
           {
             "playStatId": "10330060-4623-1980-0820-00338f2c499c",
-            "gsisPlayerId": "00-0039829",
-            "gsisPlayerName": "D.Muasau",
-            "gsisPlayerJerseyNumber": "53",
-            "personId": "32004d55-4150-4282-5c7d-35d1ebfc7709",
+            "gsisPlayerId": "00-0041143",
+            "gsisPlayerName": "B.Mann",
+            "gsisPlayerJerseyNumber": "58",
+            "personId": "32004d41-4e38-8319-54f3-80e52c61f131",
             "statType": 82,
             "teamId": "10403410-997c-9c75-256b-3b012f468bd0",
             "yards": null

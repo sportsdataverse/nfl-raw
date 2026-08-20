@@ -128,7 +128,7 @@
   "version": 10,
   "summary": {
     "gameId": "c6e8525d-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 475,
+    "offset": 478,
     "attendance": 58528,
     "clock": "00:20",
     "distance": 11,
@@ -176,7 +176,7 @@
   },
   "driveChart": {
     "gameId": "c6e8525d-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 475,
+    "offset": 478,
     "drives": [
       {
         "sequence": 1,
@@ -5513,7 +5513,7 @@
       },
       {
         "playId": 1671,
-        "clockTime": "01:53",
+        "clockTime": "01:54",
         "down": 1,
         "driveNetYards": 83,
         "drivePlayCount": 10,
@@ -5523,8 +5523,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CAR  1-10  CAR 37",
         "playDeleted": false,
-        "playDescription": "(1:53) (Shotgun) T.Etienne up the middle to CAR 40 for 3 yards (L.Jackson; D.Williams).",
-        "playDescriptionWithJerseyNumbers": "(1:53) (Shotgun) 23-T.Etienne up the middle to CAR 40 for 3 yards (94-L.Jackson; 42-D.Williams).",
+        "playDescription": "(1:54) (Shotgun) T.Etienne up the middle to CAR 40 for 3 yards (L.Jackson; D.Williams).",
+        "playDescriptionWithJerseyNumbers": "(1:54) (Shotgun) 23-T.Etienne up the middle to CAR 40 for 3 yards (94-L.Jackson; 42-D.Williams).",
         "playEndTime": "2026-08-15T18:12:03.687Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -5837,8 +5837,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CAR  1-10  BUF 13",
         "playDeleted": false,
-        "playDescription": "(1:06) (No Huddle, Shotgun) T.Etienne right guard to BUF 12 for 1 yard (D.Hamlin; D.Carter).",
-        "playDescriptionWithJerseyNumbers": "(1:06) (No Huddle, Shotgun) 23-T.Etienne right guard to BUF 12 for 1 yard (3-D.Hamlin; 90-D.Carter).",
+        "playDescription": "(1:06) (No Huddle, Shotgun) T.Etienne right guard to BUF 12 for 1 yard (D.Hamlin).",
+        "playDescriptionWithJerseyNumbers": "(1:06) (No Huddle, Shotgun) 23-T.Etienne right guard to BUF 12 for 1 yard (3-D.Hamlin).",
         "playEndTime": "2026-08-15T18:14:02.780Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -5865,22 +5865,12 @@
             "yards": 1
           },
           {
-            "playStatId": "10330060-4601-7820-0820-002a1669be30",
+            "playStatId": "10330060-4601-7820-0790-0029be2c0f79",
             "gsisPlayerId": "00-0036888",
             "gsisPlayerName": "D.Hamlin",
             "gsisPlayerJerseyNumber": "03",
             "personId": "32004841-4d40-1130-e55c-c458b6bff7bf",
-            "statType": 82,
-            "teamId": "10400610-c40e-a673-1743-2ce2a5d5d731",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-4601-7820-0820-003bfd68eff0",
-            "gsisPlayerId": "00-0039873",
-            "gsisPlayerName": "D.Carter",
-            "gsisPlayerJerseyNumber": "90",
-            "personId": "32004341-5264-4270-5a2f-d6f27bdca523",
-            "statType": 82,
+            "statType": 79,
             "teamId": "10400610-c40e-a673-1743-2ce2a5d5d731",
             "yards": null
           }

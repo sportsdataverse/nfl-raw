@@ -128,7 +128,7 @@
   "version": 8,
   "summary": {
     "gameId": "c66dfe7a-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 521,
+    "offset": 529,
     "attendance": 64628,
     "clock": "00:00",
     "distance": 4,
@@ -176,7 +176,7 @@
   },
   "driveChart": {
     "gameId": "c66dfe7a-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 521,
+    "offset": 529,
     "drives": [
       {
         "sequence": 1,
@@ -2775,16 +2775,16 @@
         "playId": 719,
         "clockTime": "05:59",
         "down": 1,
-        "driveNetYards": -2,
-        "drivePlayCount": 2,
+        "driveNetYards": 29,
+        "drivePlayCount": 11,
         "driveSequence": 5,
-        "driveTimeOfPossession": "0:52",
+        "driveTimeOfPossession": "5:38",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NE  1-15  NE 29",
         "playDeleted": false,
-        "playDescription": "(5:59) J.Miller right tackle to NE 29 for no gain (J.Carlies, J.Tillery).",
-        "playDescriptionWithJerseyNumbers": "(5:59) 30O-J.Miller right tackle to NE 29 for no gain (57-J.Carlies, 94-J.Tillery).",
+        "playDescription": "(5:59) J.Miller right tackle to NE 29 for no gain (J.Carlies, G.Gumbs).",
+        "playDescriptionWithJerseyNumbers": "(5:59) 30O-J.Miller right tackle to NE 29 for no gain (57-J.Carlies, 52-G.Gumbs).",
         "playEndTime": "2026-08-14T00:04:20.180Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -2822,10 +2822,10 @@
           },
           {
             "playStatId": "10330060-4530-7190-0820-0038ee56966e",
-            "gsisPlayerId": "00-0035674",
-            "gsisPlayerName": "J.Tillery",
-            "gsisPlayerJerseyNumber": "94",
-            "personId": "32005449-4c18-9606-c437-604f05433c81",
+            "gsisPlayerId": "00-0041080",
+            "gsisPlayerName": "G.Gumbs",
+            "gsisPlayerJerseyNumber": "52",
+            "personId": "32004755-4d48-7168-11b7-d4795d8a7e60",
             "statType": 82,
             "teamId": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
             "yards": null
@@ -3299,8 +3299,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NE  4-1  IND 41",
         "playDeleted": false,
-        "playDescription": "(2:36) (Shotgun) L.Larison right guard to IND 40 for 1 yard (M.Clemons).",
-        "playDescriptionWithJerseyNumbers": "(2:36) (Shotgun) 34O-L.Larison right guard to IND 40 for 1 yard (72-M.Clemons).",
+        "playDescription": "(2:36) (Shotgun) L.Larison right guard to IND 39 for 2 yards (M.Clemons).",
+        "playDescriptionWithJerseyNumbers": "(2:36) (Shotgun) 34O-L.Larison right guard to IND 39 for 2 yards (72-M.Clemons).",
         "playEndTime": "2026-08-14T00:09:33.530Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -3313,7 +3313,7 @@
         "scoringTeamId": null,
         "specialTeamsPlayType": "UNSPECIFIED",
         "yardLine": "IND 41",
-        "yardsGained": 1,
+        "yardsGained": 2,
         "yardsRemaining": 1,
         "stats": [
           {
@@ -3344,7 +3344,7 @@
             "personId": "32004c41-5214-3372-653c-8da2b5bb6515",
             "statType": 10,
             "teamId": "10403200-69ab-9ea6-5af5-e240fbc08bea",
-            "yards": 1
+            "yards": 2
           },
           {
             "playStatId": "10330060-4530-8770-0790-0043179041eb",
@@ -3368,10 +3368,10 @@
         "driveTimeOfPossession": "5:38",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
-        "prePlayByPlay": "NE  1-10  IND 40",
+        "prePlayByPlay": "NE  1-10  IND 39",
         "playDeleted": false,
-        "playDescription": "(2:02) L.Larison right end to IND 44 for -4 yards (M.Blackmon, B.Boettcher).",
-        "playDescriptionWithJerseyNumbers": "(2:02) 34O-L.Larison right end to IND 44 for -4 yards (29-M.Blackmon, 50-B.Boettcher).",
+        "playDescription": "(2:02) L.Larison right end to IND 44 for -5 yards (M.Blackmon, B.Boettcher).",
+        "playDescriptionWithJerseyNumbers": "(2:02) 34O-L.Larison right end to IND 44 for -5 yards (29-M.Blackmon, 50-B.Boettcher).",
         "playEndTime": "2026-08-14T00:10:07.350Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -3383,8 +3383,8 @@
         "scoringPlayType": "UNSPECIFIED",
         "scoringTeamId": null,
         "specialTeamsPlayType": "UNSPECIFIED",
-        "yardLine": "IND 40",
-        "yardsGained": -4,
+        "yardLine": "IND 39",
+        "yardsGained": -5,
         "yardsRemaining": 10,
         "stats": [
           {
@@ -3395,7 +3395,7 @@
             "personId": "32004c41-5214-3372-653c-8da2b5bb6515",
             "statType": 10,
             "teamId": "10403200-69ab-9ea6-5af5-e240fbc08bea",
-            "yards": -4
+            "yards": -5
           },
           {
             "playStatId": "10330060-4530-8990-0950-00257393cf6b",
@@ -3405,7 +3405,7 @@
             "personId": null,
             "statType": 95,
             "teamId": "10403200-69ab-9ea6-5af5-e240fbc08bea",
-            "yards": -4
+            "yards": -5
           },
           {
             "playStatId": "10330060-4530-8990-0800-00392fb2653f",
@@ -3445,7 +3445,7 @@
             "personId": "3200424c-4128-9825-2a67-246736ad314a",
             "statType": 402,
             "teamId": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
-            "yards": 4
+            "yards": 5
           }
         ]
       },
@@ -3459,7 +3459,7 @@
         "driveTimeOfPossession": "5:38",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
-        "prePlayByPlay": "NE  2-14  IND 44",
+        "prePlayByPlay": "NE  2-15  IND 44",
         "playDeleted": false,
         "playDescription": "(1:25) (Shotgun) T.DeVito pass short middle to L.Larison to IND 37 for 7 yards (A.Ajiake).",
         "playDescriptionWithJerseyNumbers": "(1:25) (Shotgun) 16-T.DeVito pass short middle to 34O-L.Larison to IND 37 for 7 yards (58-A.Ajiake).",
@@ -3476,7 +3476,7 @@
         "specialTeamsPlayType": "UNSPECIFIED",
         "yardLine": "IND 44",
         "yardsGained": 7,
-        "yardsRemaining": 14,
+        "yardsRemaining": 15,
         "stats": [
           {
             "playStatId": "10330060-4530-9210-0150-0018fee10b3f",
@@ -3550,7 +3550,7 @@
         "driveTimeOfPossession": "5:38",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
-        "prePlayByPlay": "NE  3-7  IND 37",
+        "prePlayByPlay": "NE  3-8  IND 37",
         "playDeleted": false,
         "playDescription": "(:48) (Shotgun) T.DeVito pass incomplete short left to E.Raridon (J.Carlies).",
         "playDescriptionWithJerseyNumbers": "(:48) (Shotgun) 16-T.DeVito pass incomplete short left to 82-E.Raridon (57-J.Carlies).",
@@ -3567,7 +3567,7 @@
         "specialTeamsPlayType": "UNSPECIFIED",
         "yardLine": "IND 37",
         "yardsGained": 0,
-        "yardsRemaining": 7,
+        "yardsRemaining": 8,
         "stats": [
           {
             "playStatId": "10330060-4530-9460-0070-0014926926b4",
@@ -3631,7 +3631,7 @@
         "driveTimeOfPossession": "5:38",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
-        "prePlayByPlay": "NE  4-7  IND 37",
+        "prePlayByPlay": "NE  4-8  IND 37",
         "playDeleted": false,
         "playDescription": "(:45) A.Borregales 56 yard field goal is No Good, Wide Left, Center-N.Lalos, Holder-B.Baringer.",
         "playDescriptionWithJerseyNumbers": "(:45) 36S-A.Borregales 56 yard field goal is No Good, Wide Left, Center-54-N.Lalos, Holder-17-B.Baringer.",
@@ -3648,7 +3648,7 @@
         "specialTeamsPlayType": "UNSPECIFIED",
         "yardLine": "IND 37",
         "yardsGained": 0,
-        "yardsRemaining": 7,
+        "yardsRemaining": 8,
         "stats": [
           {
             "playStatId": "10330060-4530-9690-0690-0011685202ca",
@@ -10549,7 +10549,7 @@
             "personId": "32004c45-4f69-7925-6c8a-c518313880fe",
             "statType": 112,
             "teamId": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
-            "yards": -8
+            "yards": -3
           }
         ]
       },

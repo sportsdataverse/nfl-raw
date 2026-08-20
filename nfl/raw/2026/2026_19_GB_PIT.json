@@ -136,7 +136,7 @@
   "version": 9,
   "summary": {
     "gameId": "c66dfc69-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 539,
+    "offset": 544,
     "attendance": 64164,
     "clock": "00:30",
     "distance": 11,
@@ -184,7 +184,7 @@
   },
   "driveChart": {
     "gameId": "c66dfc69-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 539,
+    "offset": 544,
     "drives": [
       {
         "sequence": 1,
@@ -3815,8 +3815,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "GB  1-10  GB 1",
         "playDeleted": false,
-        "playDescription": "(14:02) (Shotgun) P.Strong right tackle to GB 10 for 9 yards (Ja.Davis; D.Jamison). PIT-D.Jamison was injured during the play.",
-        "playDescriptionWithJerseyNumbers": "(14:02) (Shotgun) 22-P.Strong right tackle to GB 10 for 9 yards (50-Ja.Davis; 38-D.Jamison). PIT-38-D.Jamison was injured during the play.",
+        "playDescription": "(14:02) P.Strong right tackle to GB 10 for 9 yards (Ja.Davis; D.Jamison). PIT-D.Jamison was injured during the play.",
+        "playDescriptionWithJerseyNumbers": "(14:02) 22-P.Strong right tackle to GB 10 for 9 yards (50-Ja.Davis; 38-D.Jamison). PIT-38-D.Jamison was injured during the play.",
         "playEndTime": "2026-08-13T23:48:49.367Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9245,8 +9245,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  1-10  PIT 20",
         "playDeleted": false,
-        "playDescription": "(4:21) K.Johnson up the middle to PIT 22 for 2 yards (T.Quinn; K.Welch).",
-        "playDescriptionWithJerseyNumbers": "(4:21) 20-K.Johnson up the middle to PIT 22 for 2 yards (40-T.Quinn; 54-K.Welch).",
+        "playDescription": "(4:21) K.Johnson up the middle to PIT 23 for 3 yards (T.Quinn; K.Welch).",
+        "playDescriptionWithJerseyNumbers": "(4:21) 20-K.Johnson up the middle to PIT 23 for 3 yards (40-T.Quinn; 54-K.Welch).",
         "playEndTime": "2026-08-14T01:13:17.513Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9259,7 +9259,7 @@
         "scoringTeamId": null,
         "specialTeamsPlayType": "UNSPECIFIED",
         "yardLine": "PIT 20",
-        "yardsGained": 2,
+        "yardsGained": 3,
         "yardsRemaining": 10,
         "stats": [
           {
@@ -9270,7 +9270,7 @@
             "personId": "32004a4f-4839-8805-a441-bdb3ea3187ea",
             "statType": 10,
             "teamId": "10403900-8251-6892-d81c-4348525c2d47",
-            "yards": 2
+            "yards": 3
           },
           {
             "playStatId": "10330060-4522-8930-0820-002772255c10",
@@ -9304,10 +9304,10 @@
         "driveTimeOfPossession": "2:03",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
-        "prePlayByPlay": "PIT  2-8  PIT 22",
+        "prePlayByPlay": "PIT  2-7  PIT 23",
         "playDeleted": false,
-        "playDescription": "(3:38) K.Johnson right tackle to PIT 23 for 1 yard (K.Welch).",
-        "playDescriptionWithJerseyNumbers": "(3:38) 20-K.Johnson right tackle to PIT 23 for 1 yard (54-K.Welch).",
+        "playDescription": "(3:38) K.Johnson right tackle to PIT 23 for no gain (K.Welch).",
+        "playDescriptionWithJerseyNumbers": "(3:38) 20-K.Johnson right tackle to PIT 23 for no gain (54-K.Welch).",
         "playEndTime": "2026-08-14T01:14:02.027Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9319,9 +9319,9 @@
         "scoringPlayType": "UNSPECIFIED",
         "scoringTeamId": null,
         "specialTeamsPlayType": "UNSPECIFIED",
-        "yardLine": "PIT 22",
-        "yardsGained": 1,
-        "yardsRemaining": 8,
+        "yardLine": "PIT 23",
+        "yardsGained": 0,
+        "yardsRemaining": 7,
         "stats": [
           {
             "playStatId": "10330060-4522-9150-0100-001b9502f366",
@@ -9331,7 +9331,7 @@
             "personId": "32004a4f-4839-8805-a441-bdb3ea3187ea",
             "statType": 10,
             "teamId": "10403900-8251-6892-d81c-4348525c2d47",
-            "yards": 1
+            "yards": 0
           },
           {
             "playStatId": "10330060-4522-9150-0790-002659acf7bb",
@@ -12082,8 +12082,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  3-8  GB 42",
         "playDeleted": false,
-        "playDescription": "(3:10) (Shotgun) E.Heidenreich up the middle to GB 38 for 4 yards (C.Oliver; K.Welch).",
-        "playDescriptionWithJerseyNumbers": "(3:10) (Shotgun) 29-E.Heidenreich up the middle to GB 38 for 4 yards (45-C.Oliver; 54-K.Welch).",
+        "playDescription": "(3:10) (Shotgun) E.Heidenreich up the middle to GB 38 for 4 yards (N.Stackhouse; K.Welch).",
+        "playDescriptionWithJerseyNumbers": "(3:10) (Shotgun) 29-E.Heidenreich up the middle to GB 38 for 4 yards (93-N.Stackhouse; 54-K.Welch).",
         "playEndTime": "2026-08-14T01:53:18.883Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -12121,10 +12121,10 @@
           },
           {
             "playStatId": "10330060-4523-8840-0820-003af45fc963",
-            "gsisPlayerId": "00-0040012",
-            "gsisPlayerName": "C.Oliver",
-            "gsisPlayerJerseyNumber": "45",
-            "personId": "32004f4c-4923-3599-c80c-faf526d39877",
+            "gsisPlayerId": "00-0040041",
+            "gsisPlayerName": "N.Stackhouse",
+            "gsisPlayerJerseyNumber": "93",
+            "personId": "32005354-4106-5527-dc9f-00887a740714",
             "statType": 82,
             "teamId": "10401800-ab22-323d-721a-cee4713c4c2d",
             "yards": null

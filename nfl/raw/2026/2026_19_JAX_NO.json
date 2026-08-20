@@ -140,7 +140,7 @@
   "version": 8,
   "summary": {
     "gameId": "c6e86ad0-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 533,
+    "offset": 535,
     "attendance": 70011,
     "clock": "00:00",
     "distance": 2,
@@ -188,7 +188,7 @@
   },
   "driveChart": {
     "gameId": "c6e86ad0-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 533,
+    "offset": 535,
     "drives": [
       {
         "sequence": 1,
@@ -6095,8 +6095,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "JAX  3-19  JAX 25",
         "playDeleted": false,
-        "playDescription": "(3:31) C.Bradley pass short right intended for C.Williams INTERCEPTED by J.Price at JAX 40. J.Price ran ob at JAX 28 for 12 yards (Q.Morris).",
-        "playDescriptionWithJerseyNumbers": "(3:31) 10-C.Bradley pass short right intended for 18-C.Williams INTERCEPTED by 38-J.Price at JAX 40. 38-J.Price ran ob at JAX 28 for 12 yards (80-Q.Morris).",
+        "playDescription": "(3:31) (Shotgun) C.Bradley pass short right intended for C.Williams INTERCEPTED by J.Price at JAX 40. J.Price pushed ob at JAX 28 for 12 yards (Q.Morris).",
+        "playDescriptionWithJerseyNumbers": "(3:31) (Shotgun) 10-C.Bradley pass short right intended for 18-C.Williams INTERCEPTED by 38-J.Price at JAX 40. 38-J.Price pushed ob at JAX 28 for 12 yards (80-Q.Morris).",
         "playEndTime": "2026-08-15T21:17:49.993Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

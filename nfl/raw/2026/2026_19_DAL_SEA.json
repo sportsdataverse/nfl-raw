@@ -136,7 +136,7 @@
   "version": 9,
   "summary": {
     "gameId": "c6e875cc-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 439,
+    "offset": 443,
     "attendance": 68474,
     "clock": "00:43",
     "distance": 12,
@@ -184,7 +184,7 @@
   },
   "driveChart": {
     "gameId": "c6e875cc-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 439,
+    "offset": 443,
     "drives": [
       {
         "sequence": 1,
@@ -1639,8 +1639,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "SEA  3-Goal  DAL 5",
         "playDeleted": false,
-        "playDescription": "(7:46) (Shotgun) D.Lock pass short right to M.Foster for 5 yards, TOUCHDOWN.\r\nPenalty on DAL-M.Liufau, Defensive Pass Interference, declined.",
-        "playDescriptionWithJerseyNumbers": "(7:46) (Shotgun) 2-D.Lock pass short right to 87-M.Foster for 5 yards, TOUCHDOWN.\r\nPenalty on DAL-35-M.Liufau, Defensive Pass Interference, declined.",
+        "playDescription": "(7:46) (Shotgun) D.Lock pass short right to M.Foster for 5 yards, TOUCHDOWN.\r\nPenalty on DAL-T.Bridges, Defensive Pass Interference, declined.",
+        "playDescriptionWithJerseyNumbers": "(7:46) (Shotgun) 2-D.Lock pass short right to 87-M.Foster for 5 yards, TOUCHDOWN.\r\nPenalty on DAL-25-T.Bridges, Defensive Pass Interference, declined.",
         "playEndTime": "2026-08-16T00:15:41.683Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
@@ -5322,10 +5322,10 @@
         "playId": 1701,
         "clockTime": "01:15",
         "down": 1,
-        "driveNetYards": 26,
-        "drivePlayCount": 6,
+        "driveNetYards": 65,
+        "drivePlayCount": 7,
         "driveSequence": 6,
-        "driveTimeOfPossession": "1:17",
+        "driveTimeOfPossession": "1:26",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DAL  1-10  DAL 48",
@@ -5365,7 +5365,7 @@
             "personId": "3200484f-5769-2969-b928-41cea02da32b",
             "statType": 111,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
-            "yards": 1
+            "yards": 3
           },
           {
             "playStatId": "10330060-4661-7010-0210-00333bc82135",
@@ -5395,7 +5395,7 @@
             "personId": "32005452-4907-4614-da0d-91a032960120",
             "statType": 113,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
-            "yards": 3
+            "yards": 1
           },
           {
             "playStatId": "10330060-4661-7010-0790-006303d603dc",
@@ -9367,8 +9367,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DAL  2-5  DAL 29",
         "playDeleted": false,
-        "playDescription": "(12:03) J.Milton pass short right to D.Rogers to DAL 31 for 2 yards (C.Surratt). FUMBLES (C.Surratt), ball out of bounds at DAL 31.",
-        "playDescriptionWithJerseyNumbers": "(12:03) 10-J.Milton pass short right to 49-D.Rogers to DAL 31 for 2 yards (44-C.Surratt). FUMBLES (44-C.Surratt), ball out of bounds at DAL 31.",
+        "playDescription": "(12:03) J.Milton pass short right to D.Rogers to DAL 31 for 2 yards (C.Surratt). FUMBLES (C.Surratt), touched at DAL 32, ball out of bounds at DAL 31.",
+        "playDescriptionWithJerseyNumbers": "(12:03) 10-J.Milton pass short right to 49-D.Rogers to DAL 31 for 2 yards (44-C.Surratt). FUMBLES (44-C.Surratt), touched at DAL 32, ball out of bounds at DAL 31.",
         "playEndTime": "2026-08-16T02:21:33.077Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

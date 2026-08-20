@@ -140,7 +140,7 @@
   "version": 8,
   "summary": {
     "gameId": "c6e87008-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 591,
+    "offset": 595,
     "attendance": 68868,
     "clock": "00:33",
     "distance": 12,
@@ -188,7 +188,7 @@
   },
   "driveChart": {
     "gameId": "c6e87008-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 591,
+    "offset": 595,
     "drives": [
       {
         "sequence": 1,
@@ -6529,8 +6529,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "BAL  1-10  BAL 29",
         "playDeleted": false,
-        "playDescription": "(14:54) (Shotgun) A.Randall right guard to BAL 31 for 2 yards (D.Blay; S.Mondon).",
-        "playDescriptionWithJerseyNumbers": "(14:54) (Shotgun) 23-A.Randall right guard to BAL 31 for 2 yards (64-D.Blay; 42-S.Mondon).",
+        "playDescription": "(14:54) (Shotgun) A.Randall right guard to BAL 31 for 2 yards (S.Mondon).",
+        "playDescriptionWithJerseyNumbers": "(14:54) (Shotgun) 23-A.Randall right guard to BAL 31 for 2 yards (42-S.Mondon).",
         "playEndTime": "2026-08-16T00:37:34.327Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6557,22 +6557,12 @@
             "yards": 2
           },
           {
-            "playStatId": "10330060-4652-0120-0820-00266eca1304",
-            "gsisPlayerId": "00-0041315",
-            "gsisPlayerName": "D.Blay",
-            "gsisPlayerJerseyNumber": "64",
-            "personId": "3200424c-4177-6668-ec73-03665911d71a",
-            "statType": 82,
-            "teamId": "10403700-b939-3cbd-3d16-24d4d6742fa2",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-4652-0120-0820-0039e6dcff9b",
+            "playStatId": "10330060-4652-0120-0790-002afe40d1f2",
             "gsisPlayerId": "00-0040013",
             "gsisPlayerName": "S.Mondon",
             "gsisPlayerJerseyNumber": "42",
             "personId": "32004d4f-4e12-5860-8b72-68c955f1174e",
-            "statType": 82,
+            "statType": 79,
             "teamId": "10403700-b939-3cbd-3d16-24d4d6742fa2",
             "yards": null
           }

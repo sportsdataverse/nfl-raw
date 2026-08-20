@@ -147,7 +147,7 @@
   "version": 6,
   "summary": {
     "gameId": "c66cf251-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 532,
+    "offset": 537,
     "attendance": 18116,
     "clock": "00:00",
     "distance": 10,
@@ -195,7 +195,7 @@
   },
   "driveChart": {
     "gameId": "c66cf251-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 532,
+    "offset": 537,
     "drives": [
       {
         "sequence": 1,
@@ -4689,14 +4689,14 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  3-4  CAR 5",
         "playDeleted": false,
-        "playDescription": "(9:42) (Shotgun) C.Beck pass short right to S.Fehoko for 5 yards, TOUCHDOWN.",
-        "playDescriptionWithJerseyNumbers": "(9:42) (Shotgun) 19-C.Beck pass short right to 80-S.Fehoko for 5 yards, TOUCHDOWN.",
-        "playEndTime": null,
+        "playDescription": "(9:42) C.Beck pass short right to S.Fehoko for 5 yards, TOUCHDOWN.",
+        "playDescriptionWithJerseyNumbers": "(9:42) 19-C.Beck pass short right to 80-S.Fehoko for 5 yards, TOUCHDOWN.",
+        "playEndTime": "2026-08-07T00:55:41.040Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": true,
         "playSequenceNumber": 1354.0,
-        "playStartTime": "2026-08-07T00:55:37Z",
+        "playStartTime": "2026-08-07T00:55:37.053Z",
         "playType": "PASS",
         "quarter": 2,
         "scoringPlayType": "TOUCHDOWN",
@@ -6179,8 +6179,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  2-5  CAR 49",
         "playDeleted": false,
-        "playDescription": "(4:14) Z.Knight right guard to CAR 34 for 15 yards (Z.Wheatley; C.Smith-Wade). FUMBLES (Z.Wheatley), and recovers at CAR 34.",
-        "playDescriptionWithJerseyNumbers": "(4:14) 20-Z.Knight right guard to CAR 34 for 15 yards (38-Z.Wheatley; 26-C.Smith-Wade). FUMBLES (38-Z.Wheatley), and recovers at CAR 34.",
+        "playDescription": "(4:14) Z.Knight right guard to CAR 36 for 13 yards (Z.Wheatley; C.Smith-Wade). FUMBLES (Z.Wheatley), recovered by AZ-J.Geers at CAR 34.",
+        "playDescriptionWithJerseyNumbers": "(4:14) 20-Z.Knight right guard to CAR 36 for 13 yards (38-Z.Wheatley; 26-C.Smith-Wade). FUMBLES (38-Z.Wheatley), recovered by AZ-46-J.Geers at CAR 34.",
         "playEndTime": "2026-08-07T01:12:42.760Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6193,7 +6193,7 @@
         "scoringTeamId": null,
         "specialTeamsPlayType": "UNSPECIFIED",
         "yardLine": "CAR 49",
-        "yardsGained": 15,
+        "yardsGained": 13,
         "yardsRemaining": 5,
         "stats": [
           {
@@ -6207,7 +6207,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4501-8410-0820-00256922a1be",
+            "playStatId": "10330060-4501-8410-0100-00250d23806a",
+            "gsisPlayerId": "00-0037157",
+            "gsisPlayerName": "Z.Knight",
+            "gsisPlayerJerseyNumber": "20",
+            "personId": "32004b4e-4976-4772-52fc-5e9b627ab7bb",
+            "statType": 10,
+            "teamId": "10403800-517c-7b8c-65a3-c61b95d86123",
+            "yards": 13
+          },
+          {
+            "playStatId": "10330060-4501-8410-0820-003db6911f5d",
             "gsisPlayerId": "00-0041076",
             "gsisPlayerName": "Z.Wheatley",
             "gsisPlayerJerseyNumber": "38",
@@ -6217,7 +6227,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4501-8410-0820-003db6911f5d",
+            "playStatId": "10330060-4501-8410-0820-004ca2599fa1",
             "gsisPlayerId": "00-0039380",
             "gsisPlayerName": "C.Smith-Wade",
             "gsisPlayerJerseyNumber": "26",
@@ -6227,7 +6237,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4501-8410-0520-00411a9fd463",
+            "playStatId": "10330060-4501-8410-0520-005b34812615",
             "gsisPlayerId": "00-0037157",
             "gsisPlayerName": "Z.Knight",
             "gsisPlayerJerseyNumber": "20",
@@ -6237,7 +6247,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4501-8410-0910-005af633724a",
+            "playStatId": "10330060-4501-8410-0910-0063e977526b",
             "gsisPlayerId": "00-0041076",
             "gsisPlayerName": "Z.Wheatley",
             "gsisPlayerJerseyNumber": "38",
@@ -6247,24 +6257,14 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4501-8410-0550-006eef228471",
-            "gsisPlayerId": "00-0037157",
-            "gsisPlayerName": "Z.Knight",
-            "gsisPlayerJerseyNumber": "20",
-            "personId": "32004b4e-4976-4772-52fc-5e9b627ab7bb",
+            "playStatId": "10330060-4501-8410-0550-007952e25115",
+            "gsisPlayerId": "00-0041366",
+            "gsisPlayerName": "J.Geers",
+            "gsisPlayerJerseyNumber": "46",
+            "personId": "32004745-4557-4485-6c0f-eb40927121c6",
             "statType": 55,
             "teamId": "10403800-517c-7b8c-65a3-c61b95d86123",
             "yards": 0
-          },
-          {
-            "playStatId": "10330060-4501-8410-0100-0071ee1d5150",
-            "gsisPlayerId": "00-0037157",
-            "gsisPlayerName": "Z.Knight",
-            "gsisPlayerJerseyNumber": "20",
-            "personId": "32004b4e-4976-4772-52fc-5e9b627ab7bb",
-            "statType": 10,
-            "teamId": "10403800-517c-7b8c-65a3-c61b95d86123",
-            "yards": 15
           }
         ]
       },
@@ -7873,17 +7873,17 @@
         "playId": 2371,
         "clockTime": "15:00",
         "down": 0,
-        "driveNetYards": 18,
-        "drivePlayCount": 2,
+        "driveNetYards": 39,
+        "drivePlayCount": 7,
         "driveSequence": 11,
-        "driveTimeOfPossession": "1:06",
+        "driveTimeOfPossession": "4:45",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CAR  KO  CAR 35",
         "playDeleted": false,
         "playDescription": "R.Fitzgerald kicks 65 yards from CAR 35 to landing zone to end zone, Touchback to the AZ 20.",
         "playDescriptionWithJerseyNumbers": "10-R.Fitzgerald kicks 65 yards from CAR 35 to landing zone to end zone, Touchback to the AZ 20.",
-        "playEndTime": "2026-08-07T01:44:53.920Z",
+        "playEndTime": "2026-08-07T01:44:54.047Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": false,
