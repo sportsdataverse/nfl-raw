@@ -22,7 +22,50 @@
       "FOX",
       "FOX DEPORTES"
     ],
-    "internationalWatchOptions": [],
+    "internationalWatchOptions": [
+      {
+        "countryCode": "CA",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "GB",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "DE",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "MX",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "FR",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "AU",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "BR",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      }
+    ],
     "streamingNetworks": [
       {
         "hostNetwork": "FOX",
@@ -111,7 +154,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 8,
   "summary": null,
   "driveChart": null,
   "replays": null,
