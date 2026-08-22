@@ -93,12 +93,12 @@
   "version": 8,
   "summary": {
     "gameId": "c6e87f75-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 511,
+    "offset": 515,
     "attendance": 62156,
     "clock": "00:34",
     "distance": 12,
     "down": 3,
-    "gameBookUrl": "https://static.www.nfl.com/image/upload/v1787312656/gamecenter/c6e87f75-5f68-11f1-b1d0-bb70a4640075.pdf",
+    "gameBookUrl": "https://static.www.nfl.com/image/upload/v1787323456/gamecenter/c6e87f75-5f68-11f1-b1d0-bb70a4640075.pdf",
     "isGoalToGo": false,
     "isRedZone": false,
     "phase": "FINAL",
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "c6e87f75-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 511,
+    "offset": 515,
     "drives": [
       {
         "sequence": 1,
