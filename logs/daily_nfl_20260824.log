@@ -1,0 +1,32 @@
+[2026-08-24 11:59:31Z] nfl raw scrape start: seasons 2026-2026 types='PRE REG POST'
+[2026-08-24 11:59:31Z] interpreter: /home/runner/work/nfl-raw/nfl-raw/.venv/bin/python
+[2026-08-24 11:59:35Z] WARN: working tree dirty; skipped sync with origin
+[scrape] seasons 2026..2026 (1) | types=['PRE', 'REG', 'POST'] | delay=2.0s | extract=on
+[fetcher] 2026/PRE wk00 -> data/raw/2026/PRE/wk00.json
+[fetcher] 2026/PRE wk01 -> data/raw/2026/PRE/wk01.json
+[fetcher] 2026/PRE wk02 -> data/raw/2026/PRE/wk02.json
+[fetcher] 2026/PRE wk03 -> data/raw/2026/PRE/wk03.json
+[fetcher] 2026/REG wk01 -> data/raw/2026/REG/wk01.json
+[fetcher] 2026/REG wk02 -> data/raw/2026/REG/wk02.json
+[fetcher] 2026/REG wk03 -> data/raw/2026/REG/wk03.json
+[fetcher] 2026/REG wk04 -> data/raw/2026/REG/wk04.json
+[fetcher] 2026/REG wk05 -> data/raw/2026/REG/wk05.json
+[fetcher] 2026/REG wk06 -> data/raw/2026/REG/wk06.json
+[fetcher] 2026/REG wk07 -> data/raw/2026/REG/wk07.json
+[fetcher] 2026/REG wk08 -> data/raw/2026/REG/wk08.json
+[fetcher] 2026/REG wk09 -> data/raw/2026/REG/wk09.json
+[fetcher] 2026/REG wk10 -> data/raw/2026/REG/wk10.json
+[fetcher] 2026/REG wk11 -> data/raw/2026/REG/wk11.json
+[fetcher] 2026/REG wk12 -> data/raw/2026/REG/wk12.json
+[fetcher] 2026/REG wk13 -> data/raw/2026/REG/wk13.json
+[fetcher] 2026/REG wk14 -> data/raw/2026/REG/wk14.json
+[fetcher] 2026/REG wk15 -> data/raw/2026/REG/wk15.json
+[fetcher] 2026/REG wk16 -> data/raw/2026/REG/wk16.json
+[fetcher] 2026/REG wk17 -> data/raw/2026/REG/wk17.json
+[fetcher] 2026/REG wk18 -> data/raw/2026/REG/wk18.json
+[scrape] 2026: fetched 22 new weekly file(s) -> extracted 321 game file(s) in 56.3s
+[scrape] 2026: committed 321 games
+[scrape] done: 1 season(s), 22 new weekly file(s), 321 game file(s) in 56.3s
+To https://github.com/sportsdataverse/nfl-raw
+   5903686..d79a0ec  main -> main
+[2026-08-24 12:00:33Z] nfl raw scrape done (scrape=0 push=0)
