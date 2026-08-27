@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "c71b0a90-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 517,
+    "offset": 527,
     "attendance": 71206,
     "clock": "00:31",
     "distance": 11,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "c71b0a90-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 517,
+    "offset": 527,
     "drives": [
       {
         "sequence": 1,
@@ -3486,7 +3486,7 @@
             "personId": "32005749-4c82-7119-d27e-724ec33f130b",
             "statType": 111,
             "teamId": "10403300-f235-cf9b-6d3a-2f182be48dd1",
-            "yards": 8
+            "yards": 5
           },
           {
             "playStatId": "10330060-4761-0320-0210-0036bf25702d",
@@ -3516,7 +3516,7 @@
             "personId": "32004c41-4e01-6345-8092-4a076edb3284",
             "statType": 113,
             "teamId": "10403300-f235-cf9b-6d3a-2f182be48dd1",
-            "yards": 4
+            "yards": 7
           },
           {
             "playStatId": "10330060-4761-0320-0790-006fff972304",
@@ -6708,10 +6708,10 @@
         "playId": 2184,
         "clockTime": "01:34",
         "down": 1,
-        "driveNetYards": 31,
-        "drivePlayCount": 2,
+        "driveNetYards": 77,
+        "drivePlayCount": 10,
         "driveSequence": 9,
-        "driveTimeOfPossession": "0:25",
+        "driveTimeOfPossession": "1:34",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAR  1-10  LAR 15",
@@ -6761,7 +6761,7 @@
             "personId": "32004245-4e44-0455-998d-976cf08f74c6",
             "statType": 111,
             "teamId": "10402510-8931-0d5f-9815-79bb79649a65",
-            "yards": 7
+            "yards": 4
           },
           {
             "playStatId": "10330060-4762-1840-0210-004e2be576d5",
@@ -6791,7 +6791,7 @@
             "personId": "32004441-4e49-0797-9e3e-b27051043f49",
             "statType": 113,
             "teamId": "10402510-8931-0d5f-9815-79bb79649a65",
-            "yards": 4
+            "yards": 7
           },
           {
             "playStatId": "10330060-4762-1840-0790-007b0dec997a",
@@ -7161,18 +7161,18 @@
       },
       {
         "playId": 2296,
-        "clockTime": "00:41",
+        "clockTime": "00:44",
         "down": 1,
         "driveNetYards": 77,
-        "drivePlayCount": 8,
+        "drivePlayCount": 10,
         "driveSequence": 9,
-        "driveTimeOfPossession": "1:27",
+        "driveTimeOfPossession": "1:34",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAR  1-10  NO 26",
         "playDeleted": false,
-        "playDescription": "(:41) (No Huddle, Shotgun) S.Bennett pass incomplete deep left to T.Scott.",
-        "playDescriptionWithJerseyNumbers": "(:41) (No Huddle, Shotgun) 13-S.Bennett pass incomplete deep left to 82-T.Scott.",
+        "playDescription": "(:44) (No Huddle, Shotgun) S.Bennett pass incomplete deep left to T.Scott.",
+        "playDescriptionWithJerseyNumbers": "(:44) (No Huddle, Shotgun) 13-S.Bennett pass incomplete deep left to 82-T.Scott.",
         "playEndTime": "2026-08-22T21:28:48.090Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11526,19 +11526,19 @@
         "driveNetYards": 5,
         "drivePlayCount": 3,
         "driveSequence": 15,
-        "driveTimeOfPossession": "1:56",
+        "driveTimeOfPossession": "2:07",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NO  4-1  NO 33",
         "playDeleted": false,
-        "playDescription": "(9:02) C.Donaldson up the middle to NO 35 for 2 yards (A.Cook).\r\nPENALTY on NO, Illegal Formation, 4 yards, enforced at NO 33 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(9:02) 43-C.Donaldson up the middle to NO 35 for 2 yards (39-A.Cook).\r\nPENALTY on NO, Illegal Formation, 4 yards, enforced at NO 33 - No Play.",
-        "playEndTime": null,
+        "playDescription": "(9:02) C.Donaldson up the middle to NO 35 for 2 yards (A.Cook; N.Valcarcel).\r\nPENALTY on NO, Illegal Formation, 4 yards, enforced at NO 33 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(9:02) 43-C.Donaldson up the middle to NO 35 for 2 yards (39-A.Cook; 43-N.Valcarcel).\r\nPENALTY on NO, Illegal Formation, 4 yards, enforced at NO 33 - No Play.",
+        "playEndTime": "2026-08-22T22:36:27.500Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": false,
         "playSequenceNumber": 3868.0,
-        "playStartTime": "2026-08-22T22:36:22Z",
+        "playStartTime": "2026-08-22T22:36:22.457Z",
         "playType": "PENALTY",
         "quarter": 4,
         "scoringPlayType": "UNSPECIFIED",
@@ -12709,10 +12709,10 @@
         "playId": 4273,
         "clockTime": "03:17",
         "down": 2,
-        "driveNetYards": 27,
-        "drivePlayCount": 5,
+        "driveNetYards": 45,
+        "drivePlayCount": 12,
         "driveSequence": 17,
-        "driveTimeOfPossession": "1:42",
+        "driveTimeOfPossession": "3:09",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NO  2-3  NO 42",
@@ -12762,7 +12762,7 @@
             "personId": "32005241-5468-9214-c9ac-83458db99cd0",
             "statType": 111,
             "teamId": "10403300-f235-cf9b-6d3a-2f182be48dd1",
-            "yards": 11
+            "yards": 3
           },
           {
             "playStatId": "10330060-4764-2730-0210-0041ab7c1da5",
@@ -12792,7 +12792,7 @@
             "personId": "32004348-4133-6645-66e1-215e9c59ff5f",
             "statType": 113,
             "teamId": "10403300-f235-cf9b-6d3a-2f182be48dd1",
-            "yards": -1
+            "yards": 7
           },
           {
             "playStatId": "10330060-4764-2730-1100-007959fc2853",
@@ -12828,18 +12828,18 @@
       },
       {
         "playId": 4298,
-        "clockTime": "02:51",
+        "clockTime": "02:55",
         "down": 1,
-        "driveNetYards": 27,
-        "drivePlayCount": 5,
+        "driveNetYards": 45,
+        "drivePlayCount": 12,
         "driveSequence": 17,
-        "driveTimeOfPossession": "1:42",
+        "driveTimeOfPossession": "3:09",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NO  1-10  LAR 48",
         "playDeleted": false,
-        "playDescription": "(2:51) (No Huddle, Shotgun) S.Rattler scrambles up the middle to LAR 43 for 5 yards (M.Rice).",
-        "playDescriptionWithJerseyNumbers": "(2:51) (No Huddle, Shotgun) 2-S.Rattler scrambles up the middle to LAR 43 for 5 yards (8-M.Rice).",
+        "playDescription": "(2:55) (No Huddle, Shotgun) S.Rattler scrambles up the middle to LAR 43 for 5 yards (M.Rice).",
+        "playDescriptionWithJerseyNumbers": "(2:55) (No Huddle, Shotgun) 2-S.Rattler scrambles up the middle to LAR 43 for 5 yards (8-M.Rice).",
         "playEndTime": "2026-08-22T22:52:07.457Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -13510,15 +13510,15 @@
         "clockTime": "00:42",
         "down": 3,
         "driveNetYards": 45,
-        "drivePlayCount": 11,
+        "drivePlayCount": 12,
         "driveSequence": 17,
-        "driveTimeOfPossession": "2:59",
+        "driveTimeOfPossession": "3:09",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NO  3-5  LAR 20",
         "playDeleted": false,
-        "playDescription": "(:42) (Shotgun) S.Rattler pass incomplete short right to R.Bell.",
-        "playDescriptionWithJerseyNumbers": "(:42) (Shotgun) 2-S.Rattler pass incomplete short right to 11-R.Bell.",
+        "playDescription": "(:42) (Shotgun) S.Rattler pass incomplete short left to R.Bell.",
+        "playDescriptionWithJerseyNumbers": "(:42) (Shotgun) 2-S.Rattler pass incomplete short left to 11-R.Bell.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

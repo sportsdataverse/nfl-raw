@@ -81,7 +81,7 @@
   "version": 9,
   "summary": {
     "gameId": "c71af76f-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 394,
+    "offset": 397,
     "attendance": 50042,
     "clock": "00:38",
     "distance": 12,
@@ -129,7 +129,7 @@
   },
   "driveChart": {
     "gameId": "c71af76f-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 394,
+    "offset": 397,
     "drives": [
       {
         "sequence": 1,
@@ -2472,7 +2472,7 @@
       },
       {
         "playId": 634,
-        "clockTime": "06:30",
+        "clockTime": "06:32",
         "down": 1,
         "driveNetYards": 38,
         "drivePlayCount": 10,
@@ -2482,8 +2482,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "WAS  1-10  WAS 15",
         "playDeleted": false,
-        "playDescription": "(6:30) K.Allen right end to WAS 22 for 7 yards (D.White; M.Rodriguez).",
-        "playDescriptionWithJerseyNumbers": "(6:30) 31O-K.Allen right end to WAS 22 for 7 yards (45-D.White; 44-M.Rodriguez).",
+        "playDescription": "(6:32) K.Allen right end to WAS 22 for 7 yards (D.White; M.Rodriguez).",
+        "playDescriptionWithJerseyNumbers": "(6:32) 31O-K.Allen right end to WAS 22 for 7 yards (45-D.White; 44-M.Rodriguez).",
         "playEndTime": "2026-08-22T16:33:38.527Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -7881,7 +7881,7 @@
       },
       {
         "playId": 2479,
-        "clockTime": "05:48",
+        "clockTime": "05:49",
         "down": 4,
         "driveNetYards": 16,
         "drivePlayCount": 6,
@@ -7891,8 +7891,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DET  4-16  DET 42",
         "playDeleted": false,
-        "playDescription": "(5:48) J.Fox punts 46 yards to WAS 12, Center-H.Hatten. L.McCaffrey to WAS 14 for 2 yards (T.Reeder).\r\nPENALTY on WAS-K.Barnes, Illegal Block Above the Waist, 7 yards, enforced at WAS 14.",
-        "playDescriptionWithJerseyNumbers": "(5:48) 3-J.Fox punts 46 yards to WAS 12, Center-49-H.Hatten. 11-L.McCaffrey to WAS 14 for 2 yards (51-T.Reeder).\r\nPENALTY on WAS-47-K.Barnes, Illegal Block Above the Waist, 7 yards, enforced at WAS 14.",
+        "playDescription": "(5:49) J.Fox punts 46 yards to WAS 12, Center-H.Hatten. L.McCaffrey to WAS 14 for 2 yards (T.Reeder).\r\nPENALTY on WAS-K.Barnes, Illegal Block Above the Waist, 7 yards, enforced at WAS 14.",
+        "playDescriptionWithJerseyNumbers": "(5:49) 3-J.Fox punts 46 yards to WAS 12, Center-49-H.Hatten. 11-L.McCaffrey to WAS 14 for 2 yards (51-T.Reeder).\r\nPENALTY on WAS-47-K.Barnes, Illegal Block Above the Waist, 7 yards, enforced at WAS 14.",
         "playEndTime": "2026-08-22T17:54:30.280Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

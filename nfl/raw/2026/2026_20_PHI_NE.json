@@ -93,7 +93,7 @@
   "version": 8,
   "summary": {
     "gameId": "c71b1722-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 463,
+    "offset": 473,
     "attendance": 64628,
     "clock": "00:36",
     "distance": 11,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "c71b1722-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 463,
+    "offset": 473,
     "drives": [
       {
         "sequence": 1,
@@ -4009,15 +4009,15 @@
         "clockTime": "11:13",
         "down": 3,
         "driveNetYards": 50,
-        "drivePlayCount": 7,
+        "drivePlayCount": 8,
         "driveSequence": 5,
-        "driveTimeOfPossession": "3:11",
+        "driveTimeOfPossession": "3:16",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NE  3-6  PHI 23",
         "playDeleted": false,
-        "playDescription": "(11:13) (Shotgun) T.DeVito pass incomplete short middle to K.Williams.",
-        "playDescriptionWithJerseyNumbers": "(11:13) (Shotgun) 16-T.DeVito pass incomplete short middle to 18-K.Williams.",
+        "playDescription": "(11:13) (Shotgun) T.DeVito pass incomplete short middle to K.Williams (A.Thomas).",
+        "playDescriptionWithJerseyNumbers": "(11:13) (Shotgun) 16-T.DeVito pass incomplete short middle to 18-K.Williams (38-A.Thomas).",
         "playEndTime": "2026-08-22T23:54:39.133Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -4064,7 +4064,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4791-1560-1120-00491859a94a",
+            "playStatId": "10330060-4791-1560-0850-0049051b1db1",
+            "gsisPlayerId": "00-0037008",
+            "gsisPlayerName": "A.Thomas",
+            "gsisPlayerJerseyNumber": "38",
+            "personId": "32005448-4f02-1217-3985-ccf716f6a559",
+            "statType": 85,
+            "teamId": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-4791-1560-1120-00588e483a3c",
             "gsisPlayerId": "00-0038476",
             "gsisPlayerName": "T.DeVito",
             "gsisPlayerJerseyNumber": "16",
@@ -4229,8 +4239,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PHI  1-10  PHI 15",
         "playDeleted": false,
-        "playDescription": "(11:00) (Shotgun) A.Dalton pass short right INTERCEPTED by K.Vildor at PHI 21. K.Vildor pushed ob at PHI 7 for 14 yards.\r\nPENALTY on NE-G.Jacas, Roughing the Passer, 15 yards, enforced at PHI 15 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(11:00) (Shotgun) 14-A.Dalton pass short right INTERCEPTED by 28-K.Vildor at PHI 21. 28-K.Vildor pushed ob at PHI 7 for 14 yards.\r\nPENALTY on NE-50-G.Jacas, Roughing the Passer, 15 yards, enforced at PHI 15 - No Play.",
+        "playDescription": "(11:00) (Shotgun) A.Dalton pass short right intended for D.Cooper INTERCEPTED by K.Vildor at PHI 21. K.Vildor pushed ob at PHI 7 for 14 yards (E.Stowers).\r\nPENALTY on NE-G.Jacas, Roughing the Passer, 15 yards, enforced at PHI 15 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(11:00) (Shotgun) 14-A.Dalton pass short right intended for 80-D.Cooper INTERCEPTED by 28-K.Vildor at PHI 21. 28-K.Vildor pushed ob at PHI 7 for 14 yards (87-E.Stowers).\r\nPENALTY on NE-50-G.Jacas, Roughing the Passer, 15 yards, enforced at PHI 15 - No Play.",
         "playEndTime": "2026-08-22T23:59:35.960Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -4827,8 +4837,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NE  1-10  PHI 47",
         "playDeleted": false,
-        "playDescription": "(9:19) (Shotgun) T.DeVito pass incomplete deep left to K.Williams.\r\nPENALTY on PHI-K.Ringo, Illegal Contact, 5 yards, enforced at PHI 47 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(9:19) (Shotgun) 16-T.DeVito pass incomplete deep left to 18-K.Williams.\r\nPENALTY on PHI-7-K.Ringo, Illegal Contact, 5 yards, enforced at PHI 47 - No Play.",
+        "playDescription": "(9:19) (Shotgun) T.DeVito pass incomplete deep left to C.Dorner.\r\nPENALTY on PHI-K.Ringo, Illegal Contact, 5 yards, enforced at PHI 47 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(9:19) (Shotgun) 16-T.DeVito pass incomplete deep left to 88-C.Dorner.\r\nPENALTY on PHI-7-K.Ringo, Illegal Contact, 5 yards, enforced at PHI 47 - No Play.",
         "playEndTime": "2026-08-23T00:07:52.780Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8951,8 +8961,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PHI  4-1  NE 40",
         "playDeleted": false,
-        "playDescription": "(4:07) (Shotgun) T.McKee pass incomplete short right to Q.Watkins (L.Taylor).",
-        "playDescriptionWithJerseyNumbers": "(4:07) (Shotgun) 16-T.McKee pass incomplete short right to 86-Q.Watkins (93-L.Taylor).",
+        "playDescription": "(4:07) (Shotgun) T.McKee pass incomplete short right to Q.Watkins (L.Taylor) [L.Taylor].",
+        "playDescriptionWithJerseyNumbers": "(4:07) (Shotgun) 16-T.McKee pass incomplete short right to 86-Q.Watkins (93-L.Taylor) [93-L.Taylor].",
         "playEndTime": "2026-08-23T01:11:44.910Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9009,7 +9019,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4792-7810-1120-005967c4bc8e",
+            "playStatId": "10330060-4792-7810-1100-0051da362e8d",
+            "gsisPlayerId": "00-0039289",
+            "gsisPlayerName": "L.Taylor",
+            "gsisPlayerJerseyNumber": "93",
+            "personId": "32005441-5981-2807-528e-f58dc131f529",
+            "statType": 110,
+            "teamId": "10403200-69ab-9ea6-5af5-e240fbc08bea",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-4792-7810-1120-006caa6eff55",
             "gsisPlayerId": "00-0038400",
             "gsisPlayerName": "T.McKee",
             "gsisPlayerJerseyNumber": "16",
@@ -10474,7 +10494,7 @@
         "playId": 3305,
         "clockTime": "11:47",
         "down": 2,
-        "driveNetYards": 28,
+        "driveNetYards": 29,
         "drivePlayCount": 7,
         "driveSequence": 18,
         "driveTimeOfPossession": "3:41",
@@ -10527,7 +10547,7 @@
             "personId": "32004d4f-5276-7384-e328-42bd37796ab6",
             "statType": 111,
             "teamId": "10403200-69ab-9ea6-5af5-e240fbc08bea",
-            "yards": 0
+            "yards": 5
           },
           {
             "playStatId": "10330060-4793-3050-0210-004fe3830152",
@@ -10557,7 +10577,7 @@
             "personId": "32004445-4718-4731-98d4-5bfe636e0ef4",
             "statType": 113,
             "teamId": "10403200-69ab-9ea6-5af5-e240fbc08bea",
-            "yards": 11
+            "yards": 6
           },
           {
             "playStatId": "10330060-4793-3050-0790-0075a12f8306",
@@ -11504,8 +11524,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PHI  1-24  NE 39",
         "playDeleted": false,
-        "playDescription": "(5:14) T.McKee pass short left to E.Ezukanma to NE 32 for 7 yards (C.Muma).",
-        "playDescriptionWithJerseyNumbers": "(5:14) 16-T.McKee pass short left to 49O-E.Ezukanma to NE 32 for 7 yards (49-C.Muma).",
+        "playDescription": "(5:14) T.McKee pass short right to E.Ezukanma to NE 32 for 7 yards (C.Muma).",
+        "playDescriptionWithJerseyNumbers": "(5:14) 16-T.McKee pass short right to 49O-E.Ezukanma to NE 32 for 7 yards (49-C.Muma).",
         "playEndTime": "2026-08-23T01:45:37.383Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11585,7 +11605,7 @@
       },
       {
         "playId": 3661,
-        "clockTime": "04:30",
+        "clockTime": "04:28",
         "down": 2,
         "driveNetYards": 52,
         "drivePlayCount": 9,
@@ -11595,8 +11615,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PHI  2-17  NE 32",
         "playDeleted": false,
-        "playDescription": "(4:30) (Shotgun) PENALTY on PHI-Z.Correll, False Start, 5 yards, enforced at NE 32 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(4:30) (Shotgun) PENALTY on PHI-63-Z.Correll, False Start, 5 yards, enforced at NE 32 - No Play.",
+        "playDescription": "(4:28) (Shotgun) PENALTY on PHI-Z.Correll, False Start, 5 yards, enforced at NE 32 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(4:28) (Shotgun) PENALTY on PHI-63-Z.Correll, False Start, 5 yards, enforced at NE 32 - No Play.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

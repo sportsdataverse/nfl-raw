@@ -81,7 +81,7 @@
   "version": 7,
   "summary": {
     "gameId": "c74e12b2-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 444,
+    "offset": 449,
     "attendance": 61480,
     "clock": "00:40",
     "distance": 14,
@@ -129,7 +129,7 @@
   },
   "driveChart": {
     "gameId": "c74e12b2-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 444,
+    "offset": 449,
     "drives": [
       {
         "sequence": 1,
@@ -4260,16 +4260,16 @@
         "playId": 1233,
         "clockTime": "10:18",
         "down": 0,
-        "driveNetYards": 22,
-        "drivePlayCount": 2,
+        "driveNetYards": 18,
+        "drivePlayCount": 5,
         "driveSequence": 8,
-        "driveTimeOfPossession": "0:45",
+        "driveTimeOfPossession": "4:02",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  KO  KC 35",
         "playDeleted": false,
-        "playDescription": "H.Butker kicks 63 yards from KC 35 to TB 2. K.Johnson ran ob at TB 30 for 28 yards.",
-        "playDescriptionWithJerseyNumbers": "7S-H.Butker kicks 63 yards from KC 35 to TB 2. 19-K.Johnson ran ob at TB 30 for 28 yards.",
+        "playDescription": "H.Butker kicks 63 yards from KC 35 to TB 2. K.Johnson ran ob at TB 30 for 28 yards (M.Smith).",
+        "playDescriptionWithJerseyNumbers": "7S-H.Butker kicks 63 yards from KC 35 to TB 2. 19-K.Johnson ran ob at TB 30 for 28 yards (39-M.Smith).",
         "playEndTime": "2026-08-23T00:26:34.077Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -4304,6 +4304,16 @@
             "statType": 45,
             "teamId": "10404900-d59e-b449-ef75-961e09ca027e",
             "yards": 28
+          },
+          {
+            "playStatId": "10330060-4801-2330-0790-003bf1c571f2",
+            "gsisPlayerId": "00-0040093",
+            "gsisPlayerName": "M.Smith",
+            "gsisPlayerJerseyNumber": "39",
+            "personId": "3200534d-4982-9494-6fdb-e1ba9fad4d09",
+            "statType": 79,
+            "teamId": "10402310-a47e-10ea-7442-16b633633637",
+            "yards": null
           }
         ]
       },
@@ -7554,7 +7564,7 @@
             "personId": "32004e55-5344-0041-7bb0-5fb7ef8e51e5",
             "statType": 112,
             "teamId": "10402310-a47e-10ea-7442-16b633633637",
-            "yards": 1
+            "yards": 5
           }
         ]
       },
@@ -11777,8 +11787,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  3-13  TB 33",
         "playDeleted": false,
-        "playDescription": "(4:08) (Shotgun) C.Oladokun pass short right to B.Smith to TB 24 for 9 yards (X.Williams). FUMBLES (X.Williams), touched at TB 26, ball out of bounds at TB 24.",
-        "playDescriptionWithJerseyNumbers": "(4:08) (Shotgun) 19O-C.Oladokun pass short right to 24O-B.Smith to TB 24 for 9 yards (26-X.Williams). FUMBLES (26-X.Williams), touched at TB 26, ball out of bounds at TB 24.",
+        "playDescription": "(4:08) (Shotgun) C.Oladokun pass short right to B.Smith to TB 24 for 9 yards (J.Bullock). FUMBLES (J.Bullock), touched at TB 26, ball out of bounds at TB 24.",
+        "playDescriptionWithJerseyNumbers": "(4:08) (Shotgun) 19O-C.Oladokun pass short right to 24O-B.Smith to TB 24 for 9 yards (30-J.Bullock). FUMBLES (30-J.Bullock), touched at TB 26, ball out of bounds at TB 24.",
         "playEndTime": "2026-08-23T02:21:51.180Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11856,10 +11866,10 @@
           },
           {
             "playStatId": "10330060-4803-9180-0790-00749c01e35b",
-            "gsisPlayerId": "00-0041592",
-            "gsisPlayerName": "X.Williams",
-            "gsisPlayerJerseyNumber": "26",
-            "personId": "32005749-4c57-7641-28c1-a1c8207a62d8",
+            "gsisPlayerId": "00-0040416",
+            "gsisPlayerName": "J.Bullock",
+            "gsisPlayerJerseyNumber": "30",
+            "personId": "32004255-4c52-0976-ee11-88581efe02e1",
             "statType": 79,
             "teamId": "10404900-d59e-b449-ef75-961e09ca027e",
             "yards": null
@@ -11886,10 +11896,10 @@
           },
           {
             "playStatId": "10330060-4803-9180-0910-0103ef659425",
-            "gsisPlayerId": "00-0041592",
-            "gsisPlayerName": "X.Williams",
-            "gsisPlayerJerseyNumber": "26",
-            "personId": "32005749-4c57-7641-28c1-a1c8207a62d8",
+            "gsisPlayerId": "00-0040416",
+            "gsisPlayerName": "J.Bullock",
+            "gsisPlayerJerseyNumber": "30",
+            "personId": "32004255-4c52-0976-ee11-88581efe02e1",
             "statType": 91,
             "teamId": "10404900-d59e-b449-ef75-961e09ca027e",
             "yards": null
@@ -12316,9 +12326,9 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TB  2-5  KC 49",
         "playDeleted": false,
-        "playDescription": "(3:04) B.Kpeenu left tackle to KC 47 for 2 yards (V.Anthony; D.Payne).",
-        "playDescriptionWithJerseyNumbers": "(3:04) 49-B.Kpeenu left tackle to KC 47 for 2 yards (98-V.Anthony; 90-D.Payne).",
-        "playEndTime": "2026-08-23T02:27:31.263Z",
+        "playDescription": "(3:04) B.Kpeenu left tackle to KC 47 for 2 yards (V.Anthony; W.Bissainthe).",
+        "playDescriptionWithJerseyNumbers": "(3:04) 49-B.Kpeenu left tackle to KC 47 for 2 yards (98-V.Anthony; 59-W.Bissainthe).",
+        "playEndTime": "2026-08-23T02:27:31.173Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": false,
@@ -12355,10 +12365,10 @@
           },
           {
             "playStatId": "10330060-4804-1150-0820-0034f233e380",
-            "gsisPlayerId": "00-0040960",
-            "gsisPlayerName": "D.Payne",
-            "gsisPlayerJerseyNumber": "90",
-            "personId": "32005041-5927-7951-9d16-5dcfdcf94fe2",
+            "gsisPlayerId": "00-0040951",
+            "gsisPlayerName": "W.Bissainthe",
+            "gsisPlayerJerseyNumber": "59",
+            "personId": "32004249-5373-8083-2154-3b364e2c78f9",
             "statType": 82,
             "teamId": "10402310-a47e-10ea-7442-16b633633637",
             "yards": null

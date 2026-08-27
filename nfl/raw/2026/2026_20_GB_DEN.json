@@ -93,7 +93,7 @@
   "version": 8,
   "summary": {
     "gameId": "c71af19d-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 452,
+    "offset": 455,
     "attendance": 75640,
     "clock": "00:30",
     "distance": 10,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "c71af19d-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 452,
+    "offset": 455,
     "drives": [
       {
         "sequence": 1,
@@ -5896,7 +5896,7 @@
         "playId": 1997,
         "clockTime": "02:40",
         "down": 1,
-        "driveNetYards": 31,
+        "driveNetYards": 30,
         "drivePlayCount": 5,
         "driveSequence": 8,
         "driveTimeOfPossession": "1:13",
@@ -5959,7 +5959,7 @@
             "personId": "32005354-4912-9837-7193-9c8d8376b821",
             "statType": 112,
             "teamId": "10401400-b89b-96e5-55d1-caa7e18de3d8",
-            "yards": 31
+            "yards": 35
           }
         ]
       },
@@ -6587,7 +6587,7 @@
             "personId": "32004d43-4354-9616-2bb6-3e898b438243",
             "statType": 111,
             "teamId": "10401800-ab22-323d-721a-cee4713c4c2d",
-            "yards": 0
+            "yards": 8
           },
           {
             "playStatId": "10330060-4712-1910-0210-003757b0c4f0",
@@ -6617,7 +6617,7 @@
             "personId": "32004e45-5941-5291-85ed-4a4e042d19fc",
             "statType": 113,
             "teamId": "10401800-ab22-323d-721a-cee4713c4c2d",
-            "yards": 9
+            "yards": 1
           },
           {
             "playStatId": "10330060-4712-1910-0790-00697c163ee2",

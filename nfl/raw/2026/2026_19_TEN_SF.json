@@ -136,7 +136,7 @@
   "version": 9,
   "summary": {
     "gameId": "c66e0345-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 584,
+    "offset": 586,
     "attendance": 68418,
     "clock": "00:20",
     "distance": 12,
@@ -184,7 +184,7 @@
   },
   "driveChart": {
     "gameId": "c66e0345-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 584,
+    "offset": 586,
     "drives": [
       {
         "sequence": 1,
@@ -4655,8 +4655,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "SF  2-Goal  TEN 5",
         "playDeleted": false,
-        "playDescription": "(8:51) (Shotgun) K.Rourke pass short right to P.Taylor for 5 yards, TOUCHDOWN NULLIFIED by Penalty [J.Johnson].\r\nPENALTY on TEN-C.Flott, Defensive Pass Interference, 4 yards, enforced at TEN 5 - No Play.\r\nPenalty on TEN-C.Gray, Defensive Holding, declined.\r\nThe Replay Official reviewed the pass completion ruling, and the play was REVERSED.\r\n(Shotgun) K.Rourke pass incomplete short right to P.Taylor (C.Flott) [J.Johnson].\r\nPENALTY on TEN-C.Flott, Defensive Pass Interference, 4 yards, enforced at TEN 5 - No Play.\r\nPenalty on TEN-C.Gray, Defensive Holding, declined.",
-        "playDescriptionWithJerseyNumbers": "(8:51) (Shotgun) 14-K.Rourke pass short right to 32-P.Taylor for 5 yards, TOUCHDOWN NULLIFIED by Penalty [11-J.Johnson].\r\nPENALTY on TEN-18-C.Flott, Defensive Pass Interference, 4 yards, enforced at TEN 5 - No Play.\r\nPenalty on TEN-33-C.Gray, Defensive Holding, declined.\r\nThe Replay Official reviewed the pass completion ruling, and the play was REVERSED.\r\n(Shotgun) 14-K.Rourke pass incomplete short right to 32-P.Taylor (18-C.Flott) [11-J.Johnson].\r\nPENALTY on TEN-18-C.Flott, Defensive Pass Interference, 4 yards, enforced at TEN 5 - No Play.\r\nPenalty on TEN-33-C.Gray, Defensive Holding, declined.",
+        "playDescription": "(8:51) (Shotgun) K.Rourke pass short right to P.Taylor for 5 yards, TOUCHDOWN [J.Johnson].\r\nPenalty on TEN-C.Flott, Defensive Pass Interference, declined.\r\nPenalty on TEN-C.Gray, Defensive Holding, declined.\r\nThe Replay Official reviewed the pass completion ruling, and the play was REVERSED.\r\n(Shotgun) K.Rourke pass incomplete short right to P.Taylor (C.Flott) [J.Johnson].\r\nPENALTY on TEN-C.Flott, Defensive Pass Interference, 4 yards, enforced at TEN 5 - No Play.\r\nPenalty on TEN-C.Gray, Defensive Holding, declined.",
+        "playDescriptionWithJerseyNumbers": "(8:51) (Shotgun) 14-K.Rourke pass short right to 32-P.Taylor for 5 yards, TOUCHDOWN [11-J.Johnson].\r\nPenalty on TEN-18-C.Flott, Defensive Pass Interference, declined.\r\nPenalty on TEN-33-C.Gray, Defensive Holding, declined.\r\nThe Replay Official reviewed the pass completion ruling, and the play was REVERSED.\r\n(Shotgun) 14-K.Rourke pass incomplete short right to 32-P.Taylor (18-C.Flott) [11-J.Johnson].\r\nPENALTY on TEN-18-C.Flott, Defensive Pass Interference, 4 yards, enforced at TEN 5 - No Play.\r\nPenalty on TEN-33-C.Gray, Defensive Holding, declined.",
         "playEndTime": "2026-08-14T01:53:28.927Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,

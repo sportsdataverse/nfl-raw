@@ -105,7 +105,7 @@
   "version": 8,
   "summary": {
     "gameId": "c6e883ae-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 498,
+    "offset": 504,
     "attendance": 64497,
     "clock": "00:00",
     "distance": 10,
@@ -153,7 +153,7 @@
   },
   "driveChart": {
     "gameId": "c6e883ae-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 498,
+    "offset": 504,
     "drives": [
       {
         "sequence": 1,
@@ -1213,7 +1213,7 @@
             "personId": "3200534d-4926-9700-a278-7821d73d1c6a",
             "statType": 111,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
-            "yards": 0
+            "yards": -2
           },
           {
             "playStatId": "10330060-4690-1610-0210-00385e8e7a58",
@@ -1243,7 +1243,7 @@
             "personId": "32005041-5206-1324-7c3a-da01e660f29f",
             "statType": 113,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
-            "yards": -2
+            "yards": 0
           },
           {
             "playStatId": "10330060-4690-1610-0790-0063abd6e9e3",
@@ -8113,8 +8113,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  1-10  NYJ 19",
         "playDeleted": false,
-        "playDescription": "(7:45) (No Huddle, Shotgun) D.Allar pass incomplete short left.",
-        "playDescriptionWithJerseyNumbers": "(7:45) (No Huddle, Shotgun) 16-D.Allar pass incomplete short left.",
+        "playDescription": "(7:45) (No Huddle, Shotgun) D.Allar pass incomplete short left to E.Heidenreich.",
+        "playDescriptionWithJerseyNumbers": "(7:45) (No Huddle, Shotgun) 16-D.Allar pass incomplete short left to 29-E.Heidenreich.",
         "playEndTime": "2026-08-22T00:47:57.427Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8141,7 +8141,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4692-4770-1120-0022e235793c",
+            "playStatId": "10330060-4692-4770-1150-002f335adca8",
+            "gsisPlayerId": "00-0041490",
+            "gsisPlayerName": "E.Heidenreich",
+            "gsisPlayerJerseyNumber": "29",
+            "personId": "32004845-4911-4391-8a01-9db2e0bed972",
+            "statType": 115,
+            "teamId": "10403900-8251-6892-d81c-4348525c2d47",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-4692-4770-1120-003bf9299caa",
             "gsisPlayerId": "00-0041565",
             "gsisPlayerName": "D.Allar",
             "gsisPlayerJerseyNumber": "16",
@@ -12538,7 +12548,7 @@
             "personId": "3200414c-4c01-5451-814a-881801f0c648",
             "statType": 111,
             "teamId": "10403900-8251-6892-d81c-4348525c2d47",
-            "yards": -2
+            "yards": 1
           },
           {
             "playStatId": "10330060-4693-9440-0210-003da5a8a5b4",
@@ -12568,7 +12578,7 @@
             "personId": "32004245-4c37-7608-e6e1-a3f4f5be30e6",
             "statType": 113,
             "teamId": "10403900-8251-6892-d81c-4348525c2d47",
-            "yards": 3
+            "yards": 0
           },
           {
             "playStatId": "10330060-4693-9440-0790-006281c8177f",
@@ -12678,21 +12688,21 @@
         "clockTime": "00:25",
         "down": 3,
         "driveNetYards": 42,
-        "drivePlayCount": 7,
+        "drivePlayCount": 9,
         "driveSequence": 22,
-        "driveTimeOfPossession": "1:39",
+        "driveTimeOfPossession": "1:53",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  3-4  NYJ 44",
         "playDeleted": false,
-        "playDescription": "(:25) (No Huddle, Shotgun) D.Allar pass deep left to I.Winstead to NYJ 27 for 17 yards (K.Garber).",
-        "playDescriptionWithJerseyNumbers": "(:25) (No Huddle, Shotgun) 16-D.Allar pass deep left to 27O-I.Winstead to NYJ 27 for 17 yards (45-K.Garber).",
-        "playEndTime": null,
+        "playDescription": "(:25) (No Huddle, Shotgun) D.Allar pass deep left to I.Winstead pushed ob at NYJ 27 for 17 yards (K.Garber).",
+        "playDescriptionWithJerseyNumbers": "(:25) (No Huddle, Shotgun) 16-D.Allar pass deep left to 27O-I.Winstead pushed ob at NYJ 27 for 17 yards (45-K.Garber).",
+        "playEndTime": "2026-08-22T01:48:33.877Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": false,
         "playSequenceNumber": 3994.0,
-        "playStartTime": "2026-08-22T01:48:29Z",
+        "playStartTime": "2026-08-22T01:48:29.060Z",
         "playType": "PASS",
         "quarter": 4,
         "scoringPlayType": "UNSPECIFIED",
