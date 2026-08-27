@@ -93,6 +93,24 @@ RC="${PIPESTATUS[0]}"
 git add -- "$LOG"
 if ! git diff --cached --quiet -- "$LOG"; then
   git commit -q -m "NFL Raw log update ($(date -u +%F))"
-  git push -q origin main || echo "WARN: log push failed"
+  # A bare `|| echo WARN` exits 0, so cron and the health check saw success
+  # while the repo had silently stopped publishing. Retry with a rebase --
+  # origin moving ahead is the usual cause -- and fail loudly if it still
+  # will not land. Mirrors wehoop-wnba-raw/scripts/daily_wnba_scraper.sh.
+  pushed=0
+  for attempt in 1 2 3; do
+    if git push -q origin main; then pushed=1; break; fi
+    echo "log push rejected (attempt $attempt); syncing with origin"
+    git fetch --quiet origin main || true
+    if ! git rebase --merge origin/main >/dev/null 2>&1; then
+      git rebase --abort >/dev/null 2>&1 || true
+      echo "ERROR: cannot rebase onto origin/main; log commit left local" >&2
+      break
+    fi
+  done
+  if [ "$pushed" -ne 1 ]; then
+    echo "ERROR: log push failed after 3 attempts" >&2
+    RC=1
+  fi
 fi
 exit "$RC"
