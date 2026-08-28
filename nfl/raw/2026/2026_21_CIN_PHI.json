@@ -20,7 +20,50 @@
     "awayNetworkChannels": [
       "CBS"
     ],
-    "internationalWatchOptions": [],
+    "internationalWatchOptions": [
+      {
+        "countryCode": "CA",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "GB",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "DE",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "MX",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "FR",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "AU",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      },
+      {
+        "countryCode": "BR",
+        "broadcasters": [
+          "NFL Game Pass on DAZN"
+        ]
+      }
+    ],
     "streamingNetworks": [
       {
         "hostNetwork": "CBS",
@@ -102,9 +145,93 @@
     }
   ],
   "extensions": [],
-  "version": 7,
-  "summary": null,
-  "driveChart": null,
+  "version": 8,
+  "summary": {
+    "gameId": "c77f22f6-5f68-11f1-b1d0-bb70a4640075",
+    "offset": 1,
+    "attendance": null,
+    "clock": "15:00",
+    "distance": 0,
+    "down": 0,
+    "gameBookUrl": null,
+    "isGoalToGo": false,
+    "isRedZone": false,
+    "phase": "PREGAME",
+    "quarter": "Q1",
+    "startTime": null,
+    "weather": null,
+    "yardLine": null,
+    "awayTeam": {
+      "teamId": "10400920-57c1-7656-e77e-1af3d900483e",
+      "hasPossession": false,
+      "score": {
+        "q1": 0,
+        "q2": 0,
+        "q3": 0,
+        "q4": 0,
+        "ot": 0,
+        "total": 0
+      },
+      "timeouts": {
+        "remaining": 3,
+        "used": 0
+      }
+    },
+    "homeTeam": {
+      "teamId": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+      "hasPossession": true,
+      "score": {
+        "q1": 0,
+        "q2": 0,
+        "q3": 0,
+        "q4": 0,
+        "ot": 0,
+        "total": 0
+      },
+      "timeouts": {
+        "remaining": 3,
+        "used": 0
+      }
+    }
+  },
+  "driveChart": {
+    "gameId": "c77f22f6-5f68-11f1-b1d0-bb70a4640075",
+    "offset": 1,
+    "drives": [],
+    "plays": [
+      {
+        "playId": 1,
+        "clockTime": null,
+        "down": 0,
+        "driveNetYards": 0,
+        "drivePlayCount": 0,
+        "driveSequence": 0,
+        "driveTimeOfPossession": null,
+        "nextPlayType": "UNSPECIFIED",
+        "nextPlayIsGoalToGo": false,
+        "prePlayByPlay": null,
+        "playDeleted": false,
+        "playDescription": "GAME",
+        "playDescriptionWithJerseyNumbers": "GAME",
+        "playEndTime": null,
+        "playIsEndOfQuarter": false,
+        "playIsGoalToGo": false,
+        "playScored": false,
+        "playSequenceNumber": 1.0,
+        "playStartTime": null,
+        "playType": "GAME_START",
+        "quarter": 1,
+        "scoringPlayType": "UNSPECIFIED",
+        "scoringTeamId": null,
+        "specialTeamsPlayType": "UNSPECIFIED",
+        "yardLine": null,
+        "yardsGained": 0,
+        "yardsRemaining": 0,
+        "stats": []
+      }
+    ],
+    "scoringSummaries": []
+  },
   "replays": null,
   "taggedVideos": null,
   "awayTeamStandings": null,

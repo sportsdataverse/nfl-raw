@@ -91,8 +91,92 @@
   ],
   "extensions": [],
   "version": 7,
-  "summary": null,
-  "driveChart": null,
+  "summary": {
+    "gameId": "c74e353f-5f68-11f1-b1d0-bb70a4640075",
+    "offset": 1,
+    "attendance": null,
+    "clock": "15:00",
+    "distance": 0,
+    "down": 0,
+    "gameBookUrl": null,
+    "isGoalToGo": false,
+    "isRedZone": false,
+    "phase": "PREGAME",
+    "quarter": "Q1",
+    "startTime": null,
+    "weather": null,
+    "yardLine": null,
+    "awayTeam": {
+      "teamId": "10402120-b0bc-693d-098a-803014096eb0",
+      "hasPossession": false,
+      "score": {
+        "q1": 0,
+        "q2": 0,
+        "q3": 0,
+        "q4": 0,
+        "ot": 0,
+        "total": 0
+      },
+      "timeouts": {
+        "remaining": 3,
+        "used": 0
+      }
+    },
+    "homeTeam": {
+      "teamId": "10400750-259b-33ac-eee3-a3852e83cd1f",
+      "hasPossession": true,
+      "score": {
+        "q1": 0,
+        "q2": 0,
+        "q3": 0,
+        "q4": 0,
+        "ot": 0,
+        "total": 0
+      },
+      "timeouts": {
+        "remaining": 3,
+        "used": 0
+      }
+    }
+  },
+  "driveChart": {
+    "gameId": "c74e353f-5f68-11f1-b1d0-bb70a4640075",
+    "offset": 1,
+    "drives": [],
+    "plays": [
+      {
+        "playId": 1,
+        "clockTime": null,
+        "down": 0,
+        "driveNetYards": 0,
+        "drivePlayCount": 0,
+        "driveSequence": 0,
+        "driveTimeOfPossession": null,
+        "nextPlayType": "UNSPECIFIED",
+        "nextPlayIsGoalToGo": false,
+        "prePlayByPlay": null,
+        "playDeleted": false,
+        "playDescription": "GAME",
+        "playDescriptionWithJerseyNumbers": "GAME",
+        "playEndTime": null,
+        "playIsEndOfQuarter": false,
+        "playIsGoalToGo": false,
+        "playScored": false,
+        "playSequenceNumber": 1.0,
+        "playStartTime": null,
+        "playType": "GAME_START",
+        "quarter": 1,
+        "scoringPlayType": "UNSPECIFIED",
+        "scoringTeamId": null,
+        "specialTeamsPlayType": "UNSPECIFIED",
+        "yardLine": null,
+        "yardsGained": 0,
+        "yardsRemaining": 0,
+        "stats": []
+      }
+    ],
+    "scoringSummaries": []
+  },
   "replays": null,
   "taggedVideos": null,
   "awayTeamStandings": null,
