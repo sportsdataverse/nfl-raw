@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Scrapes NFL Shield-API game JSON into a committed raw library (sibling of nfl-data, which owns modeling)."
 requires-python = ">=3.9"
 dependencies = [
-    "sportsdataverse>=0.0.59",
+    "sportsdataverse @ git+https://github.com/sportsdataverse/sportsdataverse-py@main",
     "polars>=1.0,<2.0",
 ]
 
@@ -15,9 +15,7 @@ dependencies = [
 # path source to [tool.uv.sources] — it would break any environment lacking the sibling).
 
 [dependency-groups]
-dev = [
-    "pytest>=8.0",
-]
+dev = ["pytest>=8.0"]
 # NOTE: modeling-only deps (xgboost, numpy) and the `figures` group (plotnine,
 # scikit-misc) were dropped in the SP3 decommission — modeling now lives in nfl-data.
 
