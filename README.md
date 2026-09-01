@@ -14,6 +14,12 @@ SP3 decommission.
     C-->D1[nfl_model_pbp];
     C-->D2[nfl_model_artifacts];
     C-->D3[nfl_4th_down_models];
+    C-->D4[nfl_espn_qbr];
+    C-->D5[nfl_ratings_weekly];
+    C-->D6[nfl_rosters];
+    C-->D7[nfl_players];
+    C-->D8[nfl_player_stats];
+    C-->D9[nfl_team_stats];
 ```
 
 ## nflverse workflow diagram
@@ -41,12 +47,16 @@ flowchart TB;
         C1[nfl_model_pbp];
         C2[nfl_model_artifacts];
         C3[nfl_4th_down_models];
+        C4[nfl_espn_qbr];
+        C5[nfl_ratings_weekly];
+        C6[nfl_rosters];
+        C7[nfl_players];
+        C8[nfl_player_stats];
+        C9[nfl_team_stats];
     end;
 
     A-->B;
-    B-->C1;
-    B-->C2;
-    B-->C3;
+    B-->C;
 ```
 
 ## Layout
@@ -99,25 +109,31 @@ Depends on [`sportsdataverse`](https://github.com/sportsdataverse/sportsdatavers
 
 ## Automation & status
 
-| workflow | schedule | purpose |
+Scrapes currently run **manually / locally** — there is no cron workflow here;
+`nfl-data` drives its own build cadence. This repo publishes **no releases of
+its own** (the raw library is the committed tree); the release tags below are
+produced by `nfl-data` on `sportsdataverse-data`.
+
+<!-- BEGIN GENERATED: status -->
+
+| workflow | schedule | last run |
 |---|---|---|
-| [`tests.yml`](.github/workflows/tests.yml) | on push / PR | offline unit tests |
+| [![scrape_nfl_raw.yml](https://github.com/sportsdataverse/nfl-raw/actions/workflows/scrape_nfl_raw.yml/badge.svg)](https://github.com/sportsdataverse/nfl-raw/actions/workflows/scrape_nfl_raw.yml) | daily 11:45 UTC in Aug; daily 11:45 UTC in Sep-Dec; daily 11:45 UTC in Jan-Feb | 2026-08-31 |
+| [![tests.yml](https://github.com/sportsdataverse/nfl-raw/actions/workflows/tests.yml/badge.svg)](https://github.com/sportsdataverse/nfl-raw/actions/workflows/tests.yml) | on push / PR / dispatch | never run |
 
-Scrapes currently run **manually / locally**, not on a schedule in this repo —
-there is no cron workflow here. `nfl-data` drives its own build cadence.
+| release tag | assets | size | last publish |
+|---|---:|---:|---|
+| [`nfl_model_pbp`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_model_pbp) | 27 | 168.7 MB | 2026-06-30 |
+| [`nfl_model_artifacts`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_model_artifacts) | 11 | 50.8 MB | 2026-06-24 |
+| [`nfl_4th_down_models`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_4th_down_models) | 2 | 66.9 MB | 2026-06-24 |
+| [`nfl_espn_qbr`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_espn_qbr) | 2 | 0.4 MB | 2026-06-23 |
+| [`nfl_ratings_weekly`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_ratings_weekly) | 27 | 0.8 MB | 2026-08-07 |
+| [`nfl_rosters`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_rosters) | 24 | 5.1 MB | 2026-07-12 |
+| [`nfl_players`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_players) | 1 | 0.4 MB | 2026-06-18 |
+| [`nfl_player_stats`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_player_stats) | 1 | 4.2 MB | 2026-06-23 |
+| [`nfl_team_stats`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_team_stats) | 1 | 0.9 MB | 2026-06-23 |
 
-This repo publishes **no releases of its own** — the raw library is the committed
-tree. Downstream release tags, produced by `nfl-data` on `sportsdataverse-data`:
-
-| release tag | assets | last published |
-|---|---:|---|
-| [`nfl_model_pbp`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_model_pbp) | 27 | 2026-06-18 |
-| [`nfl_model_artifacts`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_model_artifacts) | 11 | 2026-06-17 |
-| [`nfl_4th_down_models`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/nfl_4th_down_models) | 2 | 2026-06-23 |
-
-Counts as of 2026-08-28. This table is live data and should be generated between
-markers once the shared README renderer exists — hand-maintained, it goes stale
-silently.
+<!-- END GENERATED: status -->
 
 ## Related repositories
 
