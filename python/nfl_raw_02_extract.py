@@ -8,11 +8,12 @@ the network (e.g. after changing the game_id / relocation logic).
 Usage::
 
     # Re-extract a single cached season
-    .venv/Scripts/python.exe python/extract_nfl_games.py -s 2024 -e 2024
+    .venv/Scripts/python.exe python/nfl_raw_02_extract.py -s 2024 -e 2024
 
     # Re-extract the whole detail era
-    .venv/Scripts/python.exe python/extract_nfl_games.py -s 1999 -e 2025
+    .venv/Scripts/python.exe python/nfl_raw_02_extract.py -s 1999 -e 2025
 """
+
 from __future__ import annotations
 
 import argparse
@@ -30,19 +31,40 @@ from python.raw_fetcher import (  # noqa: E402
 
 def build_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(
-        prog="extract_nfl_games",
+        prog="nfl_raw_02_extract",
         description="Split cached weekly NFL payloads into per-game nflverse-named files.",
     )
-    ap.add_argument("-s", "--start", type=int, default=NFL_JSON_DETAIL_START,
-                    help=f"First season to extract (default {NFL_JSON_DETAIL_START}).")
-    ap.add_argument("-e", "--end", type=int, required=True,
-                    help="Last season to extract (inclusive).")
-    ap.add_argument("--season-types", nargs="+", default=["REG", "POST"],
-                    metavar="TYPE", help="Season types to extract (default: REG POST).")
-    ap.add_argument("--data-dir", default="data/raw",
-                    help="Weekly raw cache dir to read. Default data/raw.")
-    ap.add_argument("--output-dir", default="nfl/raw",
-                    help="Per-game library dir to write. Default nfl/raw.")
+    ap.add_argument(
+        "-s",
+        "--start",
+        type=int,
+        default=NFL_JSON_DETAIL_START,
+        help=f"First season to extract (default {NFL_JSON_DETAIL_START}).",
+    )
+    ap.add_argument(
+        "-e",
+        "--end",
+        type=int,
+        required=True,
+        help="Last season to extract (inclusive).",
+    )
+    ap.add_argument(
+        "--season-types",
+        nargs="+",
+        default=["REG", "POST"],
+        metavar="TYPE",
+        help="Season types to extract (default: REG POST).",
+    )
+    ap.add_argument(
+        "--data-dir",
+        default="data/raw",
+        help="Weekly raw cache dir to read. Default data/raw.",
+    )
+    ap.add_argument(
+        "--output-dir",
+        default="nfl/raw",
+        help="Per-game library dir to write. Default nfl/raw.",
+    )
     return ap
 
 
@@ -63,8 +85,10 @@ def main(argv: list[str] | None = None) -> None:
         total += len(paths)
         print(f"[extract] {season}: {len(paths)} game file(s)")
 
-    print(f"[extract] done: {total} game file(s) across "
-          f"{args.start}..{args.end} in {time.monotonic() - start:.1f}s")
+    print(
+        f"[extract] done: {total} game file(s) across "
+        f"{args.start}..{args.end} in {time.monotonic() - start:.1f}s"
+    )
 
 
 if __name__ == "__main__":

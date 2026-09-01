@@ -14,16 +14,16 @@ uv sync                                    # creates .venv, installs deps + dev 
 uv run pytest                              # tests/test_fetcher.py (monkeypatched, offline)
 
 # Scrape + extract + commit one season (network). Scripts live under python/.
-.venv/Scripts/python.exe python/scrape_nfl_json.py -s 2024 -e 2024 --commit
+.venv/Scripts/python.exe python/nfl_raw_01_scrape.py -s 2024 -e 2024 --commit
 
 # Default run: 1999 -> current season, REG+POST, 2s throttle, extract on
-.venv/Scripts/python.exe python/scrape_nfl_json.py
-.venv/Scripts/python.exe python/scrape_nfl_json.py -s 1999 -e 2025 --reverse --skip-existing
-.venv/Scripts/python.exe python/scrape_nfl_json.py -s 1920 -e 1998 --no-extract   # schedule shells only
+.venv/Scripts/python.exe python/nfl_raw_01_scrape.py
+.venv/Scripts/python.exe python/nfl_raw_01_scrape.py -s 1999 -e 2025 --reverse --skip-existing
+.venv/Scripts/python.exe python/nfl_raw_01_scrape.py -s 1920 -e 1998 --no-extract   # schedule shells only
 
 # Re-extract per-game files from the cached weekly library WITHOUT re-hitting the network
 # (e.g. after changing game_id / relocation logic):
-.venv/Scripts/python.exe python/extract_nfl_games.py -s 2024 -e 2024
+.venv/Scripts/python.exe python/nfl_raw_02_extract.py -s 2024 -e 2024
 ```
 
 There is **no `[project.scripts]` console entry**, no Makefile, and **no
@@ -70,8 +70,8 @@ There is **no `[project.scripts]` console entry**, no Makefile, and **no
 
 ## Reference
 
-- Scripts: `python/scrape_nfl_json.py` (fetch+extract+commit CLI),
-  `python/extract_nfl_games.py` (re-extract from cache), `python/raw_fetcher.py`
+- Scripts: `python/nfl_raw_01_scrape.py` (fetch+extract+commit CLI),
+  `python/nfl_raw_02_extract.py` (re-extract from cache), `python/raw_fetcher.py`
   (`build_raw_library` / `extract_library_to_games` / `nflverse_game_id`).
 - `HANDOFF.md`, `docs/raw-to-data-migration-playbook.md` (SP3 split context),
   `dev/nflfastr-port-map.md` (gitignored notes).

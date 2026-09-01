@@ -14,17 +14,18 @@ Data availability (api.nfl.com weekly-game-details):
 Usage::
 
     # Default: 1999 -> current season, REG + POST, 2s throttle, extract on
-    .venv/Scripts/python.exe python/scrape_nfl_json.py
+    .venv/Scripts/python.exe python/nfl_raw_01_scrape.py
 
     # One season
-    .venv/Scripts/python.exe python/scrape_nfl_json.py -s 2024 -e 2024
+    .venv/Scripts/python.exe python/nfl_raw_01_scrape.py -s 2024 -e 2024
 
     # Full detail era, newest first
-    .venv/Scripts/python.exe python/scrape_nfl_json.py -s 1999 -e 2025 --reverse
+    .venv/Scripts/python.exe python/nfl_raw_01_scrape.py -s 1999 -e 2025 --reverse
 
     # Schedule shells back to the league's founding (fetch only, no extract)
-    .venv/Scripts/python.exe python/scrape_nfl_json.py -s 1920 -e 1998 --no-extract
+    .venv/Scripts/python.exe python/nfl_raw_01_scrape.py -s 1920 -e 1998 --no-extract
 """
+
 from __future__ import annotations
 
 import argparse
@@ -55,54 +56,72 @@ def _current_season(default: int = 2025) -> int:
 
 def build_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(
-        prog="scrape_nfl_json",
+        prog="nfl_raw_01_scrape",
         description="Scrape + extract NFL weekly game-detail JSON over a season range.",
     )
     ap.add_argument(
-        "-s", "--start", type=int, default=NFL_JSON_DETAIL_START,
+        "-s",
+        "--start",
+        type=int,
+        default=NFL_JSON_DETAIL_START,
         help=f"First season to scrape (default {NFL_JSON_DETAIL_START}, the play-detail floor).",
     )
     ap.add_argument(
-        "-e", "--end", type=int, default=None,
+        "-e",
+        "--end",
+        type=int,
+        default=None,
         help="Last season to scrape (default: current NFL season).",
     )
     ap.add_argument(
-        "--season-types", nargs="+", default=["REG", "POST"],
-        metavar="TYPE", help="Season types to fetch (default: REG POST).",
+        "--season-types",
+        nargs="+",
+        default=["REG", "POST"],
+        metavar="TYPE",
+        help="Season types to fetch (default: REG POST).",
     )
     ap.add_argument(
-        "--delay", type=float, default=2.0,
+        "--delay",
+        type=float,
+        default=2.0,
         help="Seconds to rest between requests (default 2.0).",
     )
     ap.add_argument(
-        "--data-dir", default="data/raw",
+        "--data-dir",
+        default="data/raw",
         help="Local weekly raw cache dir (gitignored). Default data/raw.",
     )
     ap.add_argument(
-        "--output-dir", default="nfl/raw",
+        "--output-dir",
+        default="nfl/raw",
         help="Committed per-game library dir. Default nfl/raw.",
     )
     ap.add_argument(
-        "--reverse", action="store_true",
+        "--reverse",
+        action="store_true",
         help="Iterate newest season first (handy for backfills).",
     )
     ap.add_argument(
-        "--no-resume", action="store_true",
+        "--no-resume",
+        action="store_true",
         help="Re-fetch weeks even if their cache file already exists.",
     )
     ap.add_argument(
-        "--no-extract", action="store_true",
+        "--no-extract",
+        action="store_true",
         help="Only fetch the weekly cache; skip per-game extraction.",
     )
     ap.add_argument(
-        "--commit", action="store_true",
+        "--commit",
+        action="store_true",
         help="git add + commit each season's per-game files as they finish "
-             "(one commit per season). Requires extraction.",
+        "(one commit per season). Requires extraction.",
     )
     ap.add_argument(
-        "--skip-existing", action="store_true",
+        "--skip-existing",
+        action="store_true",
         help="Skip a season whose output dir already has game files (resume a "
-             "backfill without re-fetching completed seasons).",
+        "backfill without re-fetching completed seasons).",
     )
     return ap
 
@@ -147,7 +166,11 @@ def main(argv: list[str] | None = None) -> None:
     for season in seasons:
         s0 = time.monotonic()
         season_out = Path(args.output_dir) / str(season)
-        if args.skip_existing and season_out.is_dir() and any(season_out.glob("*.json")):
+        if (
+            args.skip_existing
+            and season_out.is_dir()
+            and any(season_out.glob("*.json"))
+        ):
             print(f"[scrape] {season}: already present, skipping")
             continue
 

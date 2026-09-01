@@ -69,7 +69,7 @@ LOG="logs/daily_nfl_$(date -u +%Y%m%d).log"
   # dir is non-empty, which is exactly the current season every day after the
   # first. Both are the right flags for a backfill and wrong for a refresh.
   # shellcheck disable=SC2086
-  "$PY" python/scrape_nfl_json.py \
+  "$PY" python/nfl_raw_01_scrape.py \
       -s "$START_YEAR" -e "$END_YEAR" \
       --season-types $SEASON_TYPES \
       --no-resume --commit

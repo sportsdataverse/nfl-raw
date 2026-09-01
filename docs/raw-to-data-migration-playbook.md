@@ -74,7 +74,7 @@ all in one repo:
 
 | nfl-raw today | CFB analog | Migrates to nfl-data? |
 |---|---|---|
-| `python/scrape_nfl_json.py`, `extract_nfl_games.py` | cfb-raw scrapers | **No — stays in nfl-raw** |
+| `python/nfl_raw_01_scrape.py`, `nfl_raw_02_extract.py` | cfb-raw scrapers | **No — stays in nfl-raw** |
 | `nfl/raw/` (3.1 GB committed JSON) | cfb-raw `cfb/json/` | **No — stays in nfl-raw** |
 | `python/model_training/track6_nfl_ep_wp/` (EP/WP/CP trainer + reporting suite + model cards) | `model_training` | **Yes → nfl-data** |
 | `python/native_pbp/` (build/features/labels/parity/parse — compiled PBP w/ nflfastR parity) | `cfb_model_pbp` | **Yes → nfl-data** |

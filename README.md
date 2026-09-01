@@ -28,11 +28,11 @@ SP3 decommission.
 flowchart TB;
     subgraph A[nfl-raw];
         direction TB;
-        A1[scrape_nfl_json.py driver]-->A2[raw_fetcher.build_raw_library];
+        A1[nfl_raw_01_scrape.py driver]-->A2[raw_fetcher.build_raw_library];
         A2-->A3[weekly cache season/TYPE/wkNN.json];
         A3-->A4[raw_fetcher.extract_library_to_games];
         A4-->A5[nfl/raw/season/nflverse_game_id.json];
-        A6[extract_nfl_games.py offline re-extract]-.->A4;
+        A6[nfl_raw_02_extract.py offline re-extract]-.->A4;
     end;
 
     subgraph B[nfl-data];
@@ -64,13 +64,13 @@ flowchart TB;
 | path | contents |
 |---|---|
 | `nfl/raw/{season}/{nflverse_game_id}.json` | one Shield game-detail payload per game (the committed library) |
-| `python/scrape_nfl_json.py` | the scrape driver — fetches the weekly cache, then explodes it per game |
+| `python/nfl_raw_01_scrape.py` | the scrape driver — fetches the weekly cache, then explodes it per game |
 | `python/raw_fetcher.py` | `build_raw_library` (weekly fetch) + `extract_library_to_games` (per-game write) + `nflverse_game_id` |
-| `python/extract_nfl_games.py` | **offline** re-extract: rebuilds the per-game library from an already-cached weekly library, no network |
+| `python/nfl_raw_02_extract.py` | **offline** re-extract: rebuilds the per-game library from an already-cached weekly library, no network |
 
 **Two stages, not one.** `build_raw_library` writes a weekly cache at
 `{season}/{REG,POST}/wk{NN}.json`; `extract_library_to_games` then explodes that
-into the committed per-game files. `extract_nfl_games.py` re-runs only the second
+into the committed per-game files. `nfl_raw_02_extract.py` re-runs only the second
 stage, which is what you want after changing game-id or relocation logic.
 
 Filenames are **nflverse `game_id`s** — `{season}_{week:02d}_{away}_{home}`, e.g.
