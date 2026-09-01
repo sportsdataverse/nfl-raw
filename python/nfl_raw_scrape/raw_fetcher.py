@@ -24,6 +24,7 @@ Usage::
         resume=True,
     )
 """
+
 from __future__ import annotations
 
 import json
@@ -36,10 +37,14 @@ from typing import List, Union
 # Thin network wrappers — monkeypatched in tests
 # ---------------------------------------------------------------------------
 
+
 def _list_weeks(season: int, season_type: str, headers: dict | None = None) -> dict:
     """Return raw JSON from ``nfl_weeks`` (the NFL Shield week calendar)."""
     from sportsdataverse.nfl.nfl_api import nfl_weeks
-    return nfl_weeks(season=season, season_type=season_type, return_parsed=False, headers=headers)
+
+    return nfl_weeks(
+        season=season, season_type=season_type, return_parsed=False, headers=headers
+    )
 
 
 def _fetch_weekly_details(
@@ -50,6 +55,7 @@ def _fetch_weekly_details(
 ) -> Union[list, dict]:
     """Return raw JSON from ``nfl_weekly_game_details`` (bare list or dict)."""
     from sportsdataverse.nfl.nfl_api import nfl_weekly_game_details
+
     return nfl_weekly_game_details(
         season=season,
         season_type=season_type,
@@ -63,6 +69,7 @@ def _fetch_weekly_details(
 # ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
+
 
 def list_season_weeks(
     season: int,
@@ -208,6 +215,7 @@ def build_raw_library(
 # Read-back helpers
 # ---------------------------------------------------------------------------
 
+
 def load_weekly_raw(path: Path) -> Union[list, dict]:
     """Load a stored weekly JSON file from disk.
 
@@ -275,9 +283,9 @@ _NFLVERSE_ABBR_FIXUPS = {"AZ": "ARI"}
 # historical game_ids. Map: modern abbr -> (last season under the OLD abbr, old abbr).
 # A game in season <= cutoff uses the old abbr.
 _RELOCATIONS = {
-    "LA": (2015, "STL"),   # Rams: St. Louis through 2015, Los Angeles from 2016
-    "LAC": (2016, "SD"),   # Chargers: San Diego through 2016, Los Angeles from 2017
-    "LV": (2019, "OAK"),   # Raiders: Oakland through 2019, Las Vegas from 2020
+    "LA": (2015, "STL"),  # Rams: St. Louis through 2015, Los Angeles from 2016
+    "LAC": (2016, "SD"),  # Chargers: San Diego through 2016, Los Angeles from 2017
+    "LV": (2019, "OAK"),  # Raiders: Oakland through 2019, Las Vegas from 2020
 }
 
 
@@ -367,8 +375,10 @@ def _detect_reg_weeks(season: int, data_dir: Path, season_types: List[str]) -> i
     weeks: list[int] = []
     for path in list_library_files(season, "REG", data_dir=data_dir):
         payload = load_weekly_raw(path)
-        games = payload if isinstance(payload, list) else (
-            payload.get("games") or payload.get("data") or []
+        games = (
+            payload
+            if isinstance(payload, list)
+            else (payload.get("games") or payload.get("data") or [])
         )
         for game in games:
             try:
@@ -429,8 +439,10 @@ def extract_library_to_games(
     for season_type in list(season_types):
         for week_path in list_library_files(season, season_type, data_dir=data_dir):
             payload = load_weekly_raw(week_path)
-            games = payload if isinstance(payload, list) else (
-                payload.get("games") or payload.get("data") or []
+            games = (
+                payload
+                if isinstance(payload, list)
+                else (payload.get("games") or payload.get("data") or [])
             )
             for game in games:
                 gid = nflverse_game_id(game, reg_weeks=reg_weeks)

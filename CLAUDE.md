@@ -61,7 +61,7 @@ There is **no `[project.scripts]` console entry**, no Makefile, and **no
   1998-and-earlier and 1997 are shells/spotty — use `--no-extract` for those.
 - **Arizona abbr fixup:** the Shield API renders Arizona as `AZ`; nflverse spells
   it `ARI`. Relocated franchises also need season-aware abbr fixups to match
-  historical nflverse game_ids (`_nflverse_abbr_fixups` in `raw_fetcher.py`).
+  historical nflverse game_ids (`_nflverse_abbr_fixups` in `nfl_raw_scrape/raw_fetcher.py`).
 - **Throttle is `--delay` SECONDS (default 2.0), not a workers env var** — the pull
   is sequential. `--no-resume` re-fetches cached weeks; `resume=True` (default)
   skips on-disk files and doesn't sleep on skips. `--skip-existing` skips a whole
@@ -71,7 +71,7 @@ There is **no `[project.scripts]` console entry**, no Makefile, and **no
 ## Reference
 
 - Scripts: `python/nfl_raw_01_scrape.py` (fetch+extract+commit CLI),
-  `python/nfl_raw_02_extract.py` (re-extract from cache), `python/raw_fetcher.py`
+  `python/nfl_raw_02_extract.py` (re-extract from cache), `python/nfl_raw_scrape/raw_fetcher.py`
   (`build_raw_library` / `extract_library_to_games` / `nflverse_game_id`).
 - `HANDOFF.md`, `docs/raw-to-data-migration-playbook.md` (SP3 split context),
   `dev/nflfastr-port-map.md` (gitignored notes).
