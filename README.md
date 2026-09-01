@@ -109,9 +109,8 @@ Depends on [`sportsdataverse`](https://github.com/sportsdataverse/sportsdatavers
 
 ## Automation & status
 
-Scrapes currently run **manually / locally** — there is no cron workflow here;
-`nfl-data` drives its own build cadence. This repo publishes **no releases of
-its own** (the raw library is the committed tree); the release tags below are
+The daily scrape runs on `scrape_nfl_raw.yml` (in-season cron); `nfl-data`
+drives its own build cadence. This repo publishes **no releases of its own** (the raw library is the committed tree); the release tags below are
 produced by `nfl-data` on `sportsdataverse-data`.
 
 <!-- BEGIN GENERATED: status -->
