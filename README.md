@@ -107,6 +107,17 @@ uv run pytest          # tests/test_fetcher.py — monkeypatched, offline
 Depends on [`sportsdataverse`](https://github.com/sportsdataverse/sportsdataverse-py)
 (`sdv-py`, the `.nfl` submodule) for the authenticated Shield wrappers.
 
+## Reports & explainers
+
+<!-- BEGIN GENERATED: reports -->
+
+| Report | What it is | Last updated |
+|---|---|---|
+| [NFL Track 6 — model reporting, figures & metrics](docs/model-reporting.md) | explainer | 2026-06-16 |
+| [`-raw` → `-data` Migration Playbook (CFB reference → NFL target)](docs/raw-to-data-migration-playbook.md) | explainer | 2026-06-17 |
+
+<!-- END GENERATED: reports -->
+
 ## Automation & status
 
 The daily scrape runs on `scrape_nfl_raw.yml` (in-season cron); `nfl-data`
