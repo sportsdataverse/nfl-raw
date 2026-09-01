@@ -1,7 +1,7 @@
 # nfl-raw
 
 Committed per-game raw library of NFL Shield-API (`api.nfl.com`) game-detail
-JSON, 1999–2026 (28 seasons, 7,277 games).
+JSON, 1999–2026 (28 seasons, 7,598 games).
 
 This repo is a **pure scraper**. Its sibling [`nfl-data`](https://github.com/sportsdataverse/nfl-data)
 owns all reshaping, modeling and publishing — modeling was removed here in the
@@ -83,7 +83,7 @@ from the schedule or that helper rather than formatting them by hand.
 ## How consumers should read this repo
 
 **Fetch individual game JSON over HTTP. Do not clone or check this repo out on
-CI.** It is 229 MB today and grows every week; a runner that clones it is a
+CI.** The raw tree is ~3 GB of JSON today and grows every week; a runner that clones it is a
 timeout waiting to happen.
 
 ```text
