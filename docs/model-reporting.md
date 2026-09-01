@@ -1,5 +1,9 @@
 # NFL Track 6 — model reporting, figures & metrics
 
+> **Historical (SP3 decommission).** The model-training/reporting code this describes
+> was moved to [`nfl-data`](https://github.com/sportsdataverse/nfl-data) (`model_training/play_level/`);
+> `python/model_training/` no longer exists in this repo. Kept as the Track 6 design record.
+
 This brings the NFL EP/WP/CP model training (`python/model_training/track6_nfl_ep_wp/`)
 to the cfbfastR model-suite house style, and reproduces nflfastR's two signature
 model figures. It is the reporting layer on top of the training pipeline.
