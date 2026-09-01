@@ -59,14 +59,36 @@ flowchart TB;
     B-->C;
 ```
 
-## Layout
+## Repository layout
 
-| path | contents |
-|---|---|
-| `nfl/raw/{season}/{nflverse_game_id}.json` | one Shield game-detail payload per game (the committed library) |
-| `python/nfl_raw_01_scrape.py` | the scrape driver — fetches the weekly cache, then explodes it per game |
-| `python/nfl_raw_scrape/raw_fetcher.py` | `build_raw_library` (weekly fetch) + `extract_library_to_games` (per-game write) + `nflverse_game_id` |
-| `python/nfl_raw_02_extract.py` | **offline** re-extract: rebuilds the per-game library from an already-cached weekly library, no network |
+<!-- BEGIN GENERATED: layout -->
+
+```
+nfl-raw/
+├── data/   # committed datasets
+│   └── raw/
+├── dev/   # working notes, not part of the pipeline
+├── docs/   # explainers, model reports and dataset docs
+├── logs/   # per-run logs (gitignored where large)
+├── models/   # model artifacts, cards and the registry
+├── nfl/
+│   └── raw/
+├── nfl_raw_pipeline.egg-info/
+├── python/   # Python pipeline stages, numbered in build order
+│   ├── nfl_raw_scrape/
+│   ├── nfl_raw_01_scrape.py
+│   └── nfl_raw_02_extract.py
+├── scripts/   # bash drivers (the daily/weekly entry points)
+│   ├── _venv.sh
+│   └── daily_nfl_scraper.sh
+├── tests/   # test suite
+│   ├── __init__.py
+│   └── test_fetcher.py
+└── tools/   # repo-local helper scripts
+    └── hooks/
+```
+
+<!-- END GENERATED: layout -->
 
 **Two stages, not one.** `build_raw_library` writes a weekly cache at
 `{season}/{REG,POST}/wk{NN}.json`; `extract_library_to_games` then explodes that
