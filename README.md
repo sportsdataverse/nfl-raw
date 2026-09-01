@@ -152,3 +152,17 @@ produced by `nfl-data` on `sportsdataverse-data`.
 - [sportsdataverse-py](https://github.com/sportsdataverse/sportsdataverse-py) — the `nfl` submodule and Shield wrappers
 
 Part of the [SportsDataverse](https://sportsdataverse.org/).
+
+## Consumers
+
+The packages that read what this repo produces:
+
+- **Python:** [`sportsdataverse.nfl (native pbp reconstruction)`](https://github.com/sportsdataverse/sportsdataverse-py) — docs at <https://py.sportsdataverse.org>
+- consumed by [nfl-data](https://github.com/sportsdataverse/nfl-data) over HTTP
+
+## Stage inventory
+
+Every numbered pipeline stage in `python/` (auto-listed; run subsets with the `scripts/*.sh` drivers by number or name):
+
+- `python/nfl_raw_01_scrape.py`
+- `python/nfl_raw_02_extract.py`
