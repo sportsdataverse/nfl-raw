@@ -36,8 +36,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from sportsdataverse.nfl.nfl_games import nfl_headers_gen  # noqa: E402
-from python.nfl_raw_scrape.raw_fetcher import (  # noqa: E402
+from sportsdataverse.nfl.nfl_games import nfl_headers_gen
+
+from python.nfl_raw_scrape.raw_fetcher import (
     NFL_JSON_DETAIL_START,
     build_raw_library,
     extract_library_to_games,
@@ -129,8 +130,12 @@ def build_parser() -> argparse.ArgumentParser:
 def _git_commit_season(output_dir: str, season: int, n_games: int) -> None:
     """Stage and commit one season's per-game files (no-op if nothing staged)."""
     subprocess.run(["git", "add", f"{output_dir}/{season}"], check=True)
+    # check=False is deliberate and load-bearing: this reads the RETURN CODE as the
+    # answer -- `git diff --cached --quiet` exits 1 when there is something staged,
+    # which is the normal path. check=True would raise on exactly the case we want.
     staged = subprocess.run(
-        ["git", "diff", "--cached", "--quiet", "--", f"{output_dir}/{season}"]
+        ["git", "diff", "--cached", "--quiet", "--", f"{output_dir}/{season}"],
+        check=False,
     ).returncode
     if staged == 0:
         print(f"[scrape] {season}: nothing new to commit")

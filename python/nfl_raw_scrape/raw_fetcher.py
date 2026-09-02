@@ -30,8 +30,6 @@ from __future__ import annotations
 import json
 import time
 from pathlib import Path
-from typing import List, Union
-
 
 # ---------------------------------------------------------------------------
 # Thin network wrappers — monkeypatched in tests
@@ -52,7 +50,7 @@ def _fetch_weekly_details(
     season_type: str,
     week: int,
     headers: dict | None = None,
-) -> Union[list, dict]:
+) -> list | dict:
     """Return raw JSON from ``nfl_weekly_game_details`` (bare list or dict)."""
     from sportsdataverse.nfl.nfl_api import nfl_weekly_game_details
 
@@ -100,7 +98,7 @@ def list_season_weeks(
     return sorted(week_nums)
 
 
-def extract_game_ids_from_weekly(payload: Union[list, dict]) -> list[str]:
+def extract_game_ids_from_weekly(payload: list | dict) -> list[str]:
     """Extract game ID strings from a ``nfl_weekly_game_details`` raw payload.
 
     The endpoint returns either a bare ``list`` of game objects or a dict with a
@@ -129,10 +127,10 @@ def extract_game_ids_from_weekly(payload: Union[list, dict]) -> list[str]:
 
 
 def build_raw_library(
-    seasons: List[int],
+    seasons: list[int],
     output_dir: Path = Path("data/raw"),
     *,
-    season_types: List[str] = ("REG", "POST"),
+    season_types: list[str] = ("REG", "POST"),
     resume: bool = True,
     headers: dict | None = None,
     delay_s: float = 0.0,
@@ -216,7 +214,7 @@ def build_raw_library(
 # ---------------------------------------------------------------------------
 
 
-def load_weekly_raw(path: Path) -> Union[list, dict]:
+def load_weekly_raw(path: Path) -> list | dict:
     """Load a stored weekly JSON file from disk.
 
     Args:
@@ -364,7 +362,7 @@ def nflverse_game_id(game: dict, reg_weeks: int = 18) -> str:
     return f"{season}_{week:02d}_{away}_{home}"
 
 
-def _detect_reg_weeks(season: int, data_dir: Path, season_types: List[str]) -> int:
+def _detect_reg_weeks(season: int, data_dir: Path, season_types: list[str]) -> int:
     """Return the max REG week present on disk for a season (postseason offset).
 
     Falls back to ``18`` when no REG library files are found, so the modern
@@ -393,7 +391,7 @@ def extract_library_to_games(
     data_dir: Path = Path("data/raw"),
     output_dir: Path = Path("nfl/raw"),
     *,
-    season_types: List[str] = ("REG", "POST"),
+    season_types: list[str] = ("REG", "POST"),
 ) -> list[Path]:
     """Split weekly library payloads into per-game nflverse-named JSON files.
 

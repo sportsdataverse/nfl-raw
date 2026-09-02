@@ -15,7 +15,10 @@ dependencies = [
 # path source to [tool.uv.sources] — it would break any environment lacking the sibling).
 
 [dependency-groups]
-dev = ["pytest>=8.0"]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
 # NOTE: modeling-only deps (xgboost, numpy) and the `figures` group (plotnine,
 # scikit-misc) were dropped in the SP3 decommission — modeling now lives in nfl-data.
 
