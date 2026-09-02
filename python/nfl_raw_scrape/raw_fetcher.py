@@ -30,15 +30,14 @@ from __future__ import annotations
 import json
 import time
 from pathlib import Path
-from typing import List, Union
-
+from typing import Optional, Union
 
 # ---------------------------------------------------------------------------
 # Thin network wrappers — monkeypatched in tests
 # ---------------------------------------------------------------------------
 
 
-def _list_weeks(season: int, season_type: str, headers: dict | None = None) -> dict:
+def _list_weeks(season: int, season_type: str, headers: Optional[dict] = None) -> dict:
     """Return raw JSON from ``nfl_weeks`` (the NFL Shield week calendar)."""
     from sportsdataverse.nfl.nfl_api import nfl_weeks
 
@@ -51,7 +50,7 @@ def _fetch_weekly_details(
     season: int,
     season_type: str,
     week: int,
-    headers: dict | None = None,
+    headers: Optional[dict] = None,
 ) -> Union[list, dict]:
     """Return raw JSON from ``nfl_weekly_game_details`` (bare list or dict)."""
     from sportsdataverse.nfl.nfl_api import nfl_weekly_game_details
@@ -74,7 +73,7 @@ def _fetch_weekly_details(
 def list_season_weeks(
     season: int,
     season_type: str = "REG",
-    headers: dict | None = None,
+    headers: Optional[dict] = None,
 ) -> list[int]:
     """Return sorted week numbers for a season / type via the NFL API.
 
@@ -129,12 +128,12 @@ def extract_game_ids_from_weekly(payload: Union[list, dict]) -> list[str]:
 
 
 def build_raw_library(
-    seasons: List[int],
+    seasons: list[int],
     output_dir: Path = Path("data/raw"),
     *,
-    season_types: List[str] = ("REG", "POST"),
+    season_types: list[str] = ("REG", "POST"),
     resume: bool = True,
-    headers: dict | None = None,
+    headers: Optional[dict] = None,
     delay_s: float = 0.0,
 ) -> list[Path]:
     """Download and store weekly NFL game details JSON for the given seasons.
@@ -364,7 +363,7 @@ def nflverse_game_id(game: dict, reg_weeks: int = 18) -> str:
     return f"{season}_{week:02d}_{away}_{home}"
 
 
-def _detect_reg_weeks(season: int, data_dir: Path, season_types: List[str]) -> int:
+def _detect_reg_weeks(season: int, data_dir: Path, season_types: list[str]) -> int:
     """Return the max REG week present on disk for a season (postseason offset).
 
     Falls back to ``18`` when no REG library files are found, so the modern
@@ -393,7 +392,7 @@ def extract_library_to_games(
     data_dir: Path = Path("data/raw"),
     output_dir: Path = Path("nfl/raw"),
     *,
-    season_types: List[str] = ("REG", "POST"),
+    season_types: list[str] = ("REG", "POST"),
 ) -> list[Path]:
     """Split weekly library payloads into per-game nflverse-named JSON files.
 

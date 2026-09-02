@@ -16,7 +16,6 @@ from python.nfl_raw_scrape.raw_fetcher import (
     list_season_weeks,
 )
 
-
 # ---------------------------------------------------------------------------
 # Helpers — synthetic API responses
 # ---------------------------------------------------------------------------
@@ -283,8 +282,9 @@ class TestBuildRawLibrary:
 
     def test_default_output_dir_is_data_raw(self, tmp_path, monkeypatch):
         """Confirm the default output_dir keyword default is Path('data/raw')."""
-        import python.nfl_raw_scrape.raw_fetcher as mod
         import inspect
+
+        import python.nfl_raw_scrape.raw_fetcher as mod
 
         sig = inspect.signature(mod.build_raw_library)
         default = sig.parameters["output_dir"].default
