@@ -22,6 +22,21 @@ dev = [
 # NOTE: modeling-only deps (xgboost, numpy) and the `figures` group (plotnine,
 # scikit-misc) were dropped in the SP3 decommission — modeling now lives in nfl-data.
 
+# requires-python is >=3.9, and this repo is never tested below the 3.12 CI pin,
+# so the 3.9 promise has to be kept by rule rather than by exercise.
+#
+# keep-runtime-typing stops UP006/UP007 rewriting `Optional[X]` -> `X | None`.
+# Ruff applies those whenever `from __future__ import annotations` is present,
+# because the annotation is then only a string -- but a string is not the whole
+# story: `typing.get_type_hints()` RESOLVES it, and `dict | None` raises TypeError
+# on 3.9 when it does. Anything introspecting these signatures would break on the
+# floor we advertise.
+[tool.ruff]
+target-version = "py39"
+
+[tool.ruff.lint.pyupgrade]
+keep-runtime-typing = true
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
