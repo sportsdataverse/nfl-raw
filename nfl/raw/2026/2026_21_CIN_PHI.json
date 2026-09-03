@@ -148,7 +148,7 @@
   "version": 8,
   "summary": {
     "gameId": "c77f22f6-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 449,
+    "offset": 456,
     "attendance": 69879,
     "clock": "00:28",
     "distance": 10,
@@ -196,7 +196,7 @@
   },
   "driveChart": {
     "gameId": "c77f22f6-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 449,
+    "offset": 456,
     "drives": [
       {
         "sequence": 1,
@@ -302,8 +302,8 @@
         "plays": 12,
         "timeOfPossession": "5:11",
         "totalEndedWithScore": true,
-        "yardsGained": 62,
-        "yardsGainedByPenalty": -5,
+        "yardsGained": 59,
+        "yardsGainedByPenalty": -2,
         "yardsGainedNet": 57
       },
       {
@@ -1615,10 +1615,10 @@
         "playId": 300,
         "clockTime": "10:14",
         "down": 1,
-        "driveNetYards": 52,
-        "drivePlayCount": 7,
+        "driveNetYards": 60,
+        "drivePlayCount": 10,
         "driveSequence": 2,
-        "driveTimeOfPossession": "3:39",
+        "driveTimeOfPossession": "5:06",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CIN  1-10  CIN 41",
@@ -1678,7 +1678,7 @@
             "personId": "32004a4f-4800-0001-966a-b4f304503fea",
             "statType": 112,
             "teamId": "10400920-57c1-7656-e77e-1af3d900483e",
-            "yards": 4
+            "yards": 9
           }
         ]
       },
@@ -2078,8 +2078,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CIN  3-4  PHI 11",
         "playDeleted": false,
-        "playDescription": "(7:35) (Shotgun) J.Johnson pass incomplete short left to J.Endries.",
-        "playDescriptionWithJerseyNumbers": "(7:35) (Shotgun) 11-J.Johnson pass incomplete short left to 84-J.Endries.",
+        "playDescription": "(7:35) (Shotgun) J.Johnson pass incomplete short left to J.Endries [A.Ebiketie].",
+        "playDescriptionWithJerseyNumbers": "(7:35) (Shotgun) 11-J.Johnson pass incomplete short left to 84-J.Endries [17-A.Ebiketie].",
         "playEndTime": "2026-08-29T00:17:32.517Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -2126,7 +2126,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4940-4250-1120-00469dfe922a",
+            "playStatId": "10330060-4940-4250-1100-0049c216a55f",
+            "gsisPlayerId": "00-0038116",
+            "gsisPlayerName": "A.Ebiketie",
+            "gsisPlayerJerseyNumber": "17",
+            "personId": "32004542-4941-5291-2f5f-b9168e0c96c0",
+            "statType": 110,
+            "teamId": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-4940-4250-1120-005468ef06f3",
             "gsisPlayerId": "00-0026300",
             "gsisPlayerName": "J.Johnson",
             "gsisPlayerJerseyNumber": "11",
@@ -2819,16 +2829,16 @@
         "playId": 659,
         "clockTime": "05:25",
         "down": 1,
-        "driveNetYards": 15,
-        "drivePlayCount": 4,
+        "driveNetYards": 57,
+        "drivePlayCount": 12,
         "driveSequence": 4,
-        "driveTimeOfPossession": "1:25",
+        "driveTimeOfPossession": "5:11",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CIN  1-10  CIN 14",
         "playDeleted": false,
-        "playDescription": "(5:25) T.Brooks right guard to CIN 21 for 7 yards (D.Blay).\r\nPENALTY on CIN-J.Kattus, Offensive Holding, 10 yards, enforced at CIN 18.",
-        "playDescriptionWithJerseyNumbers": "(5:25) 25-T.Brooks right guard to CIN 21 for 7 yards (64-D.Blay).\r\nPENALTY on CIN-48-J.Kattus, Offensive Holding, 10 yards, enforced at CIN 18.",
+        "playDescription": "(5:25) T.Brooks right guard to CIN 21 for 7 yards (D.Blay).\r\nPENALTY on CIN-J.Kattus, Offensive Holding, 7 yards, enforced at CIN 15.",
+        "playDescriptionWithJerseyNumbers": "(5:25) 25-T.Brooks right guard to CIN 21 for 7 yards (64-D.Blay).\r\nPENALTY on CIN-48-J.Kattus, Offensive Holding, 7 yards, enforced at CIN 15.",
         "playEndTime": "2026-08-29T00:28:42.320Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -2852,7 +2862,7 @@
             "personId": "32004252-4f16-8325-38e7-d7fab363c600",
             "statType": 10,
             "teamId": "10400920-57c1-7656-e77e-1af3d900483e",
-            "yards": 4
+            "yards": 1
           },
           {
             "playStatId": "10330060-4940-6590-0790-002cf07c4721",
@@ -2872,7 +2882,7 @@
             "personId": "32004b41-5472-0399-6120-9237bc19b8bc",
             "statType": 93,
             "teamId": "10400920-57c1-7656-e77e-1af3d900483e",
-            "yards": 10
+            "yards": 7
           }
         ]
       },
@@ -5987,8 +5997,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CIN  1-10  PHI 41",
         "playDeleted": false,
-        "playDescription": "(2:43) (Shotgun) G.Brightwell up the middle to PHI 39 for 2 yards (D.Lawson). FUMBLES (D.Lawson), RECOVERED by PHI-A.Sam at PHI 39. A.Sam to PHI 38 for -1 yards.",
-        "playDescriptionWithJerseyNumbers": "(2:43) (Shotgun) 32-G.Brightwell up the middle to PHI 39 for 2 yards (47-D.Lawson). FUMBLES (47-D.Lawson), RECOVERED by PHI-31-A.Sam at PHI 39. 31-A.Sam to PHI 38 for -1 yards.",
+        "playDescription": "(2:43) (Shotgun) G.Brightwell up the middle to PHI 39 for 2 yards (D.Lawson). FUMBLES (D.Lawson), RECOVERED by PHI-A.Sam at PHI 38.",
+        "playDescriptionWithJerseyNumbers": "(2:43) (Shotgun) 32-G.Brightwell up the middle to PHI 39 for 2 yards (47-D.Lawson). FUMBLES (47-D.Lawson), RECOVERED by PHI-31-A.Sam at PHI 38.",
         "playEndTime": "2026-08-29T01:12:43.017Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6062,7 +6072,7 @@
             "personId": "32005341-4d00-0469-48d8-b13e0a0e9cf3",
             "statType": 59,
             "teamId": "10403700-b939-3cbd-3d16-24d4d6742fa2",
-            "yards": -1
+            "yards": 0
           }
         ]
       },
@@ -9514,10 +9524,10 @@
         "playId": 2944,
         "clockTime": "02:42",
         "down": 0,
-        "driveNetYards": 6,
-        "drivePlayCount": 1,
+        "driveNetYards": 1,
+        "drivePlayCount": 3,
         "driveSequence": 14,
-        "driveTimeOfPossession": "0:16",
+        "driveTimeOfPossession": "1:25",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PHI  KO  PHI 35",
@@ -12002,7 +12012,7 @@
             "personId": "32004441-4c65-9900-551d-a31a0423b3ca",
             "statType": 112,
             "teamId": "10403700-b939-3cbd-3d16-24d4d6742fa2",
-            "yards": 7
+            "yards": 3
           }
         ]
       },

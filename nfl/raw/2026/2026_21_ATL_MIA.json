@@ -81,7 +81,7 @@
   "version": 7,
   "summary": {
     "gameId": "c74e3a0b-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 557,
+    "offset": 561,
     "attendance": 60836,
     "clock": "00:35",
     "distance": 13,
@@ -129,7 +129,7 @@
   },
   "driveChart": {
     "gameId": "c74e3a0b-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 557,
+    "offset": 561,
     "drives": [
       {
         "sequence": 1,
@@ -6673,8 +6673,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIA  2-10  MIA 26",
         "playDeleted": false,
-        "playDescription": "(:54) (Shotgun) C.Miller pass incomplete short left to C.Washington (D.Holmes) [C.Williams].",
-        "playDescriptionWithJerseyNumbers": "(:54) (Shotgun) 15-C.Miller pass incomplete short left to 37-C.Washington (30-D.Holmes) [93-C.Williams].",
+        "playDescription": "(:54) (Shotgun) C.Miller pass incomplete short middle to C.Washington (D.Holmes) [C.Williams].",
+        "playDescriptionWithJerseyNumbers": "(:54) (Shotgun) 15-C.Miller pass incomplete short middle to 37-C.Washington (30-D.Holmes) [93-C.Williams].",
         "playEndTime": "2026-08-29T00:30:32.747Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9320,9 +9320,9 @@
       },
       {
         "playId": 2949,
-        "clockTime": "03:13",
+        "clockTime": "03:16",
         "down": 1,
-        "driveNetYards": 50,
+        "driveNetYards": 54,
         "drivePlayCount": 10,
         "driveSequence": 18,
         "driveTimeOfPossession": "5:29",
@@ -9330,8 +9330,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIA  1-10  MIA 45",
         "playDeleted": false,
-        "playDescription": "(3:13) C.Bennett right tackle to MIA 47 for 2 yards (Z.Harrison).",
-        "playDescriptionWithJerseyNumbers": "(3:13) 38O-C.Bennett right tackle to MIA 47 for 2 yards (96-Z.Harrison).",
+        "playDescription": "(3:16) C.Bennett right tackle to MIA 47 for 2 yards (Z.Harrison).",
+        "playDescriptionWithJerseyNumbers": "(3:16) 38O-C.Bennett right tackle to MIA 47 for 2 yards (96-Z.Harrison).",
         "playEndTime": "2026-08-29T01:19:11.847Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

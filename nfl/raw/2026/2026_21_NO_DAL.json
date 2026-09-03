@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "c77f1c49-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 426,
+    "offset": 433,
     "attendance": 81295,
     "clock": "00:38",
     "distance": 11,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "c77f1c49-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 426,
+    "offset": 433,
     "drives": [
       {
         "sequence": 1,
@@ -1085,8 +1085,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NO  2-2  DAL 17",
         "playDeleted": false,
-        "playDescription": "(12:39) (No Huddle) K.Miller left end to DAL 16 for 1 yard (J.Houston; D.Kendrick).",
-        "playDescriptionWithJerseyNumbers": "(12:39) (No Huddle) 5-K.Miller left end to DAL 16 for 1 yard (41-J.Houston; 15D-D.Kendrick).",
+        "playDescription": "(12:39) K.Miller left end to DAL 16 for 1 yard (J.Houston; D.Kendrick).",
+        "playDescriptionWithJerseyNumbers": "(12:39) 5-K.Miller left end to DAL 16 for 1 yard (41-J.Houston; 15D-D.Kendrick).",
         "playEndTime": "2026-08-29T00:10:46.700Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -3137,16 +3137,16 @@
         "playId": 956,
         "clockTime": "02:52",
         "down": 2,
-        "driveNetYards": 30,
-        "drivePlayCount": 4,
+        "driveNetYards": 38,
+        "drivePlayCount": 10,
         "driveSequence": 4,
-        "driveTimeOfPossession": "0:53",
+        "driveTimeOfPossession": "4:06",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DAL  2-10  DAL 29",
         "playDeleted": false,
-        "playDescription": "(2:52) (Shotgun) J.Milton pass incomplete deep right to M.Valdes-Scantling (J.Suggs).",
-        "playDescriptionWithJerseyNumbers": "(2:52) (Shotgun) 10-J.Milton pass incomplete deep right to 11-M.Valdes-Scantling (62-J.Suggs).",
+        "playDescription": "(2:52) (Shotgun) J.Milton pass incomplete short right to M.Valdes-Scantling (J.Suggs).",
+        "playDescriptionWithJerseyNumbers": "(2:52) (Shotgun) 10-J.Milton pass incomplete short right to 11-M.Valdes-Scantling (62-J.Suggs).",
         "playEndTime": "2026-08-29T00:42:31.537Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -3200,7 +3200,7 @@
             "personId": "32004d49-4c81-8788-f5e1-fe90adee6d31",
             "statType": 112,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
-            "yards": 36
+            "yards": 5
           }
         ]
       },
@@ -6251,7 +6251,7 @@
             "personId": "32004d49-4c81-8788-f5e1-fe90adee6d31",
             "statType": 111,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
-            "yards": -5
+            "yards": 7
           },
           {
             "playStatId": "10330060-4922-0480-0210-003f6e82aab4",
@@ -6281,7 +6281,7 @@
             "personId": "32005641-4c14-2116-e6d9-84cbe2bdacf5",
             "statType": 113,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
-            "yards": 16
+            "yards": 4
           },
           {
             "playStatId": "10330060-4922-0480-0790-006f3f79be56",
@@ -8770,8 +8770,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NO  3-8  NO 42",
         "playDeleted": false,
-        "playDescription": "(2:05) (Shotgun) Z.Wilson pass short right to T.Welch to NO 45 for 3 yards (A.Speed).",
-        "playDescriptionWithJerseyNumbers": "(2:05) (Shotgun) 4-Z.Wilson pass short right to 82-T.Welch to NO 45 for 3 yards (39-A.Speed).",
+        "playDescription": "(2:05) (No Huddle, Shotgun) Z.Wilson pass short right to T.Welch to NO 45 for 3 yards (A.Speed).",
+        "playDescriptionWithJerseyNumbers": "(2:05) (No Huddle, Shotgun) 4-Z.Wilson pass short right to 82-T.Welch to NO 45 for 3 yards (39-A.Speed).",
         "playEndTime": "2026-08-29T02:12:40.530Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11711,7 +11711,7 @@
             "personId": "3200484f-5769-2969-b928-41cea02da32b",
             "statType": 111,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
-            "yards": 0
+            "yards": 5
           },
           {
             "playStatId": "10330060-4923-7820-0210-005e6266cc8e",
@@ -11741,7 +11741,7 @@
             "personId": "32004855-4443-8538-3249-9da21d5bb986",
             "statType": 113,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
-            "yards": 9
+            "yards": 4
           },
           {
             "playStatId": "10330060-4923-7820-0820-00866387916b",

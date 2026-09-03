@@ -81,7 +81,7 @@
   "version": 7,
   "summary": {
     "gameId": "c74e2b5b-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 469,
+    "offset": 474,
     "attendance": 62104,
     "clock": "00:00",
     "distance": 10,
@@ -129,7 +129,7 @@
   },
   "driveChart": {
     "gameId": "c74e2b5b-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 469,
+    "offset": 474,
     "drives": [
       {
         "sequence": 1,
@@ -1552,8 +1552,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  2-6  SF 22",
         "playDeleted": false,
-        "playDescription": "(10:14) M.Washington right guard to SF 20 for 2 yards (V.Fehoko; J.Graham).",
-        "playDescriptionWithJerseyNumbers": "(10:14) 30-M.Washington right guard to SF 20 for 2 yards (61-V.Fehoko; 41-J.Graham).",
+        "playDescription": "(10:14) M.Washington right guard to SF 20 for 2 yards (V.Fehoko).",
+        "playDescriptionWithJerseyNumbers": "(10:14) 30-M.Washington right guard to SF 20 for 2 yards (61-V.Fehoko).",
         "playEndTime": "2026-08-28T00:12:33.527Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -1580,22 +1580,12 @@
             "yards": 2
           },
           {
-            "playStatId": "10330060-4850-2820-0820-0028ba721657",
+            "playStatId": "10330060-4850-2820-0790-002710822e71",
             "gsisPlayerId": "00-0038575",
             "gsisPlayerName": "V.Fehoko",
             "gsisPlayerJerseyNumber": "61",
             "personId": "32004645-4861-8217-1d00-cf690e1c911e",
-            "statType": 82,
-            "teamId": "10404500-e7cb-7fce-3f10-4eeb269bd179",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-4850-2820-0820-003d090b6d97",
-            "gsisPlayerId": "00-0038648",
-            "gsisPlayerName": "J.Graham",
-            "gsisPlayerJerseyNumber": "41",
-            "personId": "32004752-4119-9869-ffab-fccc38b6c057",
-            "statType": 82,
+            "statType": 79,
             "teamId": "10404500-e7cb-7fce-3f10-4eeb269bd179",
             "yards": null
           }
@@ -5728,8 +5718,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "SF  1-10  LV 26",
         "playDeleted": false,
-        "playDescription": "(2:38) J.James up the middle to LV 9 for 17 yards (H.Masses; I.Pola-Mao).",
-        "playDescriptionWithJerseyNumbers": "(2:38) 29O-J.James up the middle to LV 9 for 17 yards (35-H.Masses; 20-I.Pola-Mao).",
+        "playDescription": "(2:38) J.James up the middle to LV 9 for 17 yards (I.Pola-Mao).",
+        "playDescriptionWithJerseyNumbers": "(2:38) 29O-J.James up the middle to LV 9 for 17 yards (20-I.Pola-Mao).",
         "playEndTime": "2026-08-28T01:09:14.240Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -5766,22 +5756,12 @@
             "yards": 17
           },
           {
-            "playStatId": "10330060-4851-6680-0820-0037a9a039f0",
-            "gsisPlayerId": "00-0040889",
-            "gsisPlayerName": "H.Masses",
-            "gsisPlayerJerseyNumber": "35",
-            "personId": "32004d41-5333-1825-dfc3-f6e50acd70ad",
-            "statType": 82,
-            "teamId": "10402520-96bf-e9f2-4f68-8521ca896060",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-4851-6680-0820-0045e4acb191",
+            "playStatId": "10330060-4851-6680-0790-003474a832a9",
             "gsisPlayerId": "00-0037512",
             "gsisPlayerName": "I.Pola-Mao",
             "gsisPlayerJerseyNumber": "20",
             "personId": "3200504f-4c04-5247-89ab-94b9194abd7b",
-            "statType": 82,
+            "statType": 79,
             "teamId": "10402520-96bf-e9f2-4f68-8521ca896060",
             "yards": null
           }

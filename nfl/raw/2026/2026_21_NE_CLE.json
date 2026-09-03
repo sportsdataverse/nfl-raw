@@ -149,7 +149,7 @@
   "version": 8,
   "summary": {
     "gameId": "c74e27bf-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 403,
+    "offset": 405,
     "attendance": 53178,
     "clock": "00:00",
     "distance": 10,
@@ -197,7 +197,7 @@
   },
   "driveChart": {
     "gameId": "c74e27bf-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 403,
+    "offset": 405,
     "drives": [
       {
         "sequence": 1,
@@ -11965,8 +11965,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NE  2-6  NE 46",
         "playDeleted": false,
-        "playDescription": "(:42) B.Morton pass short left to C.Dippre to CLE 43 for 11 yards (Z.Washington; T.Hall).",
-        "playDescriptionWithJerseyNumbers": "(:42) 15-B.Morton pass short left to 81-C.Dippre to CLE 43 for 11 yards (34D-Z.Washington; 29D-T.Hall).",
+        "playDescription": "(:42) (Shotgun) B.Morton pass short left to C.Dippre to CLE 43 for 11 yards (Z.Washington; T.Hall).",
+        "playDescriptionWithJerseyNumbers": "(:42) (Shotgun) 15-B.Morton pass short left to 81-C.Dippre to CLE 43 for 11 yards (34D-Z.Washington; 29D-T.Hall).",
         "playEndTime": "2026-08-28T02:48:53.457Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

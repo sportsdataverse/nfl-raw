@@ -93,7 +93,7 @@
   "version": 8,
   "summary": {
     "gameId": "c77f2d5f-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 442,
+    "offset": 450,
     "attendance": 64377,
     "clock": "00:39",
     "distance": 13,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "c77f2d5f-5f68-11f1-b1d0-bb70a4640075",
-    "offset": 442,
+    "offset": 450,
     "drives": [
       {
         "sequence": 1,
@@ -2226,8 +2226,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "IND  3-18  DET 26",
         "playDeleted": false,
-        "playDescription": "(7:06) (Shotgun) A.Richardson pass short left to A.Gould ran ob at DET 18 for 8 yards (R.McCreary).",
-        "playDescriptionWithJerseyNumbers": "(7:06) (Shotgun) 5-A.Richardson pass short left to 6-A.Gould ran ob at DET 18 for 8 yards (21-R.McCreary).",
+        "playDescription": "(7:06) (Shotgun) D.Tucker to DET 31 for -5 yards. FUMBLES, recovered by IND-A.Richardson at DET 32. A.Richardson pass short left to A.Gould ran ob at DET 18 for 8 yards (R.McCreary).",
+        "playDescriptionWithJerseyNumbers": "(7:06) (Shotgun) 68-D.Tucker to DET 31 for -5 yards. FUMBLES, recovered by IND-5-A.Richardson at DET 32. 5-A.Richardson pass short left to 6-A.Gould ran ob at DET 18 for 8 yards (21-R.McCreary).",
         "playEndTime": "2026-08-29T17:28:39.890Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -2254,7 +2254,27 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4970-5450-0150-002b92a08840",
+            "playStatId": "10330060-4970-5450-0530-00230fc25f87",
+            "gsisPlayerId": "00-0039578",
+            "gsisPlayerName": "D.Tucker",
+            "gsisPlayerJerseyNumber": "68",
+            "personId": "32005455-4308-6662-de94-da5e336b46b6",
+            "statType": 53,
+            "teamId": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-4970-5450-0550-00392b0cddb1",
+            "gsisPlayerId": "00-0039164",
+            "gsisPlayerName": "A.Richardson",
+            "gsisPlayerJerseyNumber": "05",
+            "personId": "32005249-4338-7833-9fd1-1d5e168eb504",
+            "statType": 55,
+            "teamId": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
+            "yards": 0
+          },
+          {
+            "playStatId": "10330060-4970-5450-0150-0043bc1a5006",
             "gsisPlayerId": "00-0039164",
             "gsisPlayerName": "A.Richardson",
             "gsisPlayerJerseyNumber": "05",
@@ -2264,7 +2284,7 @@
             "yards": 8
           },
           {
-            "playStatId": "10330060-4970-5450-1110-003d61eec9c8",
+            "playStatId": "10330060-4970-5450-1110-00593bb581bc",
             "gsisPlayerId": "00-0039164",
             "gsisPlayerName": "A.Richardson",
             "gsisPlayerJerseyNumber": "05",
@@ -2274,7 +2294,7 @@
             "yards": 7
           },
           {
-            "playStatId": "10330060-4970-5450-0210-004a816ebf36",
+            "playStatId": "10330060-4970-5450-0210-006f863dbd0d",
             "gsisPlayerId": "00-0039816",
             "gsisPlayerName": "A.Gould",
             "gsisPlayerJerseyNumber": "06",
@@ -2284,7 +2304,7 @@
             "yards": 8
           },
           {
-            "playStatId": "10330060-4970-5450-1150-0058cf1fe1f6",
+            "playStatId": "10330060-4970-5450-1150-007875156529",
             "gsisPlayerId": "00-0039816",
             "gsisPlayerName": "A.Gould",
             "gsisPlayerJerseyNumber": "06",
@@ -2294,7 +2314,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-4970-5450-1130-0066ae57d5ed",
+            "playStatId": "10330060-4970-5450-1130-0081c66b2f02",
             "gsisPlayerId": "00-0039816",
             "gsisPlayerName": "A.Gould",
             "gsisPlayerJerseyNumber": "06",
@@ -2304,7 +2324,7 @@
             "yards": 1
           },
           {
-            "playStatId": "10330060-4970-5450-0790-00757f646638",
+            "playStatId": "10330060-4970-5450-0790-009fd3be0328",
             "gsisPlayerId": "00-0038125",
             "gsisPlayerName": "R.McCreary",
             "gsisPlayerJerseyNumber": "21",
@@ -4204,16 +4224,16 @@
         "playId": 1198,
         "clockTime": "11:48",
         "down": 3,
-        "driveNetYards": 53,
-        "drivePlayCount": 8,
+        "driveNetYards": 87,
+        "drivePlayCount": 16,
         "driveSequence": 6,
-        "driveTimeOfPossession": "3:29",
+        "driveTimeOfPossession": "8:04",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DET  3-7  IND 45",
         "playDeleted": false,
-        "playDescription": "(11:48) (Shotgun) J.Dobbs pass short right to T.Martin pushed ob at IND 39 for 6 yards (R.Carter).",
-        "playDescriptionWithJerseyNumbers": "(11:48) (Shotgun) 6-J.Dobbs pass short right to 17O-T.Martin pushed ob at IND 39 for 6 yards (39-R.Carter).",
+        "playDescription": "(11:48) (Shotgun) J.Dobbs pass short right to T.Martin pushed ob at IND 39 for 6 yards (R.Carter).  (Virtual Measurement).",
+        "playDescriptionWithJerseyNumbers": "(11:48) (Shotgun) 6-J.Dobbs pass short right to 17O-T.Martin pushed ob at IND 39 for 6 yards (39-R.Carter).  (Virtual Measurement).",
         "playEndTime": "2026-08-29T17:51:40.317Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9530,18 +9550,18 @@
       },
       {
         "playId": 2914,
-        "clockTime": "03:24",
+        "clockTime": "03:25",
         "down": 3,
-        "driveNetYards": 37,
-        "drivePlayCount": 6,
+        "driveNetYards": 40,
+        "drivePlayCount": 7,
         "driveSequence": 16,
-        "driveTimeOfPossession": "2:46",
+        "driveTimeOfPossession": "3:33",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DET  3-7  DET 49",
         "playDeleted": false,
-        "playDescription": "(3:24) (Shotgun) L.Altmyer pass short right to T.Gordon to IND 44 for 7 yards (R.Carter).",
-        "playDescriptionWithJerseyNumbers": "(3:24) (Shotgun) 2O-L.Altmyer pass short right to 82-T.Gordon to IND 44 for 7 yards (39-R.Carter).",
+        "playDescription": "(3:25) (Shotgun) L.Altmyer pass short right to T.Gordon to IND 44 for 7 yards (R.Carter).",
+        "playDescriptionWithJerseyNumbers": "(3:25) (Shotgun) 2O-L.Altmyer pass short right to 82-T.Gordon to IND 44 for 7 yards (39-R.Carter).",
         "playEndTime": "2026-08-29T19:13:12.137Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10454,16 +10474,16 @@
         "playId": 3233,
         "clockTime": "13:06",
         "down": 2,
-        "driveNetYards": 50,
-        "drivePlayCount": 9,
+        "driveNetYards": 62,
+        "drivePlayCount": 14,
         "driveSequence": 18,
-        "driveTimeOfPossession": "4:43",
+        "driveTimeOfPossession": "7:42",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DET  2-5  IND 46",
         "playDeleted": false,
-        "playDescription": "(13:06) (Shotgun) J.Dobbs pass short right to Tr.Williams pushed ob at IND 44 for 2 yards (D.Nchami; K.Harris).",
-        "playDescriptionWithJerseyNumbers": "(13:06) (Shotgun) 6-J.Dobbs pass short right to 47-Tr.Williams pushed ob at IND 44 for 2 yards (74-D.Nchami; 29-K.Harris).",
+        "playDescription": "(13:06) (Shotgun) J.Dobbs pass short right to Tr.Williams pushed ob at IND 44 for 2 yards (K.Harris).",
+        "playDescriptionWithJerseyNumbers": "(13:06) (Shotgun) 6-J.Dobbs pass short right to 47-Tr.Williams pushed ob at IND 44 for 2 yards (29-K.Harris).",
         "playEndTime": "2026-08-29T19:26:16.773Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10530,22 +10550,12 @@
             "yards": 4
           },
           {
-            "playStatId": "10330060-4973-2330-0820-00619ef2d546",
-            "gsisPlayerId": "00-0039207",
-            "gsisPlayerName": "D.Nchami",
-            "gsisPlayerJerseyNumber": "74",
-            "personId": "32004e43-4841-5291-be37-080e53f43859",
-            "statType": 82,
-            "teamId": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-4973-2330-0820-00776eea5dc5",
+            "playStatId": "10330060-4973-2330-0790-006f330d6d22",
             "gsisPlayerId": "00-0041320",
             "gsisPlayerName": "K.Harris",
             "gsisPlayerJerseyNumber": "29",
             "personId": "32004841-5245-5849-705d-822bccc010cf",
-            "statType": 82,
+            "statType": 79,
             "teamId": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
             "yards": null
           }
@@ -11865,7 +11875,7 @@
             "personId": "32005354-4942-0937-5f54-4fc08152f18e",
             "statType": 112,
             "teamId": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
-            "yards": -3
+            "yards": 5
           }
         ]
       },

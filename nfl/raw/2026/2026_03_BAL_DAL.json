@@ -30,20 +30,8 @@
         "streamType": "en-pri"
       }
     ],
-    "territory": "NATIONAL",
+    "territory": "REGIONAL",
     "audioNetworks": [
-      {
-        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
-        "languages": [
-          "en"
-        ]
-      },
-      {
-        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
-        "languages": [
-          "es"
-        ]
-      },
       {
         "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
         "languages": [
@@ -101,7 +89,7 @@
   "ticketUrl": null,
   "ticketVendors": [],
   "extensions": [],
-  "version": 6,
+  "version": 7,
   "summary": null,
   "driveChart": null,
   "replays": null,

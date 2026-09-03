@@ -10,16 +10,18 @@
     "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NE",
     "fullName": "New England Patriots"
   },
-  "category": "SNF",
+  "category": null,
   "date": "2026-09-10",
   "time": "2026-09-10T00:20:00Z",
   "broadcastInfo": {
     "homeNetworkChannels": [
       "NBC",
+      "TELEMUNDO",
       "UNIVERSO"
     ],
     "awayNetworkChannels": [
       "NBC",
+      "TELEMUNDO",
       "UNIVERSO"
     ],
     "internationalWatchOptions": [],
@@ -32,8 +34,9 @@
         "streamType": "en-pri"
       },
       {
-        "hostNetwork": "UNIVERSO",
+        "hostNetwork": "TELEMUNDO",
         "networks": [
+          "TELEMUNDO",
           "UNIVERSO"
         ],
         "streamType": "es-alt-1"
@@ -111,7 +114,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 9,
   "summary": null,
   "driveChart": null,
   "replays": null,
