@@ -16,13 +16,13 @@
   "broadcastInfo": {
     "homeNetworkChannels": [
       "NBC",
-      "TELEMUNDO",
-      "UNIVERSO"
+      "UNIVERSO",
+      "TELEMUNDO"
     ],
     "awayNetworkChannels": [
       "NBC",
-      "TELEMUNDO",
-      "UNIVERSO"
+      "UNIVERSO",
+      "TELEMUNDO"
     ],
     "internationalWatchOptions": [],
     "streamingNetworks": [
@@ -34,10 +34,10 @@
         "streamType": "en-pri"
       },
       {
-        "hostNetwork": "TELEMUNDO",
+        "hostNetwork": "UNIVERSO",
         "networks": [
-          "TELEMUNDO",
-          "UNIVERSO"
+          "UNIVERSO",
+          "TELEMUNDO"
         ],
         "streamType": "es-alt-1"
       }
@@ -114,7 +114,7 @@
     }
   ],
   "extensions": [],
-  "version": 9,
+  "version": 10,
   "summary": null,
   "driveChart": null,
   "replays": null,
