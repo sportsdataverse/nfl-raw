@@ -23,3 +23,9 @@ reports/
 # Claude Code personal wiring (machine-specific paths)
 .claude/settings.local.json
 
+
+# Agent / tooling state -- local scratch, never part of the repo.
+.omc/
+**/.omc/
+.understand-anything/
+**/.understand-anything/
