@@ -95,6 +95,21 @@ nfl-raw/
 into the committed per-game files. `nfl_raw_02_extract.py` re-runs only the second
 stage, which is what you want after changing game-id or relocation logic.
 
+**ESPN feed (`nfl/espn/`).** The Shield files above cannot feed ESPN-shaped
+consumers (`sportsdataverse.nfl.NFLPlayProcess`, Game on Paper, the
+`espn_nfl_*` processed-game releases), so `python/nfl_espn_01_summary_scrape.py`
+captures ESPN's per-event game summary into `nfl/espn/raw/{season}/{event_id}.json.gz`
+and the core play participants into `nfl/espn/plays/{season}/{event_id}.json.gz`
+(2002 onward, regular season + postseason, one commit per season, resumable;
+`bash scripts/espn_nfl_backfill.sh`). `python/nfl_espn_02_crosswalk.py` ties the two
+libraries together in `nfl/espn/crosswalk/games.json` (ESPN event id <-> nflverse
+`game_id` / Shield game uuid) and `teams.json` (ESPN team id <-> Shield team uuid /
+nflverse code, with the seasons each pairing held). Read the gzipped payloads with
+`python.nfl_espn_scrape.espn_fetcher.read_json`. The daily driver
+(`scripts/daily_nfl_scraper.sh`, Aug-Feb) refreshes both feeds for the current
+season, preseason through the Super Bowl; a captured ESPN game is skipped once its
+summary is final and re-captured while it is in progress.
+
 Filenames are **nflverse `game_id`s** — `{season}_{week:02d}_{away}_{home}`, e.g.
 `1999_01_ARI_PHI.json` — produced by `raw_fetcher.nflverse_game_id()`. Two details
 a consumer must not re-derive naively: postseason weeks continue past the regular

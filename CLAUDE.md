@@ -75,3 +75,45 @@ There is **no `[project.scripts]` console entry**, no Makefile, and **no
   (`build_raw_library` / `extract_library_to_games` / `nflverse_game_id`).
 - `HANDOFF.md`, `docs/raw-to-data-migration-playbook.md` (SP3 split context),
   `dev/nflfastr-port-map.md` (gitignored notes).
+
+## ESPN game library (`nfl/espn/`)
+
+A second feed alongside the Shield library: ESPN's per-event game summary and
+core play participants, the inputs `sportsdataverse.nfl.NFLPlayProcess` (and so
+Game on Paper and the `espn_nfl_*` processed-game releases) read.
+
+```sh
+# one season, both feeds, commit
+.venv/bin/python python/nfl_espn_01_summary_scrape.py -s 2025 -e 2025 --commit
+# the ESPN play-by-play era (2002 ->), newest first, resumable, one commit per season
+bash scripts/espn_nfl_backfill.sh -s 2002            # tail -f logs/espn_nfl_backfill_$(date -u +%Y%m%d).log
+# rebuild the crosswalk from the two libraries
+.venv/bin/python python/nfl_espn_02_crosswalk.py --commit
+```
+
+- `nfl/espn/raw/{season}/{event_id}.json.gz` -- the summary
+  (`site.api.espn.com/.../summary?event=`) with the media keys
+  (`videos` / `news` / `article`) dropped; everything else verbatim.
+- `nfl/espn/plays/{season}/{event_id}.json.gz` -- `{"items": [...]}` of the
+  core plays slimmed to `id` / `sequenceNumber` / `participants[]`
+  (athlete + position `$ref`, `type`, `order`).
+- `nfl/espn/crosswalk/games.json` / `teams.json` -- ESPN event id <->
+  nflverse `game_id` / Shield game uuid, and ESPN team id <-> Shield team uuid /
+  nflverse code with the seasons each pairing held. Matched on (season,
+  kickoff UTC, home team name), then on kickoff date; the Pro Bowl stays
+  unmatched. JSON because the repo ignores csv/parquet.
+- Read with `python.nfl_espn_scrape.espn_fetcher.read_json`. Gzipped so the
+  25-season capture stays near 0.6 GB.
+- **Routine runs:** `scripts/daily_nfl_scraper.sh` (cron / the
+  `scrape_nfl_raw.yml` workflow, Aug-Feb) captures BOTH feeds for the current
+  season with the same `-t "PRE REG POST"` (ESPN types 1 2 3), so playoffs and
+  the Super Bowl land in January/February runs. A captured game is skipped
+  only once its summary is final; a stored game that has kicked off but is
+  not final is re-captured (summary + plays) every run
+  (`espn_fetcher.needs_refresh`). `ESPN_WORKERS` (default 3) paces the step.
+- Per-season commit message is `NFL ESPN Raw: {season} ({n_games} games)`;
+  nothing keys off it. Pace is env-tunable: `ESPN_RATE_SLEEP` (default 0.25 s
+  per request per worker), `ESPN_RATE_RETRIES` (3); keep `--workers` at 3 or
+  below (ESPN 403s aggressive rates).
+- Season floor 2002 (`ESPN_NFL_DETAIL_START`): ESPN NFL play-by-play is
+  reliable from the realignment on.

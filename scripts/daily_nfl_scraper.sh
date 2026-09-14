@@ -79,10 +79,41 @@ LOG="logs/daily_nfl_$(date -u +%Y%m%d).log"
     exit "$rc"
   fi
 
+  # ESPN feed (nfl/espn/): the same season types, mapped to ESPN's codes
+  # (PRE=1 REG=2 POST=3), so one -t flag drives both libraries and the
+  # January/February runs pick up the playoffs and the Super Bowl for both.
+  # Existing finals are skipped; a stored game that has kicked off but is not
+  # final is re-captured (summary + plays), so an in-progress game never
+  # freezes at the state it was first seen in. An ESPN failure is reported
+  # but does not hold back the Shield commits above.
+  ESPN_TYPES=""
+  for t in $SEASON_TYPES; do
+    case "$t" in
+      PRE)  ESPN_TYPES="$ESPN_TYPES 1";;
+      REG)  ESPN_TYPES="$ESPN_TYPES 2";;
+      POST) ESPN_TYPES="$ESPN_TYPES 3";;
+      *) echo "WARN: unknown season type '$t' for the ESPN feed";;
+    esac
+  done
+  espn_rc=0
+  if [ -n "$ESPN_TYPES" ]; then
+    # shellcheck disable=SC2086
+    PYTHONUNBUFFERED=1 "$PY" python/nfl_espn_01_summary_scrape.py \
+        -s "$START_YEAR" -e "$END_YEAR" --types $ESPN_TYPES \
+        --workers "${ESPN_WORKERS:-3}" --commit
+    espn_rc=$?
+    if [ "$espn_rc" -eq 0 ]; then
+      "$PY" python/nfl_espn_02_crosswalk.py --commit
+      espn_rc=$?
+    fi
+    [ "$espn_rc" -ne 0 ] && echo "[$(date -u '+%F %T')Z] espn scrape FAILED (rc=$espn_rc)"
+  fi
+
   git push origin main
   push_rc=$?
-  echo "[$(date -u '+%F %T')Z] nfl raw scrape done (scrape=$rc push=$push_rc)"
-  exit "$push_rc"
+  echo "[$(date -u '+%F %T')Z] nfl raw scrape done (scrape=$rc espn=$espn_rc push=$push_rc)"
+  [ "$push_rc" -ne 0 ] && exit "$push_rc"
+  exit "$espn_rc"
 } 2>&1 | tee -a "$LOG"
 RC="${PIPESTATUS[0]}"
 
