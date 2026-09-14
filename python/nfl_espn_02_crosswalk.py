@@ -26,6 +26,7 @@ Usage::
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import logging
 import subprocess
@@ -111,29 +112,86 @@ def _norm_time(s: str | None) -> str | None:
     return s[:16]  # YYYY-MM-DDTHH:MM
 
 
+def _prev_day(date: str) -> str:
+    return (dt.date.fromisoformat(date) - dt.timedelta(days=1)).isoformat()
+
+
 def build(seasons: list[int]) -> tuple[list[dict], list[dict], dict]:
+    """Match every ESPN event to its Shield game, in three passes.
+
+    1. kickoff UTC minute + home name -- exact on modern seasons.
+    2. franchise + date: the Shield ``time`` is a placeholder on older seasons
+       and Shield names franchises by their CURRENT name (Chargers, Rams,
+       Raiders, Commanders...), so the ESPN team id -> Shield team uuid pairing
+       is LEARNED from pass 1 across all seasons and the rest are matched on
+       (home franchise, Shield local date), accepting the ESPN UTC date or the
+       day before (a night game crosses midnight UTC).
+    3. home name + date, for a franchise pass 1 never saw.
+    A Shield game is used at most once.
+    """
     games: list[dict] = []
     team_seasons: dict[tuple, set] = defaultdict(set)
     stats = {"espn": 0, "matched_time": 0, "matched_date": 0, "unmatched": 0}
+    espn_by = {season: _espn_rows(season) for season in seasons}
+    shield_by = {season: _shield_rows(season) for season in seasons}
+    matched: dict[int, tuple[dict, str]] = {}  # espn_event_id -> (shield row, how)
+    used: set[str] = set()
+    pair_votes: dict[tuple, int] = defaultdict(int)
+
+    # pass 1 -- kickoff minute + home name
     for season in seasons:
-        espn = _espn_rows(season)
-        shield = _shield_rows(season)
-        by_time = {(_norm_time(r["kickoff_utc"]), r["home_name"]): r for r in shield}
-        by_date = {
-            ((r["kickoff_utc"] or r["date"] or "")[:10], r["home_name"]): r
-            for r in shield
+        by_time = {
+            (_norm_time(r["kickoff_utc"]), r["home_name"]): r for r in shield_by[season]
         }
-        for e in espn:
+        for e in espn_by[season]:
+            m = by_time.get((_norm_time(e["kickoff_utc"]), e["home_name"]))
+            if m is not None and m["game_id"] not in used:
+                matched[e["espn_event_id"]] = (m, "time")
+                used.add(m["game_id"])
+                for side in ("home", "away"):
+                    pair_votes[
+                        (e[f"{side}_espn_team_id"], m[f"{side}_shield_team_id"])
+                    ] += 1
+    team_map: dict[str, str] = {}
+    for (espn_id, shield_id), n in sorted(pair_votes.items(), key=lambda kv: -kv[1]):
+        team_map.setdefault(espn_id, shield_id)
+
+    # pass 2 -- learned franchise + local date (same UTC day or the day before)
+    # pass 3 -- home name + date
+    for season in seasons:
+        by_franchise = {
+            (r["home_shield_team_id"], (r["date"] or r["kickoff_utc"] or "")[:10]): r
+            for r in shield_by[season]
+        }
+        by_name = {
+            ((r["date"] or r["kickoff_utc"] or "")[:10], r["home_name"]): r
+            for r in shield_by[season]
+        }
+        for e in espn_by[season]:
+            if e["espn_event_id"] in matched:
+                continue
+            utc_date = (e["kickoff_utc"] or "")[:10]
+            dates = [utc_date, _prev_day(utc_date)] if len(utc_date) == 10 else []
+            home_shield = team_map.get(e["home_espn_team_id"])
+            m = None
+            for d in dates:
+                m = by_franchise.get((home_shield, d)) if home_shield else None
+                if m is None:
+                    m = by_name.get((d, e["home_name"]))
+                if m is not None and m["game_id"] in used:
+                    m = None
+                if m is not None:
+                    break
+            if m is not None:
+                matched[e["espn_event_id"]] = (m, "date")
+                used.add(m["game_id"])
+
+    for season in seasons:
+        for e in espn_by[season]:
             stats["espn"] += 1
-            key_t = (_norm_time(e["kickoff_utc"]), e["home_name"])
-            key_d = ((e["kickoff_utc"] or "")[:10], e["home_name"])
-            m = by_time.get(key_t)
-            how = "time"
-            if m is None:
-                m = by_date.get(key_d)
-                how = "date"
             row = dict(e)
-            if m is None:
+            hit = matched.get(e["espn_event_id"])
+            if hit is None:
                 stats["unmatched"] += 1
                 row.update(
                     {
@@ -145,6 +203,7 @@ def build(seasons: list[int]) -> tuple[list[dict], list[dict], dict]:
                     }
                 )
             else:
+                m, how = hit
                 stats["matched_time" if how == "time" else "matched_date"] += 1
                 row.update(
                     {
@@ -241,7 +300,8 @@ def main(argv: list[str] | None = None) -> None:
             ],
             cwd=ROOT,
             capture_output=True,
-            text=True, check=False
+            text=True,
+            check=False,
         )
         log.info(
             "commit -> %s",

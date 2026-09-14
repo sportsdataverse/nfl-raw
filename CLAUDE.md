@@ -99,9 +99,14 @@ bash scripts/espn_nfl_backfill.sh -s 2002            # tail -f logs/espn_nfl_bac
   (athlete + position `$ref`, `type`, `order`).
 - `nfl/espn/crosswalk/games.json` / `teams.json` -- ESPN event id <->
   nflverse `game_id` / Shield game uuid, and ESPN team id <-> Shield team uuid /
-  nflverse code with the seasons each pairing held. Matched on (season,
-  kickoff UTC, home team name), then on kickoff date; the Pro Bowl stays
-  unmatched. JSON because the repo ignores csv/parquet.
+  nflverse code with the seasons each pairing held. Matched in three passes:
+  (kickoff UTC minute, home name); then (home franchise, Shield local date,
+  accepting the ESPN UTC date or the day before) with the ESPN team id ->
+  Shield uuid pairing LEARNED from pass 1 across all seasons -- the Shield
+  `time` is a placeholder before ~2019 and Shield names franchises by their
+  current name; then (home name, date). Pro Bowls, postponed placeholders and
+  not-yet-scheduled flex/playoff slots stay unmatched (62 of 6,808 on
+  2026-09-14). JSON because the repo ignores csv/parquet.
 - Read with `python.nfl_espn_scrape.espn_fetcher.read_json`. Gzipped so the
   25-season capture stays near 0.6 GB.
 - **Routine runs:** `scripts/daily_nfl_scraper.sh` (cron / the
