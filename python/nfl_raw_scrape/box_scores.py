@@ -59,7 +59,11 @@ def is_final(game: dict) -> bool:
 
 
 def valid_team(body: object) -> bool:
-    return isinstance(body, dict) and isinstance(body.get("homeTeam"), dict) and isinstance(body.get("awayTeam"), dict)
+    return (
+        isinstance(body, dict)
+        and isinstance(body.get("homeTeam"), dict)
+        and isinstance(body.get("awayTeam"), dict)
+    )
 
 
 def valid_player(body: object) -> bool:
@@ -73,7 +77,9 @@ def is_valid_file(path: Path) -> bool:
         d = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         return False
-    return valid_team(d.get("team_statistics")) and valid_player(d.get("player_statistics"))
+    return valid_team(d.get("team_statistics")) and valid_player(
+        d.get("player_statistics")
+    )
 
 
 def _write_atomic(path: Path, payload: dict) -> None:
@@ -105,7 +111,14 @@ def scrape_season(
     """Bank box scores for every FINAL game of a season. Returns counters."""
     fetch = fetch or _default_fetch
     mint = mint or _mint
-    counts = {"games": 0, "final": 0, "wrote": 0, "skipped": 0, "not_final": 0, "failed": 0}
+    counts = {
+        "games": 0,
+        "final": 0,
+        "wrote": 0,
+        "skipped": 0,
+        "not_final": 0,
+        "failed": 0,
+    }
     files = sorted((raw_dir / str(season)).glob("*.json"))
     counts["games"] = len(files)
     headers, minted_at = None, 0.0
@@ -116,7 +129,10 @@ def scrape_season(
             game = json.loads(f.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             counts["failed"] += 1
-            print(f"  box score {season} {game_id} FAILED: unreadable game file", flush=True)
+            print(
+                f"  box score {season} {game_id} FAILED: unreadable game file",
+                flush=True,
+            )
             continue
         if not is_final(game):
             counts["not_final"] += 1
@@ -138,7 +154,10 @@ def scrape_season(
             player = fetch(f"{API}/player-statistics/{shield_id}", headers)
         except Exception as exc:  # noqa: BLE001 -- one game must not end the season; counted + rc
             counts["failed"] += 1
-            print(f"  box score {season} {game_id} FAILED: {type(exc).__name__}: {str(exc)[:120]}", flush=True)
+            print(
+                f"  box score {season} {game_id} FAILED: {type(exc).__name__}: {str(exc)[:120]}",
+                flush=True,
+            )
             headers = None  # an expired/revoked token is the likeliest cause: re-mint next time
             continue
         finally:
@@ -146,15 +165,21 @@ def scrape_season(
                 time.sleep(delay)
         if not (valid_team(team) and valid_player(player)):
             counts["failed"] += 1
-            print(f"  box score {season} {game_id} FAILED: payload missing team or player rows", flush=True)
+            print(
+                f"  box score {season} {game_id} FAILED: payload missing team or player rows",
+                flush=True,
+            )
             continue
-        _write_atomic(out, {
-            "game_id": game_id,
-            "shield_game_id": shield_id,
-            "captured_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "team_statistics": team,
-            "player_statistics": player,
-        })
+        _write_atomic(
+            out,
+            {
+                "game_id": game_id,
+                "shield_game_id": shield_id,
+                "captured_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                "team_statistics": team,
+                "player_statistics": player,
+            },
+        )
         counts["wrote"] += 1
         done += 1
         if counts["wrote"] % 50 == 0:

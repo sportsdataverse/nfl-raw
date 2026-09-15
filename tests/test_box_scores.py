@@ -5,14 +5,31 @@ from pathlib import Path
 
 from python.nfl_raw_scrape import box_scores as bs
 
-TEAM = {"gameId": "g", "offset": 1, "homeTeam": {"teamId": "h", "passingYards": 200}, "awayTeam": {"teamId": "a"}}
-PLAYER = {"gameId": "g", "homeTeam": {"teamId": "h", "players": [{"gsisPlayerId": "00-1"}]}, "awayTeam": {"teamId": "a", "players": []}}
+TEAM = {
+    "gameId": "g",
+    "offset": 1,
+    "homeTeam": {"teamId": "h", "passingYards": 200},
+    "awayTeam": {"teamId": "a"},
+}
+PLAYER = {
+    "gameId": "g",
+    "homeTeam": {"teamId": "h", "players": [{"gsisPlayerId": "00-1"}]},
+    "awayTeam": {"teamId": "a", "players": []},
+}
 
 
 def _game(tmp: Path, season: int, gid: str, phase):
     p = tmp / "raw" / str(season) / f"{gid}.json"
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(json.dumps({"id": f"uuid-{gid}", "status": "SCHEDULED", "summary": {"phase": phase} if phase else None}))
+    p.write_text(
+        json.dumps(
+            {
+                "id": f"uuid-{gid}",
+                "status": "SCHEDULED",
+                "summary": {"phase": phase} if phase else None,
+            }
+        )
+    )
 
 
 class Api:
@@ -27,13 +44,23 @@ class Api:
 
 
 def _run(tmp, api, **kw):
-    return bs.scrape_season(2025, raw_dir=tmp / "raw", out_dir=tmp / "out", delay=0, fetch=api, mint=lambda: {"Authorization": "x"}, **kw)
+    return bs.scrape_season(
+        2025,
+        raw_dir=tmp / "raw",
+        out_dir=tmp / "out",
+        delay=0,
+        fetch=api,
+        mint=lambda: {"Authorization": "x"},
+        **kw,
+    )
 
 
 def test_only_final_games_by_summary_phase_not_status(tmp_path: Path):
     _game(tmp_path, 2025, "2025_01_A_B", "FINAL")
     _game(tmp_path, 2025, "2025_01_C_D", "FINAL_OVERTIME")
-    _game(tmp_path, 2025, "2025_18_E_F", None)  # not played yet; status says SCHEDULED for all
+    _game(
+        tmp_path, 2025, "2025_18_E_F", None
+    )  # not played yet; status says SCHEDULED for all
     api = Api()
     st = _run(tmp_path, api)
     assert st["final"] == 2 and st["not_final"] == 1 and st["wrote"] == 2
