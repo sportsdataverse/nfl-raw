@@ -78,6 +78,12 @@ LOG="logs/daily_nfl_$(date -u +%Y%m%d).log"
     echo "[$(date -u '+%F %T')Z] scrape FAILED (rc=$rc)"
     exit "$rc"
   fi
+  # Stage 03: team + player box scores for every FINAL game (resumable; only
+  # games without a valid banked file cost requests). A failure is reported but
+  # does not block the ESPN stage or the push of what did land.
+  "$PY" python/nfl_raw_03_box_scores.py -s "$START_YEAR" -e "$END_YEAR" --commit
+  box_rc=$?
+  [ "$box_rc" -ne 0 ] && echo "[$(date -u '+%F %T')Z] box scores FAILED (rc=$box_rc)"
 
   # ESPN feed (nfl/espn/): the same season types, mapped to ESPN's codes
   # (PRE=1 REG=2 POST=3), so one -t flag drives both libraries and the
@@ -111,9 +117,10 @@ LOG="logs/daily_nfl_$(date -u +%Y%m%d).log"
 
   git push origin main
   push_rc=$?
-  echo "[$(date -u '+%F %T')Z] nfl raw scrape done (scrape=$rc espn=$espn_rc push=$push_rc)"
+  echo "[$(date -u '+%F %T')Z] nfl raw scrape done (scrape=$rc box=$box_rc espn=$espn_rc push=$push_rc)"
   [ "$push_rc" -ne 0 ] && exit "$push_rc"
-  exit "$espn_rc"
+  [ "$espn_rc" -ne 0 ] && exit "$espn_rc"
+  exit "$box_rc"
 } 2>&1 | tee -a "$LOG"
 RC="${PIPESTATUS[0]}"
 

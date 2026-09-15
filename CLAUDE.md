@@ -51,6 +51,12 @@ There is **no `[project.scripts]` console entry**, no Makefile, and **no
   token's auto-renewal — a once-minted dict would freeze an expiring token).
 - `data/raw/{season}/{REG,POST}/wk{NN}.json` — weekly cache, **gitignored**
   (`data/` is in `.gitignore`).
+- `nfl/box_scores/{season}/{game_id}.json` — committed stage-03 box scores for FINAL
+  games: raw `team_statistics` + `player_statistics` from
+  `/football/v2/stats/live/{team,player}-statistics/{shield_id}` (served for completed
+  games back to at least 2001 despite "live"). Finality = the game file's
+  `summary.phase` (`FINAL`/`FINAL_OVERTIME`) — Shield's `status` reads `SCHEDULED`
+  for every game. Throttle: `NFL_BOX_SCORE_DELAY` / `--delay` (default 0.5 s).
 - `nfl/raw/{season}/{game_id}.json` — committed per-game library. `game_id` is the
   nflverse id `{season}_{week:02d}_{away}_{home}` (POST week offset auto-detected).
 
