@@ -10,7 +10,7 @@
     "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NE",
     "fullName": "New England Patriots"
   },
-  "category": null,
+  "category": "SNF",
   "date": "2026-09-10",
   "time": "2026-09-10T00:20:00Z",
   "broadcastInfo": {
@@ -157,7 +157,7 @@
     }
   ],
   "extensions": [],
-  "version": 12,
+  "version": 13,
   "summary": {
     "gameId": "a8fb0d78-4feb-11f1-abca-2c54536568a9",
     "offset": 490,

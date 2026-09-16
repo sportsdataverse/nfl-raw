@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9a87603-4feb-11f1-abca-2c54536568a9",
-    "offset": 510,
+    "offset": 512,
     "attendance": 70540,
     "clock": "00:34",
     "distance": 13,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a9a87603-4feb-11f1-abca-2c54536568a9",
-    "offset": 510,
+    "offset": 512,
     "drives": [
       {
         "sequence": 1,
@@ -8652,8 +8652,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  2-7  AZ 44",
         "playDeleted": false,
-        "playDescription": "(4:31) (Shotgun) J.Brissett pass short right to T.McBride to LAC 49 for 7 yards (D.Henley; T.Tuipulotu).",
-        "playDescriptionWithJerseyNumbers": "(4:31) (Shotgun) 7-J.Brissett pass short right to 85-T.McBride to LAC 49 for 7 yards (0-D.Henley; 45-T.Tuipulotu).",
+        "playDescription": "(4:31) (Shotgun) J.Brissett pass short right to T.McBride to LAC 49 for 7 yards (D.Henley; T.Tuipulotu).  The first down was assisted by replay.",
+        "playDescriptionWithJerseyNumbers": "(4:31) (Shotgun) 7-J.Brissett pass short right to 85-T.McBride to LAC 49 for 7 yards (0-D.Henley; 45-T.Tuipulotu).  The first down was assisted by replay.",
         "playEndTime": "2026-09-13T22:24:28.277Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
