@@ -2,7 +2,8 @@
 
 Reads every captured ESPN summary under ``nfl/espn/raw/{season}/`` and every
 Shield game file under ``nfl/raw/{season}/`` (named with the nflverse game id
-``{season}_{week:02d}_{away}_{home}``) and writes:
+``{season}_{week:02d}_{away}_{home}``, preseason ``{season}_PRE{week}_{away}_{home}``)
+and writes:
 
 * ``nfl/espn/crosswalk/games.json`` -- one row per ESPN event: the ESPN event
   id, season / type / week, kickoff (UTC), home and away ESPN team ids and
@@ -91,7 +92,6 @@ def _shield_rows(season: int) -> list[dict]:
                 "game_id": f.stem,
                 "shield_game_id": d.get("id"),
                 "season": int(parts[0]),
-                "week": int(parts[1]),
                 "away_nflverse": parts[2],
                 "home_nflverse": parts[3],
                 "kickoff_utc": d.get("time"),

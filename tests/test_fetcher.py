@@ -14,6 +14,7 @@ from python.nfl_raw_scrape.raw_fetcher import (
     build_raw_library,
     extract_game_ids_from_weekly,
     list_season_weeks,
+    nflverse_game_id,
 )
 
 # ---------------------------------------------------------------------------
@@ -359,3 +360,39 @@ class TestListLibraryFiles:
         from python.nfl_raw_scrape.raw_fetcher import list_library_files
 
         assert list_library_files(2024, "REG", data_dir=tmp_path) == []
+
+
+# ---------------------------------------------------------------------------
+# nflverse_game_id
+# ---------------------------------------------------------------------------
+
+
+def _game(season_type: str, week: int, away: str = "DEN", home: str = "ATL") -> dict:
+    logo = "https://static.www.nfl.com/t_q-best/league/api/clubs/logos/"
+    return {
+        "season": 2026,
+        "seasonType": season_type,
+        "week": week,
+        "awayTeam": {"currentLogo": logo + away},
+        "homeTeam": {"currentLogo": logo + home},
+    }
+
+
+class TestNflverseGameId:
+    def test_regular_season_keeps_api_week(self):
+        assert nflverse_game_id(_game("REG", 1)) == "2026_01_DEN_ATL"
+
+    def test_postseason_continues_past_regular_season(self):
+        assert nflverse_game_id(_game("POST", 1), reg_weeks=18) == "2026_19_DEN_ATL"
+        assert nflverse_game_id(_game("POST", 4), reg_weeks=17) == "2026_21_DEN_ATL"
+
+    def test_preseason_gets_explicit_token(self):
+        assert nflverse_game_id(_game("PRE", 0, "CAR", "AZ")) == "2026_PRE0_CAR_ARI"
+        assert nflverse_game_id(_game("PRE", 3)) == "2026_PRE3_DEN_ATL"
+
+    def test_preseason_never_collides_with_postseason(self):
+        # PRE weeks 1-3 used to take the postseason offset (19-21): a Wild Card
+        # rematch of a preseason game raised the duplicate-id error on extraction.
+        pre = {nflverse_game_id(_game("PRE", w), reg_weeks=18) for w in range(4)}
+        post = {nflverse_game_id(_game("POST", w), reg_weeks=18) for w in range(1, 5)}
+        assert not pre & post

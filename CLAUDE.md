@@ -59,6 +59,8 @@ There is **no `[project.scripts]` console entry**, no Makefile, and **no
   for every game. Throttle: `NFL_BOX_SCORE_DELAY` / `--delay` (default 0.5 s).
 - `nfl/raw/{season}/{game_id}.json` — committed per-game library. `game_id` is the
   nflverse id `{season}_{week:02d}_{away}_{home}` (POST week offset auto-detected).
+  Preseason has no nflverse id, so it gets `{season}_PRE{week}_{away}_{home}` (Hall of
+  Fame game = `PRE0`); it used to take the POST offset and collide with playoff ids.
 
 ## Gotchas
 
