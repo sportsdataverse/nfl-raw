@@ -160,7 +160,7 @@
   "version": 13,
   "summary": {
     "gameId": "a8fb0d78-4feb-11f1-abca-2c54536568a9",
-    "offset": 490,
+    "offset": 492,
     "attendance": 68744,
     "clock": "00:21",
     "distance": 11,
@@ -208,7 +208,7 @@
   },
   "driveChart": {
     "gameId": "a8fb0d78-4feb-11f1-abca-2c54536568a9",
-    "offset": 490,
+    "offset": 492,
     "drives": [
       {
         "sequence": 1,
@@ -11354,10 +11354,10 @@
         "playId": 3706,
         "clockTime": "03:03",
         "down": 1,
-        "driveNetYards": 26,
-        "drivePlayCount": 8,
+        "driveNetYards": 57,
+        "drivePlayCount": 15,
         "driveSequence": 18,
-        "driveTimeOfPossession": "3:50",
+        "driveTimeOfPossession": "5:29",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NE  1-10  SEA 48",

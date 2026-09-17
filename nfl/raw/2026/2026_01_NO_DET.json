@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a8fc1203-4feb-11f1-abca-2c54536568a9",
-    "offset": 651,
+    "offset": 655,
     "attendance": 62897,
     "clock": "01:34",
     "distance": 10,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a8fc1203-4feb-11f1-abca-2c54536568a9",
-    "offset": 651,
+    "offset": 655,
     "drives": [
       {
         "sequence": 1,
@@ -1885,8 +1885,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DET  1-10  DET 11",
         "playDeleted": false,
-        "playDescription": "(10:04) J.Gibbs up the middle to DET 14 for 3 yards (D.Stutsman).",
-        "playDescriptionWithJerseyNumbers": "(10:04) 0-J.Gibbs up the middle to DET 14 for 3 yards (28-D.Stutsman).",
+        "playDescription": "(10:04) J.Gibbs up the middle to DET 14 for 3 yards (D.Stutsman; D.Godchaux).",
+        "playDescriptionWithJerseyNumbers": "(10:04) 0-J.Gibbs up the middle to DET 14 for 3 yards (28-D.Stutsman; 92-D.Godchaux).",
         "playEndTime": "2026-09-13T17:15:42.837Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -1913,12 +1913,22 @@
             "yards": 3
           },
           {
-            "playStatId": "10330060-1820-3530-0790-0026698532ef",
+            "playStatId": "10330060-1820-3530-0820-00252c9676cc",
             "gsisPlayerId": "00-0040155",
             "gsisPlayerName": "D.Stutsman",
             "gsisPlayerJerseyNumber": "28",
             "personId": "32005354-5579-7614-acd3-a851244d3364",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10403300-f235-cf9b-6d3a-2f182be48dd1",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1820-3530-0820-0036830c20ba",
+            "gsisPlayerId": "00-0033860",
+            "gsisPlayerName": "D.Godchaux",
+            "gsisPlayerJerseyNumber": "92",
+            "personId": "3200474f-4409-3943-f3b0-e1ac6f3b3b13",
+            "statType": 82,
             "teamId": "10403300-f235-cf9b-6d3a-2f182be48dd1",
             "yards": null
           }
@@ -6535,7 +6545,7 @@
       },
       {
         "playId": 2035,
-        "clockTime": "03:21",
+        "clockTime": "03:26",
         "down": 4,
         "driveNetYards": 3,
         "drivePlayCount": 3,
@@ -6545,14 +6555,14 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DET  4-2  DET 44",
         "playDeleted": false,
-        "playDescription": "(3:21) (Run formation) L.Borom reported in as eligible.  PENALTY on DET, Delay of Game, 5 yards, enforced at DET 44 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(3:21) (Run formation) 79-L.Borom reported in as eligible.  PENALTY on DET, Delay of Game, 5 yards, enforced at DET 44 - No Play.",
+        "playDescription": "(3:26) (Run formation) L.Borom reported in as eligible.  PENALTY on DET, Delay of Game, 5 yards, enforced at DET 44 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(3:26) (Run formation) 79-L.Borom reported in as eligible.  PENALTY on DET, Delay of Game, 5 yards, enforced at DET 44 - No Play.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": false,
         "playSequenceNumber": 2035.0,
-        "playStartTime": "2026-09-13T18:23:46Z",
+        "playStartTime": "2026-09-13T18:23:42Z",
         "playType": "PENALTY",
         "quarter": 2,
         "scoringPlayType": "UNSPECIFIED",

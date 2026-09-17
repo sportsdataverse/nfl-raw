@@ -16,10 +16,14 @@
   "broadcastInfo": {
     "homeNetworkChannels": [
       "ESPN",
+      "ABC",
+      "ESPN2",
       "ESPN DEPORTES"
     ],
     "awayNetworkChannels": [
       "ESPN",
+      "ABC",
+      "ESPN2",
       "ESPN DEPORTES"
     ],
     "internationalWatchOptions": [],
@@ -27,7 +31,8 @@
       {
         "hostNetwork": "ESPN",
         "networks": [
-          "ESPN"
+          "ESPN",
+          "ABC"
         ],
         "streamType": "en-pri"
       },
@@ -37,6 +42,13 @@
           "ESPNDEPORTES"
         ],
         "streamType": "es-alt-1"
+      },
+      {
+        "hostNetwork": "ESPN2",
+        "networks": [
+          "ESPN2"
+        ],
+        "streamType": "en-alt-1"
       }
     ],
     "territory": "NATIONAL",
@@ -111,7 +123,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 8,
   "summary": null,
   "driveChart": null,
   "replays": null,

@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a8fc1998-4feb-11f1-abca-2c54536568a9",
-    "offset": 458,
+    "offset": 462,
     "attendance": 64336,
     "clock": "00:38",
     "distance": 13,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a8fc1998-4feb-11f1-abca-2c54536568a9",
-    "offset": 458,
+    "offset": 462,
     "drives": [
       {
         "sequence": 1,
@@ -6654,8 +6654,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TEN  3-4  NYJ 45",
         "playDeleted": false,
-        "playDescription": "(13:14) (Shotgun) C.Ward pass incomplete deep right to E.Ayomanor.",
-        "playDescriptionWithJerseyNumbers": "(13:14) (Shotgun) 1-C.Ward pass incomplete deep right to 5-E.Ayomanor.",
+        "playDescription": "(13:14) (Shotgun) C.Ward pass incomplete deep right to E.Ayomanor (A.Thomas).",
+        "playDescriptionWithJerseyNumbers": "(13:14) (Shotgun) 1-C.Ward pass incomplete deep right to 5-E.Ayomanor (1-A.Thomas).",
         "playEndTime": "2026-09-13T18:44:13.613Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6702,7 +6702,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1872-1910-1120-00446ac4c5b5",
+            "playStatId": "10330060-1872-1910-0850-0044d23216d5",
+            "gsisPlayerId": "00-0040133",
+            "gsisPlayerName": "A.Thomas",
+            "gsisPlayerJerseyNumber": "01",
+            "personId": "32005448-4f02-9457-6442-59bf797e4ae8",
+            "statType": 85,
+            "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1872-1910-1120-0056f02cf563",
             "gsisPlayerId": "00-0040676",
             "gsisPlayerName": "C.Ward",
             "gsisPlayerJerseyNumber": "01",
@@ -11157,8 +11167,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TEN  2-6  NYJ 39",
         "playDeleted": false,
-        "playDescription": "(3:48) (No Huddle, Shotgun) C.Ward pass short left to G.Helm pushed ob at NYJ 29 for 10 yards (A.Cisco).",
-        "playDescriptionWithJerseyNumbers": "(3:48) (No Huddle, Shotgun) 1-C.Ward pass short left to 84-G.Helm pushed ob at NYJ 29 for 10 yards (8-A.Cisco).",
+        "playDescription": "(3:48) (No Huddle, Shotgun) C.Ward pass short left to G.Helm pushed ob at NYJ 29 for 10 yards (D.Belton).",
+        "playDescriptionWithJerseyNumbers": "(3:48) (No Huddle, Shotgun) 1-C.Ward pass short left to 84-G.Helm pushed ob at NYJ 29 for 10 yards (6-D.Belton).",
         "playEndTime": "2026-09-13T19:49:06.240Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11236,10 +11246,10 @@
           },
           {
             "playStatId": "10330060-1873-7870-0790-0075de7f649d",
-            "gsisPlayerId": "00-0036941",
-            "gsisPlayerName": "A.Cisco",
-            "gsisPlayerJerseyNumber": "08",
-            "personId": "32004349-5320-7645-d990-4be4e62d11a3",
+            "gsisPlayerId": "00-0038123",
+            "gsisPlayerName": "D.Belton",
+            "gsisPlayerJerseyNumber": "06",
+            "personId": "32004245-4c77-9644-30b4-fa0c97f77e59",
             "statType": 79,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
             "yards": null
@@ -11410,8 +11420,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TEN  1-10  NYJ 11",
         "playDeleted": false,
-        "playDescription": "(2:53) (No Huddle, Shotgun) C.Ward pass incomplete short left to E.Ayomanor.",
-        "playDescriptionWithJerseyNumbers": "(2:53) (No Huddle, Shotgun) 1-C.Ward pass incomplete short left to 5-E.Ayomanor.",
+        "playDescription": "(2:53) (No Huddle, Shotgun) C.Ward pass incomplete short left to E.Ayomanor (B.Stephens).",
+        "playDescriptionWithJerseyNumbers": "(2:53) (No Huddle, Shotgun) 1-C.Ward pass incomplete short left to 5-E.Ayomanor (21-B.Stephens).",
         "playEndTime": "2026-09-13T19:50:21.397Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11448,7 +11458,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1873-8640-1120-003447ff3531",
+            "playStatId": "10330060-1873-8640-0850-003869f043bc",
+            "gsisPlayerId": "00-0036987",
+            "gsisPlayerName": "B.Stephens",
+            "gsisPlayerJerseyNumber": "21",
+            "personId": "32005354-4535-6284-a974-7b8553e53cd0",
+            "statType": 85,
+            "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1873-8640-1120-0044731d7f38",
             "gsisPlayerId": "00-0040676",
             "gsisPlayerName": "C.Ward",
             "gsisPlayerJerseyNumber": "01",

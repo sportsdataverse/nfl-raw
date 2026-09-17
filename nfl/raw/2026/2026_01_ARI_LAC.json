@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9a87603-4feb-11f1-abca-2c54536568a9",
-    "offset": 512,
+    "offset": 519,
     "attendance": 70540,
     "clock": "00:34",
     "distance": 13,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a9a87603-4feb-11f1-abca-2c54536568a9",
-    "offset": 512,
+    "offset": 519,
     "drives": [
       {
         "sequence": 1,
@@ -1261,8 +1261,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  3-1  LAC 21",
         "playDeleted": false,
-        "playDescription": "(11:39) J.Brissett up the middle to LAC 19 for 2 yards (J.Caldwell).",
-        "playDescriptionWithJerseyNumbers": "(11:39) 7-J.Brissett up the middle to LAC 19 for 2 yards (99-J.Caldwell).",
+        "playDescription": "(11:39) (No Huddle) J.Brissett up the middle to LAC 19 for 2 yards (J.Caldwell).",
+        "playDescriptionWithJerseyNumbers": "(11:39) (No Huddle) 7-J.Brissett up the middle to LAC 19 for 2 yards (99-J.Caldwell).",
         "playEndTime": "2026-09-13T20:30:27.980Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -3350,8 +3350,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  1-10  AZ 30",
         "playDeleted": false,
-        "playDescription": "(13:42) J.Herbert pass incomplete short right to Q.Johnston (M.Melton).",
-        "playDescriptionWithJerseyNumbers": "(13:42) 10-J.Herbert pass incomplete short right to 1-Q.Johnston (16-M.Melton).",
+        "playDescription": "(13:42) J.Herbert pass incomplete deep right to Q.Johnston (M.Melton).",
+        "playDescriptionWithJerseyNumbers": "(13:42) 10-J.Herbert pass incomplete deep right to 1-Q.Johnston (16-M.Melton).",
         "playEndTime": "2026-09-13T21:00:54.047Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -3405,7 +3405,7 @@
             "personId": "32004845-5203-1169-a699-ce41d700202a",
             "statType": 112,
             "teamId": "10404400-3b35-073f-197e-194bb8240723",
-            "yards": 0
+            "yards": 18
           }
         ]
       },
@@ -6238,8 +6238,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  1-10  LAC 11",
         "playDeleted": false,
-        "playDescription": "(:16) (Shotgun) J.Brissett pass incomplete short left to T.McBride (T.Tuipulotu).",
-        "playDescriptionWithJerseyNumbers": "(:16) (Shotgun) 7-J.Brissett pass incomplete short left to 85-T.McBride (45-T.Tuipulotu).",
+        "playDescription": "(:16) (Shotgun) J.Brissett pass incomplete short left to T.McBride (T.Tuipulotu) [T.Tuipulotu].",
+        "playDescriptionWithJerseyNumbers": "(:16) (Shotgun) 7-J.Brissett pass incomplete short left to 85-T.McBride (45-T.Tuipulotu) [45-T.Tuipulotu].",
         "playEndTime": "2026-09-13T21:39:10.757Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6286,7 +6286,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1881-8610-1120-0045b9bd65ce",
+            "playStatId": "10330060-1881-8610-1100-004977863af8",
+            "gsisPlayerId": "00-0039111",
+            "gsisPlayerName": "T.Tuipulotu",
+            "gsisPlayerJerseyNumber": "45",
+            "personId": "32005455-4972-0077-cdfc-f4d029d13b39",
+            "statType": 110,
+            "teamId": "10404400-3b35-073f-197e-194bb8240723",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1881-8610-1120-005c06e8b6e8",
             "gsisPlayerId": "00-0033119",
             "gsisPlayerName": "J.Brissett",
             "gsisPlayerJerseyNumber": "07",
@@ -6350,8 +6360,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  2-10  LAC 11",
         "playDeleted": false,
-        "playDescription": "(:09) (Shotgun) J.Brissett pass incomplete short right to M.Harrison.\r\nPENALTY on AZ-P.Johnson, Face Mask, 15 yards, enforced at LAC 11 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(:09) (Shotgun) 7-J.Brissett pass incomplete short right to 18-M.Harrison.\r\nPENALTY on AZ-70-P.Johnson, Face Mask, 15 yards, enforced at LAC 11 - No Play.",
+        "playDescription": "(:09) (Shotgun) J.Brissett pass incomplete short right to M.Harrison [T.Tuipulotu].\r\nPENALTY on AZ-P.Johnson, Face Mask, 15 yards, enforced at LAC 11 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(:09) (Shotgun) 7-J.Brissett pass incomplete short right to 18-M.Harrison [45-T.Tuipulotu].\r\nPENALTY on AZ-70-P.Johnson, Face Mask, 15 yards, enforced at LAC 11 - No Play.",
         "playEndTime": "2026-09-13T21:40:57.290Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11042,8 +11052,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  2-8  AZ 7",
         "playDeleted": false,
-        "playDescription": "(9:07) T.Allgeier left end to AZ 11 for 4 yards (D.James; G.Smith).",
-        "playDescriptionWithJerseyNumbers": "(9:07) 22-T.Allgeier left end to AZ 11 for 4 yards (3-D.James; 22-G.Smith).",
+        "playDescription": "(9:07) T.Allgeier left tackle to AZ 11 for 4 yards (D.James; G.Smith).",
+        "playDescriptionWithJerseyNumbers": "(9:07) 22-T.Allgeier left tackle to AZ 11 for 4 yards (3-D.James; 22-G.Smith).",
         "playEndTime": "2026-09-13T23:00:55.827Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11214,8 +11224,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  1-10  AZ 17",
         "playDeleted": false,
-        "playDescription": "(7:47) T.Allgeier left end to AZ 24 for 7 yards (G.Smith).",
-        "playDescriptionWithJerseyNumbers": "(7:47) 22-T.Allgeier left end to AZ 24 for 7 yards (22-G.Smith).",
+        "playDescription": "(7:47) T.Allgeier left tackle to AZ 24 for 7 yards (G.Smith).",
+        "playDescriptionWithJerseyNumbers": "(7:47) 22-T.Allgeier left tackle to AZ 24 for 7 yards (22-G.Smith).",
         "playEndTime": "2026-09-13T23:02:15.787Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

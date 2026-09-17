@@ -138,7 +138,7 @@
   "version": 9,
   "summary": {
     "gameId": "a9a890ed-4feb-11f1-abca-2c54536568a9",
-    "offset": 467,
+    "offset": 470,
     "attendance": 73543,
     "clock": "00:36",
     "distance": 11,
@@ -186,7 +186,7 @@
   },
   "driveChart": {
     "gameId": "a9a890ed-4feb-11f1-abca-2c54536568a9",
-    "offset": 467,
+    "offset": 470,
     "drives": [
       {
         "sequence": 1,
@@ -1297,16 +1297,16 @@
         "playId": 148,
         "clockTime": "12:59",
         "down": 2,
-        "driveNetYards": 11,
-        "drivePlayCount": 5,
+        "driveNetYards": 46,
+        "drivePlayCount": 10,
         "driveSequence": 2,
-        "driveTimeOfPossession": "2:28",
+        "driveTimeOfPossession": "5:19",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  2-8  DEN 44",
         "playDeleted": false,
-        "playDescription": "(12:59) (Shotgun) K.Walker up the middle to DEN 39 for 5 yards (T.Hufanga).",
-        "playDescriptionWithJerseyNumbers": "(12:59) (Shotgun) 9-K.Walker up the middle to DEN 39 for 5 yards (9-T.Hufanga).",
+        "playDescription": "(12:59) (Shotgun) K.Walker up the middle to DEN 39 for 5 yards (T.Hufanga; A.Singleton).",
+        "playDescriptionWithJerseyNumbers": "(12:59) (Shotgun) 9-K.Walker up the middle to DEN 39 for 5 yards (9-T.Hufanga; 49-A.Singleton).",
         "playEndTime": "2026-09-15T00:20:05.390Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -1333,12 +1333,22 @@
             "yards": 5
           },
           {
-            "playStatId": "10330060-1930-1480-0790-002b440ddeea",
+            "playStatId": "10330060-1930-1480-0820-002b7a39b135",
             "gsisPlayerId": "00-0036564",
             "gsisPlayerName": "T.Hufanga",
             "gsisPlayerJerseyNumber": "09",
             "personId": "32004855-4602-5955-8b3f-87d05b378712",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10401400-b89b-96e5-55d1-caa7e18de3d8",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1930-1480-0820-003b167e4ae6",
+            "gsisPlayerId": "00-0031898",
+            "gsisPlayerName": "A.Singleton",
+            "gsisPlayerJerseyNumber": "49",
+            "personId": "32005349-4e35-0252-3d2d-f2edddb47f5f",
+            "statType": 82,
             "teamId": "10401400-b89b-96e5-55d1-caa7e18de3d8",
             "yards": null
           }
@@ -4174,7 +4184,7 @@
       },
       {
         "playId": 1187,
-        "clockTime": "11:17",
+        "clockTime": "11:18",
         "down": 3,
         "driveNetYards": 18,
         "drivePlayCount": 6,
@@ -4184,8 +4194,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  3-5  KC 47",
         "playDeleted": false,
-        "playDescription": "(11:17) (Shotgun) P.Mahomes pass incomplete short right to C.Allen (M.Roach).",
-        "playDescriptionWithJerseyNumbers": "(11:17) (Shotgun) 15-P.Mahomes pass incomplete short right to 13-C.Allen (97-M.Roach).",
+        "playDescription": "(11:18) (Shotgun) P.Mahomes pass incomplete short right to C.Allen (M.Roach).",
+        "playDescriptionWithJerseyNumbers": "(11:18) (Shotgun) 15-P.Mahomes pass incomplete short right to 13-C.Allen (97-M.Roach).",
         "playEndTime": "2026-09-15T01:02:08.587Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

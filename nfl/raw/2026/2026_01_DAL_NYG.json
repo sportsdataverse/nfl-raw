@@ -126,7 +126,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9a88d52-4feb-11f1-abca-2c54536568a9",
-    "offset": 447,
+    "offset": 450,
     "attendance": 83286,
     "clock": "00:34",
     "distance": 15,
@@ -174,7 +174,7 @@
   },
   "driveChart": {
     "gameId": "a9a88d52-4feb-11f1-abca-2c54536568a9",
-    "offset": 447,
+    "offset": 450,
     "drives": [
       {
         "sequence": 1,
@@ -3275,8 +3275,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYG  3-2  NYG 44",
         "playDeleted": false,
-        "playDescription": "(13:31) C.Skattebo right tackle to NYG 44 for no gain (K.Clark).",
-        "playDescriptionWithJerseyNumbers": "(13:31) 44-C.Skattebo right tackle to NYG 44 for no gain (97-K.Clark).",
+        "playDescription": "(13:31) C.Skattebo right tackle to NYG 44 for no gain (K.Clark; Q.Williams).",
+        "playDescriptionWithJerseyNumbers": "(13:31) 44-C.Skattebo right tackle to NYG 44 for no gain (97-K.Clark; 92-Q.Williams).",
         "playEndTime": "2026-09-14T01:02:58.533Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -3313,12 +3313,22 @@
             "yards": 0
           },
           {
-            "playStatId": "10330060-1920-9780-0790-0037ce27a25c",
+            "playStatId": "10330060-1920-9780-0820-00377722aca1",
             "gsisPlayerId": "00-0033120",
             "gsisPlayerName": "K.Clark",
             "gsisPlayerJerseyNumber": "97",
             "personId": "3200434c-4140-9251-2f88-d454b8ae633b",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1920-9780-0820-004e1b4274c3",
+            "gsisPlayerId": "00-0035718",
+            "gsisPlayerName": "Q.Williams",
+            "gsisPlayerJerseyNumber": "92",
+            "personId": "32005749-4c13-2672-b05d-48fefa792d12",
+            "statType": 82,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
             "yards": null
           }
@@ -4476,16 +4486,16 @@
         "playId": 1504,
         "clockTime": "05:38",
         "down": 1,
-        "driveNetYards": 16,
-        "drivePlayCount": 3,
+        "driveNetYards": 64,
+        "drivePlayCount": 8,
         "driveSequence": 6,
-        "driveTimeOfPossession": "1:25",
+        "driveTimeOfPossession": "3:54",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYG  1-10  NYG 15",
         "playDeleted": false,
-        "playDescription": "(5:38) J.Dart left end ran ob at NYG 31 for 16 yards (J.Barham).",
-        "playDescriptionWithJerseyNumbers": "(5:38) 6-J.Dart left end ran ob at NYG 31 for 16 yards (55-J.Barham).",
+        "playDescription": "(5:38) J.Dart scrambles left end ran ob at NYG 31 for 16 yards (J.Barham).",
+        "playDescriptionWithJerseyNumbers": "(5:38) 6-J.Dart scrambles left end ran ob at NYG 31 for 16 yards (55-J.Barham).",
         "playEndTime": "2026-09-14T01:25:14.990Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

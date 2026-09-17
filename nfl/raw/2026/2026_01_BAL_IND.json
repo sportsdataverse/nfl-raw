@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a8fc15bd-4feb-11f1-abca-2c54536568a9",
-    "offset": 514,
+    "offset": 516,
     "attendance": 65045,
     "clock": "00:36",
     "distance": 13,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a8fc15bd-4feb-11f1-abca-2c54536568a9",
-    "offset": 514,
+    "offset": 516,
     "drives": [
       {
         "sequence": 1,
@@ -8578,8 +8578,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "IND  2-6  BAL 39",
         "playDeleted": false,
-        "playDescription": "(8:46) (Shotgun) D.Jones pass incomplete short middle to T.Warren [M.Starks].",
-        "playDescriptionWithJerseyNumbers": "(8:46) (Shotgun) 17-D.Jones pass incomplete short middle to 84-T.Warren [24-M.Starks].",
+        "playDescription": "(8:46) (Shotgun) D.Jones pass incomplete short middle to T.Warren (R.Smith) [M.Starks].",
+        "playDescriptionWithJerseyNumbers": "(8:46) (Shotgun) 17-D.Jones pass incomplete short middle to 84-T.Warren (0-R.Smith) [24-M.Starks].",
         "playEndTime": "2026-09-13T19:10:24.743Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8616,7 +8616,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1842-7060-1100-0031fc74695b",
+            "playStatId": "10330060-1842-7060-0850-0032ae8629de",
+            "gsisPlayerId": "00-0034874",
+            "gsisPlayerName": "R.Smith",
+            "gsisPlayerJerseyNumber": "00",
+            "personId": "3200534d-4968-5032-ead5-4d96dc1134f2",
+            "statType": 85,
+            "teamId": "10400325-48de-3d6a-be29-8f829437f4c8",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1842-7060-1100-00483551a62d",
             "gsisPlayerId": "00-0040688",
             "gsisPlayerName": "M.Starks",
             "gsisPlayerJerseyNumber": "24",
@@ -8626,7 +8636,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1842-7060-1120-0042d312330f",
+            "playStatId": "10330060-1842-7060-1120-005ee4b37ec3",
             "gsisPlayerId": "00-0035710",
             "gsisPlayerName": "D.Jones",
             "gsisPlayerJerseyNumber": "17",

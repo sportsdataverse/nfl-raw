@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a8fc1864-4feb-11f1-abca-2c54536568a9",
-    "offset": 502,
+    "offset": 507,
     "attendance": 66089,
     "clock": "00:40",
     "distance": 13,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a8fc1864-4feb-11f1-abca-2c54536568a9",
-    "offset": 502,
+    "offset": 507,
     "drives": [
       {
         "sequence": 1,
@@ -6220,8 +6220,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "ATL  2-19  PIT 43",
         "playDeleted": false,
-        "playDescription": "(3:30) (Shotgun) C.Rush pass incomplete short middle (C.Heyward).",
-        "playDescriptionWithJerseyNumbers": "(3:30) (Shotgun) 13-C.Rush pass incomplete short middle (97-C.Heyward).",
+        "playDescription": "(3:30) (Shotgun) C.Rush pass incomplete short middle to J.Dotson (C.Heyward).",
+        "playDescriptionWithJerseyNumbers": "(3:30) (Shotgun) 13-C.Rush pass incomplete short middle to 4-J.Dotson (97-C.Heyward).",
         "playEndTime": "2026-09-13T18:20:20.847Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6248,7 +6248,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1861-9080-0850-002a230a2401",
+            "playStatId": "10330060-1861-9080-1150-002e614c3d73",
+            "gsisPlayerId": "00-0037741",
+            "gsisPlayerName": "J.Dotson",
+            "gsisPlayerJerseyNumber": "04",
+            "personId": "3200444f-5428-2798-d9f2-9e8608edcb8a",
+            "statType": 115,
+            "teamId": "10400200-f401-4e53-5175-0974e4f16cf7",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1861-9080-0850-0035b5ed4b58",
             "gsisPlayerId": "00-0027969",
             "gsisPlayerName": "C.Heyward",
             "gsisPlayerJerseyNumber": "97",
@@ -6258,7 +6268,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1861-9080-1120-0032d0903df9",
+            "playStatId": "10330060-1861-9080-1120-004b7ff968d1",
             "gsisPlayerId": "00-0033662",
             "gsisPlayerName": "C.Rush",
             "gsisPlayerJerseyNumber": "13",
@@ -6281,8 +6291,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "ATL  3-19  PIT 43",
         "playDeleted": false,
-        "playDescription": "(3:25) (Shotgun) C.Rush pass short left to Bi.Robinson to PIT 36 for 7 yards (P.Wilson).",
-        "playDescriptionWithJerseyNumbers": "(3:25) (Shotgun) 13-C.Rush pass short left to 7-Bi.Robinson to PIT 36 for 7 yards (41-P.Wilson).",
+        "playDescription": "(3:25) (Shotgun) C.Rush pass short left to Bi.Robinson to PIT 36 for 7 yards (P.Wilson; P.Queen).",
+        "playDescriptionWithJerseyNumbers": "(3:25) (Shotgun) 13-C.Rush pass short left to 7-Bi.Robinson to PIT 36 for 7 yards (41-P.Wilson; 6-P.Queen).",
         "playEndTime": "2026-09-13T18:21:03.887Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6359,12 +6369,22 @@
             "yards": 12
           },
           {
-            "playStatId": "10330060-1861-9310-0790-007878b56944",
+            "playStatId": "10330060-1861-9310-0820-007e228e2adb",
             "gsisPlayerId": "00-0039741",
             "gsisPlayerName": "P.Wilson",
             "gsisPlayerJerseyNumber": "41",
             "personId": "32005749-4c77-2747-aac4-9ba7cad134d0",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10403900-8251-6892-d81c-4348525c2d47",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1861-9310-0820-00894110c387",
+            "gsisPlayerId": "00-0036323",
+            "gsisPlayerName": "P.Queen",
+            "gsisPlayerJerseyNumber": "06",
+            "personId": "32005155-4530-8806-168a-7e9ee3bd3f96",
+            "statType": 82,
             "teamId": "10403900-8251-6892-d81c-4348525c2d47",
             "yards": null
           }
@@ -7224,8 +7244,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "ATL  1-20  ATL 34",
         "playDeleted": false,
-        "playDescription": "(:54) (Shotgun) C.Rush pass incomplete short middle (C.Heyward).",
-        "playDescriptionWithJerseyNumbers": "(:54) (Shotgun) 13-C.Rush pass incomplete short middle (97-C.Heyward).",
+        "playDescription": "(:54) (Shotgun) C.Rush pass incomplete short middle to D.London (C.Heyward).",
+        "playDescriptionWithJerseyNumbers": "(:54) (Shotgun) 13-C.Rush pass incomplete short middle to 5-D.London (97-C.Heyward).",
         "playEndTime": "2026-09-13T18:33:34.063Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -7252,7 +7272,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1862-2570-0850-0021c8f0138d",
+            "playStatId": "10330060-1862-2570-1150-002191177d95",
+            "gsisPlayerId": "00-0037238",
+            "gsisPlayerName": "D.London",
+            "gsisPlayerJerseyNumber": "05",
+            "personId": "32004c4f-4e01-3463-a3e9-f95e800c8bba",
+            "statType": 115,
+            "teamId": "10400200-f401-4e53-5175-0974e4f16cf7",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1862-2570-0850-0039296c1365",
             "gsisPlayerId": "00-0027969",
             "gsisPlayerName": "C.Heyward",
             "gsisPlayerJerseyNumber": "97",
@@ -7262,7 +7292,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1862-2570-1120-0032f8a3fed7",
+            "playStatId": "10330060-1862-2570-1120-0044bd91842a",
             "gsisPlayerId": "00-0033662",
             "gsisPlayerName": "C.Rush",
             "gsisPlayerJerseyNumber": "13",
@@ -10589,8 +10619,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  3-3  PIT 39",
         "playDeleted": false,
-        "playDescription": "(:18) (Shotgun) A.Rodgers pass incomplete deep middle to D.Metcalf [S.Ebukam].",
-        "playDescriptionWithJerseyNumbers": "(:18) (Shotgun) 8-A.Rodgers pass incomplete deep middle to 4-D.Metcalf [52-S.Ebukam].",
+        "playDescription": "(:18) (Shotgun) A.Rodgers pass incomplete short middle to D.Metcalf [S.Ebukam].",
+        "playDescriptionWithJerseyNumbers": "(:18) (Shotgun) 8-A.Rodgers pass incomplete short middle to 4-D.Metcalf [52-S.Ebukam].",
         "playEndTime": "2026-09-13T19:30:26.320Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10654,7 +10684,7 @@
             "personId": "3200524f-4433-9293-a3cf-ad7758d03003",
             "statType": 112,
             "teamId": "10403900-8251-6892-d81c-4348525c2d47",
-            "yards": 21
+            "yards": 15
           }
         ]
       },

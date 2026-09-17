@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a8fc106b-4feb-11f1-abca-2c54536568a9",
-    "offset": 465,
+    "offset": 472,
     "attendance": 66625,
     "clock": "00:29",
     "distance": 11,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a8fc106b-4feb-11f1-abca-2c54536568a9",
-    "offset": 465,
+    "offset": 472,
     "drives": [
       {
         "sequence": 1,
@@ -6359,7 +6359,7 @@
             "personId": "32004255-5267-9731-81c8-48673dcec5e2",
             "statType": 112,
             "teamId": "10400920-57c1-7656-e77e-1af3d900483e",
-            "yards": -2
+            "yards": -5
           }
         ]
       },
@@ -8496,16 +8496,16 @@
         "playId": 2599,
         "clockTime": "05:46",
         "down": 4,
-        "driveNetYards": 47,
-        "drivePlayCount": 7,
+        "driveNetYards": 38,
+        "drivePlayCount": 10,
         "driveSequence": 12,
-        "driveTimeOfPossession": "4:45",
+        "driveTimeOfPossession": "6:22",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TB  4-1  CIN 33",
         "playDeleted": false,
-        "playDescription": "(5:46) B.Mayfield pass short right to K.Gainwell pushed ob at CIN 28 for 5 yards (D.Turner).\r\nPENALTY on CIN-J.Allen, Defensive Offside, 5 yards, enforced at CIN 33 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(5:46) 6-B.Mayfield pass short right to 1-K.Gainwell pushed ob at CIN 28 for 5 yards (0-D.Turner).\r\nPENALTY on CIN-93-J.Allen, Defensive Offside, 5 yards, enforced at CIN 33 - No Play.",
+        "playDescription": "(5:46) B.Mayfield pass short right to K.Gainwell pushed ob at CIN 29 for 4 yards (D.Turner).\r\nPENALTY on CIN-J.Allen, Defensive Offside, 5 yards, enforced at CIN 33 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(5:46) 6-B.Mayfield pass short right to 1-K.Gainwell pushed ob at CIN 29 for 4 yards (0-D.Turner).\r\nPENALTY on CIN-93-J.Allen, Defensive Offside, 5 yards, enforced at CIN 33 - No Play.",
         "playEndTime": "2026-09-13T18:59:41.030Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8832,15 +8832,15 @@
         "clockTime": "03:41",
         "down": 0,
         "driveNetYards": 5,
-        "drivePlayCount": 2,
+        "drivePlayCount": 3,
         "driveSequence": 13,
-        "driveTimeOfPossession": "0:36",
+        "driveTimeOfPossession": "1:25",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TB  KO  TB 35",
         "playDeleted": false,
-        "playDescription": "C.McLaughlin kicks 61 yards from TB 35 to CIN 4. D.Meyers to CIN 29 for 25 yards (K.Knowles).",
-        "playDescriptionWithJerseyNumbers": "4-C.McLaughlin kicks 61 yards from TB 35 to CIN 4. 81-D.Meyers to CIN 29 for 25 yards (38-K.Knowles).",
+        "playDescription": "C.McLaughlin kicks 61 yards from TB 35 to CIN 4. D.Meyers to CIN 29 for 25 yards (M.Killebrew, K.Knowles).",
+        "playDescriptionWithJerseyNumbers": "4-C.McLaughlin kicks 61 yards from TB 35 to CIN 4. 81-D.Meyers to CIN 29 for 25 yards (29-M.Killebrew, 38-K.Knowles).",
         "playEndTime": "2026-09-13T19:05:55.197Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8877,12 +8877,22 @@
             "yards": 25
           },
           {
-            "playStatId": "10330060-1812-7250-0790-003eebd93451",
+            "playStatId": "10330060-1812-7250-0800-00310b8f4f65",
+            "gsisPlayerId": "00-0032399",
+            "gsisPlayerName": "M.Killebrew",
+            "gsisPlayerJerseyNumber": "29",
+            "personId": "32004b49-4c28-3492-57d3-042b96cef5b8",
+            "statType": 80,
+            "teamId": "10404900-d59e-b449-ef75-961e09ca027e",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1812-7250-0820-00430e3b63c4",
             "gsisPlayerId": "00-0040089",
             "gsisPlayerName": "K.Knowles",
             "gsisPlayerJerseyNumber": "38",
             "personId": "32004b4e-4f36-6523-3e23-693fd9929178",
-            "statType": 79,
+            "statType": 82,
             "teamId": "10404900-d59e-b449-ef75-961e09ca027e",
             "yards": null
           }
@@ -10746,10 +10756,10 @@
         "playId": 3429,
         "clockTime": "10:31",
         "down": 1,
-        "driveNetYards": 27,
-        "drivePlayCount": 4,
+        "driveNetYards": 30,
+        "drivePlayCount": 8,
         "driveSequence": 16,
-        "driveTimeOfPossession": "2:14",
+        "driveTimeOfPossession": "5:12",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CIN  1-10  TB 44",
@@ -10789,7 +10799,7 @@
             "personId": "32004255-5267-9731-81c8-48673dcec5e2",
             "statType": 111,
             "teamId": "10400920-57c1-7656-e77e-1af3d900483e",
-            "yards": 1
+            "yards": 6
           },
           {
             "playStatId": "10330060-1813-4290-0210-003f48ea9745",
@@ -10819,7 +10829,7 @@
             "personId": "32005341-4d09-3961-4a51-98a97d3cf50f",
             "statType": 113,
             "teamId": "10400920-57c1-7656-e77e-1af3d900483e",
-            "yards": 5
+            "yards": 0
           },
           {
             "playStatId": "10330060-1813-4290-0790-006f463695ce",
