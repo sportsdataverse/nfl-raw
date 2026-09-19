@@ -1,0 +1,118 @@
+[2026-09-19 14:49:05Z] nfl raw scrape start: seasons 2026-2026 types='PRE REG POST'
+[2026-09-19 14:49:05Z] interpreter: /home/runner/work/nfl-raw/nfl-raw/.venv/bin/python
+[2026-09-19 14:49:12Z] WARN: working tree dirty; skipped sync with origin
+[scrape] seasons 2026..2026 (1) | types=['PRE', 'REG', 'POST'] | delay=2.0s | extract=on
+[fetcher] 2026/PRE wk00 -> data/raw/2026/PRE/wk00.json
+[fetcher] 2026/PRE wk01 -> data/raw/2026/PRE/wk01.json
+[fetcher] 2026/PRE wk02 -> data/raw/2026/PRE/wk02.json
+[fetcher] 2026/PRE wk03 -> data/raw/2026/PRE/wk03.json
+[fetcher] 2026/REG wk01 -> data/raw/2026/REG/wk01.json
+[fetcher] 2026/REG wk02 -> data/raw/2026/REG/wk02.json
+[fetcher] 2026/REG wk03 -> data/raw/2026/REG/wk03.json
+[fetcher] 2026/REG wk04 -> data/raw/2026/REG/wk04.json
+[fetcher] 2026/REG wk05 -> data/raw/2026/REG/wk05.json
+[fetcher] 2026/REG wk06 -> data/raw/2026/REG/wk06.json
+[fetcher] 2026/REG wk07 -> data/raw/2026/REG/wk07.json
+[fetcher] 2026/REG wk08 -> data/raw/2026/REG/wk08.json
+[fetcher] 2026/REG wk09 -> data/raw/2026/REG/wk09.json
+[fetcher] 2026/REG wk10 -> data/raw/2026/REG/wk10.json
+[fetcher] 2026/REG wk11 -> data/raw/2026/REG/wk11.json
+[fetcher] 2026/REG wk12 -> data/raw/2026/REG/wk12.json
+[fetcher] 2026/REG wk13 -> data/raw/2026/REG/wk13.json
+[fetcher] 2026/REG wk14 -> data/raw/2026/REG/wk14.json
+[fetcher] 2026/REG wk15 -> data/raw/2026/REG/wk15.json
+[fetcher] 2026/REG wk16 -> data/raw/2026/REG/wk16.json
+[fetcher] 2026/REG wk17 -> data/raw/2026/REG/wk17.json
+[fetcher] 2026/REG wk18 -> data/raw/2026/REG/wk18.json
+[scrape] 2026: fetched 22 new weekly file(s) -> extracted 321 game file(s) in 56.5s
+[scrape] 2026: nothing new to commit
+[scrape] done: 1 season(s), 22 new weekly file(s), 321 game file(s) in 56.6s
+nfl_raw_03_box_scores {"season": 2026, "games": 321, "final": 66, "wrote": 0, "skipped": 66, "not_final": 255, "failed": 0}
+[box_scores] 2026: nothing new to commit
+[2026-09-19 14:50:13] INFO season 2026: 334 events listed (types [1, 2, 3])
+[2026-09-19 14:50:14] INFO season 2026: 25/334 (written 0, existing 25, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 50/334 (written 0, existing 50, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 75/334 (written 0, existing 75, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 100/334 (written 0, existing 100, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 125/334 (written 0, existing 125, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 150/334 (written 0, existing 150, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 175/334 (written 0, existing 175, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 200/334 (written 0, existing 200, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 225/334 (written 0, existing 225, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 250/334 (written 0, existing 250, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 275/334 (written 0, existing 275, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 300/334 (written 0, existing 300, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 325/334 (written 0, existing 325, failed 0)
+[2026-09-19 14:50:14] INFO season 2026: 334/334 (written 0, existing 334, failed 0)
+[2026-09-19 14:50:14] INFO season 2026 done in 1s: written 0 existing 334 failed 0
+[2026-09-19 14:50:14] INFO COMPLETED seasons 2026-2026, failed events: 0
+[2026-09-19 14:51:03] INFO crosswalk: 6858 ESPN events over 25 seasons -- matched by time 3642, by date 3154, unmatched 62; 37 team rows
+[2026-09-19 14:51:03] INFO   unmatched: 2002 3 wk5 NFC @ AFC (230202031)
+[2026-09-19 14:51:03] INFO   unmatched: 1988 2 wkNone KC @ DEN (241106007)
+[2026-09-19 14:51:03] INFO   unmatched: 2004 3 wk5 NFC @ AFC (250213031)
+[2026-09-19 14:51:03] INFO   unmatched: 2005 3 wk5 AFC @ NFC (260212032)
+[2026-09-19 14:51:03] INFO   unmatched: 2006 3 wk5 NFC @ AFC (270210031)
+[2026-09-19 14:51:03] INFO   unmatched: 2007 3 wk5 AFC @ NFC (280210032)
+[2026-09-19 14:51:03] INFO   unmatched: 2008 3 wk5 NFC @ AFC (290208031)
+[2026-09-19 14:51:03] INFO   unmatched: 2009 3 wk4 NFC @ AFC (300131031)
+[2026-09-19 14:51:03] INFO   unmatched: 2010 3 wk4 AFC @ NFC (310130032)
+[2026-09-19 14:51:03] INFO   unmatched: 2011 3 wk4 NFC @ AFC (320129031)
+[2026-09-19 14:51:03] INFO   unmatched: 2012 3 wk4 AFC @ NFC (330127032)
+[2026-09-19 14:51:03] INFO   unmatched: 2013 3 wk4 SAN @ RIC (340126035)
+[2026-09-19 14:51:03] INFO   unmatched: 2014 2 wk12 NYJ @ BUF (400554331)
+[2026-09-19 14:51:03] INFO   unmatched: 2014 3 wk4 IRV @ CTR (400749554)
+[2026-09-19 14:51:03] INFO   unmatched: 2015 3 wk4 RIC @ IRV (400858208)
+[2026-09-19 14:51:03] INFO   unmatched: 2016 3 wk4 AFC @ NFC (400878708)
+[2026-09-19 14:51:03] INFO   unmatched: 2017 2 wk1 TB @ MIA (400951581)
+[2026-09-19 14:51:03] INFO   unmatched: 2017 3 wk4 NFC @ AFC (400999088)
+[2026-09-19 14:51:03] INFO   unmatched: 2018 3 wk4 AFC @ NFC (401038851)
+[2026-09-19 14:51:03] INFO   unmatched: 2019 3 wk4 NFC @ AFC (401131046)
+[2026-09-19 14:51:03] INFO   unmatched: 2021 3 wk4 NFC @ AFC (401326637)
+[2026-09-19 14:51:03] INFO   unmatched: 2022 3 wk4 AFC @ NFC (401492629)
+[2026-09-19 14:51:03] INFO   unmatched: 2023 3 wk4 NFC @ AFC (401616889)
+[2026-09-19 14:51:03] INFO   unmatched: 2024 3 wk4 AFC @ NFC (401701113)
+[2026-09-19 14:51:03] INFO   unmatched: 2025 3 wk4 NFC @ AFC (401831718)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk1 TBD @ TBD (401872910)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk1 TBD @ TBD (401872911)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk1 TBD @ TBD (401872912)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk1 TBD @ TBD (401872913)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk1 TBD @ TBD (401872914)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk1 TBD @ TBD (401872915)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk2 TBD @ TBD (401872916)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk2 TBD @ TBD (401872917)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk2 TBD @ TBD (401872918)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk2 TBD @ TBD (401872919)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk3 TBD @ TBD (401872920)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk3 TBD @ TBD (401872921)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk16 CAR @ PIT (401873144)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk16 CIN @ IND (401873145)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk16 TB @ ATL (401873146)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk16 WSH @ MIN (401873147)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk17 DEN @ NE (401873157)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk17 KC @ LAC (401873158)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk17 LAR @ TB (401873159)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk17 WSH @ JAX (401873160)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 ATL @ CAR (401873172)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 CHI @ MIN (401873173)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 CLE @ CIN (401873174)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 DAL @ WSH (401873175)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 DET @ GB (401873176)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 JAX @ IND (401873177)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 LV @ KC (401873178)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 LAC @ DEN (401873179)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 MIA @ NE (401873180)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 NYJ @ BUF (401873181)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 PHI @ NYG (401873182)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 PIT @ BAL (401873183)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 SF @ ARI (401873184)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 SEA @ LAR (401873185)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 TB @ NO (401873186)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 2 wk18 TEN @ HOU (401873187)
+[2026-09-19 14:51:03] INFO   unmatched: 2026 3 wk5 TBD @ TBD (401873270)
+[2026-09-19 14:51:04] INFO commit -> On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in 
+Everything up-to-date
+[2026-09-19 14:51:04Z] nfl raw scrape done (scrape=0 box=0 espn=0 push=0)
