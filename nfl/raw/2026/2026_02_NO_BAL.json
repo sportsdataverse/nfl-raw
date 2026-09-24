@@ -105,7 +105,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9a89baa-4feb-11f1-abca-2c54536568a9",
-    "offset": 626,
+    "offset": 628,
     "attendance": 70437,
     "clock": "00:13",
     "distance": 11,
@@ -153,7 +153,7 @@
   },
   "driveChart": {
     "gameId": "a9a89baa-4feb-11f1-abca-2c54536568a9",
-    "offset": 626,
+    "offset": 628,
     "drives": [
       {
         "sequence": 1,
@@ -8644,8 +8644,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NO  2-19  NO 17",
         "playDeleted": false,
-        "playDescription": "(2:26) (Shotgun) T.Shough pass incomplete short left to A.Kamara.",
-        "playDescriptionWithJerseyNumbers": "(2:26) (Shotgun) 6-T.Shough pass incomplete short left to 41-A.Kamara.",
+        "playDescription": "(2:26) (Shotgun) T.Shough pass incomplete short right to A.Kamara.",
+        "playDescriptionWithJerseyNumbers": "(2:26) (Shotgun) 6-T.Shough pass incomplete short right to 41-A.Kamara.",
         "playEndTime": "2026-09-20T18:57:42.463Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

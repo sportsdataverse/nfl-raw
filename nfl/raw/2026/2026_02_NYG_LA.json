@@ -138,7 +138,7 @@
   "version": 8,
   "summary": {
     "gameId": "aa04989c-4feb-11f1-abca-2c54536568a9",
-    "offset": 412,
+    "offset": 415,
     "attendance": 73773,
     "clock": "00:38",
     "distance": 13,
@@ -186,7 +186,7 @@
   },
   "driveChart": {
     "gameId": "aa04989c-4feb-11f1-abca-2c54536568a9",
-    "offset": 412,
+    "offset": 415,
     "drives": [
       {
         "sequence": 1,
@@ -7276,7 +7276,7 @@
       },
       {
         "playId": 2322,
-        "clockTime": "11:22",
+        "clockTime": "11:20",
         "down": 2,
         "driveNetYards": 12,
         "drivePlayCount": 5,
@@ -7286,8 +7286,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYG  2-5  NYG 39",
         "playDeleted": false,
-        "playDescription": "(11:22) PENALTY on NYG-T.Johnson, False Start, 5 yards, enforced at NYG 39 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(11:22) PENALTY on NYG-84-T.Johnson, False Start, 5 yards, enforced at NYG 39 - No Play.",
+        "playDescription": "(11:20) PENALTY on NYG-T.Johnson, False Start, 5 yards, enforced at NYG 39 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(11:20) PENALTY on NYG-84-T.Johnson, False Start, 5 yards, enforced at NYG 39 - No Play.",
         "playEndTime": "2026-09-22T02:04:59.297Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -7681,8 +7681,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAR  2-5  LAR 19",
         "playDeleted": false,
-        "playDescription": "(9:29) (Shotgun) M.Stafford pass short left to D.Adams to LAR 35 for 16 yards (G.Newsome).",
-        "playDescriptionWithJerseyNumbers": "(9:29) (Shotgun) 9-M.Stafford pass short left to 17-D.Adams to LAR 35 for 16 yards (20-G.Newsome).",
+        "playDescription": "(9:29) (No Huddle, Shotgun) M.Stafford pass short left to D.Adams to LAR 35 for 16 yards (G.Newsome).",
+        "playDescriptionWithJerseyNumbers": "(9:29) (No Huddle, Shotgun) 9-M.Stafford pass short left to 17-D.Adams to LAR 35 for 16 yards (20-G.Newsome).",
         "playEndTime": "2026-09-22T02:10:41.983Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

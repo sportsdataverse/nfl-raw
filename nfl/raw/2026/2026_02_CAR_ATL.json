@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9a89841-4feb-11f1-abca-2c54536568a9",
-    "offset": 520,
+    "offset": 525,
     "attendance": 71143,
     "clock": "00:42",
     "distance": 14,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a9a89841-4feb-11f1-abca-2c54536568a9",
-    "offset": 520,
+    "offset": 525,
     "drives": [
       {
         "sequence": 1,
@@ -1436,8 +1436,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "CAR  1-Goal  ATL 2",
         "playDeleted": false,
-        "playDescription": "(11:39) (Shotgun) B.Young pass incomplete short right to T.McMillan (Aj.Terrell). ATL-Aj.Terrell was injured during the play.",
-        "playDescriptionWithJerseyNumbers": "(11:39) (Shotgun) 9-B.Young pass incomplete short right to 4-T.McMillan (24-Aj.Terrell). ATL-24-Aj.Terrell was injured during the play.",
+        "playDescription": "(11:39) (Shotgun) B.Young pass incomplete short right to T.McMillan. ATL-Aj.Terrell was injured during the play.",
+        "playDescriptionWithJerseyNumbers": "(11:39) (Shotgun) 9-B.Young pass incomplete short right to 4-T.McMillan. ATL-24-Aj.Terrell was injured during the play.",
         "playEndTime": "2026-09-20T17:13:06.923Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
@@ -1474,17 +1474,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1950-3090-0850-0033c40a5066",
-            "gsisPlayerId": "00-0036285",
-            "gsisPlayerName": "Aj.Terrell",
-            "gsisPlayerJerseyNumber": "24",
-            "personId": "32005445-5227-2956-3d70-15eacafe6b00",
-            "statType": 85,
-            "teamId": "10400200-f401-4e53-5175-0974e4f16cf7",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-1950-3090-1120-00431a8719aa",
+            "playStatId": "10330060-1950-3090-1120-003ac4e1be35",
             "gsisPlayerId": "00-0039150",
             "gsisPlayerName": "B.Young",
             "gsisPlayerJerseyNumber": "09",
@@ -2805,7 +2795,7 @@
       },
       {
         "playId": 775,
-        "clockTime": "07:29",
+        "clockTime": "07:30",
         "down": 4,
         "driveNetYards": 5,
         "drivePlayCount": 3,
@@ -2815,8 +2805,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "ATL  4-5  ATL 21",
         "playDeleted": false,
-        "playDescription": "(7:29) J.Bailey punts 49 yards to CAR 30, Center-L.McCullough. J.Coker to ATL 34 for 36 yards (J.Bailey; C.Woerner).\r\nPENALTY on ATL-H.Perkins, Illegal Formation, 5 yards, enforced at ATL 34.",
-        "playDescriptionWithJerseyNumbers": "(7:29) 16-J.Bailey punts 49 yards to CAR 30, Center-49-L.McCullough. 18-J.Coker to ATL 34 for 36 yards (16-J.Bailey; 89-C.Woerner).\r\nPENALTY on ATL-56-H.Perkins, Illegal Formation, 5 yards, enforced at ATL 34.",
+        "playDescription": "(7:30) J.Bailey punts 49 yards to CAR 30, Center-L.McCullough. J.Coker to ATL 34 for 36 yards (J.Bailey; C.Woerner).\r\nPENALTY on ATL-H.Perkins, Illegal Formation, 5 yards, enforced at ATL 34.",
+        "playDescriptionWithJerseyNumbers": "(7:30) 16-J.Bailey punts 49 yards to CAR 30, Center-49-L.McCullough. 18-J.Coker to ATL 34 for 36 yards (16-J.Bailey; 89-C.Woerner).\r\nPENALTY on ATL-56-H.Perkins, Illegal Formation, 5 yards, enforced at ATL 34.",
         "playEndTime": "2026-09-20T17:34:51.023Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -5996,18 +5986,18 @@
       },
       {
         "playId": 1857,
-        "clockTime": "04:14",
+        "clockTime": "04:12",
         "down": 1,
-        "driveNetYards": 21,
-        "drivePlayCount": 4,
+        "driveNetYards": 65,
+        "drivePlayCount": 13,
         "driveSequence": 11,
-        "driveTimeOfPossession": "2:01",
+        "driveTimeOfPossession": "4:47",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "ATL  1-10  ATL 23",
         "playDeleted": false,
-        "playDescription": "(4:14) PENALTY on ATL-K.Pitts, False Start, 5 yards, enforced at ATL 23 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(4:14) PENALTY on ATL-8-K.Pitts, False Start, 5 yards, enforced at ATL 23 - No Play.",
+        "playDescription": "(4:12) PENALTY on ATL-K.Pitts, False Start, 5 yards, enforced at ATL 23 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(4:12) PENALTY on ATL-8-K.Pitts, False Start, 5 yards, enforced at ATL 23 - No Play.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9575,8 +9565,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "CAR  3-Goal  ATL 7",
         "playDeleted": false,
-        "playDescription": "(5:10) (Shotgun) B.Young pass short middle to J.Coker to ATL 2 for 5 yards (X.Watts).",
-        "playDescriptionWithJerseyNumbers": "(5:10) (Shotgun) 9-B.Young pass short middle to 18-J.Coker to ATL 2 for 5 yards (31-X.Watts).",
+        "playDescription": "(5:10) (Shotgun) B.Young pass short middle to J.Coker to ATL 2 for 5 yards (X.Watts; J.Bates).",
+        "playDescriptionWithJerseyNumbers": "(5:10) (Shotgun) 9-B.Young pass short middle to 18-J.Coker to ATL 2 for 5 yards (31-X.Watts; 3-J.Bates).",
         "playEndTime": "2026-09-20T19:18:02.057Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
@@ -9653,12 +9643,22 @@
             "yards": 3
           },
           {
-            "playStatId": "10330060-1953-1620-0790-0078585c7beb",
+            "playStatId": "10330060-1953-1620-0820-00794091f409",
             "gsisPlayerId": "00-0040148",
             "gsisPlayerName": "X.Watts",
             "gsisPlayerJerseyNumber": "31",
             "personId": "32005741-5483-0896-532a-ecb5497b9d7f",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10400200-f401-4e53-5175-0974e4f16cf7",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1953-1620-0820-0085164e431e",
+            "gsisPlayerId": "00-0034675",
+            "gsisPlayerName": "J.Bates",
+            "gsisPlayerJerseyNumber": "03",
+            "personId": "32004241-5410-8395-d37a-630df6f54a7b",
+            "statType": 82,
             "teamId": "10400200-f401-4e53-5175-0974e4f16cf7",
             "yards": null
           }

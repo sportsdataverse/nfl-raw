@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a8fc1203-4feb-11f1-abca-2c54536568a9",
-    "offset": 655,
+    "offset": 659,
     "attendance": 62897,
     "clock": "01:34",
     "distance": 10,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a8fc1203-4feb-11f1-abca-2c54536568a9",
-    "offset": 655,
+    "offset": 659,
     "drives": [
       {
         "sequence": 1,

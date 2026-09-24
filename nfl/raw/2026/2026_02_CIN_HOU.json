@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9e0c7c0-4feb-11f1-abca-2c54536568a9",
-    "offset": 557,
+    "offset": 562,
     "attendance": 70747,
     "clock": "00:12",
     "distance": 11,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a9e0c7c0-4feb-11f1-abca-2c54536568a9",
-    "offset": 557,
+    "offset": 562,
     "drives": [
       {
         "sequence": 1,
@@ -973,15 +973,15 @@
         "clockTime": "14:51",
         "down": 1,
         "driveNetYards": 6,
-        "drivePlayCount": 2,
+        "drivePlayCount": 3,
         "driveSequence": 1,
-        "driveTimeOfPossession": "0:13",
+        "driveTimeOfPossession": "1:05",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CIN  1-10  CIN 41",
         "playDeleted": false,
-        "playDescription": "(14:51) (Shotgun) J.Burrow pass incomplete short left to C.Brown [R.Blankenship].",
-        "playDescriptionWithJerseyNumbers": "(14:51) (Shotgun) 9-J.Burrow pass incomplete short left to 30-C.Brown [6-R.Blankenship].",
+        "playDescription": "(14:51) (Shotgun) J.Burrow pass incomplete short left to C.Brown.",
+        "playDescriptionWithJerseyNumbers": "(14:51) (Shotgun) 9-J.Burrow pass incomplete short left to 30-C.Brown.",
         "playEndTime": "2026-09-20T17:03:28.657Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -1018,17 +1018,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-1980-0630-1100-00335b711fc7",
-            "gsisPlayerId": "00-0037130",
-            "gsisPlayerName": "R.Blankenship",
-            "gsisPlayerJerseyNumber": "06",
-            "personId": "3200424c-4173-5451-f5c6-520ce2fbefa3",
-            "statType": 110,
-            "teamId": "10402120-b0bc-693d-098a-803014096eb0",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-1980-0630-1120-00442dfc9124",
+            "playStatId": "10330060-1980-0630-1120-003879a4f556",
             "gsisPlayerId": "00-0036442",
             "gsisPlayerName": "J.Burrow",
             "gsisPlayerJerseyNumber": "09",
@@ -2805,7 +2795,7 @@
       },
       {
         "playId": 759,
-        "clockTime": "05:04",
+        "clockTime": "05:01",
         "down": 4,
         "driveNetYards": 15,
         "drivePlayCount": 5,
@@ -2815,8 +2805,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CIN  4-5  HOU 40",
         "playDeleted": false,
-        "playDescription": "(5:04) (Field Goal formation) PENALTY on CIN-D.Risner, False Start, 5 yards, enforced at HOU 40 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(5:04) (Field Goal formation) PENALTY on CIN-66-D.Risner, False Start, 5 yards, enforced at HOU 40 - No Play.",
+        "playDescription": "(5:01) (Field Goal formation) PENALTY on CIN-D.Risner, False Start, 5 yards, enforced at HOU 40 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(5:01) (Field Goal formation) PENALTY on CIN-66-D.Risner, False Start, 5 yards, enforced at HOU 40 - No Play.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

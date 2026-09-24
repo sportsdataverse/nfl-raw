@@ -105,7 +105,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9e0eb90-4feb-11f1-abca-2c54536568a9",
-    "offset": 461,
+    "offset": 463,
     "attendance": 93188,
     "clock": "00:34",
     "distance": 2,
@@ -153,7 +153,7 @@
   },
   "driveChart": {
     "gameId": "a9e0eb90-4feb-11f1-abca-2c54536568a9",
-    "offset": 461,
+    "offset": 463,
     "drives": [
       {
         "sequence": 1,
@@ -2441,8 +2441,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DAL  3-10  WAS 11",
         "playDeleted": false,
-        "playDescription": "(5:52) (Shotgun) D.Prescott pass deep right intended for R.Flournoy INTERCEPTED by N.Cross at WAS -6. N.Cross tackled in End Zone, SAFETY NULLIFIED by Penalty (C.Lamb).\r\nPENALTY on WAS-C.Omenihu, Defensive Offside, 5 yards, enforced at WAS 11 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(5:52) (Shotgun) 4-D.Prescott pass deep right intended for 19-R.Flournoy INTERCEPTED by 25-N.Cross at WAS -6. 25-N.Cross tackled in End Zone, SAFETY NULLIFIED by Penalty (88-C.Lamb).\r\nPENALTY on WAS-90-C.Omenihu, Defensive Offside, 5 yards, enforced at WAS 11 - No Play.",
+        "playDescription": "(5:52) (Shotgun) D.Prescott pass deep right intended for R.Flournoy INTERCEPTED by N.Cross at WAS -6. Touchback.\r\nPENALTY on WAS-C.Omenihu, Defensive Offside, 5 yards, enforced at WAS 11 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(5:52) (Shotgun) 4-D.Prescott pass deep right intended for 19-R.Flournoy INTERCEPTED by 25-N.Cross at WAS -6. Touchback.\r\nPENALTY on WAS-90-C.Omenihu, Defensive Offside, 5 yards, enforced at WAS 11 - No Play.",
         "playEndTime": "2026-09-20T20:43:21.567Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

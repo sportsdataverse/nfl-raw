@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9e0e3dd-4feb-11f1-abca-2c54536568a9",
-    "offset": 547,
+    "offset": 559,
     "attendance": 71567,
     "clock": "00:37",
     "distance": 13,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a9e0e3dd-4feb-11f1-abca-2c54536568a9",
-    "offset": 547,
+    "offset": 559,
     "drives": [
       {
         "sequence": 1,
@@ -2664,7 +2664,7 @@
             "personId": "32004845-5203-1169-a699-ce41d700202a",
             "statType": 112,
             "teamId": "10404400-3b35-073f-197e-194bb8240723",
-            "yards": 0
+            "yards": -5
           }
         ]
       },
@@ -3946,9 +3946,9 @@
       },
       {
         "playId": 1045,
-        "clockTime": "14:15",
+        "clockTime": "14:14",
         "down": 3,
-        "driveNetYards": 3,
+        "driveNetYards": 4,
         "drivePlayCount": 3,
         "driveSequence": 7,
         "driveTimeOfPossession": "2:22",
@@ -3956,8 +3956,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  3-8  LAC 3",
         "playDeleted": false,
-        "playDescription": "(14:15) (Shotgun) PENALTY on LAC-J.Alt, False Start, 1 yard, enforced at LAC 3 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(14:15) (Shotgun) PENALTY on LAC-76-J.Alt, False Start, 1 yard, enforced at LAC 3 - No Play.",
+        "playDescription": "(14:14) (Shotgun) PENALTY on LAC-J.Alt, False Start, 1 yard, enforced at LAC 3 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(14:14) (Shotgun) PENALTY on LAC-76-J.Alt, False Start, 1 yard, enforced at LAC 3 - No Play.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -4870,8 +4870,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  2-10  LAC 49",
         "playDeleted": false,
-        "playDescription": "(8:53) J.Herbert pass short left to O.Hampton ran ob at LV 33 for 18 yards (N.Dean).",
-        "playDescriptionWithJerseyNumbers": "(8:53) 10-J.Herbert pass short left to 8-O.Hampton ran ob at LV 33 for 18 yards (17-N.Dean).",
+        "playDescription": "(8:53) J.Herbert pass short left to O.Hampton ran ob at LV 33 for 18 yards (J.McCoy).",
+        "playDescriptionWithJerseyNumbers": "(8:53) 10-J.Herbert pass short left to 8-O.Hampton ran ob at LV 33 for 18 yards (28-J.McCoy).",
         "playEndTime": "2026-09-20T21:01:33.780Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -4949,10 +4949,10 @@
           },
           {
             "playStatId": "10330060-2041-3860-0790-007ebb901568",
-            "gsisPlayerId": "00-0037615",
-            "gsisPlayerName": "N.Dean",
-            "gsisPlayerJerseyNumber": "17",
-            "personId": "32004445-4144-1776-3253-6360a938918f",
+            "gsisPlayerId": "00-0041563",
+            "gsisPlayerName": "J.McCoy",
+            "gsisPlayerJerseyNumber": "28",
+            "personId": "32004d43-4360-6207-f6a8-f95179cdebe5",
             "statType": 79,
             "teamId": "10402520-96bf-e9f2-4f68-8521ca896060",
             "yards": null
@@ -8470,7 +8470,7 @@
       },
       {
         "playId": 2555,
-        "clockTime": "08:24",
+        "clockTime": "08:23",
         "down": 3,
         "driveNetYards": 74,
         "drivePlayCount": 11,
@@ -8480,8 +8480,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  3-5  LV 31",
         "playDeleted": false,
-        "playDescription": "(8:24) (Shotgun) PENALTY on LV-T.Linderbaum, False Start, 5 yards, enforced at LV 31 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(8:24) (Shotgun) PENALTY on LV-65-T.Linderbaum, False Start, 5 yards, enforced at LV 31 - No Play.",
+        "playDescription": "(8:23) (Shotgun) PENALTY on LV-T.Linderbaum, False Start, 5 yards, enforced at LV 31 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(8:23) (Shotgun) PENALTY on LV-65-T.Linderbaum, False Start, 5 yards, enforced at LV 31 - No Play.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -12667,8 +12667,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  3-11  LAC 34",
         "playDeleted": false,
-        "playDescription": "(2:29) (Shotgun) J.Herbert pass short left intended for D.Davis INTERCEPTED by H.Masses at LAC 48. H.Masses to LAC 48 for no gain (D.Davis).",
-        "playDescriptionWithJerseyNumbers": "(2:29) (Shotgun) 10-J.Herbert pass short left intended for 12-D.Davis INTERCEPTED by 35-H.Masses at LAC 48. 35-H.Masses to LAC 48 for no gain (12-D.Davis).",
+        "playDescription": "(2:29) (Shotgun) J.Herbert pass deep left intended for D.Davis INTERCEPTED by H.Masses at LV 49. H.Masses to LAC 48 for 3 yards (D.Davis).",
+        "playDescriptionWithJerseyNumbers": "(2:29) (Shotgun) 10-J.Herbert pass deep left intended for 12-D.Davis INTERCEPTED by 35-H.Masses at LV 49. 35-H.Masses to LAC 48 for 3 yards (12-D.Davis).",
         "playEndTime": "2026-09-20T22:56:34.023Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -12722,7 +12722,7 @@
             "personId": "32004845-5203-1169-a699-ce41d700202a",
             "statType": 112,
             "teamId": "10404400-3b35-073f-197e-194bb8240723",
-            "yards": 14
+            "yards": 17
           },
           {
             "playStatId": "10330060-2044-0300-0250-005c89fdf378",
@@ -12732,7 +12732,7 @@
             "personId": "32004d41-5333-1825-dfc3-f6e50acd70ad",
             "statType": 25,
             "teamId": "10402520-96bf-e9f2-4f68-8521ca896060",
-            "yards": 0
+            "yards": 3
           },
           {
             "playStatId": "10330060-2044-0300-0850-006a25ec032e",

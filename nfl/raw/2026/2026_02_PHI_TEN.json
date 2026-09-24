@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9e0dc7c-4feb-11f1-abca-2c54536568a9",
-    "offset": 474,
+    "offset": 478,
     "attendance": 68567,
     "clock": "00:00",
     "distance": 10,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a9e0dc7c-4feb-11f1-abca-2c54536568a9",
-    "offset": 474,
+    "offset": 478,
     "drives": [
       {
         "sequence": 1,
@@ -2145,8 +2145,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "PHI  2-Goal  TEN 8",
         "playDeleted": false,
-        "playDescription": "(6:15) (Shotgun) J.Hurts pass incomplete short middle.",
-        "playDescriptionWithJerseyNumbers": "(6:15) (Shotgun) 1-J.Hurts pass incomplete short middle.",
+        "playDescription": "(6:15) (Shotgun) J.Hurts pass incomplete short middle to D.Goedert (J.Simmons).",
+        "playDescriptionWithJerseyNumbers": "(6:15) (Shotgun) 1-J.Hurts pass incomplete short middle to 88-D.Goedert (98-J.Simmons).",
         "playEndTime": "2026-09-20T17:15:32.517Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
@@ -2173,7 +2173,27 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2020-5160-1120-002b4c0dacd0",
+            "playStatId": "10330060-2020-5160-1150-0027a11994fd",
+            "gsisPlayerId": "00-0034351",
+            "gsisPlayerName": "D.Goedert",
+            "gsisPlayerJerseyNumber": "88",
+            "personId": "3200474f-4559-5520-b7af-5e002aedafbb",
+            "statType": 115,
+            "teamId": "10403700-b939-3cbd-3d16-24d4d6742fa2",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2020-5160-0850-003e91b71a1f",
+            "gsisPlayerId": "00-0035643",
+            "gsisPlayerName": "J.Simmons",
+            "gsisPlayerJerseyNumber": "98",
+            "personId": "32005349-4d20-4336-493b-a309c446eb8f",
+            "statType": 85,
+            "teamId": "10402100-447f-396e-8149-0a434ffb2f23",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2020-5160-1120-004befd76508",
             "gsisPlayerId": "00-0036389",
             "gsisPlayerName": "J.Hurts",
             "gsisPlayerJerseyNumber": "01",
@@ -7306,8 +7326,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PHI  1-10  PHI 44",
         "playDeleted": false,
-        "playDescription": "(10:08) S.Barkley right tackle to PHI 47 for 3 yards (A.Hill).",
-        "playDescriptionWithJerseyNumbers": "(10:08) 26-S.Barkley right tackle to PHI 47 for 3 yards (53-A.Hill).",
+        "playDescription": "(10:08) S.Barkley right tackle to PHI 47 for 3 yards (A.Hill; S.Thomas).",
+        "playDescriptionWithJerseyNumbers": "(10:08) 26-S.Barkley right tackle to PHI 47 for 3 yards (53-A.Hill; 90-S.Thomas).",
         "playEndTime": "2026-09-20T18:46:26.730Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -7334,12 +7354,22 @@
             "yards": 3
           },
           {
-            "playStatId": "10330060-2022-3700-0790-002d249a9bf2",
+            "playStatId": "10330060-2022-3700-0820-002594762ccc",
             "gsisPlayerId": "00-0041479",
             "gsisPlayerName": "A.Hill",
             "gsisPlayerJerseyNumber": "53",
             "personId": "32004849-4c73-5988-1a1b-63b20f02e7d4",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10402100-447f-396e-8149-0a434ffb2f23",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2022-3700-0820-0033f07ac552",
+            "gsisPlayerId": "00-0033870",
+            "gsisPlayerName": "S.Thomas",
+            "gsisPlayerJerseyNumber": "90",
+            "personId": "32005448-4f38-1630-9012-3ee085da5a84",
+            "statType": 82,
             "teamId": "10402100-447f-396e-8149-0a434ffb2f23",
             "yards": null
           }

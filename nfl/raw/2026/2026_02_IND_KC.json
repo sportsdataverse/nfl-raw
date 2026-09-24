@@ -114,7 +114,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa048ee1-4feb-11f1-abca-2c54536568a9",
-    "offset": 556,
+    "offset": 558,
     "attendance": 73351,
     "clock": "00:00",
     "distance": 10,
@@ -162,7 +162,7 @@
   },
   "driveChart": {
     "gameId": "aa048ee1-4feb-11f1-abca-2c54536568a9",
-    "offset": 556,
+    "offset": 558,
     "drives": [
       {
         "sequence": 1,
@@ -14404,8 +14404,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "IND  1-10  KC 17",
         "playDeleted": false,
-        "playDescription": "(4:50) J.Taylor left end to KC 18 for -1 yards (D.Tranquill).",
-        "playDescriptionWithJerseyNumbers": "(4:50) 28-J.Taylor left end to KC 18 for -1 yards (23-D.Tranquill).",
+        "playDescription": "(4:50) J.Taylor right end to KC 18 for -1 yards (D.Tranquill).",
+        "playDescriptionWithJerseyNumbers": "(4:50) 28-J.Taylor right end to KC 18 for -1 yards (23-D.Tranquill).",
         "playEndTime": "2026-09-21T03:39:31.457Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
