@@ -17,13 +17,11 @@
     "homeNetworkChannels": [
       "ESPN",
       "ABC",
-      "NFL NETWORK",
       "ESPN DEPORTES"
     ],
     "awayNetworkChannels": [
       "ESPN",
       "ABC",
-      "NFL NETWORK",
       "ESPN DEPORTES"
     ],
     "internationalWatchOptions": [],
@@ -128,7 +126,7 @@
     }
   ],
   "extensions": [],
-  "version": 8,
+  "version": 9,
   "summary": null,
   "driveChart": null,
   "replays": null,
