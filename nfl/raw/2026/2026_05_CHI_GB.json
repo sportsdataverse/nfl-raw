@@ -12,7 +12,7 @@
   },
   "category": null,
   "date": "2026-10-11",
-  "time": "2026-10-11T20:25:00Z",
+  "time": "2026-10-11T17:00:00Z",
   "broadcastInfo": {
     "homeNetworkChannels": [
       "FOX"
@@ -90,7 +90,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 9,
   "summary": null,
   "driveChart": null,
   "replays": null,
