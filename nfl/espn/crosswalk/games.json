@@ -131666,7 +131666,7 @@
 "week": 3,
 "kickoff_utc": "2026-09-29T00:15Z",
 "neutral_site": false,
-"status": "STATUS_SCHEDULED",
+"status": "STATUS_FINAL",
 "home_espn_team_id": "3",
 "home_espn_abbr": "CHI",
 "home_name": "Chicago Bears",
@@ -132217,7 +132217,7 @@
 "shield_game_id": "aa94c2ef-4feb-11f1-abca-2c54536568a9",
 "home_nflverse": "GB",
 "away_nflverse": "CHI",
-"match": "time"
+"match": "date"
 },
 {
 "espn_event_id": 401872991,
