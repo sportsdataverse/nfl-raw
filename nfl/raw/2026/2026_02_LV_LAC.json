@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9e0e3dd-4feb-11f1-abca-2c54536568a9",
-    "offset": 559,
+    "offset": 562,
     "attendance": 71567,
     "clock": "00:37",
     "distance": 13,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a9e0e3dd-4feb-11f1-abca-2c54536568a9",
-    "offset": 559,
+    "offset": 562,
     "drives": [
       {
         "sequence": 1,
@@ -10150,8 +10150,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  2-3  LAC 49",
         "playDeleted": false,
-        "playDescription": "(14:21) A.Jeanty right guard to LV 47 for -4 yards (T.Dye).",
-        "playDescriptionWithJerseyNumbers": "(14:21) 2-A.Jeanty right guard to LV 47 for -4 yards (43-T.Dye).",
+        "playDescription": "(14:21) A.Jeanty right guard to LV 47 for -4 yards (T.Dye, D.Henley).",
+        "playDescriptionWithJerseyNumbers": "(14:21) 2-A.Jeanty right guard to LV 47 for -4 yards (43-T.Dye, 0-D.Henley).",
         "playEndTime": "2026-09-20T22:20:57.197Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10188,17 +10188,27 @@
             "yards": -4
           },
           {
-            "playStatId": "10330060-2043-0800-0790-003481787758",
+            "playStatId": "10330060-2043-0800-0800-003d7ab83295",
             "gsisPlayerId": "00-0036338",
             "gsisPlayerName": "T.Dye",
             "gsisPlayerJerseyNumber": "43",
             "personId": "32004459-4530-5092-a5b4-c72f08356d17",
-            "statType": 79,
+            "statType": 80,
             "teamId": "10404400-3b35-073f-197e-194bb8240723",
             "yards": null
           },
           {
-            "playStatId": "10330060-2043-0800-1200-0042cd6fc5da",
+            "playStatId": "10330060-2043-0800-0820-004f1ed8aba3",
+            "gsisPlayerId": "00-0038553",
+            "gsisPlayerName": "D.Henley",
+            "gsisPlayerJerseyNumber": "00",
+            "personId": "32004845-4e46-6212-4f0a-603906125b28",
+            "statType": 82,
+            "teamId": "10404400-3b35-073f-197e-194bb8240723",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2043-0800-1200-005e3c38519d",
             "gsisPlayerId": "00-0036338",
             "gsisPlayerName": "T.Dye",
             "gsisPlayerJerseyNumber": "43",
@@ -10208,7 +10218,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2043-0800-4020-005f76e704de",
+            "playStatId": "10330060-2043-0800-4020-00682f02aba4",
             "gsisPlayerId": "00-0036338",
             "gsisPlayerName": "T.Dye",
             "gsisPlayerJerseyNumber": "43",

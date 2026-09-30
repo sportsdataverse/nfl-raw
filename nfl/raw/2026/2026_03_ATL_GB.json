@@ -161,7 +161,7 @@
   },
   "driveChart": {
     "gameId": "aa049c95-4feb-11f1-abca-2c54536568a9",
-    "offset": 539,
+    "offset": 542,
     "drives": [
       {
         "sequence": 1,
@@ -4412,7 +4412,7 @@
       },
       {
         "playId": 1265,
-        "clockTime": "11:53",
+        "clockTime": "11:54",
         "down": 2,
         "driveNetYards": 42,
         "drivePlayCount": 7,
@@ -4422,8 +4422,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "ATL  2-10  GB 45",
         "playDeleted": false,
-        "playDescription": "(11:53) (Shotgun) Bi.Robinson left guard to GB 45 for no gain (B.Cisse; L.Van Ness).",
-        "playDescriptionWithJerseyNumbers": "(11:53) (Shotgun) 7-Bi.Robinson left guard to GB 45 for no gain (2-B.Cisse; 90-L.Van Ness).",
+        "playDescription": "(11:54) (Shotgun) Bi.Robinson left guard to GB 45 for no gain (B.Cisse; L.Van Ness).",
+        "playDescriptionWithJerseyNumbers": "(11:54) (Shotgun) 7-Bi.Robinson left guard to GB 45 for no gain (2-B.Cisse; 90-L.Van Ness).",
         "playEndTime": "2026-09-25T01:05:14.073Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -13358,7 +13358,7 @@
       },
       {
         "playId": 4349,
-        "clockTime": "01:20",
+        "clockTime": "01:21",
         "down": 1,
         "driveNetYards": 58,
         "drivePlayCount": 12,
@@ -13368,8 +13368,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "GB  1-Goal  ATL 10",
         "playDeleted": false,
-        "playDescription": "(1:20) (No Huddle, Shotgun) J.Love pass incomplete short middle to S.Moore (B.Bowman).",
-        "playDescriptionWithJerseyNumbers": "(1:20) (No Huddle, Shotgun) 10-J.Love pass incomplete short middle to 23-S.Moore (33-B.Bowman).",
+        "playDescription": "(1:21) (No Huddle, Shotgun) J.Love pass incomplete short middle to S.Moore (B.Bowman).",
+        "playDescriptionWithJerseyNumbers": "(1:21) (No Huddle, Shotgun) 10-J.Love pass incomplete short middle to 23-S.Moore (33-B.Bowman).",
         "playEndTime": "2026-09-25T03:14:39.820Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,

@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa29c59c-4feb-11f1-abca-2c54536568a9",
-    "offset": 681,
+    "offset": 683,
     "attendance": 70687,
     "clock": "00:33",
     "distance": 11,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "aa29c59c-4feb-11f1-abca-2c54536568a9",
-    "offset": 681,
+    "offset": 683,
     "drives": [
       {
         "sequence": 1,
@@ -2441,8 +2441,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  3-1  AZ 40",
         "playDeleted": false,
-        "playDescription": "(7:42) J.Brissett up the middle to AZ 41 for 1 yard (F.Warner).",
-        "playDescriptionWithJerseyNumbers": "(7:42) 7-J.Brissett up the middle to AZ 41 for 1 yard (54-F.Warner).",
+        "playDescription": "(7:42) J.Brissett up the middle to AZ 41 for 1 yard (F.Warner; K.Givens).",
+        "playDescriptionWithJerseyNumbers": "(7:42) 7-J.Brissett up the middle to AZ 41 for 1 yard (54-F.Warner; 90-K.Givens).",
         "playEndTime": "2026-09-27T20:27:11.607Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -2489,12 +2489,22 @@
             "yards": 1
           },
           {
-            "playStatId": "10330060-2200-6340-0790-0043291ce7df",
+            "playStatId": "10330060-2200-6340-0820-00490f1aae36",
             "gsisPlayerId": "00-0034815",
             "gsisPlayerName": "F.Warner",
             "gsisPlayerJerseyNumber": "54",
             "personId": "32005741-5248-5225-ce4a-b72862edcf69",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10404500-e7cb-7fce-3f10-4eeb269bd179",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2200-6340-0820-00545a01d864",
+            "gsisPlayerId": "00-0035026",
+            "gsisPlayerName": "K.Givens",
+            "gsisPlayerJerseyNumber": "90",
+            "personId": "32004749-5624-5959-14bf-449fc8a378ba",
+            "statType": 82,
             "teamId": "10404500-e7cb-7fce-3f10-4eeb269bd179",
             "yards": null
           }

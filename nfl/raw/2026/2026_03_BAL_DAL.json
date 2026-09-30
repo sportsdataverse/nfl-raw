@@ -140,7 +140,7 @@
   },
   "driveChart": {
     "gameId": "aa29cd02-4feb-11f1-abca-2c54536568a9",
-    "offset": 466,
+    "offset": 468,
     "drives": [
       {
         "sequence": 1,
@@ -3211,8 +3211,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "BAL  2-Goal  DAL 4",
         "playDeleted": false,
-        "playDescription": "(1:22) E.Jones reported in as eligible. Direct snap to D.Henry.  D.Henry left guard for 4 yards, TOUCHDOWN.",
-        "playDescriptionWithJerseyNumbers": "(1:22) 51-E.Jones reported in as eligible. Direct snap to 22-D.Henry.  22-D.Henry left guard for 4 yards, TOUCHDOWN.",
+        "playDescription": "(1:22) (Shotgun) E.Jones reported in as eligible. Direct snap to D.Henry.  D.Henry left guard for 4 yards, TOUCHDOWN.",
+        "playDescriptionWithJerseyNumbers": "(1:22) (Shotgun) 51-E.Jones reported in as eligible. Direct snap to 22-D.Henry.  22-D.Henry left guard for 4 yards, TOUCHDOWN.",
         "playEndTime": "2026-09-27T20:53:21.727Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
@@ -4266,8 +4266,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "BAL  3-11  BAL 48",
         "playDeleted": false,
-        "playDescription": "(11:37) (Shotgun) L.Jackson pass incomplete deep middle to D.Walker.\r\nPENALTY on DAL-M.Bell, Defensive Pass Interference, 49 yards, enforced at BAL 48 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(11:37) (Shotgun) 8-L.Jackson pass incomplete deep middle to 81-D.Walker.\r\nPENALTY on DAL-14-M.Bell, Defensive Pass Interference, 49 yards, enforced at BAL 48 - No Play.",
+        "playDescription": "(11:37) (Shotgun) L.Jackson pass incomplete deep middle to D.Walker (M.Bell).\r\nPENALTY on DAL-M.Bell, Defensive Pass Interference, 49 yards, enforced at BAL 48 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(11:37) (Shotgun) 8-L.Jackson pass incomplete deep middle to 81-D.Walker (14-M.Bell).\r\nPENALTY on DAL-14-M.Bell, Defensive Pass Interference, 49 yards, enforced at BAL 48 - No Play.",
         "playEndTime": "2026-09-27T21:09:31.023Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
