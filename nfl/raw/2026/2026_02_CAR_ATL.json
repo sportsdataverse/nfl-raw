@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9a89841-4feb-11f1-abca-2c54536568a9",
-    "offset": 525,
+    "offset": 527,
     "attendance": 71143,
     "clock": "00:42",
     "distance": 14,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "a9a89841-4feb-11f1-abca-2c54536568a9",
-    "offset": 525,
+    "offset": 527,
     "drives": [
       {
         "sequence": 1,
@@ -1852,8 +1852,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CAR  KO  CAR 35",
         "playDeleted": false,
-        "playDescription": "R.Fitzgerald kicks 61 yards from CAR 35 to ATL 4. O.Zaccheaus to ATL 29 for 25 yards (F.Franks).",
-        "playDescriptionWithJerseyNumbers": "10-R.Fitzgerald kicks 61 yards from CAR 35 to ATL 4. 14-O.Zaccheaus to ATL 29 for 25 yards (81-F.Franks).",
+        "playDescription": "R.Fitzgerald kicks 61 yards from CAR 35 to ATL 4. O.Zaccheaus to ATL 29 for 25 yards (F.Franks; B.Tremayne).",
+        "playDescriptionWithJerseyNumbers": "10-R.Fitzgerald kicks 61 yards from CAR 35 to ATL 4. 14-O.Zaccheaus to ATL 29 for 25 yards (81-F.Franks; 87-B.Tremayne).",
         "playEndTime": "2026-09-20T17:21:02.840Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -1890,12 +1890,22 @@
             "yards": 25
           },
           {
-            "playStatId": "10330060-1950-4520-0790-00343926ce04",
+            "playStatId": "10330060-1950-4520-0820-0037c84a5ff9",
             "gsisPlayerId": "00-0036825",
             "gsisPlayerName": "F.Franks",
             "gsisPlayerJerseyNumber": "81",
             "personId": "32004652-4159-3646-921f-5b52f2f03a61",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10400750-259b-33ac-eee3-a3852e83cd1f",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-1950-4520-0820-0048b083fc75",
+            "gsisPlayerId": "00-0038840",
+            "gsisPlayerName": "B.Tremayne",
+            "gsisPlayerJerseyNumber": "87",
+            "personId": "32005452-4568-9049-49ad-8c34a2e1286b",
+            "statType": 82,
             "teamId": "10400750-259b-33ac-eee3-a3852e83cd1f",
             "yards": null
           }

@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa04ad75-4feb-11f1-abca-2c54536568a9",
-    "offset": 554,
+    "offset": 557,
     "attendance": 42156,
     "clock": "00:23",
     "distance": 8,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "aa04ad75-4feb-11f1-abca-2c54536568a9",
-    "offset": 554,
+    "offset": 557,
     "drives": [
       {
         "sequence": 1,
@@ -4124,7 +4124,7 @@
         "playId": 1207,
         "clockTime": "10:57",
         "down": 1,
-        "driveNetYards": 3,
+        "driveNetYards": 4,
         "drivePlayCount": 4,
         "driveSequence": 8,
         "driveTimeOfPossession": "1:55",
@@ -4165,7 +4165,7 @@
         "playId": 1243,
         "clockTime": "10:34",
         "down": 1,
-        "driveNetYards": 3,
+        "driveNetYards": 4,
         "drivePlayCount": 4,
         "driveSequence": 8,
         "driveTimeOfPossession": "1:55",
@@ -4173,8 +4173,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NE  1-30  JAX 41",
         "playDeleted": false,
-        "playDescription": "(10:34) (Shotgun) E.Chism pass short right to M.Hollins to JAX 25 for 16 yards (A.Johnson; E.Murray) [F.Oluokun].",
-        "playDescriptionWithJerseyNumbers": "(10:34) (Shotgun) 86-E.Chism pass short right to 13-M.Hollins to JAX 25 for 16 yards (6-A.Johnson; 29-E.Murray) [23-F.Oluokun].",
+        "playDescription": "(10:34) (Shotgun) E.Chism pass short right to M.Hollins ran ob at JAX 25 for 16 yards (A.Johnson) [F.Oluokun].",
+        "playDescriptionWithJerseyNumbers": "(10:34) (Shotgun) 86-E.Chism pass short right to 13-M.Hollins ran ob at JAX 25 for 16 yards (6-A.Johnson) [23-F.Oluokun].",
         "playEndTime": "2026-09-27T17:51:59.187Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -4251,22 +4251,12 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2151-2430-0820-007f6c821054",
+            "playStatId": "10330060-2151-2430-0790-007bd82e2b05",
             "gsisPlayerId": "00-0038596",
             "gsisPlayerName": "A.Johnson",
             "gsisPlayerJerseyNumber": "06",
             "personId": "32004a4f-4806-1167-a48a-d4b74b81a5a9",
-            "statType": 82,
-            "teamId": "10402250-89fe-7b86-ef98-9062cd354256",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-2151-2430-0820-008796895e05",
-            "gsisPlayerId": "00-0033038",
-            "gsisPlayerName": "E.Murray",
-            "gsisPlayerJerseyNumber": "29",
-            "personId": "32004d55-5261-5618-172a-cd1feb295e6e",
-            "statType": 82,
+            "statType": 79,
             "teamId": "10402250-89fe-7b86-ef98-9062cd354256",
             "yards": null
           }

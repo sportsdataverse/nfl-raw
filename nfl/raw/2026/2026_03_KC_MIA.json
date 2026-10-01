@@ -105,7 +105,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa04b0d8-4feb-11f1-abca-2c54536568a9",
-    "offset": 458,
+    "offset": 461,
     "attendance": 59216,
     "clock": "00:42",
     "distance": 2,
@@ -153,7 +153,7 @@
   },
   "driveChart": {
     "gameId": "aa04b0d8-4feb-11f1-abca-2c54536568a9",
-    "offset": 458,
+    "offset": 461,
     "drives": [
       {
         "sequence": 1,
@@ -2408,8 +2408,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIA  2-9  KC 14",
         "playDeleted": false,
-        "playDescription": "(4:20) M.Willis pass incomplete short left [G.Karlaftis].",
-        "playDescriptionWithJerseyNumbers": "(4:20) 2-M.Willis pass incomplete short left [56-G.Karlaftis].",
+        "playDescription": "(4:20) M.Willis pass incomplete short left to C.Bell [G.Karlaftis].",
+        "playDescriptionWithJerseyNumbers": "(4:20) 2-M.Willis pass incomplete short left to 18-C.Bell [56-G.Karlaftis].",
         "playEndTime": "2026-09-27T17:23:53.337Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -2436,7 +2436,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2160-6460-1100-0022e9da2f94",
+            "playStatId": "10330060-2160-6460-1150-002ec88a535b",
+            "gsisPlayerId": "00-0041525",
+            "gsisPlayerName": "C.Bell",
+            "gsisPlayerJerseyNumber": "18",
+            "personId": "32004245-4c26-7684-b83a-5696fe6b8079",
+            "statType": 115,
+            "teamId": "10402700-1662-d8ad-f45c-0b0ea460d045",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2160-6460-1100-0038b32a6ba0",
             "gsisPlayerId": "00-0037192",
             "gsisPlayerName": "G.Karlaftis",
             "gsisPlayerJerseyNumber": "56",
@@ -2446,7 +2456,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2160-6460-1120-0038f8054daf",
+            "playStatId": "10330060-2160-6460-1120-004504235c0b",
             "gsisPlayerId": "00-0038128",
             "gsisPlayerName": "M.Willis",
             "gsisPlayerJerseyNumber": "02",
@@ -7666,8 +7676,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  3-8  KC 38",
         "playDeleted": false,
-        "playDescription": "(8:21) (Shotgun) P.Mahomes pass incomplete deep middle to R.Rice [Z.Biggers].\r\nPenalty on KC-Tr.Smith, Offensive Holding, declined.",
-        "playDescriptionWithJerseyNumbers": "(8:21) (Shotgun) 15-P.Mahomes pass incomplete deep middle to 4-R.Rice [93-Z.Biggers].\r\nPenalty on KC-65-Tr.Smith, Offensive Holding, declined.",
+        "playDescription": "(8:21) (Shotgun) P.Mahomes pass incomplete deep middle to R.Rice [J.Brooks].\r\nPenalty on KC-Tr.Smith, Offensive Holding, declined.",
+        "playDescriptionWithJerseyNumbers": "(8:21) (Shotgun) 15-P.Mahomes pass incomplete deep middle to 4-R.Rice [20-J.Brooks].\r\nPenalty on KC-65-Tr.Smith, Offensive Holding, declined.",
         "playEndTime": "2026-09-27T18:53:16.090Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -7715,10 +7725,10 @@
           },
           {
             "playStatId": "10330060-2162-3950-1100-0046c1184aa4",
-            "gsisPlayerId": "00-0040248",
-            "gsisPlayerName": "Z.Biggers",
-            "gsisPlayerJerseyNumber": "93",
-            "personId": "32004249-4738-4540-de75-fc219bbc37da",
+            "gsisPlayerId": "00-0036409",
+            "gsisPlayerName": "J.Brooks",
+            "gsisPlayerJerseyNumber": "20",
+            "personId": "32004252-4f13-1962-2c2e-fdb174b58eaf",
             "statType": 110,
             "teamId": "10402700-1662-d8ad-f45c-0b0ea460d045",
             "yards": null

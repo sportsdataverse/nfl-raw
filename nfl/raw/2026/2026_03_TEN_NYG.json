@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa04b4d9-4feb-11f1-abca-2c54536568a9",
-    "offset": 503,
+    "offset": 505,
     "attendance": 79919,
     "clock": "00:17",
     "distance": 11,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "aa04b4d9-4feb-11f1-abca-2c54536568a9",
-    "offset": 503,
+    "offset": 505,
     "drives": [
       {
         "sequence": 1,
@@ -7283,18 +7283,18 @@
       },
       {
         "playId": 2255,
-        "clockTime": "12:21",
+        "clockTime": "12:19",
         "down": 2,
-        "driveNetYards": 61,
-        "drivePlayCount": 8,
+        "driveNetYards": 59,
+        "drivePlayCount": 12,
         "driveSequence": 15,
-        "driveTimeOfPossession": "4:53",
+        "driveTimeOfPossession": "8:04",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYG  2-9  TEN 43",
         "playDeleted": false,
-        "playDescription": "(12:21) (Shotgun) PENALTY on NYG-J.Runyan, False Start, 5 yards, enforced at TEN 43 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(12:21) (Shotgun) PENALTY on NYG-76-J.Runyan, False Start, 5 yards, enforced at TEN 43 - No Play.",
+        "playDescription": "(12:19) (Shotgun) PENALTY on NYG-J.Runyan, False Start, 5 yards, enforced at TEN 43 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(12:19) (Shotgun) PENALTY on NYG-76-J.Runyan, False Start, 5 yards, enforced at TEN 43 - No Play.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

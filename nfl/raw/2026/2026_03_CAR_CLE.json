@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa04a395-4feb-11f1-abca-2c54536568a9",
-    "offset": 500,
+    "offset": 502,
     "attendance": 65023,
     "clock": "00:00",
     "distance": 11,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "aa04a395-4feb-11f1-abca-2c54536568a9",
-    "offset": 500,
+    "offset": 502,
     "drives": [
       {
         "sequence": 1,
@@ -13333,16 +13333,16 @@
         "playId": 4324,
         "clockTime": "01:44",
         "down": 1,
-        "driveNetYards": 0,
-        "drivePlayCount": 2,
+        "driveNetYards": 2,
+        "drivePlayCount": 4,
         "driveSequence": 22,
-        "driveTimeOfPossession": "0:08",
+        "driveTimeOfPossession": "0:31",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CAR  1-10  CAR 22",
         "playDeleted": false,
-        "playDescription": "(1:44) (Shotgun) B.Young pass incomplete short left to J.Metchie (D.Ward). ** Injury Update: CAR-D.Lewis has returned to the game.",
-        "playDescriptionWithJerseyNumbers": "(1:44) (Shotgun) 9-B.Young pass incomplete short left to 13-J.Metchie (21-D.Ward). ** Injury Update: CAR-68-D.Lewis has returned to the game.",
+        "playDescription": "(1:44) (Shotgun) B.Young pass incomplete short left to J.Metchie. ** Injury Update: CAR-D.Lewis has returned to the game.",
+        "playDescriptionWithJerseyNumbers": "(1:44) (Shotgun) 9-B.Young pass incomplete short left to 13-J.Metchie. ** Injury Update: CAR-68-D.Lewis has returned to the game.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -13379,17 +13379,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2124-3240-0850-003a59304540",
-            "gsisPlayerId": "00-0034856",
-            "gsisPlayerName": "D.Ward",
-            "gsisPlayerJerseyNumber": "21",
-            "personId": "32005741-5214-6753-6b71-7e5e98188e98",
-            "statType": 85,
-            "teamId": "10401050-5e38-b907-1be1-55b91b19c057",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-2124-3240-1120-004a8cbe5fcb",
+            "playStatId": "10330060-2124-3240-1120-003158f00e8e",
             "gsisPlayerId": "00-0039150",
             "gsisPlayerName": "B.Young",
             "gsisPlayerJerseyNumber": "09",

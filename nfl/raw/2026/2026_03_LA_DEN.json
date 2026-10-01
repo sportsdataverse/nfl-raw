@@ -126,7 +126,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa29d387-4feb-11f1-abca-2c54536568a9",
-    "offset": 636,
+    "offset": 638,
     "attendance": 76333,
     "clock": "00:00",
     "distance": 10,
@@ -174,7 +174,7 @@
   },
   "driveChart": {
     "gameId": "aa29d387-4feb-11f1-abca-2c54536568a9",
-    "offset": 636,
+    "offset": 638,
     "drives": [
       {
         "sequence": 1,
@@ -9866,8 +9866,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DEN  1-10  DEN 48",
         "playDeleted": false,
-        "playDescription": "(5:11) (Shotgun) J.Dobbins up the middle to LAR 47 for 5 yards (K.Turner; P.Ford).",
-        "playDescriptionWithJerseyNumbers": "(5:11) (Shotgun) 27-J.Dobbins up the middle to LAR 47 for 5 yards (91-K.Turner; 97-P.Ford).",
+        "playDescription": "(5:11) J.Dobbins up the middle to LAR 47 for 5 yards (K.Turner; P.Ford).",
+        "playDescriptionWithJerseyNumbers": "(5:11) 27-J.Dobbins up the middle to LAR 47 for 5 yards (91-K.Turner; 97-P.Ford).",
         "playEndTime": "2026-09-28T02:40:10.083Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
