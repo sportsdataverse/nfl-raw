@@ -78,6 +78,12 @@
         "languages": [
           "en"
         ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
       }
     ]
   },
