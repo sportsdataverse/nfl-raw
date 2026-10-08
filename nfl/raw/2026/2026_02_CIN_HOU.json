@@ -99,7 +99,7 @@
   "version": 7,
   "summary": {
     "gameId": "a9e0c7c0-4feb-11f1-abca-2c54536568a9",
-    "offset": 562,
+    "offset": 564,
     "attendance": 70747,
     "clock": "00:12",
     "distance": 11,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "a9e0c7c0-4feb-11f1-abca-2c54536568a9",
-    "offset": 562,
+    "offset": 564,
     "drives": [
       {
         "sequence": 1,
@@ -13844,7 +13844,7 @@
         "playIsGoalToGo": false,
         "playScored": false,
         "playSequenceNumber": 4356.0,
-        "playStartTime": "2026-09-20T20:05:43Z",
+        "playStartTime": "2026-09-20T20:04:48Z",
         "playType": "UNSPECIFIED",
         "quarter": 4,
         "scoringPlayType": "UNSPECIFIED",

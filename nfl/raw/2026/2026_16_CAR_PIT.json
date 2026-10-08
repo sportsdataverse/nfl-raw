@@ -14,10 +14,40 @@
   "date": null,
   "time": null,
   "broadcastInfo": {
-    "homeNetworkChannels": [],
-    "awayNetworkChannels": [],
+    "homeNetworkChannels": [
+      "ESPN",
+      "ESPN2",
+      "ESPN DEPORTES"
+    ],
+    "awayNetworkChannels": [
+      "ESPN",
+      "ESPN2",
+      "ESPN DEPORTES"
+    ],
     "internationalWatchOptions": [],
-    "streamingNetworks": [],
+    "streamingNetworks": [
+      {
+        "hostNetwork": "ESPN",
+        "networks": [
+          "ESPN"
+        ],
+        "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "ESPNDEPORTES",
+        "networks": [
+          "ESPNDEPORTES"
+        ],
+        "streamType": "es-alt-1"
+      },
+      {
+        "hostNetwork": "ESPN2",
+        "networks": [
+          "ESPN2"
+        ],
+        "streamType": "en-alt-1"
+      }
+    ],
     "territory": null,
     "audioNetworks": [
       {
@@ -90,7 +120,7 @@
     }
   ],
   "extensions": [],
-  "version": 8,
+  "version": 9,
   "summary": null,
   "driveChart": null,
   "replays": null,

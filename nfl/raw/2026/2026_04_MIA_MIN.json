@@ -105,7 +105,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa4b6a4b-4feb-11f1-abca-2c54536568a9",
-    "offset": 496,
+    "offset": 500,
     "attendance": 66752,
     "clock": "00:38",
     "distance": 7,
@@ -153,7 +153,7 @@
   },
   "driveChart": {
     "gameId": "aa4b6a4b-4feb-11f1-abca-2c54536568a9",
-    "offset": 496,
+    "offset": 500,
     "drives": [
       {
         "sequence": 1,
@@ -602,7 +602,7 @@
         "endedPlayId": 3556,
         "endedPlaySequenceNumber": 3556.0,
         "endedQuarter": 4,
-        "endedTime": null,
+        "endedTime": "2026-10-04T22:35:58.273Z",
         "endedWithScore": true,
         "endedYardLine": "MIA 11",
         "firstDowns": 4,
@@ -9890,10 +9890,10 @@
         "playId": 3383,
         "clockTime": "11:35",
         "down": 2,
-        "driveNetYards": 44,
-        "drivePlayCount": 10,
+        "driveNetYards": 60,
+        "drivePlayCount": 15,
         "driveSequence": 17,
-        "driveTimeOfPossession": "5:03",
+        "driveTimeOfPossession": "8:30",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIN  2-10  MIA 39",
@@ -9933,7 +9933,7 @@
             "personId": "32004d55-5267-0413-8d36-a5c3fd781aa0",
             "statType": 111,
             "teamId": "10403000-5851-f9d5-da45-78365a05b6b0",
-            "yards": -20
+            "yards": -2
           },
           {
             "playStatId": "10330060-2363-3830-0210-0032ed7d3881",
@@ -9963,7 +9963,7 @@
             "personId": "32004144-4449-1056-9ba9-b09766bad478",
             "statType": 113,
             "teamId": "10403000-5851-f9d5-da45-78365a05b6b0",
-            "yards": 24
+            "yards": 6
           },
           {
             "playStatId": "10330060-2363-3830-0790-006fdb2f6a9f",
@@ -10575,7 +10575,7 @@
       },
       {
         "playId": 3556,
-        "clockTime": "06:43",
+        "clockTime": "06:45",
         "down": 4,
         "driveNetYards": 60,
         "drivePlayCount": 15,
@@ -10585,14 +10585,14 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIN  4-5  MIA 11",
         "playDeleted": false,
-        "playDescription": "(6:43) W.Reichard 29 yard field goal is GOOD, Center-A.DePaola, Holder-J.Hekker.",
-        "playDescriptionWithJerseyNumbers": "(6:43) 16-W.Reichard 29 yard field goal is GOOD, Center-42-A.DePaola, Holder-6-J.Hekker.",
-        "playEndTime": null,
+        "playDescription": "(6:45) W.Reichard 29 yard field goal is GOOD, Center-A.DePaola, Holder-J.Hekker.",
+        "playDescriptionWithJerseyNumbers": "(6:45) 16-W.Reichard 29 yard field goal is GOOD, Center-42-A.DePaola, Holder-6-J.Hekker.",
+        "playEndTime": "2026-10-04T22:35:58.273Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": true,
         "playSequenceNumber": 3556.0,
-        "playStartTime": "2026-10-04T22:35:57Z",
+        "playStartTime": "2026-10-04T22:35:55.620Z",
         "playType": "FIELD_GOAL",
         "quarter": 4,
         "scoringPlayType": "FIELD_GOAL",

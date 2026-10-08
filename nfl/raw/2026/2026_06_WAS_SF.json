@@ -17,14 +17,16 @@
     "homeNetworkChannels": [
       "ESPN",
       "ABC",
-      "ESPN DEPORTES",
-      "NFL NETWORK"
+      "ESPN2",
+      "NFL NETWORK",
+      "ESPN DEPORTES"
     ],
     "awayNetworkChannels": [
       "ESPN",
       "ABC",
-      "ESPN DEPORTES",
-      "NFL NETWORK"
+      "ESPN2",
+      "NFL NETWORK",
+      "ESPN DEPORTES"
     ],
     "internationalWatchOptions": [],
     "streamingNetworks": [
@@ -44,11 +46,18 @@
         "streamType": "es-alt-1"
       },
       {
+        "hostNetwork": "ESPN2",
+        "networks": [
+          "ESPN2"
+        ],
+        "streamType": "en-alt-1"
+      },
+      {
         "hostNetwork": "NFLN",
         "networks": [
           "NFLN"
         ],
-        "streamType": "en-alt-1"
+        "streamType": "en-alt-2"
       }
     ],
     "territory": "NATIONAL",
@@ -129,7 +138,7 @@
     }
   ],
   "extensions": [],
-  "version": 10,
+  "version": 11,
   "summary": null,
   "driveChart": null,
   "replays": null,

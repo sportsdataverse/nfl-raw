@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa4b671b-4feb-11f1-abca-2c54536568a9",
-    "offset": 480,
+    "offset": 485,
     "attendance": 61467,
     "clock": "00:01",
     "distance": 27,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "aa4b671b-4feb-11f1-abca-2c54536568a9",
-    "offset": 480,
+    "offset": 485,
     "drives": [
       {
         "sequence": 1,
@@ -11839,15 +11839,15 @@
         "clockTime": "01:42",
         "down": 3,
         "driveNetYards": 38,
-        "drivePlayCount": 9,
+        "drivePlayCount": 10,
         "driveSequence": 18,
-        "driveTimeOfPossession": "2:44",
+        "driveTimeOfPossession": "2:53",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TB  3-16  TB 48",
         "playDeleted": false,
-        "playDescription": "(1:42) (Shotgun) J.Daniels pass short right to E.Egbuka to GB 47 for 5 yards (B.Cox; J.Bullard).",
-        "playDescriptionWithJerseyNumbers": "(1:42) (Shotgun) 10-J.Daniels pass short right to 2-E.Egbuka to GB 47 for 5 yards (57-B.Cox; 7-J.Bullard).",
+        "playDescription": "(1:42) (Shotgun) J.Daniels pass short right to E.Egbuka to GB 47 for 5 yards (B.Cox).",
+        "playDescriptionWithJerseyNumbers": "(1:42) (Shotgun) 10-J.Daniels pass short right to 2-E.Egbuka to GB 47 for 5 yards (57-B.Cox).",
         "playEndTime": "2026-10-04T19:52:14.577Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11924,22 +11924,12 @@
             "yards": 9
           },
           {
-            "playStatId": "10330060-2353-9660-0820-007aa9f74846",
+            "playStatId": "10330060-2353-9660-0790-007b9ea44686",
             "gsisPlayerId": "00-0038463",
             "gsisPlayerName": "B.Cox",
             "gsisPlayerJerseyNumber": "57",
             "personId": "3200434f-5814-7946-7cff-ba2c7ec73aae",
-            "statType": 82,
-            "teamId": "10401800-ab22-323d-721a-cee4713c4c2d",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-2353-9660-0820-008f2d2c23a0",
-            "gsisPlayerId": "00-0039867",
-            "gsisPlayerName": "J.Bullard",
-            "gsisPlayerJerseyNumber": "07",
-            "personId": "32004255-4c36-4409-64d7-463d99975cab",
-            "statType": 82,
+            "statType": 79,
             "teamId": "10401800-ab22-323d-721a-cee4713c4c2d",
             "yards": null
           }

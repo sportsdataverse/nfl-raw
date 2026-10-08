@@ -120,7 +120,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa6b512d-4feb-11f1-abca-2c54536568a9",
-    "offset": 520,
+    "offset": 523,
     "attendance": 73436,
     "clock": "00:40",
     "distance": 14,
@@ -168,7 +168,7 @@
   },
   "driveChart": {
     "gameId": "aa6b512d-4feb-11f1-abca-2c54536568a9",
-    "offset": 520,
+    "offset": 523,
     "drives": [
       {
         "sequence": 1,
@@ -11444,8 +11444,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CAR  2-2  DET 20",
         "playDeleted": false,
-        "playDescription": "(9:58) C.Hubbard right tackle to DET 14 for 6 yards (J.Campbell).",
-        "playDescriptionWithJerseyNumbers": "(9:58) 30-C.Hubbard right tackle to DET 14 for 6 yards (46-J.Campbell).",
+        "playDescription": "(9:58) C.Hubbard right tackle to DET 14 for 6 yards (C.Clark).",
+        "playDescriptionWithJerseyNumbers": "(9:58) 30-C.Hubbard right tackle to DET 14 for 6 yards (36-C.Clark).",
         "playEndTime": "2026-10-05T02:55:36.933Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11483,10 +11483,10 @@
           },
           {
             "playStatId": "10330060-2403-6760-0790-003af5566f22",
-            "gsisPlayerId": "00-0039018",
-            "gsisPlayerName": "J.Campbell",
-            "gsisPlayerJerseyNumber": "46",
-            "personId": "32004341-4d36-4731-433d-b35acfc680bc",
+            "gsisPlayerId": "00-0033294",
+            "gsisPlayerName": "C.Clark",
+            "gsisPlayerJerseyNumber": "36",
+            "personId": "3200434c-4122-5622-5c14-90fee339d2bb",
             "statType": 79,
             "teamId": "10401540-f97c-2d19-6fcd-fac6490a48b7",
             "yards": null
@@ -12908,13 +12908,13 @@
         "driveNetYards": 3,
         "drivePlayCount": 3,
         "driveSequence": 16,
-        "driveTimeOfPossession": "0:44",
+        "driveTimeOfPossession": "0:57",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CAR  2-7  CAR 15",
         "playDeleted": false,
-        "playDescription": "(6:22) (Shotgun) B.Young pass incomplete short left to T.McMillan.",
-        "playDescriptionWithJerseyNumbers": "(6:22) (Shotgun) 9-B.Young pass incomplete short left to 4-T.McMillan.",
+        "playDescription": "(6:22) (Shotgun) B.Young pass incomplete short left to T.McMillan (T.Nowaske).",
+        "playDescriptionWithJerseyNumbers": "(6:22) (Shotgun) 9-B.Young pass incomplete short left to 4-T.McMillan (53-T.Nowaske).",
         "playEndTime": "2026-10-05T03:14:49.267Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -12951,7 +12951,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2404-1400-1120-003a30fa170f",
+            "playStatId": "10330060-2404-1400-0850-0039555cc2a3",
+            "gsisPlayerId": "00-0038660",
+            "gsisPlayerName": "T.Nowaske",
+            "gsisPlayerJerseyNumber": "53",
+            "personId": "32004e4f-5741-5290-c282-901225b00a47",
+            "statType": 85,
+            "teamId": "10401540-f97c-2d19-6fcd-fac6490a48b7",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2404-1400-1120-004f28a15860",
             "gsisPlayerId": "00-0039150",
             "gsisPlayerName": "B.Young",
             "gsisPlayerJerseyNumber": "09",

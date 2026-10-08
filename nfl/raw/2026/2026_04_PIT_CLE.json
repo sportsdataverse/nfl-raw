@@ -119,7 +119,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa29da01-4feb-11f1-abca-2c54536568a9",
-    "offset": 480,
+    "offset": 482,
     "attendance": 68156,
     "clock": "00:01",
     "distance": 11,
@@ -167,7 +167,7 @@
   },
   "driveChart": {
     "gameId": "aa29da01-4feb-11f1-abca-2c54536568a9",
-    "offset": 480,
+    "offset": 482,
     "drives": [
       {
         "sequence": 1,
@@ -10444,8 +10444,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  1-10  PIT 23",
         "playDeleted": false,
-        "playDescription": "(14:11) (Shotgun) J.Warren right guard to PIT 30 for 7 yards (I.McGuire; E.McNeil-Warren).",
-        "playDescriptionWithJerseyNumbers": "(14:11) (Shotgun) 30-J.Warren right guard to PIT 30 for 7 yards (57-I.McGuire; 28-E.McNeil-Warren).",
+        "playDescription": "(14:11) J.Warren right guard to PIT 30 for 7 yards (I.McGuire; E.McNeil-Warren).",
+        "playDescriptionWithJerseyNumbers": "(14:11) 30-J.Warren right guard to PIT 30 for 7 yards (57-I.McGuire; 28-E.McNeil-Warren).",
         "playEndTime": "2026-10-02T02:50:19.427Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

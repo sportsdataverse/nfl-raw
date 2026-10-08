@@ -99,7 +99,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa4b4811-4feb-11f1-abca-2c54536568a9",
-    "offset": 602,
+    "offset": 604,
     "attendance": 70101,
     "clock": "00:33",
     "distance": 12,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "aa4b4811-4feb-11f1-abca-2c54536568a9",
-    "offset": 602,
+    "offset": 604,
     "drives": [
       {
         "sequence": 1,
@@ -1178,8 +1178,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "BAL  1-10  TEN 14",
         "playDeleted": false,
-        "playDescription": "(13:37) L.Jackson pass incomplete short middle to M.Andrews.",
-        "playDescriptionWithJerseyNumbers": "(13:37) 8-L.Jackson pass incomplete short middle to 89-M.Andrews.",
+        "playDescription": "(13:37) L.Jackson pass incomplete short right to M.Andrews.",
+        "playDescriptionWithJerseyNumbers": "(13:37) 8-L.Jackson pass incomplete short right to 89-M.Andrews.",
         "playEndTime": "2026-10-04T17:06:01.860Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

@@ -99,7 +99,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa4b5943-4feb-11f1-abca-2c54536568a9",
-    "offset": 549,
+    "offset": 552,
     "attendance": 66492,
     "clock": "00:30",
     "distance": 12,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "aa4b5943-4feb-11f1-abca-2c54536568a9",
-    "offset": 549,
+    "offset": 552,
     "drives": [
       {
         "sequence": 1,
@@ -4651,8 +4651,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "JAX  1-Goal  CIN 3",
         "playDeleted": false,
-        "playDescription": "(5:10) T.Lawrence pass incomplete short middle.\r\nPENALTY on JAX-R.Hainsey, Offensive Holding, 10 yards, enforced at CIN 3 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(5:10) 16-T.Lawrence pass incomplete short middle.\r\nPENALTY on JAX-73-R.Hainsey, Offensive Holding, 10 yards, enforced at CIN 3 - No Play.",
+        "playDescription": "(5:10) T.Lawrence pass incomplete short middle to J.Meyers.\r\nPENALTY on JAX-R.Hainsey, Offensive Holding, 10 yards, enforced at CIN 3 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(5:10) 16-T.Lawrence pass incomplete short middle to 3-J.Meyers.\r\nPENALTY on JAX-73-R.Hainsey, Offensive Holding, 10 yards, enforced at CIN 3 - No Play.",
         "playEndTime": "2026-10-04T17:58:28.740Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
@@ -5391,8 +5391,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CIN  3-6  JAX 45",
         "playDeleted": false,
-        "playDescription": "(2:00) (Shotgun) J.Burrow pass short middle intended for D.Meyers INTERCEPTED by J.Lewis [J.Hines-Allen] at JAX 37. J.Lewis ran ob at CIN 18 for 45 yards (C.Brown).",
-        "playDescriptionWithJerseyNumbers": "(2:00) (Shotgun) 9-J.Burrow pass short middle intended for 81-D.Meyers INTERCEPTED by 2-J.Lewis [41-J.Hines-Allen] at JAX 37. 2-J.Lewis ran ob at CIN 18 for 45 yards (30-C.Brown).",
+        "playDescription": "(2:00) (Shotgun) J.Burrow pass short middle intended for D.Meyers INTERCEPTED by J.Lewis (D.Gardeck) [J.Hines-Allen] at JAX 37. J.Lewis ran ob at CIN 18 for 45 yards (C.Brown).",
+        "playDescriptionWithJerseyNumbers": "(2:00) (Shotgun) 9-J.Burrow pass short middle intended for 81-D.Meyers INTERCEPTED by 2-J.Lewis (47-D.Gardeck) [41-J.Hines-Allen] at JAX 37. 2-J.Lewis ran ob at CIN 18 for 45 yards (30-C.Brown).",
         "playEndTime": "2026-10-04T18:10:45.487Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -5439,7 +5439,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2311-7010-1100-00497269a1f4",
+            "playStatId": "10330060-2311-7010-0850-0044076d2425",
+            "gsisPlayerId": "00-0034473",
+            "gsisPlayerName": "D.Gardeck",
+            "gsisPlayerJerseyNumber": "47",
+            "personId": "32004741-5212-1450-fa3a-1b30e8e4d1dd",
+            "statType": 85,
+            "teamId": "10402250-89fe-7b86-ef98-9062cd354256",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2311-7010-1100-0053bd5184f0",
             "gsisPlayerId": "00-0035642",
             "gsisPlayerName": "J.Hines-Allen",
             "gsisPlayerJerseyNumber": "41",
@@ -5449,7 +5459,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2311-7010-1120-005f3ad78b09",
+            "playStatId": "10330060-2311-7010-1120-00631fa45627",
             "gsisPlayerId": "00-0036442",
             "gsisPlayerName": "J.Burrow",
             "gsisPlayerJerseyNumber": "09",
@@ -5459,7 +5469,7 @@
             "yards": 8
           },
           {
-            "playStatId": "10330060-2311-7010-0250-0064598b6a6e",
+            "playStatId": "10330060-2311-7010-0250-0078e18225f4",
             "gsisPlayerId": "00-0033928",
             "gsisPlayerName": "J.Lewis",
             "gsisPlayerJerseyNumber": "02",
@@ -5469,7 +5479,7 @@
             "yards": 45
           },
           {
-            "playStatId": "10330060-2311-7010-0850-007731b94206",
+            "playStatId": "10330060-2311-7010-0850-00854deea502",
             "gsisPlayerId": "00-0033928",
             "gsisPlayerName": "J.Lewis",
             "gsisPlayerJerseyNumber": "02",
@@ -5479,7 +5489,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2311-7010-0790-0086b9fc0bfd",
+            "playStatId": "10330060-2311-7010-0790-0095746f4b6b",
             "gsisPlayerId": "00-0038597",
             "gsisPlayerName": "C.Brown",
             "gsisPlayerJerseyNumber": "30",
