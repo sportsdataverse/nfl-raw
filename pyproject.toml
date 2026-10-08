@@ -5,7 +5,7 @@ description = "Scrapes NFL Shield-API game JSON into a committed raw library (si
 requires-python = ">=3.9"
 dependencies = [
     "sportsdataverse @ git+https://github.com/sportsdataverse/sportsdataverse-py@main",
-    "polars>=1.0,<2.0",
+    "polars>=1.0",
 ]
 
 # NOTE: sportsdataverse>=0.0.59 supplies the NFL Shield API wrappers the raw fetcher
