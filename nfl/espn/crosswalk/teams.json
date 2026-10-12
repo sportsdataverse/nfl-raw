@@ -6,6 +6,9 @@
   "shield_team_id": "10400200-f401-4e53-5175-0974e4f16cf7",
   "nflverse_abbr": "ATL",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -40,6 +43,9 @@
   "shield_team_id": "10402100-447f-396e-8149-0a434ffb2f23",
   "nflverse_abbr": "TEN",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -74,6 +80,9 @@
   "shield_team_id": "10402200-2ea3-84c3-e627-6a6b3b39d56d",
   "nflverse_abbr": "IND",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -108,6 +117,9 @@
   "shield_team_id": "10402310-a47e-10ea-7442-16b633633637",
   "nflverse_abbr": "KC",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -142,6 +154,9 @@
   "shield_team_id": "10402520-96bf-e9f2-4f68-8521ca896060",
   "nflverse_abbr": "OAK",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -185,6 +200,9 @@
   "shield_team_id": "10402510-8931-0d5f-9815-79bb79649a65",
   "nflverse_abbr": "STL",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -228,6 +246,9 @@
   "shield_team_id": "10402700-1662-d8ad-f45c-0b0ea460d045",
   "nflverse_abbr": "MIA",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -262,6 +283,9 @@
   "shield_team_id": "10403000-5851-f9d5-da45-78365a05b6b0",
   "nflverse_abbr": "MIN",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -296,6 +320,9 @@
   "shield_team_id": "10403200-69ab-9ea6-5af5-e240fbc08bea",
   "nflverse_abbr": "NE",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -330,6 +357,9 @@
   "shield_team_id": "10403300-f235-cf9b-6d3a-2f182be48dd1",
   "nflverse_abbr": "NO",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -364,6 +394,9 @@
   "shield_team_id": "10403410-997c-9c75-256b-3b012f468bd0",
   "nflverse_abbr": "NYG",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -398,6 +431,9 @@
   "shield_team_id": "10400610-c40e-a673-1743-2ce2a5d5d731",
   "nflverse_abbr": "BUF",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -432,6 +468,9 @@
   "shield_team_id": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
   "nflverse_abbr": "NYJ",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -466,6 +505,9 @@
   "shield_team_id": "10403700-b939-3cbd-3d16-24d4d6742fa2",
   "nflverse_abbr": "PHI",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -500,6 +542,9 @@
   "shield_team_id": "10403800-517c-7b8c-65a3-c61b95d86123",
   "nflverse_abbr": "ARI",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -534,6 +579,9 @@
   "shield_team_id": "10403900-8251-6892-d81c-4348525c2d47",
   "nflverse_abbr": "PIT",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -568,6 +616,9 @@
   "shield_team_id": "10404400-3b35-073f-197e-194bb8240723",
   "nflverse_abbr": "SD",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -611,6 +662,9 @@
   "shield_team_id": "10404500-e7cb-7fce-3f10-4eeb269bd179",
   "nflverse_abbr": "SF",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -645,6 +699,9 @@
   "shield_team_id": "10404600-adcd-28ac-5826-b4d95ec2a228",
   "nflverse_abbr": "SEA",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -679,6 +736,9 @@
   "shield_team_id": "10404900-d59e-b449-ef75-961e09ca027e",
   "nflverse_abbr": "TB",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -713,6 +773,9 @@
   "shield_team_id": "10405110-ec3c-669e-2614-db3dc1736e95",
   "nflverse_abbr": "WAS",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -765,6 +828,9 @@
   "shield_team_id": "10400750-259b-33ac-eee3-a3852e83cd1f",
   "nflverse_abbr": "CAR",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -799,6 +865,9 @@
   "shield_team_id": "10400810-db30-43d6-221c-620006f3ca19",
   "nflverse_abbr": "CHI",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -833,6 +902,9 @@
   "shield_team_id": "10402250-89fe-7b86-ef98-9062cd354256",
   "nflverse_abbr": "JAX",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -867,6 +939,9 @@
   "shield_team_id": "10400325-48de-3d6a-be29-8f829437f4c8",
   "nflverse_abbr": "BAL",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -935,6 +1010,9 @@
   "shield_team_id": "10400920-57c1-7656-e77e-1af3d900483e",
   "nflverse_abbr": "CIN",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -969,6 +1047,9 @@
   "shield_team_id": "10401050-5e38-b907-1be1-55b91b19c057",
   "nflverse_abbr": "CLE",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -1003,6 +1084,9 @@
   "shield_team_id": "10401200-a308-98ca-ad5f-95df2fefea68",
   "nflverse_abbr": "DAL",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -1037,6 +1121,9 @@
   "shield_team_id": "10401400-b89b-96e5-55d1-caa7e18de3d8",
   "nflverse_abbr": "DEN",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -1071,6 +1158,9 @@
   "shield_team_id": "10401540-f97c-2d19-6fcd-fac6490a48b7",
   "nflverse_abbr": "DET",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
@@ -1105,6 +1195,9 @@
   "shield_team_id": "10401800-ab22-323d-721a-cee4713c4c2d",
   "nflverse_abbr": "GB",
   "seasons": [
+   1999,
+   2000,
+   2001,
    2002,
    2003,
    2004,
