@@ -99,7 +99,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa6b5f66-4feb-11f1-abca-2c54536568a9",
-    "offset": 606,
+    "offset": 611,
     "attendance": 58223,
     "clock": "00:33",
     "distance": 12,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "aa6b5f66-4feb-11f1-abca-2c54536568a9",
-    "offset": 606,
+    "offset": 611,
     "drives": [
       {
         "sequence": 1,
@@ -4423,8 +4423,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIA  2-10  50",
         "playDeleted": false,
-        "playDescription": "(10:32) (Shotgun) M.Willis pass short left intended for K.Coleman INTERCEPTED by J.Battle (B.Mafe) at CIN 42. J.Battle to CIN 49 for 7 yards (A.Brewer; J.Savaiinaea).",
-        "playDescriptionWithJerseyNumbers": "(10:32) (Shotgun) 2-M.Willis pass short left intended for 21-K.Coleman INTERCEPTED by 27-J.Battle (53-B.Mafe) at CIN 42. 27-J.Battle to CIN 49 for 7 yards (55-A.Brewer; 71-J.Savaiinaea).",
+        "playDescription": "(10:32) (Shotgun) M.Willis pass short right intended for K.Coleman INTERCEPTED by J.Battle (B.Mafe) at CIN 42. J.Battle to CIN 49 for 7 yards (A.Brewer; J.Savaiinaea).",
+        "playDescriptionWithJerseyNumbers": "(10:32) (Shotgun) 2-M.Willis pass short right intended for 21-K.Coleman INTERCEPTED by 27-J.Battle (53-B.Mafe) at CIN 42. 27-J.Battle to CIN 49 for 7 yards (55-A.Brewer; 71-J.Savaiinaea).",
         "playEndTime": "2026-10-11T17:59:05.357Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

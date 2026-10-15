@@ -99,7 +99,7 @@
   "version": 9,
   "summary": {
     "gameId": "aa94c2ef-4feb-11f1-abca-2c54536568a9",
-    "offset": 538,
+    "offset": 540,
     "attendance": 77755,
     "clock": "00:38",
     "distance": 12,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "aa94c2ef-4feb-11f1-abca-2c54536568a9",
-    "offset": 538,
+    "offset": 540,
     "drives": [
       {
         "sequence": 1,
@@ -12354,8 +12354,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CHI  1-10  50",
         "playDeleted": false,
-        "playDescription": "(4:24) (No Huddle, Shotgun) C.Keenum pass short right to Z.Thomas ran ob at GB 39 for 11 yards (K.Nixon).",
-        "playDescriptionWithJerseyNumbers": "(4:24) (No Huddle, Shotgun) 11-C.Keenum pass short right to 13-Z.Thomas ran ob at GB 39 for 11 yards (25-K.Nixon).",
+        "playDescription": "(4:24) (No Huddle, Shotgun) C.Keenum pass short right to Z.Thomas ran ob at GB 39 for 11 yards (K.Nixon) [B.Cox].",
+        "playDescriptionWithJerseyNumbers": "(4:24) (No Huddle, Shotgun) 11-C.Keenum pass short right to 13-Z.Thomas ran ob at GB 39 for 11 yards (25-K.Nixon) [57-B.Cox].",
         "playEndTime": "2026-10-11T19:50:19.753Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -12432,7 +12432,17 @@
             "yards": 4
           },
           {
-            "playStatId": "10330060-2533-7710-0790-0076add72ba7",
+            "playStatId": "10330060-2533-7710-1100-00711d48a5fa",
+            "gsisPlayerId": "00-0038463",
+            "gsisPlayerName": "B.Cox",
+            "gsisPlayerJerseyNumber": "57",
+            "personId": "3200434f-5814-7946-7cff-ba2c7ec73aae",
+            "statType": 110,
+            "teamId": "10401800-ab22-323d-721a-cee4713c4c2d",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2533-7710-0790-0089c9f15e34",
             "gsisPlayerId": "00-0035133",
             "gsisPlayerName": "K.Nixon",
             "gsisPlayerJerseyNumber": "25",

@@ -99,7 +99,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa94ac06-4feb-11f1-abca-2c54536568a9",
-    "offset": 481,
+    "offset": 483,
     "attendance": 66503,
     "clock": "00:35",
     "distance": 12,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "aa94ac06-4feb-11f1-abca-2c54536568a9",
-    "offset": 481,
+    "offset": 483,
     "drives": [
       {
         "sequence": 1,
@@ -968,15 +968,15 @@
         "clockTime": "14:14",
         "down": 2,
         "driveNetYards": -15,
-        "drivePlayCount": 2,
+        "drivePlayCount": 3,
         "driveSequence": 1,
-        "driveTimeOfPossession": "1:15",
+        "driveTimeOfPossession": "2:39",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  2-10  PIT 35",
         "playDeleted": false,
-        "playDescription": "(14:14) J.Warren up the middle to PIT 46 for 11 yards (J.Walley).\r\nPENALTY on PIT-B.Hoffman, Offensive Holding, 10 yards, enforced at PIT 35 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(14:14) 30-J.Warren up the middle to PIT 46 for 11 yards (27-J.Walley).\r\nPENALTY on PIT-67-B.Hoffman, Offensive Holding, 10 yards, enforced at PIT 35 - No Play.",
+        "playDescription": "(14:14) J.Warren up the middle to PIT 46 for 11 yards (J.Walley).\r\nPENALTY on PIT-M.McCormick, Offensive Holding, 10 yards, enforced at PIT 35 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(14:14) 30-J.Warren up the middle to PIT 46 for 11 yards (27-J.Walley).\r\nPENALTY on PIT-66-M.McCormick, Offensive Holding, 10 yards, enforced at PIT 35 - No Play.",
         "playEndTime": "2026-10-11T17:04:06.410Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -994,10 +994,10 @@
         "stats": [
           {
             "playStatId": "10330060-2480-0930-0930-001baf8f3fca",
-            "gsisPlayerId": "00-0037336",
-            "gsisPlayerName": "B.Hoffman",
-            "gsisPlayerJerseyNumber": "67",
-            "personId": "3200484f-4632-3482-13c2-2a55c5fef879",
+            "gsisPlayerId": "00-0039358",
+            "gsisPlayerName": "M.McCormick",
+            "gsisPlayerJerseyNumber": "66",
+            "personId": "32004d43-4359-2977-3526-8911bdf90b01",
             "statType": 93,
             "teamId": "10403900-8251-6892-d81c-4348525c2d47",
             "yards": 10
