@@ -14,12 +14,8 @@
   "date": "2026-08-15",
   "time": "2026-08-15T17:00:00Z",
   "broadcastInfo": {
-    "homeNetworkChannels": [
-      ""
-    ],
-    "awayNetworkChannels": [
-      ""
-    ],
+    "homeNetworkChannels": [],
+    "awayNetworkChannels": [],
     "internationalWatchOptions": [
       {
         "countryCode": "CA",
@@ -131,7 +127,7 @@
     }
   ],
   "extensions": [],
-  "version": 10,
+  "version": 11,
   "summary": {
     "gameId": "c6e8525d-5f68-11f1-b1d0-bb70a4640075",
     "offset": 478,

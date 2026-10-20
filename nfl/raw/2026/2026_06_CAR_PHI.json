@@ -105,7 +105,7 @@
   "version": 7,
   "summary": {
     "gameId": "aab588fe-4feb-11f1-abca-2c54536568a9",
-    "offset": 672,
+    "offset": 674,
     "attendance": 69879,
     "clock": "00:38",
     "distance": 4,
@@ -153,7 +153,7 @@
   },
   "driveChart": {
     "gameId": "aab588fe-4feb-11f1-abca-2c54536568a9",
-    "offset": 672,
+    "offset": 674,
     "drives": [
       {
         "sequence": 1,
@@ -2004,8 +2004,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PHI  3-13  PHI 19",
         "playDeleted": false,
-        "playDescription": "(9:57) (Shotgun) T.McKee pass incomplete short left to M.Lemon.  The pass completion was assisted by replay.",
-        "playDescriptionWithJerseyNumbers": "(9:57) (Shotgun) 16-T.McKee pass incomplete short left to 9-M.Lemon.  The pass completion was assisted by replay.",
+        "playDescription": "(9:57) (Shotgun) T.McKee pass incomplete short left to M.Lemon.  The incomplete pass was assisted by replay.",
+        "playDescriptionWithJerseyNumbers": "(9:57) (Shotgun) 16-T.McKee pass incomplete short left to 9-M.Lemon.  The incomplete pass was assisted by replay.",
         "playEndTime": "2026-10-18T17:15:03.063Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
