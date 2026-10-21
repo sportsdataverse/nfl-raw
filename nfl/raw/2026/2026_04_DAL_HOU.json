@@ -105,7 +105,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa4b5c96-4feb-11f1-abca-2c54536568a9",
-    "offset": 536,
+    "offset": 538,
     "attendance": 71227,
     "clock": "00:09",
     "distance": 5,
@@ -153,7 +153,7 @@
   },
   "driveChart": {
     "gameId": "aa4b5c96-4feb-11f1-abca-2c54536568a9",
-    "offset": 536,
+    "offset": 538,
     "drives": [
       {
         "sequence": 1,
@@ -7141,8 +7141,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "HOU  3-1  DAL 36",
         "playDeleted": false,
-        "playDescription": "(:03) C.Stroud spiked the ball to stop the clock.",
-        "playDescriptionWithJerseyNumbers": "(:03) 7-C.Stroud spiked the ball to stop the clock.",
+        "playDescription": "(:03) (No Huddle) C.Stroud spiked the ball to stop the clock.",
+        "playDescriptionWithJerseyNumbers": "(:03) (No Huddle) 7-C.Stroud spiked the ball to stop the clock.",
         "playEndTime": "2026-10-04T18:26:32.167Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
