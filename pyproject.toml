@@ -4,7 +4,8 @@ version = "0.1.0"
 description = "Scrapes NFL Shield-API game JSON into a committed raw library (sibling of nfl-data, which owns modeling)."
 requires-python = ">=3.9"
 dependencies = [
-    "sportsdataverse @ git+https://github.com/sportsdataverse/sportsdataverse-py@main",
+    # pinned 2026-10-21 until REPROCESS runs #1/#2 (sdv-py quality program, WB-nfl-2)
+    "sportsdataverse @ git+https://github.com/sportsdataverse/sportsdataverse-py@77ee6d51cb0eafc582cca9b7bfc93c4600e8c010",
     "polars>=1.0",
 ]
 
