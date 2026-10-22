@@ -99,7 +99,7 @@
   "version": 7,
   "summary": {
     "gameId": "aab577eb-4feb-11f1-abca-2c54536568a9",
-    "offset": 589,
+    "offset": 591,
     "attendance": 72301,
     "clock": "00:33",
     "distance": 5,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "aab577eb-4feb-11f1-abca-2c54536568a9",
-    "offset": 589,
+    "offset": 591,
     "drives": [
       {
         "sequence": 1,
@@ -8666,8 +8666,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CHI  3-5  ATL 44",
         "playDeleted": false,
-        "playDescription": "(8:09) (Shotgun) C.Williams pass short left to L.Burden ran ob at ATL 41 for 3 yards (X.Watts).",
-        "playDescriptionWithJerseyNumbers": "(8:09) (Shotgun) 18-C.Williams pass short left to 10-L.Burden ran ob at ATL 41 for 3 yards (31-X.Watts).",
+        "playDescription": "(8:09) (Shotgun) C.Williams pass short left to L.Burden pushed ob at ATL 41 for 3 yards (Av.Terrell).",
+        "playDescriptionWithJerseyNumbers": "(8:09) (Shotgun) 18-C.Williams pass short left to 10-L.Burden pushed ob at ATL 41 for 3 yards (12-Av.Terrell).",
         "playEndTime": "2026-10-18T19:09:08.683Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8745,10 +8745,10 @@
           },
           {
             "playStatId": "10330060-2592-6870-0790-0075141cc0f2",
-            "gsisPlayerId": "00-0040148",
-            "gsisPlayerName": "X.Watts",
-            "gsisPlayerJerseyNumber": "31",
-            "personId": "32005741-5483-0896-532a-ecb5497b9d7f",
+            "gsisPlayerId": "00-0041469",
+            "gsisPlayerName": "Av.Terrell",
+            "gsisPlayerJerseyNumber": "12",
+            "personId": "32005445-5227-3657-9331-1fe16fe00a91",
             "statType": 79,
             "teamId": "10400200-f401-4e53-5175-0974e4f16cf7",
             "yards": null

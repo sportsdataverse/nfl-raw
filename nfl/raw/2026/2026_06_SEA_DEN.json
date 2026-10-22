@@ -119,7 +119,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa94cffe-4feb-11f1-abca-2c54536568a9",
-    "offset": 565,
+    "offset": 567,
     "attendance": 76973,
     "clock": "04:53",
     "distance": 10,
@@ -167,7 +167,7 @@
   },
   "driveChart": {
     "gameId": "aa94cffe-4feb-11f1-abca-2c54536568a9",
-    "offset": 565,
+    "offset": 567,
     "drives": [
       {
         "sequence": 1,
@@ -8126,8 +8126,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DEN  3-6  DEN 41",
         "playDeleted": false,
-        "playDescription": "(7:59) (Shotgun) B.Nix pass incomplete short middle.",
-        "playDescriptionWithJerseyNumbers": "(7:59) (Shotgun) 10-B.Nix pass incomplete short middle.",
+        "playDescription": "(7:59) (No Huddle, Shotgun) B.Nix pass incomplete short middle.",
+        "playDescriptionWithJerseyNumbers": "(7:59) (No Huddle, Shotgun) 10-B.Nix pass incomplete short middle.",
         "playEndTime": "2026-10-16T02:08:14.430Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

@@ -105,7 +105,7 @@
   "version": 7,
   "summary": {
     "gameId": "aab5857e-4feb-11f1-abca-2c54536568a9",
-    "offset": 572,
+    "offset": 576,
     "attendance": 82905,
     "clock": "00:06",
     "distance": 11,
@@ -153,7 +153,7 @@
   },
   "driveChart": {
     "gameId": "aab5857e-4feb-11f1-abca-2c54536568a9",
-    "offset": 572,
+    "offset": 576,
     "drives": [
       {
         "sequence": 1,
@@ -1296,7 +1296,7 @@
       },
       {
         "playId": 126,
-        "clockTime": "14:22",
+        "clockTime": "14:23",
         "down": 3,
         "driveNetYards": -2,
         "drivePlayCount": 3,
@@ -1306,8 +1306,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYG  3-12  NYG 38",
         "playDeleted": false,
-        "playDescription": "(14:22) (Shotgun) J.Winston pass incomplete short middle to I.Likely.",
-        "playDescriptionWithJerseyNumbers": "(14:22) (Shotgun) 19-J.Winston pass incomplete short middle to 9-I.Likely.",
+        "playDescription": "(14:23) (Shotgun) J.Winston pass incomplete short middle to I.Likely.",
+        "playDescriptionWithJerseyNumbers": "(14:23) (Shotgun) 19-J.Winston pass incomplete short middle to 9-I.Likely.",
         "playEndTime": "2026-10-18T17:05:25.527Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -1595,7 +1595,7 @@
             "personId": "32005348-4f76-8898-2122-c8ee34c8b6a6",
             "statType": 112,
             "teamId": "10403300-f235-cf9b-6d3a-2f182be48dd1",
-            "yards": 1
+            "yards": -5
           }
         ]
       },
@@ -6202,8 +6202,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NO  1-10  NO 44",
         "playDeleted": false,
-        "playDescription": "(2:20) (Shotgun) A.Kamara up the middle to NO 48 for 4 yards (G.Newsome; D.Reader). ** Injury Update: NO-A.Kamara has returned to the game.",
-        "playDescriptionWithJerseyNumbers": "(2:20) (Shotgun) 41-A.Kamara up the middle to NO 48 for 4 yards (20-G.Newsome; 98-D.Reader). ** Injury Update: NO-41-A.Kamara has returned to the game.",
+        "playDescription": "(2:20) (Shotgun) A.Kamara up the middle to NO 48 for 4 yards (G.Newsome). ** Injury Update: NO-A.Kamara has returned to the game.",
+        "playDescriptionWithJerseyNumbers": "(2:20) (Shotgun) 41-A.Kamara up the middle to NO 48 for 4 yards (20-G.Newsome). ** Injury Update: NO-41-A.Kamara has returned to the game.",
         "playEndTime": "2026-10-18T18:11:18.910Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6230,22 +6230,12 @@
             "yards": 4
           },
           {
-            "playStatId": "10330060-2631-7950-0820-002c16fc33e0",
+            "playStatId": "10330060-2631-7950-0790-002b7f684320",
             "gsisPlayerId": "00-0036996",
             "gsisPlayerName": "G.Newsome",
             "gsisPlayerJerseyNumber": "20",
             "personId": "32004e45-5767-3012-fb28-d7fdd1b7e482",
-            "statType": 82,
-            "teamId": "10403410-997c-9c75-256b-3b012f468bd0",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-2631-7950-0820-0038a9110402",
-            "gsisPlayerId": "00-0032424",
-            "gsisPlayerName": "D.Reader",
-            "gsisPlayerJerseyNumber": "98",
-            "personId": "32005245-4114-8116-e0aa-521c3fdaafdb",
-            "statType": 82,
+            "statType": 79,
             "teamId": "10403410-997c-9c75-256b-3b012f468bd0",
             "yards": null
           }

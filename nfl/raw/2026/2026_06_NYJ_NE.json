@@ -99,7 +99,7 @@
   "version": 7,
   "summary": {
     "gameId": "aab58261-4feb-11f1-abca-2c54536568a9",
-    "offset": 506,
+    "offset": 509,
     "attendance": 64628,
     "clock": "00:30",
     "distance": 11,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "aab58261-4feb-11f1-abca-2c54536568a9",
-    "offset": 506,
+    "offset": 509,
     "drives": [
       {
         "sequence": 1,
@@ -9504,16 +9504,16 @@
         "playId": 3002,
         "clockTime": "01:30",
         "down": 1,
-        "driveNetYards": 59,
-        "drivePlayCount": 9,
+        "driveNetYards": 68,
+        "drivePlayCount": 12,
         "driveSequence": 16,
-        "driveTimeOfPossession": "4:44",
+        "driveTimeOfPossession": "5:36",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NE  1-10  NYJ 27",
         "playDeleted": false,
-        "playDescription": "(1:30) (Shotgun) C.Kiner right tackle to NYJ 18 for 9 yards (J.Briggs).",
-        "playDescriptionWithJerseyNumbers": "(1:30) (Shotgun) 9-C.Kiner right tackle to NYJ 18 for 9 yards (91-J.Briggs).",
+        "playDescription": "(1:30) (Shotgun) C.Kiner right tackle to NYJ 18 for 9 yards (J.Briggs; D.Bailey).",
+        "playDescriptionWithJerseyNumbers": "(1:30) (Shotgun) 9-C.Kiner right tackle to NYJ 18 for 9 yards (91-J.Briggs; 31-D.Bailey).",
         "playEndTime": "2026-10-18T19:15:51.677Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9540,12 +9540,22 @@
             "yards": 9
           },
           {
-            "playStatId": "10330060-2623-0020-0790-002a21e0b034",
+            "playStatId": "10330060-2623-0020-0820-0022ea8eda3b",
             "gsisPlayerId": "00-0039431",
             "gsisPlayerName": "J.Briggs",
             "gsisPlayerJerseyNumber": "91",
             "personId": "32004252-4914-7008-f11f-43dbc9de9f1d",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2623-0020-0820-0035080c61c8",
+            "gsisPlayerId": "00-0041026",
+            "gsisPlayerName": "D.Bailey",
+            "gsisPlayerJerseyNumber": "31",
+            "personId": "32004241-4917-4187-f5f2-d73d4d397b2f",
+            "statType": 82,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
             "yards": null
           }
@@ -12209,8 +12219,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NE  1-10  NYJ 13",
         "playDeleted": false,
-        "playDescription": "(3:27) C.Kiner up the middle to NYJ 11 for 2 yards (T.Sweat; K.Enagbare).",
-        "playDescriptionWithJerseyNumbers": "(3:27) 9-C.Kiner up the middle to NYJ 11 for 2 yards (99-T.Sweat; 52-K.Enagbare).",
+        "playDescription": "(3:27) C.Kiner up the middle to NYJ 11 for 2 yards (T.Sweat; H.Phillips).",
+        "playDescriptionWithJerseyNumbers": "(3:27) 9-C.Kiner up the middle to NYJ 11 for 2 yards (99-T.Sweat; 97-H.Phillips).",
         "playEndTime": "2026-10-18T19:53:15.240Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -12248,10 +12258,10 @@
           },
           {
             "playStatId": "10330060-2623-9670-0820-003a1f790679",
-            "gsisPlayerId": "00-0037083",
-            "gsisPlayerName": "K.Enagbare",
-            "gsisPlayerJerseyNumber": "52",
-            "personId": "3200454e-4104-0912-811c-67db1204d680",
+            "gsisPlayerId": "00-0034782",
+            "gsisPlayerName": "H.Phillips",
+            "gsisPlayerJerseyNumber": "97",
+            "personId": "32005048-4921-5142-5ef5-133a36dda72f",
             "statType": 82,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
             "yards": null

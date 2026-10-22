@@ -141,7 +141,7 @@
   "version": 11,
   "summary": {
     "gameId": "aad58635-4feb-11f1-abca-2c54536568a9",
-    "offset": 516,
+    "offset": 518,
     "attendance": 71561,
     "clock": "00:06",
     "distance": 40,
@@ -189,7 +189,7 @@
   },
   "driveChart": {
     "gameId": "aad58635-4feb-11f1-abca-2c54536568a9",
-    "offset": 516,
+    "offset": 518,
     "drives": [
       {
         "sequence": 1,
@@ -9311,18 +9311,18 @@
       },
       {
         "playId": 2872,
-        "clockTime": "00:14",
+        "clockTime": "00:15",
         "down": 1,
-        "driveNetYards": -9,
-        "drivePlayCount": 1,
+        "driveNetYards": -1,
+        "drivePlayCount": 3,
         "driveSequence": 14,
-        "driveTimeOfPossession": "0:15",
+        "driveTimeOfPossession": "1:10",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "SF  1-10  SF 35",
         "playDeleted": false,
-        "playDescription": "(:14) B.Purdy sacked at SF 26 for -9 yards (S.Tuttle).",
-        "playDescriptionWithJerseyNumbers": "(:14) 13-B.Purdy sacked at SF 26 for -9 yards (96-S.Tuttle).",
+        "playDescription": "(:15) B.Purdy sacked at SF 26 for -9 yards (S.Tuttle).",
+        "playDescriptionWithJerseyNumbers": "(:15) 13-B.Purdy sacked at SF 26 for -9 yards (96-S.Tuttle).",
         "playEndTime": "2026-10-20T02:26:58.427Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

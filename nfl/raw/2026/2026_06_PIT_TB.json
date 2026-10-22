@@ -99,7 +99,7 @@
   "version": 7,
   "summary": {
     "gameId": "aab58c4b-4feb-11f1-abca-2c54536568a9",
-    "offset": 552,
+    "offset": 555,
     "attendance": 64660,
     "clock": "01:00",
     "distance": 10,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "aab58c4b-4feb-11f1-abca-2c54536568a9",
-    "offset": 552,
+    "offset": 555,
     "drives": [
       {
         "sequence": 1,
@@ -7510,8 +7510,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  1-10  TB 34",
         "playDeleted": false,
-        "playDescription": "(:04) A.Rodgers spiked the ball to stop the clock.",
-        "playDescriptionWithJerseyNumbers": "(:04) 8-A.Rodgers spiked the ball to stop the clock.",
+        "playDescription": "(:04) (No Huddle) A.Rodgers spiked the ball to stop the clock.",
+        "playDescriptionWithJerseyNumbers": "(:04) (No Huddle) 8-A.Rodgers spiked the ball to stop the clock.",
         "playEndTime": "2026-10-18T18:30:03.217Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11805,8 +11805,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  3-21  TB 23",
         "playDeleted": false,
-        "playDescription": "(8:51) (Shotgun) A.Rodgers pass short right to D.Metcalf to TB 21 for 2 yards (D.Walker).",
-        "playDescriptionWithJerseyNumbers": "(8:51) (Shotgun) 8-A.Rodgers pass short right to 4-D.Metcalf to TB 21 for 2 yards (51-D.Walker).",
+        "playDescription": "(8:51) (Shotgun) A.Rodgers pass short right to D.Metcalf to TB 21 for 2 yards (D.Walker; R.Bain).",
+        "playDescriptionWithJerseyNumbers": "(8:51) (Shotgun) 8-A.Rodgers pass short right to 4-D.Metcalf to TB 21 for 2 yards (51-D.Walker; 3-R.Bain).",
         "playEndTime": "2026-10-18T19:40:37.153Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11883,12 +11883,22 @@
             "yards": 4
           },
           {
-            "playStatId": "10330060-2653-5220-0790-00739c0167df",
+            "playStatId": "10330060-2653-5220-0820-0072d7d345ad",
             "gsisPlayerId": "00-0040158",
             "gsisPlayerName": "D.Walker",
             "gsisPlayerJerseyNumber": "51",
             "personId": "32005741-4c11-5590-6885-0eeaeaf4f879",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10404900-d59e-b449-ef75-961e09ca027e",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2653-5220-0820-00885ad3362f",
+            "gsisPlayerId": "00-0041031",
+            "gsisPlayerName": "R.Bain",
+            "gsisPlayerJerseyNumber": "03",
+            "personId": "32004241-4974-1257-a68b-d61ea956d6c5",
+            "statType": 82,
             "teamId": "10404900-d59e-b449-ef75-961e09ca027e",
             "yards": null
           }

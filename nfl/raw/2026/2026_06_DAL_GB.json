@@ -120,7 +120,7 @@
   "version": 7,
   "summary": {
     "gameId": "aad58264-4feb-11f1-abca-2c54536568a9",
-    "offset": 535,
+    "offset": 538,
     "attendance": 77383,
     "clock": "00:25",
     "distance": 12,
@@ -168,7 +168,7 @@
   },
   "driveChart": {
     "gameId": "aad58264-4feb-11f1-abca-2c54536568a9",
-    "offset": 535,
+    "offset": 538,
     "drives": [
       {
         "sequence": 1,
@@ -9026,15 +9026,15 @@
         "clockTime": "06:52",
         "down": 4,
         "driveNetYards": 42,
-        "drivePlayCount": 10,
+        "drivePlayCount": 11,
         "driveSequence": 12,
-        "driveTimeOfPossession": "4:06",
+        "driveTimeOfPossession": "4:17",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "GB  4-3  DAL 44",
         "playDeleted": false,
-        "playDescription": "(6:52) (Shotgun) J.Love pass short left to T.Kraft to DAL 30 for 14 yards (C.Downs).",
-        "playDescriptionWithJerseyNumbers": "(6:52) (Shotgun) 10-J.Love pass short left to 85-T.Kraft to DAL 30 for 14 yards (13-C.Downs).",
+        "playDescription": "(6:52) (Shotgun) J.Love pass short left to T.Kraft to DAL 30 for 14 yards (C.Downs) [Q.Williams].",
+        "playDescriptionWithJerseyNumbers": "(6:52) (Shotgun) 10-J.Love pass short left to 85-T.Kraft to DAL 30 for 14 yards (13-C.Downs) [92-Q.Williams].",
         "playEndTime": "2026-10-19T02:24:01.193Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9121,7 +9121,17 @@
             "yards": 13
           },
           {
-            "playStatId": "10330060-2692-9230-0790-0081524bbdc8",
+            "playStatId": "10330060-2692-9230-1100-008dec29b26d",
+            "gsisPlayerId": "00-0035718",
+            "gsisPlayerName": "Q.Williams",
+            "gsisPlayerJerseyNumber": "92",
+            "personId": "32005749-4c13-2672-b05d-48fefa792d12",
+            "statType": 110,
+            "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2692-9230-0790-009f45c2132d",
             "gsisPlayerId": "00-0040865",
             "gsisPlayerName": "C.Downs",
             "gsisPlayerJerseyNumber": "13",
@@ -9947,16 +9957,16 @@
         "playId": 3222,
         "clockTime": "03:29",
         "down": 1,
-        "driveNetYards": 2,
-        "drivePlayCount": 1,
+        "driveNetYards": -2,
+        "drivePlayCount": 3,
         "driveSequence": 14,
-        "driveTimeOfPossession": "0:04",
+        "driveTimeOfPossession": "2:18",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "GB  1-10  GB 6",
         "playDeleted": false,
-        "playDescription": "(3:29) M.Lloyd left guard to GB 8 for 2 yards (O.Ogbonnia).",
-        "playDescriptionWithJerseyNumbers": "(3:29) 32-M.Lloyd left guard to GB 8 for 2 yards (91-O.Ogbonnia).",
+        "playDescription": "(3:29) M.Lloyd left guard to GB 8 for 2 yards (O.Ogbonnia; R.Gary).",
+        "playDescriptionWithJerseyNumbers": "(3:29) 32-M.Lloyd left guard to GB 8 for 2 yards (91-O.Ogbonnia; 7-R.Gary).",
         "playEndTime": "2026-10-19T02:37:16.517Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -9983,12 +9993,22 @@
             "yards": 2
           },
           {
-            "playStatId": "10330060-2693-2220-0790-002b46f1eab4",
+            "playStatId": "10330060-2693-2220-0820-002944fbd0b1",
             "gsisPlayerId": "00-0037270",
             "gsisPlayerName": "O.Ogbonnia",
             "gsisPlayerJerseyNumber": "91",
             "personId": "32004f47-4257-3735-a031-5296cebb42ec",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2693-2220-0820-003711042324",
+            "gsisPlayerId": "00-0034967",
+            "gsisPlayerName": "R.Gary",
+            "gsisPlayerJerseyNumber": "07",
+            "personId": "32004741-5276-6759-8729-700e2dfb98cd",
+            "statType": 82,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
             "yards": null
           }

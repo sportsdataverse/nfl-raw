@@ -105,7 +105,7 @@
   "version": 7,
   "summary": {
     "gameId": "aab588fe-4feb-11f1-abca-2c54536568a9",
-    "offset": 674,
+    "offset": 677,
     "attendance": 69879,
     "clock": "00:38",
     "distance": 4,
@@ -153,7 +153,7 @@
   },
   "driveChart": {
     "gameId": "aab588fe-4feb-11f1-abca-2c54536568a9",
-    "offset": 674,
+    "offset": 677,
     "drives": [
       {
         "sequence": 1,
@@ -4629,16 +4629,16 @@
         "playId": 1385,
         "clockTime": "12:45",
         "down": 1,
-        "driveNetYards": 19,
-        "drivePlayCount": 1,
+        "driveNetYards": 32,
+        "drivePlayCount": 5,
         "driveSequence": 8,
-        "driveTimeOfPossession": "0:06",
+        "driveTimeOfPossession": "2:18",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CAR  1-10  CAR 23",
         "playDeleted": false,
-        "playDescription": "(12:45) B.Young pass deep right to J.Coker ran ob at CAR 42 for 19 yards (C.DeJean). PHI-N.Smith was injured during the play.",
-        "playDescriptionWithJerseyNumbers": "(12:45) 9-B.Young pass deep right to 18-J.Coker ran ob at CAR 42 for 19 yards (33-C.DeJean). PHI-3-N.Smith was injured during the play.",
+        "playDescription": "(12:45) B.Young pass deep right to J.Coker ran ob at CAR 42 for 19 yards. PHI-N.Smith was injured during the play.",
+        "playDescriptionWithJerseyNumbers": "(12:45) 9-B.Young pass deep right to 18-J.Coker ran ob at CAR 42 for 19 yards. PHI-3-N.Smith was injured during the play.",
         "playEndTime": "2026-10-18T17:57:26.123Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -4713,16 +4713,6 @@
             "statType": 113,
             "teamId": "10400750-259b-33ac-eee3-a3852e83cd1f",
             "yards": 0
-          },
-          {
-            "playStatId": "10330060-2641-3850-0790-0071b5849cda",
-            "gsisPlayerId": "00-0039841",
-            "gsisPlayerName": "C.DeJean",
-            "gsisPlayerJerseyNumber": "33",
-            "personId": "32004445-4a22-6521-966b-4b5a2f95ff19",
-            "statType": 79,
-            "teamId": "10403700-b939-3cbd-3d16-24d4d6742fa2",
-            "yards": null
           }
         ]
       },
@@ -12538,7 +12528,7 @@
             "personId": "32004d43-4b15-6404-8b65-d2cfdf887c42",
             "statType": 112,
             "teamId": "10403700-b939-3cbd-3d16-24d4d6742fa2",
-            "yards": 7
+            "yards": 13
           }
         ]
       },

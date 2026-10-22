@@ -99,7 +99,7 @@
   "version": 7,
   "summary": {
     "gameId": "aad57852-4feb-11f1-abca-2c54536568a9",
-    "offset": 603,
+    "offset": 608,
     "attendance": 62618,
     "clock": "00:38",
     "distance": 13,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "aad57852-4feb-11f1-abca-2c54536568a9",
-    "offset": 603,
+    "offset": 608,
     "drives": [
       {
         "sequence": 1,
@@ -9069,10 +9069,10 @@
         "playId": 2839,
         "clockTime": "04:49",
         "down": 1,
-        "driveNetYards": 48,
-        "drivePlayCount": 6,
+        "driveNetYards": 70,
+        "drivePlayCount": 15,
         "driveSequence": 13,
-        "driveTimeOfPossession": "4:11",
+        "driveTimeOfPossession": "7:50",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  1-10  LV 45",
@@ -9112,7 +9112,7 @@
             "personId": "3200434f-5570-9400-e1ae-f835abb5963e",
             "statType": 111,
             "teamId": "10402520-96bf-e9f2-4f68-8521ca896060",
-            "yards": 3
+            "yards": 7
           },
           {
             "playStatId": "10330060-2682-8390-0210-003492315324",
@@ -9142,7 +9142,7 @@
             "personId": "3200424f-5719-6560-aaaa-d9f4cc244721",
             "statType": 113,
             "teamId": "10402520-96bf-e9f2-4f68-8521ca896060",
-            "yards": 5
+            "yards": 1
           },
           {
             "playStatId": "10330060-2682-8390-0790-006f57774e44",
@@ -10555,8 +10555,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "BUF  3-10  BUF 40",
         "playDeleted": false,
-        "playDescription": "(12:09) (Shotgun) J.Allen pass incomplete deep right to K.Coleman [H.Masses].",
-        "playDescriptionWithJerseyNumbers": "(12:09) (Shotgun) 17-J.Allen pass incomplete deep right to 0-K.Coleman [35-H.Masses].",
+        "playDescription": "(12:09) (Shotgun) J.Allen pass incomplete deep right to K.Coleman (E.Stokes) [H.Masses].",
+        "playDescriptionWithJerseyNumbers": "(12:09) (Shotgun) 17-J.Allen pass incomplete deep right to 0-K.Coleman (5-E.Stokes) [35-H.Masses].",
         "playEndTime": "2026-10-18T22:50:53.423Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10603,7 +10603,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2683-3690-1100-0048ba54a162",
+            "playStatId": "10330060-2683-3690-0850-0048adee48aa",
+            "gsisPlayerId": "00-0036901",
+            "gsisPlayerName": "E.Stokes",
+            "gsisPlayerJerseyNumber": "05",
+            "personId": "32005354-4f21-4699-ce5b-ed6694ff1e45",
+            "statType": 85,
+            "teamId": "10402520-96bf-e9f2-4f68-8521ca896060",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2683-3690-1100-005c273f0439",
             "gsisPlayerId": "00-0040889",
             "gsisPlayerName": "H.Masses",
             "gsisPlayerJerseyNumber": "35",
@@ -10613,7 +10623,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2683-3690-1120-0056e06e8803",
+            "playStatId": "10330060-2683-3690-1120-0065f4fcc44b",
             "gsisPlayerId": "00-0034857",
             "gsisPlayerName": "J.Allen",
             "gsisPlayerJerseyNumber": "17",
@@ -12399,8 +12409,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  3-10  LV 18",
         "playDeleted": false,
-        "playDescription": "(4:26) (Shotgun) K.Cousins pass incomplete deep middle to T.Tucker [J.Kilgore].",
-        "playDescriptionWithJerseyNumbers": "(4:26) (Shotgun) 8-K.Cousins pass incomplete deep middle to 1-T.Tucker [29-J.Kilgore].",
+        "playDescription": "(4:26) (Shotgun) K.Cousins pass incomplete deep middle to T.Tucker (J.Kilgore).",
+        "playDescriptionWithJerseyNumbers": "(4:26) (Shotgun) 8-K.Cousins pass incomplete deep middle to 1-T.Tucker (29-J.Kilgore).",
         "playEndTime": "2026-10-18T23:13:05.210Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -12447,12 +12457,12 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2683-9760-1100-0045ceb02f81",
+            "playStatId": "10330060-2683-9760-0850-0041be1a35a1",
             "gsisPlayerId": "00-0041086",
             "gsisPlayerName": "J.Kilgore",
             "gsisPlayerJerseyNumber": "29",
             "personId": "32004b49-4c25-0314-5807-de923d18dd85",
-            "statType": 110,
+            "statType": 85,
             "teamId": "10400610-c40e-a673-1743-2ce2a5d5d731",
             "yards": null
           },

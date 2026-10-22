@@ -93,7 +93,7 @@
   "version": 7,
   "summary": {
     "gameId": "aab57f15-4feb-11f1-abca-2c54536568a9",
-    "offset": 485,
+    "offset": 487,
     "attendance": 64273,
     "clock": "00:00",
     "distance": 10,
@@ -141,7 +141,7 @@
   },
   "driveChart": {
     "gameId": "aab57f15-4feb-11f1-abca-2c54536568a9",
-    "offset": 485,
+    "offset": 487,
     "drives": [
       {
         "sequence": 1,
@@ -1911,15 +1911,15 @@
         "clockTime": "08:17",
         "down": 3,
         "driveNetYards": 72,
-        "drivePlayCount": 12,
+        "drivePlayCount": 13,
         "driveSequence": 2,
-        "driveTimeOfPossession": "6:40",
+        "driveTimeOfPossession": "7:01",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "IND  3-3  IND 16",
         "playDeleted": false,
-        "playDescription": "(8:17) (Shotgun) D.Jones pass short right to D.Burks to IND 21 for 5 yards (Jo.Williams) [J.Franklin-Myers].",
-        "playDescriptionWithJerseyNumbers": "(8:17) (Shotgun) 17-D.Jones pass short right to 80-D.Burks to IND 21 for 5 yards (25-Jo.Williams) [91-J.Franklin-Myers].",
+        "playDescription": "(8:17) (Shotgun) D.Jones pass short right to D.Burks to IND 21 for 5 yards (Jo.Williams).",
+        "playDescriptionWithJerseyNumbers": "(8:17) (Shotgun) 17-D.Jones pass short right to 80-D.Burks to IND 21 for 5 yards (25-Jo.Williams).",
         "playEndTime": "2026-10-18T17:16:16.447Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -2006,17 +2006,7 @@
             "yards": 3
           },
           {
-            "playStatId": "10330060-2610-4100-1100-008dae483941",
-            "gsisPlayerId": "00-0034805",
-            "gsisPlayerName": "J.Franklin-Myers",
-            "gsisPlayerJerseyNumber": "91",
-            "personId": "32004652-4156-3573-c3f8-5ae812cf2f86",
-            "statType": 110,
-            "teamId": "10402100-447f-396e-8149-0a434ffb2f23",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-2610-4100-0790-00982735fb37",
+            "playStatId": "10330060-2610-4100-0790-0082c898161e",
             "gsisPlayerId": "00-0038043",
             "gsisPlayerName": "Jo.Williams",
             "gsisPlayerJerseyNumber": "25",

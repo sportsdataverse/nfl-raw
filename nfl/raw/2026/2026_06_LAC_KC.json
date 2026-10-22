@@ -99,7 +99,7 @@
   "version": 7,
   "summary": {
     "gameId": "aab59281-4feb-11f1-abca-2c54536568a9",
-    "offset": 608,
+    "offset": 613,
     "attendance": 73640,
     "clock": "00:24",
     "distance": 13,
@@ -147,7 +147,7 @@
   },
   "driveChart": {
     "gameId": "aab59281-4feb-11f1-abca-2c54536568a9",
-    "offset": 608,
+    "offset": 613,
     "drives": [
       {
         "sequence": 1,
@@ -1038,16 +1038,16 @@
         "playId": 110,
         "clockTime": "14:19",
         "down": 1,
-        "driveNetYards": 33,
-        "drivePlayCount": 3,
+        "driveNetYards": 41,
+        "drivePlayCount": 7,
         "driveSequence": 1,
-        "driveTimeOfPossession": "1:15",
+        "driveTimeOfPossession": "3:40",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  1-5  KC 38",
         "playDeleted": false,
-        "playDescription": "(14:19) P.Mahomes pass short left to X.Worthy to LAC 47 for 15 yards (C.Hart).",
-        "playDescriptionWithJerseyNumbers": "(14:19) 15-P.Mahomes pass short left to 1-X.Worthy to LAC 47 for 15 yards (20-C.Hart).",
+        "playDescription": "(14:19) P.Mahomes pass short left to X.Worthy to LAC 47 for 15 yards (C.Hart) [T.Tuipulotu].",
+        "playDescriptionWithJerseyNumbers": "(14:19) 15-P.Mahomes pass short left to 1-X.Worthy to LAC 47 for 15 yards (20-C.Hart) [45-T.Tuipulotu].",
         "playEndTime": "2026-10-18T20:27:22.753Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -1124,7 +1124,17 @@
             "yards": 1
           },
           {
-            "playStatId": "10330060-2670-1100-0790-0072af988cc2",
+            "playStatId": "10330060-2670-1100-1100-007d07e9b3a7",
+            "gsisPlayerId": "00-0039111",
+            "gsisPlayerName": "T.Tuipulotu",
+            "gsisPlayerJerseyNumber": "45",
+            "personId": "32005455-4972-0077-cdfc-f4d029d13b39",
+            "statType": 110,
+            "teamId": "10404400-3b35-073f-197e-194bb8240723",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2670-1100-0790-00822280ad9b",
             "gsisPlayerId": "00-0039369",
             "gsisPlayerName": "C.Hart",
             "gsisPlayerJerseyNumber": "20",
@@ -4120,7 +4130,7 @@
       },
       {
         "playId": 1310,
-        "clockTime": "12:45",
+        "clockTime": "12:39",
         "down": 3,
         "driveNetYards": 38,
         "drivePlayCount": 6,
@@ -4130,8 +4140,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  3-7  LAC 42",
         "playDeleted": false,
-        "playDescription": "(12:45) (Shotgun) PENALTY on LAC-J.Slaughter, False Start, 4 yards, enforced at LAC 42 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(12:45) (Shotgun) PENALTY on LAC-66-J.Slaughter, False Start, 4 yards, enforced at LAC 42 - No Play.",
+        "playDescription": "(12:39) (Shotgun) PENALTY on LAC-J.Slaughter, False Start, 4 yards, enforced at LAC 42 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(12:39) (Shotgun) PENALTY on LAC-66-J.Slaughter, False Start, 4 yards, enforced at LAC 42 - No Play.",
         "playEndTime": "2026-10-18T21:07:39.500Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
