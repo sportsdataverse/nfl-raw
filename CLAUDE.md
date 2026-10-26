@@ -27,7 +27,7 @@ uv run pytest                              # tests/test_fetcher.py (monkeypatche
 ```
 
 There is **no `[project.scripts]` console entry**, no Makefile, and **no
-`.github/` workflows** — run the scripts by path. `requires-python >=3.9`.
+`.github/` workflows** — run the scripts by path. `requires-python >=3.10` (sdv-py's floor).
 
 ## Conventions
 
