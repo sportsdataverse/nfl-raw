@@ -130,3 +130,9 @@ bash scripts/espn_nfl_backfill.sh -s 2002            # tail -f logs/espn_nfl_bac
   below (ESPN 403s aggressive rates).
 - Season floor 2002 (`ESPN_NFL_DETAIL_START`): ESPN NFL play-by-play is
   reliable from the realignment on.
+
+## Alt-source crosswalk fill (droplet cron)
+
+`bash scripts/cron_alt_fill.sh -s YYYY [-e YYYY] [-n]` runs on the droplet, not in a workflow:
+`/mnt/sdv_repos/bin/alt_daily.sh` (12:45 ET) calls it after parsing the season's CBS / Fox / Yahoo
+box scores into `nfl-alt-data`. It rebuilds `nfl/espn/crosswalk/players_{cbs,fox,yahoo}.json` for the seasons given (`python/nfl_espn_03_alt_players.py`, offline; it refuses to shrink a season), then commits + pushes only what changed. `-n` builds, compares and restores the files; no lock, no commit.
