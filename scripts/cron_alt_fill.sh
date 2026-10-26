@@ -23,6 +23,8 @@ fail() { echo "::error ::$*"; echo "EXIT=1"; exit 1; }
 XW=nfl/espn/crosswalk
 if [ "$DRY" = 1 ]; then   # keep the current files aside and put them back after the build
   keep=$(mktemp -d); cp -p "$XW"/players_*.json "$keep"/ 2>/dev/null
+  # On EVERY exit, a failed provider build included: fail() exits before the end of the script.
+  trap 'rm -f "$XW"/players_*.json; cp -p "$keep"/players_*.json "$XW"/ 2>/dev/null; rm -rf "$keep"' EXIT
 else
   # The git_pull sweep would autostash our outputs; 9>&- keeps git helpers off the lock.
   exec 9>/tmp/git_pull_sdv.lock
@@ -49,8 +51,7 @@ for provider in cbs fox yahoo; do
   { ! git diff --quiet -- "$f" || [ -z "$(git ls-files -- "$f")" ]; } && paths+=("$f")
 done
 if [ "$DRY" = 1 ]; then
-  rm -f "$XW"/players_*.json; cp -p "$keep"/players_*.json "$XW"/ 2>/dev/null; rm -rf "$keep"
-  echo "dry run: files restored, no commit"; echo "EXIT=0"; exit 0
+  echo "dry run: files restored (EXIT trap), no commit"; echo "EXIT=0"; exit 0
 fi
 [ ${#paths[@]} -gt 0 ] || { echo "players crosswalks unchanged"; echo "EXIT=0"; exit 0; }
 git diff --stat -- "${paths[@]}"
