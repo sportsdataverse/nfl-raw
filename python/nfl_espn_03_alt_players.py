@@ -33,7 +33,6 @@ import polars as pl
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from python.nfl_espn_scrape.espn_fetcher import read_json
 from sportsdataverse._common_crosswalk_basketball import to_eastern
 from sportsdataverse._common_espn_parsers import parse_summary_boxscore_player
 from sportsdataverse._crosswalk_alt import (
@@ -42,6 +41,8 @@ from sportsdataverse._crosswalk_alt import (
     match_season,
     read_season,
 )
+
+from python.nfl_espn_scrape.espn_fetcher import read_json
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "nfl" / "espn" / "crosswalk"
