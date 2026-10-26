@@ -140,7 +140,7 @@ if ! git diff --cached --quiet -- "$LOG"; then
     if git push -q origin main; then pushed=1; break; fi
     echo "log push rejected (attempt $attempt); syncing with origin"
     git fetch --quiet origin main || true
-    if ! git rebase --merge origin/main >/dev/null 2>&1; then
+    if ! git rebase --merge --autostash origin/main >/dev/null 2>&1; then  # cron appends to a tracked log all run
       git rebase --abort >/dev/null 2>&1 || true
       echo "ERROR: cannot rebase onto origin/main; log commit left local" >&2
       break
