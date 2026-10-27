@@ -193455,6 +193455,19 @@
 {
 "season": 2026,
 "espn_team_id": "1",
+"espn_athlete_id": "4360255",
+"espn_full_name": "Brian Asamoah II",
+"espn_jersey": "41",
+"fox_team_id": "25",
+"fox_player_id": "22832",
+"fox_player_name": "Brian Asamoah II",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "1",
 "espn_athlete_id": "4241474",
 "espn_full_name": "Brian Robinson Jr.",
 "espn_jersey": "15",
@@ -193487,6 +193500,19 @@
 "fox_team_id": "25",
 "fox_player_id": "22827",
 "fox_player_name": "Cameron Thomas",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "1",
+"espn_athlete_id": "4240849",
+"espn_full_name": "Charles Snowden",
+"espn_jersey": "47",
+"fox_team_id": "25",
+"fox_player_id": "22392",
+"fox_player_name": "Charles Snowden",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -193728,6 +193754,19 @@
 {
 "season": 2026,
 "espn_team_id": "1",
+"espn_athlete_id": "4035886",
+"espn_full_name": "Khalil Herbert",
+"espn_jersey": "25",
+"fox_team_id": "25",
+"fox_player_id": "22389",
+"fox_player_name": "Khalil Herbert",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "1",
 "espn_athlete_id": "4360248",
 "espn_full_name": "Kyle Pitts Sr.",
 "espn_jersey": "8",
@@ -193851,6 +193890,19 @@
 "fox_team_id": "25",
 "fox_player_id": "20906",
 "fox_player_name": "Olamide Zaccheaus",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "1",
+"espn_athlete_id": "4036444",
+"espn_full_name": "Ryan Neuzil",
+"espn_jersey": "64",
+"fox_team_id": "25",
+"fox_player_id": "22602",
+"fox_player_name": "Ryan Neuzil",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -195444,6 +195496,19 @@
 {
 "season": 2026,
 "espn_team_id": "4",
+"espn_athlete_id": "4427716",
+"espn_full_name": "Jack Kiser",
+"espn_jersey": "45",
+"fox_team_id": "6",
+"fox_player_id": "328691",
+"fox_player_name": "Jack Kiser",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "4",
 "espn_athlete_id": "3125356",
 "espn_full_name": "Jalen Davis",
 "espn_jersey": "35",
@@ -195502,6 +195567,19 @@
 "fox_team_id": "6",
 "fox_player_id": "326966",
 "fox_player_name": "Jordan Battle",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "4",
+"espn_athlete_id": "4365319",
+"espn_full_name": "Josh Newton",
+"espn_jersey": "28",
+"fox_team_id": "6",
+"fox_player_id": "327819",
+"fox_player_name": "Josh Newton",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -197628,6 +197706,19 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "4692025",
+"espn_full_name": "Brian Branch",
+"espn_jersey": "32",
+"fox_team_id": "21",
+"fox_player_id": "326952",
+"fox_player_name": "Brian Branch",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "4242392",
 "espn_full_name": "Brock Wright",
 "espn_jersey": "89",
@@ -197686,6 +197777,19 @@
 "fox_team_id": "21",
 "fox_player_id": "21609",
 "fox_player_name": "DJ Wonnum",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
+"espn_athlete_id": "2580216",
+"espn_full_name": "DeAndre Carter",
+"espn_jersey": "86",
+"fox_team_id": "21",
+"fox_player_id": "11925",
+"fox_player_name": "DeAndre Carter",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -198070,6 +198174,19 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "3915486",
+"espn_full_name": "Tyler Conklin",
+"espn_jersey": "83",
+"fox_team_id": "21",
+"fox_player_id": "14109",
+"fox_player_name": "Tyler Conklin",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "4361861",
 "espn_full_name": "Tyler Lacy",
 "espn_jersey": "93",
@@ -198401,6 +198518,32 @@
 "fox_team_id": "22",
 "fox_player_id": "21466",
 "fox_player_name": "Jordan Love",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "9",
+"espn_athlete_id": "4240677",
+"espn_full_name": "Jordon Riley",
+"espn_jersey": "97",
+"fox_team_id": "22",
+"fox_player_id": "327132",
+"fox_player_name": "Jordon Riley",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "9",
+"espn_athlete_id": "4047365",
+"espn_full_name": "Josh Jacobs",
+"espn_jersey": "8",
+"fox_team_id": "22",
+"fox_player_id": "14846",
+"fox_player_name": "Josh Jacobs",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -199084,6 +199227,19 @@
 {
 "season": 2026,
 "espn_team_id": "10",
+"espn_athlete_id": "4240657",
+"espn_full_name": "Michael Carter",
+"espn_jersey": "35O",
+"fox_team_id": "8",
+"fox_player_id": "22276",
+"fox_player_name": "Michael Carter",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "10",
 "espn_athlete_id": "4429142",
 "espn_full_name": "Nazir Stackhouse",
 "espn_jersey": "93",
@@ -199480,6 +199636,19 @@
 "fox_team_id": "2",
 "fox_player_id": "329500",
 "fox_player_name": "George Gumbs Jr.",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "11",
+"espn_athlete_id": "3116724",
+"espn_full_name": "Germaine Pratt",
+"espn_jersey": "59",
+"fox_team_id": "2",
+"fox_player_id": "14918",
+"fox_player_name": "Germaine Pratt",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -200156,6 +200325,19 @@
 "fox_team_id": "11",
 "fox_player_id": "328709",
 "fox_player_name": "Jeffrey Bassa",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "12",
+"espn_athlete_id": "3118892",
+"espn_full_name": "Justin Watson",
+"espn_jersey": "84",
+"fox_team_id": "11",
+"fox_player_id": "14099",
+"fox_player_name": "Justin Watson",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -200930,6 +201112,19 @@
 {
 "season": 2026,
 "espn_team_id": "13",
+"espn_athlete_id": "4431414",
+"espn_full_name": "Tim Keenan III",
+"espn_jersey": "91",
+"fox_team_id": "12",
+"fox_player_id": "329607",
+"fox_player_name": "Tim Keenan Iii",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "13",
 "espn_athlete_id": "4429560",
 "espn_full_name": "Tommy Eichenberg",
 "espn_jersey": "44",
@@ -201040,6 +201235,19 @@
 "fox_team_id": "26",
 "fox_player_id": "327731",
 "fox_player_name": "Braden Fiske",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "14",
+"espn_athlete_id": "16339",
+"espn_full_name": "Brandon McManus",
+"espn_jersey": "19",
+"fox_team_id": "26",
+"fox_player_id": "9258",
+"fox_player_name": "Brandon McManus",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -201456,6 +201664,19 @@
 "fox_team_id": "26",
 "fox_player_id": "327026",
 "fox_player_name": "Stetson Bennett IV",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "14",
+"espn_athlete_id": "4362474",
+"espn_full_name": "Steve Avila",
+"espn_jersey": "73",
+"fox_team_id": "26",
+"fox_player_id": "326957",
+"fox_player_name": "Steve Avila",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -204557,6 +204778,19 @@
 {
 "season": 2026,
 "espn_team_id": "19",
+"espn_athlete_id": "4258237",
+"espn_full_name": "Raheem Layne",
+"espn_jersey": "43",
+"fox_team_id": "16",
+"fox_player_id": "326181",
+"fox_player_name": "Raheem Layne",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "19",
 "espn_athlete_id": "16837",
 "espn_full_name": "Shelby Harris",
 "espn_jersey": "93",
@@ -204576,6 +204810,19 @@
 "fox_team_id": "16",
 "fox_player_id": "327790",
 "fox_player_name": "Theo Johnson",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "19",
+"espn_athlete_id": "4590292",
+"espn_full_name": "Thomas Fidone II",
+"espn_jersey": "86",
+"fox_team_id": "16",
+"fox_player_id": "328793",
+"fox_player_name": "Thomas Fidone II",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -205460,6 +205707,19 @@
 "fox_team_id": "9",
 "fox_player_id": "329430",
 "fox_player_name": "Daylen Everette",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "23",
+"espn_athlete_id": "3929846",
+"espn_full_name": "DeShon Elliott",
+"espn_jersey": "25",
+"fox_team_id": "9",
+"fox_player_id": "14152",
+"fox_player_name": "DeShon Elliott",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -207085,6 +207345,19 @@
 "fox_team_id": "28",
 "fox_player_id": "14101",
 "fox_player_name": "Siran Neal",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "25",
+"espn_athlete_id": "13241",
+"espn_full_name": "Trent Williams",
+"espn_jersey": "71",
+"fox_team_id": "28",
+"fox_player_id": "7864",
+"fox_player_name": "Trent Williams",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -209393,6 +209666,19 @@
 {
 "season": 2026,
 "espn_team_id": "29",
+"espn_athlete_id": "4360773",
+"espn_full_name": "Nick Hampton",
+"espn_jersey": "39D",
+"fox_team_id": "32",
+"fox_player_id": "327066",
+"fox_player_name": "Nick Hampton",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "29",
 "espn_athlete_id": "3116179",
 "espn_full_name": "Nick Scott",
 "espn_jersey": "21",
@@ -210199,6 +210485,19 @@
 {
 "season": 2026,
 "espn_team_id": "33",
+"espn_athlete_id": "4361178",
+"espn_full_name": "Cam Jurgens",
+"espn_jersey": "64",
+"fox_team_id": "33",
+"fox_player_id": "22785",
+"fox_player_name": "Cam Jurgens",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
 "espn_athlete_id": "4569428",
 "espn_full_name": "Carl Jones",
 "espn_jersey": "48",
@@ -210387,6 +210686,19 @@
 "fox_team_id": "33",
 "fox_player_id": "14980",
 "fox_player_name": "Justice Hill",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
+"espn_athlete_id": "4035463",
+"espn_full_name": "K'Von Wallace",
+"espn_jersey": "26D",
+"fox_team_id": "33",
+"fox_player_id": "21595",
+"fox_player_name": "K'Von Wallace",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -211310,6 +211622,19 @@
 "fox_team_id": "34",
 "fox_player_id": "12228",
 "fox_player_name": "Sheldon Rankins",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "34",
+"espn_athlete_id": "4366031",
+"espn_full_name": "Tank Dell",
+"espn_jersey": "1",
+"fox_team_id": "34",
+"fox_player_id": "327000",
+"fox_player_name": "Tank Dell",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
