@@ -30,14 +30,13 @@ from __future__ import annotations
 import json
 import time
 from pathlib import Path
-from typing import Optional, Union
 
 # ---------------------------------------------------------------------------
 # Thin network wrappers — monkeypatched in tests
 # ---------------------------------------------------------------------------
 
 
-def _list_weeks(season: int, season_type: str, headers: Optional[dict] = None) -> dict:
+def _list_weeks(season: int, season_type: str, headers: dict | None = None) -> dict:
     """Return raw JSON from ``nfl_weeks`` (the NFL Shield week calendar)."""
     from sportsdataverse.nfl.nfl_api import nfl_weeks
 
@@ -50,8 +49,8 @@ def _fetch_weekly_details(
     season: int,
     season_type: str,
     week: int,
-    headers: Optional[dict] = None,
-) -> Union[list, dict]:
+    headers: dict | None = None,
+) -> list | dict:
     """Return raw JSON from ``nfl_weekly_game_details`` (bare list or dict)."""
     from sportsdataverse.nfl.nfl_api import nfl_weekly_game_details
 
@@ -73,7 +72,7 @@ def _fetch_weekly_details(
 def list_season_weeks(
     season: int,
     season_type: str = "REG",
-    headers: Optional[dict] = None,
+    headers: dict | None = None,
 ) -> list[int]:
     """Return sorted week numbers for a season / type via the NFL API.
 
@@ -99,7 +98,7 @@ def list_season_weeks(
     return sorted(week_nums)
 
 
-def extract_game_ids_from_weekly(payload: Union[list, dict]) -> list[str]:
+def extract_game_ids_from_weekly(payload: list | dict) -> list[str]:
     """Extract game ID strings from a ``nfl_weekly_game_details`` raw payload.
 
     The endpoint returns either a bare ``list`` of game objects or a dict with a
@@ -133,7 +132,7 @@ def build_raw_library(
     *,
     season_types: list[str] = ("REG", "POST"),
     resume: bool = True,
-    headers: Optional[dict] = None,
+    headers: dict | None = None,
     delay_s: float = 0.0,
 ) -> list[Path]:
     """Download and store weekly NFL game details JSON for the given seasons.
@@ -215,7 +214,7 @@ def build_raw_library(
 # ---------------------------------------------------------------------------
 
 
-def load_weekly_raw(path: Path) -> Union[list, dict]:
+def load_weekly_raw(path: Path) -> list | dict:
     """Load a stored weekly JSON file from disk.
 
     Args:

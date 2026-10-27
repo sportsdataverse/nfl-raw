@@ -31,18 +31,18 @@ import json
 import os
 import tempfile
 import time
+from collections.abc import Callable
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Callable, Optional
 
 FINAL_PHASES = {"FINAL", "FINAL_OVERTIME", "FINAL OVERTIME"}
 API = "https://api.nfl.com/football/v2/stats/live"
 TOKEN_REFRESH_S = 15 * 60  # anonymous tokens live ~1h; re-mint well inside that
 
-Fetch = Callable[[str, Optional[dict]], dict]
+Fetch = Callable[[str, dict | None], dict]
 
 
-def _default_fetch(url: str, headers: Optional[dict]) -> dict:
+def _default_fetch(url: str, headers: dict | None) -> dict:
     from sportsdataverse.nfl.nfl_api_runtime import _get
 
     return _get(url, headers=headers)
@@ -105,8 +105,8 @@ def scrape_season(
     delay: float = 0.5,
     rescrape: bool = False,
     limit: int = 0,
-    fetch: Optional[Fetch] = None,
-    mint: Optional[Callable[[], dict]] = None,
+    fetch: Fetch | None = None,
+    mint: Callable[[], dict] | None = None,
 ) -> dict:
     """Bank box scores for every FINAL game of a season. Returns counters."""
     fetch = fetch or _default_fetch
