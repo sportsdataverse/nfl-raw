@@ -25,16 +25,8 @@ dev = [
 
 # requires-python is >=3.10 (sdv-py's own floor), and this repo is never tested below
 # the 3.12 CI pin, so the 3.10 promise has to be kept by rule rather than by exercise.
-#
-# keep-runtime-typing stops UP006/UP007 rewriting `Optional[X]` -> `X | None`.
-# That rewrite was unsafe on the old 3.9 floor (`typing.get_type_hints()` resolves
-# the string annotation, and `dict | None` raised TypeError there); on 3.10 it is
-# safe, and the setting now only avoids a repo-wide annotation rewrite.
 [tool.ruff]
 target-version = "py310"
-
-[tool.ruff.lint.pyupgrade]
-keep-runtime-typing = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

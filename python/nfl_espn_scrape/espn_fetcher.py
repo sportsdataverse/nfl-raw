@@ -40,7 +40,7 @@ import time
 from collections.abc import Iterable
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any
 
 from sportsdataverse.dl_utils import download
 
@@ -69,7 +69,7 @@ def _sleep() -> None:
 def _get_json(url: str, **kwargs: Any) -> dict:
     """GET ``url`` with sdv-py's retrying downloader plus a paced retry of our own."""
     retries = int(os.environ.get("ESPN_RATE_RETRIES", "3"))
-    last: Optional[Exception] = None
+    last: Exception | None = None
     for attempt in range(retries + 1):
         try:
             resp = download(url=url, **kwargs)
@@ -187,7 +187,7 @@ def is_final(summary: dict) -> bool:
         return False
 
 
-def has_kicked_off(summary: dict, now: Optional[float] = None) -> bool:
+def has_kicked_off(summary: dict, now: float | None = None) -> bool:
     """True when the competition date is in the past (or unreadable)."""
     try:
         raw = summary["header"]["competitions"][0]["date"]

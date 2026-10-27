@@ -259,11 +259,23 @@ def test_capture_event_refreshes_unfinished_games_only(tmp_path, monkeypatch):
             }
         ),
     )
-    assert ef.capture_event(tmp_path, 2025, 1) == {"summary": "exists", "plays": "exists"}
-    assert ef.capture_event(tmp_path, 2025, 3) == {"summary": "exists", "plays": "exists"}
-    assert ef.capture_event(tmp_path, 2025, 2) == {"summary": "written", "plays": "written"}
+    assert ef.capture_event(tmp_path, 2025, 1) == {
+        "summary": "exists",
+        "plays": "exists",
+    }
+    assert ef.capture_event(tmp_path, 2025, 3) == {
+        "summary": "exists",
+        "plays": "exists",
+    }
+    assert ef.capture_event(tmp_path, 2025, 2) == {
+        "summary": "written",
+        "plays": "written",
+    }
     assert ef.is_final(ef.read_json(ef.summary_path(tmp_path, 2025, 2)))
     assert ef.read_json(ef.plays_path(tmp_path, 2025, 2))["items"][0]["id"] == "9"
     # now final: a third pass touches nothing
     monkeypatch.setattr(ef, "download", _fake_download({}))
-    assert ef.capture_event(tmp_path, 2025, 2) == {"summary": "exists", "plays": "exists"}
+    assert ef.capture_event(tmp_path, 2025, 2) == {
+        "summary": "exists",
+        "plays": "exists",
+    }
