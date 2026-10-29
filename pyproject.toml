@@ -5,7 +5,7 @@ description = "Scrapes NFL Shield-API game JSON into a committed raw library (si
 requires-python = ">=3.10"
 dependencies = [
     # re-pinned with REPROCESS runs #1/#2 (sdv-py quality program, WB-nfl-2); the 2026-10-21 hold was 77ee6d51cb
-    "sportsdataverse @ git+https://github.com/sportsdataverse/sportsdataverse-py@702b2cca15eb69dab142440fbac4983960dc6d82",
+    "sportsdataverse @ git+https://github.com/sportsdataverse/sportsdataverse-py@af7f86732076061a5bece6674fcee582c38d52fd",
     "polars>=1.0",
 ]
 
