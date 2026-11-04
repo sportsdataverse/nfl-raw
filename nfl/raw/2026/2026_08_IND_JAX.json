@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab165e6a-4feb-11f1-abca-2c54536568a9",
-    "offset": 619,
+    "offset": 621,
     "attendance": 42008,
     "clock": "00:30",
     "distance": 11,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab165e6a-4feb-11f1-abca-2c54536568a9",
-    "offset": 619,
+    "offset": 621,
     "drives": [
       {
         "sequence": 1,
@@ -11415,8 +11415,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "IND  1-10  IND 15",
         "playDeleted": false,
-        "playDescription": "(6:45) D.Giddens up the middle to IND 16 for 1 yard (J.Tavai; R.Orhorhoro).",
-        "playDescriptionWithJerseyNumbers": "(6:45) 21-D.Giddens up the middle to IND 16 for 1 yard (31-J.Tavai; 99-R.Orhorhoro).",
+        "playDescription": "(6:45) D.Giddens up the middle to IND 16 for 1 yard (J.Tavai; M.Dickerson).",
+        "playDescriptionWithJerseyNumbers": "(6:45) 21-D.Giddens up the middle to IND 16 for 1 yard (31-J.Tavai; 93-M.Dickerson).",
         "playEndTime": "2026-11-01T20:53:54.683Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11454,10 +11454,10 @@
           },
           {
             "playStatId": "10330060-2903-7320-0820-0037d130b189",
-            "gsisPlayerId": "00-0039733",
-            "gsisPlayerName": "R.Orhorhoro",
-            "gsisPlayerJerseyNumber": "99",
-            "personId": "32004f52-4841-5291-3d07-20a45c6b3ad7",
+            "gsisPlayerId": "00-0034657",
+            "gsisPlayerName": "M.Dickerson",
+            "gsisPlayerJerseyNumber": "93",
+            "personId": "32004449-4328-1705-8a6d-d371a10fb6ee",
             "statType": 82,
             "teamId": "10402250-89fe-7b86-ef98-9062cd354256",
             "yards": null

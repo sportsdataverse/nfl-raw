@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab166ac0-4feb-11f1-abca-2c54536568a9",
-    "offset": 442,
+    "offset": 448,
     "attendance": 73621,
     "clock": "00:25",
     "distance": 10,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab166ac0-4feb-11f1-abca-2c54536568a9",
-    "offset": 442,
+    "offset": 448,
     "drives": [
       {
         "sequence": 1,
@@ -848,8 +848,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAR  KO  LAR 35",
         "playDeleted": false,
-        "playDescription": "J.Karty kicks 51 yards from LAR 35 to LARC 14. D.Davis to LARC 23 for 9 yards (D.Peterson).",
-        "playDescriptionWithJerseyNumbers": "16-J.Karty kicks 51 yards from LAR 35 to LARC 14. 12-D.Davis to LARC 23 for 9 yards (59-D.Peterson).",
+        "playDescription": "J.Karty kicks 56 yards from LAR 35 to LARC 9. D.Davis to LARC 23 for 14 yards (D.Peterson).",
+        "playDescriptionWithJerseyNumbers": "16-J.Karty kicks 56 yards from LAR 35 to LARC 9. 12-D.Davis to LARC 23 for 14 yards (59-D.Peterson).",
         "playEndTime": "2026-11-01T21:05:41.983Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -873,7 +873,7 @@
             "personId": "32004b41-5273-7693-d111-9d4c625e76c8",
             "statType": 41,
             "teamId": "10402510-8931-0d5f-9815-79bb79649a65",
-            "yards": 51
+            "yards": 56
           },
           {
             "playStatId": "10330060-2940-0400-0450-00259060a768",
@@ -883,7 +883,7 @@
             "personId": "32004441-5626-3132-bab0-4f5a3b5e1671",
             "statType": 45,
             "teamId": "10404400-3b35-073f-197e-194bb8240723",
-            "yards": 9
+            "yards": 14
           },
           {
             "playStatId": "10330060-2940-0400-0790-003d501214e4",
@@ -4730,8 +4730,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAR  2-8  LAR 30",
         "playDeleted": false,
-        "playDescription": "(9:20) (Shotgun) M.Stafford pass short right to P.Nacua to LAR 36 for 6 yards (D.Henley).",
-        "playDescriptionWithJerseyNumbers": "(9:20) (Shotgun) 9-M.Stafford pass short right to 12-P.Nacua to LAR 36 for 6 yards (0-D.Henley).",
+        "playDescription": "(9:20) (Shotgun) M.Stafford pass short right to P.Nacua to LAR 36 for 6 yards (D.Henley) [T.Tuipulotu].",
+        "playDescriptionWithJerseyNumbers": "(9:20) (Shotgun) 9-M.Stafford pass short right to 12-P.Nacua to LAR 36 for 6 yards (0-D.Henley) [45-T.Tuipulotu].",
         "playEndTime": "2026-11-01T21:58:23.827Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -4798,7 +4798,17 @@
             "yards": 4
           },
           {
-            "playStatId": "10330060-2941-3730-0790-006dd8c0878e",
+            "playStatId": "10330060-2941-3730-1100-006c9815b8af",
+            "gsisPlayerId": "00-0039111",
+            "gsisPlayerName": "T.Tuipulotu",
+            "gsisPlayerJerseyNumber": "45",
+            "personId": "32005455-4972-0077-cdfc-f4d029d13b39",
+            "statType": 110,
+            "teamId": "10404400-3b35-073f-197e-194bb8240723",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2941-3730-0790-007f721c20fb",
             "gsisPlayerId": "00-0038553",
             "gsisPlayerName": "D.Henley",
             "gsisPlayerJerseyNumber": "00",
@@ -5453,7 +5463,7 @@
             "personId": "32004845-5203-1169-a699-ce41d700202a",
             "statType": 111,
             "teamId": "10404400-3b35-073f-197e-194bb8240723",
-            "yards": 4
+            "yards": -5
           },
           {
             "playStatId": "10330060-2941-5620-0210-0038d8a196c0",
@@ -5483,7 +5493,7 @@
             "personId": "32004841-4d77-3946-bc04-1f7201601885",
             "statType": 113,
             "teamId": "10404400-3b35-073f-197e-194bb8240723",
-            "yards": 0
+            "yards": 9
           },
           {
             "playStatId": "10330060-2941-5620-1100-00679a9f5f27",
@@ -6284,7 +6294,7 @@
             "personId": "32005354-4113-4157-19b1-37e6835d09b9",
             "statType": 111,
             "teamId": "10402510-8931-0d5f-9815-79bb79649a65",
-            "yards": -1
+            "yards": -5
           },
           {
             "playStatId": "10330060-2941-8070-0210-0038e09b35fa",
@@ -6314,7 +6324,7 @@
             "personId": "32005749-4c41-5359-809b-caeaa1db84d0",
             "statType": 113,
             "teamId": "10402510-8931-0d5f-9815-79bb79649a65",
-            "yards": 4
+            "yards": 8
           },
           {
             "playStatId": "10330060-2941-8070-0790-0063af543d70",
@@ -9426,16 +9436,16 @@
         "playId": 2938,
         "clockTime": "03:36",
         "down": 1,
-        "driveNetYards": -2,
-        "drivePlayCount": 4,
+        "driveNetYards": 7,
+        "drivePlayCount": 5,
         "driveSequence": 19,
-        "driveTimeOfPossession": "1:49",
+        "driveTimeOfPossession": "3:24",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LARC  1-10  LARC 19",
         "playDeleted": false,
-        "playDescription": "(3:36) J.Herbert pass short right to K.Mitchell pushed ob at LARC 23 for 4 yards (J.Wallace).",
-        "playDescriptionWithJerseyNumbers": "(3:36) 10-J.Herbert pass short right to 34-K.Mitchell pushed ob at LARC 23 for 4 yards (30-J.Wallace).",
+        "playDescription": "(3:36) (Shotgun) J.Herbert pass short right to K.Mitchell pushed ob at LARC 23 for 4 yards (J.Wallace).",
+        "playDescriptionWithJerseyNumbers": "(3:36) (Shotgun) 10-J.Herbert pass short right to 34-K.Mitchell pushed ob at LARC 23 for 4 yards (30-J.Wallace).",
         "playEndTime": "2026-11-01T23:14:09.997Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

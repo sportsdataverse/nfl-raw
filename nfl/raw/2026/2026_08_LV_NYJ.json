@@ -106,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab1661ac-4feb-11f1-abca-2c54536568a9",
-    "offset": 458,
+    "offset": 462,
     "attendance": 70080,
     "clock": "00:07",
     "distance": 11,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab1661ac-4feb-11f1-abca-2c54536568a9",
-    "offset": 458,
+    "offset": 462,
     "drives": [
       {
         "sequence": 1,
@@ -12578,16 +12578,16 @@
         "playId": 4006,
         "clockTime": "02:38",
         "down": 1,
-        "driveNetYards": 28,
-        "drivePlayCount": 6,
+        "driveNetYards": 30,
+        "drivePlayCount": 9,
         "driveSequence": 19,
-        "driveTimeOfPossession": "2:31",
+        "driveTimeOfPossession": "4:04",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  1-10  NYJ 40",
         "playDeleted": false,
-        "playDescription": "(2:38) M.Washington right tackle to NYJ 37 for 3 yards (J.Briggs; K.Enagbare).",
-        "playDescriptionWithJerseyNumbers": "(2:38) 4-M.Washington right tackle to NYJ 37 for 3 yards (91-J.Briggs; 52-K.Enagbare).",
+        "playDescription": "(2:38) M.Washington right tackle to NYJ 37 for 3 yards (K.Enagbare).",
+        "playDescriptionWithJerseyNumbers": "(2:38) 4-M.Washington right tackle to NYJ 37 for 3 yards (52-K.Enagbare).",
         "playEndTime": "2026-11-01T20:51:05.397Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -12614,22 +12614,12 @@
             "yards": 3
           },
           {
-            "playStatId": "10330060-2914-0060-0820-0023bf8228b1",
-            "gsisPlayerId": "00-0039431",
-            "gsisPlayerName": "J.Briggs",
-            "gsisPlayerJerseyNumber": "91",
-            "personId": "32004252-4914-7008-f11f-43dbc9de9f1d",
-            "statType": 82,
-            "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-2914-0060-0820-003d7b260469",
+            "playStatId": "10330060-2914-0060-0790-002df2cd10a0",
             "gsisPlayerId": "00-0037083",
             "gsisPlayerName": "K.Enagbare",
             "gsisPlayerJerseyNumber": "52",
             "personId": "3200454e-4104-0912-811c-67db1204d680",
-            "statType": 82,
+            "statType": 79,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
             "yards": null
           }

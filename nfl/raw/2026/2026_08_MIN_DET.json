@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab165aa8-4feb-11f1-abca-2c54536568a9",
-    "offset": 467,
+    "offset": 470,
     "attendance": 64008,
     "clock": "00:33",
     "distance": 12,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab165aa8-4feb-11f1-abca-2c54536568a9",
-    "offset": 467,
+    "offset": 470,
     "drives": [
       {
         "sequence": 1,
@@ -4999,13 +4999,13 @@
         "driveNetYards": 18,
         "drivePlayCount": 6,
         "driveSequence": 8,
-        "driveTimeOfPossession": "3:55",
+        "driveTimeOfPossession": "4:47",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DET  1-10  DET 19",
         "playDeleted": false,
-        "playDescription": "(8:48) (No Huddle) S.Vaki left tackle to DET 22 for 3 yards (J.Metellus).",
-        "playDescriptionWithJerseyNumbers": "(8:48) (No Huddle) 33-S.Vaki left tackle to DET 22 for 3 yards (44-J.Metellus).",
+        "playDescription": "(8:48) (No Huddle) S.Vaki left tackle to DET 22 for 3 yards (J.Metellus; T.Ingram-Dawkins).",
+        "playDescriptionWithJerseyNumbers": "(8:48) (No Huddle) 33-S.Vaki left tackle to DET 22 for 3 yards (44-J.Metellus; 90-T.Ingram-Dawkins).",
         "playEndTime": "2026-11-01T19:04:58.540Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -5032,12 +5032,22 @@
             "yards": 3
           },
           {
-            "playStatId": "10330060-2891-5130-0790-002c9163cc33",
+            "playStatId": "10330060-2891-5130-0820-002a95507ccf",
             "gsisPlayerId": "00-0036348",
             "gsisPlayerName": "J.Metellus",
             "gsisPlayerJerseyNumber": "44",
             "personId": "32004d45-5438-3442-2fcb-95bf95b52581",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10403000-5851-f9d5-da45-78365a05b6b0",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2891-5130-0820-00339de977b4",
+            "gsisPlayerId": "00-0040173",
+            "gsisPlayerName": "T.Ingram-Dawkins",
+            "gsisPlayerJerseyNumber": "90",
+            "personId": "3200494e-4768-2089-a65d-5f51e00746c2",
+            "statType": 82,
             "teamId": "10403000-5851-f9d5-da45-78365a05b6b0",
             "yards": null
           }

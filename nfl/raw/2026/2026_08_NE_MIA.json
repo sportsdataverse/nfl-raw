@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab1670ad-4feb-11f1-abca-2c54536568a9",
-    "offset": 504,
+    "offset": 506,
     "attendance": 59023,
     "clock": "00:34",
     "distance": 13,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab1670ad-4feb-11f1-abca-2c54536568a9",
-    "offset": 504,
+    "offset": 506,
     "drives": [
       {
         "sequence": 1,
@@ -6343,8 +6343,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "MIA  2-Goal  NE 1",
         "playDeleted": false,
-        "playDescription": "(:17) M.Willis pass incomplete short left.",
-        "playDescriptionWithJerseyNumbers": "(:17) 2-M.Willis pass incomplete short left.",
+        "playDescription": "(:17) M.Willis pass incomplete short left to C.Bell.",
+        "playDescriptionWithJerseyNumbers": "(:17) 2-M.Willis pass incomplete short left to 18-C.Bell.",
         "playEndTime": "2026-11-01T22:41:40.787Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
@@ -6371,7 +6371,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2961-9230-1120-002c2cf45521",
+            "playStatId": "10330060-2961-9230-1150-0026d3ecfdd5",
+            "gsisPlayerId": "00-0041525",
+            "gsisPlayerName": "C.Bell",
+            "gsisPlayerJerseyNumber": "18",
+            "personId": "32004245-4c26-7684-b83a-5696fe6b8079",
+            "statType": 115,
+            "teamId": "10402700-1662-d8ad-f45c-0b0ea460d045",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2961-9230-1120-00365b92c9e4",
             "gsisPlayerId": "00-0038128",
             "gsisPlayerName": "M.Willis",
             "gsisPlayerJerseyNumber": "02",

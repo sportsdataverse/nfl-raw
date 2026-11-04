@@ -106,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab16512c-4feb-11f1-abca-2c54536568a9",
-    "offset": 551,
+    "offset": 555,
     "attendance": 90763,
     "clock": "02:53",
     "distance": 10,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab16512c-4feb-11f1-abca-2c54536568a9",
-    "offset": 551,
+    "offset": 555,
     "drives": [
       {
         "sequence": 1,
@@ -4441,10 +4441,10 @@
         "playId": 1302,
         "clockTime": "10:37",
         "down": 1,
-        "driveNetYards": 73,
-        "drivePlayCount": 10,
+        "driveNetYards": 85,
+        "drivePlayCount": 12,
         "driveSequence": 8,
-        "driveTimeOfPossession": "5:42",
+        "driveTimeOfPossession": "7:05",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DAL  1-10  DAL 26",
@@ -4484,7 +4484,7 @@
             "personId": "32005052-4528-5723-d1b2-96e92ebc1241",
             "statType": 111,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
-            "yards": 1
+            "yards": -5
           },
           {
             "playStatId": "10330060-2881-3020-0210-00343bc46382",
@@ -4514,7 +4514,7 @@
             "personId": "3200474f-4f58-6750-ad87-11b65bf232e0",
             "statType": 113,
             "teamId": "10401200-a308-98ca-ad5f-95df2fefea68",
-            "yards": 7
+            "yards": 13
           },
           {
             "playStatId": "10330060-2881-3020-0790-0061473840b2",
@@ -7998,16 +7998,16 @@
         "playId": 2473,
         "clockTime": "10:41",
         "down": 3,
-        "driveNetYards": 65,
-        "drivePlayCount": 11,
+        "driveNetYards": 70,
+        "drivePlayCount": 15,
         "driveSequence": 13,
-        "driveTimeOfPossession": "6:38",
+        "driveTimeOfPossession": "8:23",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DAL  3-1  50",
         "playDeleted": false,
-        "playDescription": "(10:41) (Shotgun) B.Jones reported in as eligible.  J.Williams right guard to 50 for no gain (J.Harrison-Hunte).",
-        "playDescriptionWithJerseyNumbers": "(10:41) (Shotgun) 77-B.Jones reported in as eligible.  33-J.Williams right guard to 50 for no gain (98-J.Harrison-Hunte).",
+        "playDescription": "(10:41) (Shotgun) B.Jones reported in as eligible.  J.Williams right guard to 50 for no gain (J.Harrison-Hunte; Ma.Wilson).",
+        "playDescriptionWithJerseyNumbers": "(10:41) (Shotgun) 77-B.Jones reported in as eligible.  33-J.Williams right guard to 50 for no gain (98-J.Harrison-Hunte; 1-Ma.Wilson).",
         "playEndTime": "2026-11-01T19:51:02.373Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8044,12 +8044,22 @@
             "yards": 0
           },
           {
-            "playStatId": "10330060-2882-4730-0790-003d7afc8f8a",
+            "playStatId": "10330060-2882-4730-0820-00327b208ba2",
             "gsisPlayerId": "00-0040283",
             "gsisPlayerName": "J.Harrison-Hunte",
             "gsisPlayerJerseyNumber": "98",
             "personId": "32004841-5264-8678-bb7e-eb68a5c4f282",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10403800-517c-7b8c-65a3-c61b95d86123",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2882-4730-0820-004d039d29b0",
+            "gsisPlayerId": "00-0035144",
+            "gsisPlayerName": "Ma.Wilson",
+            "gsisPlayerJerseyNumber": "01",
+            "personId": "32005749-4c74-7169-f251-e69c40d45765",
+            "statType": 82,
             "teamId": "10403800-517c-7b8c-65a3-c61b95d86123",
             "yards": null
           }
@@ -14201,8 +14211,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  1-10  DAL 45",
         "playDeleted": false,
-        "playDescription": "(:37) G.Minshew spiked the ball to stop the clock.",
-        "playDescriptionWithJerseyNumbers": "(:37) 15-G.Minshew spiked the ball to stop the clock.",
+        "playDescription": "(:37) (No Huddle) G.Minshew spiked the ball to stop the clock.",
+        "playDescriptionWithJerseyNumbers": "(:37) (No Huddle) 15-G.Minshew spiked the ball to stop the clock.",
         "playEndTime": "2026-11-01T21:15:20.947Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

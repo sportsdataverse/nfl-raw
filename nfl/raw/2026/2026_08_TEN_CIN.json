@@ -94,7 +94,7 @@
   "version": 7,
   "summary": {
     "gameId": "aaf71176-4feb-11f1-abca-2c54536568a9",
-    "offset": 636,
+    "offset": 638,
     "attendance": 66209,
     "clock": "05:37",
     "distance": 10,
@@ -142,7 +142,7 @@
   },
   "driveChart": {
     "gameId": "aaf71176-4feb-11f1-abca-2c54536568a9",
-    "offset": 636,
+    "offset": 638,
     "drives": [
       {
         "sequence": 1,
@@ -7680,7 +7680,7 @@
       },
       {
         "playId": 2203,
-        "clockTime": "00:23",
+        "clockTime": "00:24",
         "down": 1,
         "driveNetYards": 67,
         "drivePlayCount": 9,
@@ -7690,8 +7690,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CIN  1-Goal  TEN 1",
         "playDeleted": false,
-        "playDescription": "(:23) J.Burrow pass short left to J.Endries for 1 yard, TOUCHDOWN.",
-        "playDescriptionWithJerseyNumbers": "(:23) 9-J.Burrow pass short left to 84-J.Endries for 1 yard, TOUCHDOWN.",
+        "playDescription": "(:24) J.Burrow pass short left to J.Endries for 1 yard, TOUCHDOWN.",
+        "playDescriptionWithJerseyNumbers": "(:24) 9-J.Burrow pass short left to 84-J.Endries for 1 yard, TOUCHDOWN.",
         "playEndTime": "2026-11-01T19:30:10.520Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
