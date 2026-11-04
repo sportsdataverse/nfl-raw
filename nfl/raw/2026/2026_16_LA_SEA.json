@@ -11,6 +11,7 @@
     "fullName": "Los Angeles Rams"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-12-26",
   "time": "2026-12-26T01:15:00Z",
   "broadcastInfo": {

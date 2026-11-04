@@ -11,6 +11,7 @@
     "fullName": "Philadelphia Eagles"
   },
   "category": "SNF",
+  "hideCategory": false,
   "date": "2027-01-04",
   "time": "2027-01-04T01:20:00Z",
   "broadcastInfo": {

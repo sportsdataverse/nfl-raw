@@ -11,6 +11,7 @@
     "fullName": "Arizona Cardinals"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-09-27",
   "time": "2026-09-27T20:05:00Z",
   "broadcastInfo": {

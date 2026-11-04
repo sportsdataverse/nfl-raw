@@ -11,6 +11,7 @@
     "fullName": "New York Jets"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-11-22",
   "time": "2026-11-22T21:05:00Z",
   "broadcastInfo": {

@@ -11,6 +11,7 @@
     "fullName": "Pittsburgh Steelers"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-25",
   "time": "2026-10-25T13:30:00Z",
   "broadcastInfo": {
@@ -104,7 +105,7 @@
   "version": 6,
   "summary": {
     "gameId": "aad58d7d-4feb-11f1-abca-2c54536568a9",
-    "offset": 440,
+    "offset": 443,
     "attendance": 78488,
     "clock": "00:34",
     "distance": 12,
@@ -152,7 +153,7 @@
   },
   "driveChart": {
     "gameId": "aad58d7d-4feb-11f1-abca-2c54536568a9",
-    "offset": 440,
+    "offset": 443,
     "drives": [
       {
         "sequence": 1,
@@ -1624,24 +1625,24 @@
       },
       {
         "playId": 412,
-        "clockTime": "08:14",
+        "clockTime": "08:17",
         "down": 1,
-        "driveNetYards": 29,
-        "drivePlayCount": 6,
+        "driveNetYards": 37,
+        "drivePlayCount": 11,
         "driveSequence": 2,
-        "driveTimeOfPossession": "2:37",
+        "driveTimeOfPossession": "5:30",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NO  1-10  NO 39",
         "playDeleted": false,
-        "playDescription": "(8:14) (No Huddle, Shotgun) T.Shough pass short left to C.Olave to NO 44 for 5 yards (J.Dean).",
-        "playDescriptionWithJerseyNumbers": "(8:14) (No Huddle, Shotgun) 6-T.Shough pass short left to 12-C.Olave to NO 44 for 5 yards (35-J.Dean).",
-        "playEndTime": null,
+        "playDescription": "(8:17) (No Huddle, Shotgun) T.Shough pass short left to C.Olave to NO 44 for 5 yards (J.Dean).",
+        "playDescriptionWithJerseyNumbers": "(8:17) (No Huddle, Shotgun) 6-T.Shough pass short left to 12-C.Olave to NO 44 for 5 yards (35-J.Dean).",
+        "playEndTime": "2026-10-25T13:46:09.133Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": false,
         "playSequenceNumber": 412.0,
-        "playStartTime": "2026-10-25T13:46:08Z",
+        "playStartTime": "2026-10-25T13:46:06.003Z",
         "playType": "PASS",
         "quarter": 1,
         "scoringPlayType": "UNSPECIFIED",

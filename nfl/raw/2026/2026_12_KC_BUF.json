@@ -11,6 +11,7 @@
     "fullName": "Kansas City Chiefs"
   },
   "category": "SNF",
+  "hideCategory": false,
   "date": "2026-11-27",
   "time": "2026-11-27T01:20:00Z",
   "broadcastInfo": {

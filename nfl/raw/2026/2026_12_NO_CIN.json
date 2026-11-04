@@ -11,6 +11,7 @@
     "fullName": "New Orleans Saints"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-11-29",
   "time": "2026-11-29T18:00:00Z",
   "broadcastInfo": {

@@ -11,6 +11,7 @@
     "fullName": "New York Giants"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-08-22",
   "time": "2026-08-22T20:00:00Z",
   "broadcastInfo": {

@@ -11,6 +11,7 @@
     "fullName": "Los Angeles Rams"
   },
   "category": "SNF",
+  "hideCategory": false,
   "date": "2026-09-28",
   "time": "2026-09-28T00:20:00Z",
   "broadcastInfo": {

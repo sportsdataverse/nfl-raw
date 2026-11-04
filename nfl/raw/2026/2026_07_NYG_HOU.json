@@ -11,6 +11,7 @@
     "fullName": "New York Giants"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-25",
   "time": "2026-10-25T17:00:00Z",
   "broadcastInfo": {
@@ -105,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "aad59e95-4feb-11f1-abca-2c54536568a9",
-    "offset": 556,
+    "offset": 559,
     "attendance": 71052,
     "clock": "07:25",
     "distance": 10,
@@ -153,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "aad59e95-4feb-11f1-abca-2c54536568a9",
-    "offset": 556,
+    "offset": 559,
     "drives": [
       {
         "sequence": 1,
@@ -2944,8 +2945,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYG  2-13  HOU 40",
         "playDeleted": false,
-        "playDescription": "(2:35) J.McCarthy pass short right to C.Skattebo to HOU 43 for -3 yards (S.Rankins).",
-        "playDescriptionWithJerseyNumbers": "(2:35) 18-J.McCarthy pass short right to 44-C.Skattebo to HOU 43 for -3 yards (98-S.Rankins).",
+        "playDescription": "(2:35) (Shotgun) J.McCarthy pass short right to C.Skattebo to HOU 43 for -3 yards (S.Rankins).",
+        "playDescriptionWithJerseyNumbers": "(2:35) (Shotgun) 18-J.McCarthy pass short right to 44-C.Skattebo to HOU 43 for -3 yards (98-S.Rankins).",
         "playEndTime": "2026-10-25T17:35:01.570Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6728,8 +6729,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYG  2-10  HOU 30",
         "playDeleted": false,
-        "playDescription": "(:19) (Shotgun) C.Skattebo up the middle to HOU 26 for 4 yards (L.Hall; K.Lassiter).",
-        "playDescriptionWithJerseyNumbers": "(:19) (Shotgun) 44-C.Skattebo up the middle to HOU 26 for 4 yards (96-L.Hall; 3-K.Lassiter).",
+        "playDescription": "(:19) (Shotgun) C.Skattebo up the middle to HOU 26 for 4 yards (W.Anderson; K.Lassiter).",
+        "playDescriptionWithJerseyNumbers": "(:19) (Shotgun) 44-C.Skattebo up the middle to HOU 26 for 4 yards (51-W.Anderson; 3-K.Lassiter).",
         "playEndTime": "2026-10-25T18:34:57.793Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6757,10 +6758,10 @@
           },
           {
             "playStatId": "10330060-2762-2020-0820-0023a8dcff4d",
-            "gsisPlayerId": "00-0038127",
-            "gsisPlayerName": "L.Hall",
-            "gsisPlayerJerseyNumber": "96",
-            "personId": "32004841-4c43-7521-4ad9-174728809134",
+            "gsisPlayerId": "00-0039108",
+            "gsisPlayerName": "W.Anderson",
+            "gsisPlayerJerseyNumber": "51",
+            "personId": "3200414e-4462-7364-511f-d68d330a6780",
             "statType": 82,
             "teamId": "10402120-b0bc-693d-098a-803014096eb0",
             "yards": null

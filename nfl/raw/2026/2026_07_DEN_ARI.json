@@ -11,6 +11,7 @@
     "fullName": "Denver Broncos"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-25",
   "time": "2026-10-25T20:05:00Z",
   "broadcastInfo": {
@@ -105,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "aaf6fa3b-4feb-11f1-abca-2c54536568a9",
-    "offset": 551,
+    "offset": 554,
     "attendance": 64871,
     "clock": "00:36",
     "distance": 12,
@@ -153,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "aaf6fa3b-4feb-11f1-abca-2c54536568a9",
-    "offset": 551,
+    "offset": 554,
     "drives": [
       {
         "sequence": 1,
@@ -7699,7 +7700,7 @@
         "driveNetYards": 28,
         "drivePlayCount": 7,
         "driveSequence": 14,
-        "driveTimeOfPossession": "2:50",
+        "driveTimeOfPossession": "3:03",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  2-10  DEN 45",
@@ -7749,7 +7750,7 @@
             "personId": "32004252-4951-6391-fb1e-f908d9b96e12",
             "statType": 112,
             "teamId": "10403800-517c-7b8c-65a3-c61b95d86123",
-            "yards": -8
+            "yards": -2
           }
         ]
       },
@@ -11768,8 +11769,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  1-10  DEN 16",
         "playDeleted": false,
-        "playDescription": "(7:05) (Shotgun) J.Brissett pass incomplete deep left to J.Brooks.",
-        "playDescriptionWithJerseyNumbers": "(7:05) (Shotgun) 7-J.Brissett pass incomplete deep left to 86-J.Brooks.",
+        "playDescription": "(7:05) (No Huddle, Shotgun) J.Brissett pass incomplete deep left to J.Brooks.",
+        "playDescriptionWithJerseyNumbers": "(7:05) (No Huddle, Shotgun) 7-J.Brissett pass incomplete deep left to 86-J.Brooks.",
         "playEndTime": "2026-10-25T22:56:18.743Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

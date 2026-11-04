@@ -11,6 +11,7 @@
     "fullName": "Dallas Cowboys"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-08-16",
   "time": "2026-08-16T00:00:00Z",
   "broadcastInfo": {

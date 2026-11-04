@@ -11,6 +11,7 @@
     "fullName": "Denver Broncos"
   },
   "category": "MNF",
+  "hideCategory": false,
   "date": "2026-09-15",
   "time": "2026-09-15T00:15:00Z",
   "broadcastInfo": {

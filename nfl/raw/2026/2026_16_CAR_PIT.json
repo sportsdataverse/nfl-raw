@@ -11,6 +11,7 @@
     "fullName": "Carolina Panthers"
   },
   "category": null,
+  "hideCategory": false,
   "date": null,
   "time": null,
   "broadcastInfo": {

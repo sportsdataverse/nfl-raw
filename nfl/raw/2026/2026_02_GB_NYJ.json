@@ -11,6 +11,7 @@
     "fullName": "Green Bay Packers"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-09-20",
   "time": "2026-09-20T17:00:00Z",
   "broadcastInfo": {

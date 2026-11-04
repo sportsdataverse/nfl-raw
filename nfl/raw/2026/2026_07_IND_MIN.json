@@ -11,6 +11,7 @@
     "fullName": "Indianapolis Colts"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-25",
   "time": "2026-10-25T17:00:00Z",
   "broadcastInfo": {
@@ -99,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "aad5a2ac-4feb-11f1-abca-2c54536568a9",
-    "offset": 467,
+    "offset": 470,
     "attendance": 66934,
     "clock": "00:34",
     "distance": 12,
@@ -147,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "aad5a2ac-4feb-11f1-abca-2c54536568a9",
-    "offset": 467,
+    "offset": 470,
     "drives": [
       {
         "sequence": 1,
@@ -1698,7 +1699,7 @@
         "driveNetYards": 21,
         "drivePlayCount": 4,
         "driveSequence": 3,
-        "driveTimeOfPossession": "1:54",
+        "driveTimeOfPossession": "2:04",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIN  1-10  MIN 35",
@@ -1748,7 +1749,7 @@
             "personId": "32004d55-5267-0413-8d36-a5c3fd781aa0",
             "statType": 111,
             "teamId": "10403000-5851-f9d5-da45-78365a05b6b0",
-            "yards": 11
+            "yards": -3
           },
           {
             "playStatId": "10330060-2770-3520-0210-004f3033e09d",
@@ -1778,7 +1779,7 @@
             "personId": "32004144-4449-1056-9ba9-b09766bad478",
             "statType": 113,
             "teamId": "10403000-5851-f9d5-da45-78365a05b6b0",
-            "yards": 0
+            "yards": 14
           },
           {
             "playStatId": "10330060-2770-3520-0790-00725f6456c4",
@@ -6682,16 +6683,16 @@
         "playId": 1998,
         "clockTime": "15:00",
         "down": 0,
-        "driveNetYards": 4,
-        "drivePlayCount": 1,
+        "driveNetYards": 3,
+        "drivePlayCount": 5,
         "driveSequence": 9,
-        "driveTimeOfPossession": "0:06",
+        "driveTimeOfPossession": "3:39",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIN  KO  MIN 35",
         "playDeleted": false,
-        "playDescription": "W.Reichard kicks 61 yards from MIN 35 to IND 4. S.McGowan to IND 40 for 36 yards (J.Ward).\r\nPENALTY on IND-T.Chambers, Offensive Holding, 10 yards, enforced at IND 26.",
-        "playDescriptionWithJerseyNumbers": "16-W.Reichard kicks 61 yards from MIN 35 to IND 4. 20-S.McGowan to IND 40 for 36 yards (24-J.Ward).\r\nPENALTY on IND-44-T.Chambers, Offensive Holding, 10 yards, enforced at IND 26.",
+        "playDescription": "W.Reichard kicks 61 yards from MIN 35 to IND 4. S.McGowan to IND 40 for 36 yards (J.Ward; B.Richter).\r\nPENALTY on IND-T.Chambers, Offensive Holding, 10 yards, enforced at IND 26.",
+        "playDescriptionWithJerseyNumbers": "16-W.Reichard kicks 61 yards from MIN 35 to IND 4. 20-S.McGowan to IND 40 for 36 yards (24-J.Ward; 98-B.Richter).\r\nPENALTY on IND-44-T.Chambers, Offensive Holding, 10 yards, enforced at IND 26.",
         "playEndTime": "2026-10-25T18:32:55.633Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6728,17 +6729,27 @@
             "yards": 22
           },
           {
-            "playStatId": "10330060-2771-9980-0790-003a567ff80f",
+            "playStatId": "10330060-2771-9980-0820-003c07cd706f",
             "gsisPlayerId": "00-0038578",
             "gsisPlayerName": "J.Ward",
             "gsisPlayerJerseyNumber": "24",
             "personId": "32005741-5219-9835-c33b-128fd1cf5673",
-            "statType": 79,
+            "statType": 82,
             "teamId": "10403000-5851-f9d5-da45-78365a05b6b0",
             "yards": null
           },
           {
-            "playStatId": "10330060-2771-9980-0930-004744c1f129",
+            "playStatId": "10330060-2771-9980-0820-004e6ce88b16",
+            "gsisPlayerId": "00-0039718",
+            "gsisPlayerName": "B.Richter",
+            "gsisPlayerJerseyNumber": "98",
+            "personId": "32005249-4370-8840-730a-0a8bbf33d483",
+            "statType": 82,
+            "teamId": "10403000-5851-f9d5-da45-78365a05b6b0",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2771-9980-0930-00570bdf199f",
             "gsisPlayerId": "00-0041227",
             "gsisPlayerName": "T.Chambers",
             "gsisPlayerJerseyNumber": "44",

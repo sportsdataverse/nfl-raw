@@ -11,6 +11,7 @@
     "fullName": "New England Patriots"
   },
   "category": "TNF",
+  "hideCategory": false,
   "date": "2026-10-23",
   "time": "2026-10-23T00:15:00Z",
   "broadcastInfo": {
@@ -119,7 +120,7 @@
   "version": 7,
   "summary": {
     "gameId": "aad58a18-4feb-11f1-abca-2c54536568a9",
-    "offset": 501,
+    "offset": 506,
     "attendance": 60520,
     "clock": "00:36",
     "distance": 11,
@@ -167,7 +168,7 @@
   },
   "driveChart": {
     "gameId": "aad58a18-4feb-11f1-abca-2c54536568a9",
-    "offset": 501,
+    "offset": 506,
     "drives": [
       {
         "sequence": 1,
@@ -4737,8 +4738,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "CHI  2-3  NE 8",
         "playDeleted": false,
-        "playDescription": "(7:49) C.Williams left guard to NE 8 for no gain.\r\nPENALTY on CHI-C.Williams, Illegal Forward Handoff, 5 yards, enforced at NE 8.",
-        "playDescriptionWithJerseyNumbers": "(7:49) 18-C.Williams left guard to NE 8 for no gain.\r\nPENALTY on CHI-18-C.Williams, Illegal Forward Handoff, 5 yards, enforced at NE 8.",
+        "playDescription": "(7:49) C.Williams left guard to NE 9 for -1 yards. Handoff to J.Thuney to NE 6 for 3 yards (C.Elliss).\r\nPENALTY on CHI-C.Williams, Illegal Forward Handoff, 5 yards, enforced at NE 8.",
+        "playDescriptionWithJerseyNumbers": "(7:49) 18-C.Williams left guard to NE 9 for -1 yards. Handoff to 62-J.Thuney to NE 6 for 3 yards (53-C.Elliss).\r\nPENALTY on CHI-18-C.Williams, Illegal Forward Handoff, 5 yards, enforced at NE 8.",
         "playEndTime": "2026-10-23T01:15:35.557Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

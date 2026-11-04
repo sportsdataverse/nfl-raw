@@ -11,6 +11,7 @@
     "fullName": "New England Patriots"
   },
   "category": "MNF",
+  "hideCategory": false,
   "date": "2026-12-22",
   "time": "2026-12-22T01:15:00Z",
   "broadcastInfo": {

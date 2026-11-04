@@ -11,6 +11,7 @@
     "fullName": "Pittsburgh Steelers"
   },
   "category": "SNF",
+  "hideCategory": false,
   "date": "2026-11-16",
   "time": "2026-11-16T01:20:00Z",
   "broadcastInfo": {

@@ -11,6 +11,7 @@
     "fullName": "Carolina Panthers"
   },
   "category": "MNF",
+  "hideCategory": false,
   "date": "2026-12-01",
   "time": "2026-12-01T01:15:00Z",
   "broadcastInfo": {

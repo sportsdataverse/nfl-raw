@@ -11,6 +11,7 @@
     "fullName": "Denver Broncos"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-04",
   "time": "2026-10-04T20:25:00Z",
   "broadcastInfo": {

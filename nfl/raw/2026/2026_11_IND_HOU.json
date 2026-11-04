@@ -11,6 +11,7 @@
     "fullName": "Indianapolis Colts"
   },
   "category": "TNF",
+  "hideCategory": false,
   "date": "2026-11-20",
   "time": "2026-11-20T01:15:00Z",
   "broadcastInfo": {

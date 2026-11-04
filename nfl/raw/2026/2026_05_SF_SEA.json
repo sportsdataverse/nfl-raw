@@ -11,6 +11,7 @@
     "fullName": "San Francisco 49ers"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-11",
   "time": "2026-10-11T20:25:00Z",
   "broadcastInfo": {

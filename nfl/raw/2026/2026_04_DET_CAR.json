@@ -11,6 +11,7 @@
     "fullName": "Detroit Lions"
   },
   "category": "SNF",
+  "hideCategory": false,
   "date": "2026-10-05",
   "time": "2026-10-05T00:20:00Z",
   "broadcastInfo": {

@@ -11,6 +11,7 @@
     "fullName": "Kansas City Chiefs"
   },
   "category": "SNF",
+  "hideCategory": false,
   "date": "2026-10-26",
   "time": "2026-10-26T00:20:00Z",
   "broadcastInfo": {
@@ -120,7 +121,7 @@
   "version": 7,
   "summary": {
     "gameId": "aaf7040e-4feb-11f1-abca-2c54536568a9",
-    "offset": 437,
+    "offset": 439,
     "attendance": 68740,
     "clock": "00:38",
     "distance": 10,
@@ -168,7 +169,7 @@
   },
   "driveChart": {
     "gameId": "aaf7040e-4feb-11f1-abca-2c54536568a9",
-    "offset": 437,
+    "offset": 439,
     "drives": [
       {
         "sequence": 1,
@@ -5014,16 +5015,16 @@
         "playId": 1477,
         "clockTime": "04:08",
         "down": 2,
-        "driveNetYards": 30,
-        "drivePlayCount": 6,
+        "driveNetYards": 66,
+        "drivePlayCount": 10,
         "driveSequence": 6,
-        "driveTimeOfPossession": "3:10",
+        "driveTimeOfPossession": "4:16",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "SEA  2-13  SEA 45",
         "playDeleted": false,
-        "playDescription": "(4:08) (Shotgun) S.Darnold pass short left to E.Wilson ran ob at KC 40 for 15 yards (C.Conner).",
-        "playDescriptionWithJerseyNumbers": "(4:08) (Shotgun) 14-S.Darnold pass short left to 23-E.Wilson ran ob at KC 40 for 15 yards (27-C.Conner).",
+        "playDescription": "(4:08) (Shotgun) S.Darnold pass short left to E.Wilson pushed ob at KC 40 for 15 yards (C.Conner).",
+        "playDescriptionWithJerseyNumbers": "(4:08) (Shotgun) 14-S.Darnold pass short left to 23-E.Wilson pushed ob at KC 40 for 15 yards (27-C.Conner).",
         "playEndTime": "2026-10-26T01:16:37.877Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -5067,7 +5068,7 @@
             "personId": "32004441-5246-6141-9e5c-6e7d32a03e33",
             "statType": 111,
             "teamId": "10404600-adcd-28ac-5826-b4d95ec2a228",
-            "yards": 7
+            "yards": 3
           },
           {
             "playStatId": "10330060-2831-4770-0210-004db2f27704",
@@ -5097,7 +5098,7 @@
             "personId": "32005749-4c68-2260-5e7f-2ef51fd68bf8",
             "statType": 113,
             "teamId": "10404600-adcd-28ac-5826-b4d95ec2a228",
-            "yards": 8
+            "yards": 12
           },
           {
             "playStatId": "10330060-2831-4770-0790-00799cd41b42",

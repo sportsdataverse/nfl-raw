@@ -11,6 +11,7 @@
     "fullName": "Dallas Cowboys"
   },
   "category": "SNF",
+  "hideCategory": false,
   "date": "2026-10-19",
   "time": "2026-10-19T00:20:00Z",
   "broadcastInfo": {

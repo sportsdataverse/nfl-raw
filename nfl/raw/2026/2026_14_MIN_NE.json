@@ -11,6 +11,7 @@
     "fullName": "Minnesota Vikings"
   },
   "category": "TNF",
+  "hideCategory": false,
   "date": "2026-12-11",
   "time": "2026-12-11T01:15:00Z",
   "broadcastInfo": {

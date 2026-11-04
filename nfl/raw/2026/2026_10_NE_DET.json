@@ -11,6 +11,7 @@
     "fullName": "New England Patriots"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-11-15",
   "time": "2026-11-15T14:30:00Z",
   "broadcastInfo": {

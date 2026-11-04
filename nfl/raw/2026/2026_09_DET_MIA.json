@@ -11,21 +11,22 @@
     "fullName": "Detroit Lions"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-11-08",
   "time": "2026-11-08T18:00:00Z",
   "broadcastInfo": {
     "homeNetworkChannels": [
-      "FOX"
+      "CBS"
     ],
     "awayNetworkChannels": [
-      "FOX"
+      "CBS"
     ],
     "internationalWatchOptions": [],
     "streamingNetworks": [
       {
-        "hostNetwork": "FOX",
+        "hostNetwork": "CBS",
         "networks": [
-          "FOX"
+          "CBS"
         ],
         "streamType": "en-pri"
       }
@@ -96,7 +97,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 8,
   "summary": null,
   "driveChart": null,
   "replays": null,

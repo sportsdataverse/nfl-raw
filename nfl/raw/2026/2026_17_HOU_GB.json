@@ -11,6 +11,7 @@
     "fullName": "Houston Texans"
   },
   "category": "MNF",
+  "hideCategory": false,
   "date": "2027-01-05",
   "time": "2027-01-05T01:15:00Z",
   "broadcastInfo": {

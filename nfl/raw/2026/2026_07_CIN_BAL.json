@@ -11,6 +11,7 @@
     "fullName": "Cincinnati Bengals"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-25",
   "time": "2026-10-25T17:00:00Z",
   "broadcastInfo": {

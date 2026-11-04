@@ -11,6 +11,7 @@
     "fullName": "Tampa Bay Buccaneers"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-12-13",
   "time": "2026-12-13T18:00:00Z",
   "broadcastInfo": {

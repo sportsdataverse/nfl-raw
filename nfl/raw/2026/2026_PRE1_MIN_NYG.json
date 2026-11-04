@@ -11,6 +11,7 @@
     "fullName": "Minnesota Vikings"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-08-15",
   "time": "2026-08-15T17:00:00Z",
   "broadcastInfo": {

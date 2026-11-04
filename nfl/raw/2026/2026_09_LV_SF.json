@@ -11,21 +11,22 @@
     "fullName": "Las Vegas Raiders"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-11-08",
-  "time": "2026-11-08T21:05:00Z",
+  "time": "2026-11-08T21:25:00Z",
   "broadcastInfo": {
     "homeNetworkChannels": [
-      "CBS"
+      "FOX"
     ],
     "awayNetworkChannels": [
-      "CBS"
+      "FOX"
     ],
     "internationalWatchOptions": [],
     "streamingNetworks": [
       {
-        "hostNetwork": "CBS",
+        "hostNetwork": "FOX",
         "networks": [
-          "CBS"
+          "FOX"
         ],
         "streamType": "en-pri"
       }
@@ -96,7 +97,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 10,
   "summary": null,
   "driveChart": null,
   "replays": null,

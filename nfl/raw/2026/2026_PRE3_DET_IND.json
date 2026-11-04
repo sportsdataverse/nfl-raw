@@ -11,6 +11,7 @@
     "fullName": "Detroit Lions"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-08-29",
   "time": "2026-08-29T17:00:00Z",
   "broadcastInfo": {

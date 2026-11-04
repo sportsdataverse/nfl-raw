@@ -11,6 +11,7 @@
     "fullName": "Los Angeles Rams"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-25",
   "time": "2026-10-25T20:25:00Z",
   "broadcastInfo": {
@@ -105,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "aaf700e5-4feb-11f1-abca-2c54536568a9",
-    "offset": 607,
+    "offset": 611,
     "attendance": 62550,
     "clock": "00:38",
     "distance": 13,
@@ -153,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "aaf700e5-4feb-11f1-abca-2c54536568a9",
-    "offset": 607,
+    "offset": 611,
     "drives": [
       {
         "sequence": 1,
@@ -5983,15 +5984,15 @@
         "clockTime": "03:11",
         "down": 1,
         "driveNetYards": 17,
-        "drivePlayCount": 5,
+        "drivePlayCount": 6,
         "driveSequence": 9,
-        "driveTimeOfPossession": "2:15",
+        "driveTimeOfPossession": "2:19",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  1-10  LV 45",
         "playDeleted": false,
-        "playDescription": "(3:11) (No Huddle) T.Zuhn reported in as eligible.  K.Cousins pass short middle to A.Jeanty to LV 47 for 2 yards (B.Young; O.Speights).\r\nPENALTY on LV-T.Linderbaum, Offensive Holding, 10 yards, enforced at LV 45 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(3:11) (No Huddle) 66-T.Zuhn reported in as eligible.  8-K.Cousins pass short middle to 2-A.Jeanty to LV 47 for 2 yards (0-B.Young; 48-O.Speights).\r\nPENALTY on LV-65-T.Linderbaum, Offensive Holding, 10 yards, enforced at LV 45 - No Play.",
+        "playDescription": "(3:11) T.Zuhn reported in as eligible.  K.Cousins pass short middle to A.Jeanty to LV 47 for 2 yards (B.Young; O.Speights).\r\nPENALTY on LV-T.Linderbaum, Offensive Holding, 10 yards, enforced at LV 45 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(3:11) 66-T.Zuhn reported in as eligible.  8-K.Cousins pass short middle to 2-A.Jeanty to LV 47 for 2 yards (0-B.Young; 48-O.Speights).\r\nPENALTY on LV-65-T.Linderbaum, Offensive Holding, 10 yards, enforced at LV 45 - No Play.",
         "playEndTime": "2026-10-25T21:34:21.687Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -7532,8 +7533,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  1-10  LAR 19",
         "playDeleted": false,
-        "playDescription": "(:30) (Shotgun) K.Cousins pass short left to T.Tucker to LAR 18 for 1 yard (E.Forbes).  The penalty was assisted by replay.",
-        "playDescriptionWithJerseyNumbers": "(:30) (Shotgun) 8-K.Cousins pass short left to 1-T.Tucker to LAR 18 for 1 yard (1-E.Forbes).  The penalty was assisted by replay.",
+        "playDescription": "(:30) (Shotgun) K.Cousins pass short left to T.Tucker to LAR 18 for 1 yard (E.Forbes).  The penalty was assisted by replay.  10-second runoff avoided.",
+        "playDescriptionWithJerseyNumbers": "(:30) (Shotgun) 8-K.Cousins pass short left to 1-T.Tucker to LAR 18 for 1 yard (1-E.Forbes).  The penalty was assisted by replay.  10-second runoff avoided.",
         "playEndTime": "2026-10-25T21:53:03.063Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10705,10 +10706,10 @@
         "playId": 3348,
         "clockTime": "00:33",
         "down": 2,
-        "driveNetYards": 54,
-        "drivePlayCount": 5,
+        "driveNetYards": 91,
+        "drivePlayCount": 6,
         "driveSequence": 17,
-        "driveTimeOfPossession": "2:26",
+        "driveTimeOfPossession": "2:35",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  2-10  LAR 44",
@@ -10748,7 +10749,7 @@
             "personId": "3200434f-5570-9400-e1ae-f835abb5963e",
             "statType": 111,
             "teamId": "10402520-96bf-e9f2-4f68-8521ca896060",
-            "yards": 0
+            "yards": 6
           },
           {
             "playStatId": "10330060-2823-3480-0210-003612f5ac2b",
@@ -10778,7 +10779,7 @@
             "personId": "32004e41-4906-7484-dbfb-80032db5a1ba",
             "statType": 113,
             "teamId": "10402520-96bf-e9f2-4f68-8521ca896060",
-            "yards": 7
+            "yards": 1
           },
           {
             "playStatId": "10330060-2823-3480-0790-006ed5e2ed3d",

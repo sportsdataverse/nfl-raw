@@ -11,6 +11,7 @@
     "fullName": "Las Vegas Raiders"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-11-22",
   "time": "2026-11-22T21:25:00Z",
   "broadcastInfo": {

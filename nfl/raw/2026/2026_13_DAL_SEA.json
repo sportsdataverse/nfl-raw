@@ -11,6 +11,7 @@
     "fullName": "Dallas Cowboys"
   },
   "category": "MNF",
+  "hideCategory": false,
   "date": "2026-12-08",
   "time": "2026-12-08T01:15:00Z",
   "broadcastInfo": {

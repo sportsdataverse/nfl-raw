@@ -11,6 +11,7 @@
     "fullName": "Kansas City Chiefs"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-11-15",
   "time": "2026-11-15T18:00:00Z",
   "broadcastInfo": {

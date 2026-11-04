@@ -11,6 +11,7 @@
     "fullName": "Atlanta Falcons"
   },
   "category": "TNF",
+  "hideCategory": false,
   "date": "2026-09-25",
   "time": "2026-09-25T00:15:00Z",
   "broadcastInfo": {

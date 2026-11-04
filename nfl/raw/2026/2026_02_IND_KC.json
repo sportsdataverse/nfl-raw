@@ -11,6 +11,7 @@
     "fullName": "Indianapolis Colts"
   },
   "category": "SNF",
+  "hideCategory": false,
   "date": "2026-09-21",
   "time": "2026-09-21T00:20:00Z",
   "broadcastInfo": {

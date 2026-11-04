@@ -11,6 +11,7 @@
     "fullName": "Cincinnati Bengals"
   },
   "category": "MNF",
+  "hideCategory": false,
   "date": "2026-11-24",
   "time": "2026-11-24T01:15:00Z",
   "broadcastInfo": {

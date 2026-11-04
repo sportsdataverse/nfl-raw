@@ -11,6 +11,7 @@
     "fullName": "Carolina Panthers"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-08-07",
   "time": "2026-08-07T00:00:00Z",
   "broadcastInfo": {

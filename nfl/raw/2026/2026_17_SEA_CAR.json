@@ -11,6 +11,7 @@
     "fullName": "Seattle Seahawks"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2027-01-03",
   "time": "2027-01-03T18:00:00Z",
   "broadcastInfo": {

@@ -11,6 +11,7 @@
     "fullName": "Baltimore Ravens"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-09-27",
   "time": "2026-09-27T20:25:00Z",
   "broadcastInfo": {

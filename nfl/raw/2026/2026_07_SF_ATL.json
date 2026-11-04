@@ -11,6 +11,7 @@
     "fullName": "San Francisco 49ers"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-25",
   "time": "2026-10-25T17:00:00Z",
   "broadcastInfo": {
@@ -93,7 +94,7 @@
   "version": 7,
   "summary": {
     "gameId": "aad59092-4feb-11f1-abca-2c54536568a9",
-    "offset": 484,
+    "offset": 501,
     "attendance": 72165,
     "clock": "00:28",
     "distance": 13,
@@ -141,7 +142,7 @@
   },
   "driveChart": {
     "gameId": "aad59092-4feb-11f1-abca-2c54536568a9",
-    "offset": 484,
+    "offset": 501,
     "drives": [
       {
         "sequence": 1,
@@ -1461,8 +1462,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "SF  3-Goal  ATL 1",
         "playDeleted": false,
-        "playDescription": "(10:08) (Shotgun) K.Black up the middle to ATL 1 for no gain (X.Watts; L.London).",
-        "playDescriptionWithJerseyNumbers": "(10:08) (Shotgun) 26-K.Black up the middle to ATL 1 for no gain (31-X.Watts; 94-L.London).",
+        "playDescription": "(10:08) K.Black up the middle to ATL 1 for no gain (X.Watts; L.London).",
+        "playDescriptionWithJerseyNumbers": "(10:08) 26-K.Black up the middle to ATL 1 for no gain (31-X.Watts; 94-L.London).",
         "playEndTime": "2026-10-25T17:10:35.707Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
@@ -2536,7 +2537,7 @@
       },
       {
         "playId": 632,
-        "clockTime": "04:22",
+        "clockTime": "04:23",
         "down": 3,
         "driveNetYards": 18,
         "drivePlayCount": 6,
@@ -2546,9 +2547,9 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "SF  3-17  50",
         "playDeleted": false,
-        "playDescription": "(4:22) (Shotgun) B.Purdy pass short left to K.Juszczyk to ATL 48 for 2 yards (H.Perkins; M.Hughes).",
-        "playDescriptionWithJerseyNumbers": "(4:22) (Shotgun) 13-B.Purdy pass short left to 44-K.Juszczyk to ATL 48 for 2 yards (56-H.Perkins; 21-M.Hughes).",
-        "playEndTime": "2026-10-25T17:25:32.087Z",
+        "playDescription": "(4:23) (Shotgun) B.Purdy pass short left to K.Juszczyk to ATL 48 for 2 yards (H.Perkins; M.Hughes).",
+        "playDescriptionWithJerseyNumbers": "(4:23) (Shotgun) 13-B.Purdy pass short left to 44-K.Juszczyk to ATL 48 for 2 yards (56-H.Perkins; 21-M.Hughes).",
+        "playEndTime": "2026-10-25T17:25:31.117Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": false,
@@ -5058,7 +5059,7 @@
       },
       {
         "playId": 1500,
-        "clockTime": "04:24",
+        "clockTime": "04:27",
         "down": 2,
         "driveNetYards": 41,
         "drivePlayCount": 8,
@@ -5068,8 +5069,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "SF  2-1  ATL 28",
         "playDeleted": false,
-        "playDescription": "(4:24) K.Black up the middle to ATL 29 for -1 yards (M.Smith). FUMBLES (M.Smith), touched at ATL 29, RECOVERED by ATL-G.Dexter at ATL 29.",
-        "playDescriptionWithJerseyNumbers": "(4:24) 26-K.Black up the middle to ATL 29 for -1 yards (92-M.Smith). FUMBLES (92-M.Smith), touched at ATL 29, RECOVERED by ATL-95-G.Dexter at ATL 29.",
+        "playDescription": "(4:27) K.Black up the middle to ATL 29 for -1 yards (M.Smith). FUMBLES (M.Smith), touched at ATL 29, RECOVERED by ATL-G.Dexter at ATL 29.",
+        "playDescriptionWithJerseyNumbers": "(4:27) 26-K.Black up the middle to ATL 29 for -1 yards (92-M.Smith). FUMBLES (92-M.Smith), touched at ATL 29, RECOVERED by ATL-95-G.Dexter at ATL 29.",
         "playEndTime": "2026-10-25T18:01:38.217Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6912,8 +6913,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "ATL  1-10  SF 31",
         "playDeleted": false,
-        "playDescription": "(12:33) Bi.Robinson left guard to SF 30 for 1 yard (J.Thompson).",
-        "playDescriptionWithJerseyNumbers": "(12:33) 7-Bi.Robinson left guard to SF 30 for 1 yard (96-J.Thompson).",
+        "playDescription": "(12:33) Bi.Robinson left guard to SF 30 for 1 yard (J.Thompson, F.Warner). FUMBLES (F.Warner), and recovers at SF 30.",
+        "playDescriptionWithJerseyNumbers": "(12:33) 7-Bi.Robinson left guard to SF 30 for 1 yard (96-J.Thompson, 54-F.Warner). FUMBLES (54-F.Warner), and recovers at SF 30.",
         "playEndTime": "2026-10-25T18:36:51.620Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6930,7 +6931,57 @@
         "yardsRemaining": 10,
         "stats": [
           {
-            "playStatId": "10330060-2732-1110-0100-00171a48ecc6",
+            "playStatId": "10330060-2732-1110-0800-0019afca8022",
+            "gsisPlayerId": "00-0041363",
+            "gsisPlayerName": "J.Thompson",
+            "gsisPlayerJerseyNumber": "96",
+            "personId": "32005448-4f74-3352-a354-29486785c50e",
+            "statType": 80,
+            "teamId": "10404500-e7cb-7fce-3f10-4eeb269bd179",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2732-1110-0820-002f0bf3c963",
+            "gsisPlayerId": "00-0034815",
+            "gsisPlayerName": "F.Warner",
+            "gsisPlayerJerseyNumber": "54",
+            "personId": "32005741-5248-5225-ce4a-b72862edcf69",
+            "statType": 82,
+            "teamId": "10404500-e7cb-7fce-3f10-4eeb269bd179",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2732-1110-0520-0037c0215d6a",
+            "gsisPlayerId": "00-0038542",
+            "gsisPlayerName": "Bi.Robinson",
+            "gsisPlayerJerseyNumber": "07",
+            "personId": "3200524f-4236-8260-6d5f-ae47fe2e0128",
+            "statType": 52,
+            "teamId": "10400200-f401-4e53-5175-0974e4f16cf7",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2732-1110-0910-004855a82cf1",
+            "gsisPlayerId": "00-0034815",
+            "gsisPlayerName": "F.Warner",
+            "gsisPlayerJerseyNumber": "54",
+            "personId": "32005741-5248-5225-ce4a-b72862edcf69",
+            "statType": 91,
+            "teamId": "10404500-e7cb-7fce-3f10-4eeb269bd179",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2732-1110-0550-0059ea35479e",
+            "gsisPlayerId": "00-0038542",
+            "gsisPlayerName": "Bi.Robinson",
+            "gsisPlayerJerseyNumber": "07",
+            "personId": "3200524f-4236-8260-6d5f-ae47fe2e0128",
+            "statType": 55,
+            "teamId": "10400200-f401-4e53-5175-0974e4f16cf7",
+            "yards": 0
+          },
+          {
+            "playStatId": "10330060-2732-1110-0100-006f1b2216fc",
             "gsisPlayerId": "00-0038542",
             "gsisPlayerName": "Bi.Robinson",
             "gsisPlayerJerseyNumber": "07",
@@ -6938,16 +6989,6 @@
             "statType": 10,
             "teamId": "10400200-f401-4e53-5175-0974e4f16cf7",
             "yards": 1
-          },
-          {
-            "playStatId": "10330060-2732-1110-0790-00271a68face",
-            "gsisPlayerId": "00-0041363",
-            "gsisPlayerName": "J.Thompson",
-            "gsisPlayerJerseyNumber": "96",
-            "personId": "32005448-4f74-3352-a354-29486785c50e",
-            "statType": 79,
-            "teamId": "10404500-e7cb-7fce-3f10-4eeb269bd179",
-            "yards": null
           }
         ]
       },
@@ -8440,8 +8481,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "ATL  2-20  ATL 13",
         "playDeleted": false,
-        "playDescription": "(3:56) M.Penix pass incomplete deep right to J.Dotson.\r\nPENALTY on SF-R.Green, Illegal Contact, 5 yards, enforced at ATL 13 - No Play.\r\nPenalty on SF-J.Jones, Defensive Holding, declined.",
-        "playDescriptionWithJerseyNumbers": "(3:56) 9-M.Penix pass incomplete deep right to 4-J.Dotson.\r\nPENALTY on SF-0-R.Green, Illegal Contact, 5 yards, enforced at ATL 13 - No Play.\r\nPenalty on SF-25-J.Jones, Defensive Holding, declined.",
+        "playDescription": "(3:56) M.Penix pass incomplete deep right to J.Dotson.\r\nPENALTY on SF-J.Jones, Illegal Contact, 5 yards, enforced at ATL 13 - No Play.\r\nPenalty on SF-R.Green, Defensive Holding, declined.",
+        "playDescriptionWithJerseyNumbers": "(3:56) 9-M.Penix pass incomplete deep right to 4-J.Dotson.\r\nPENALTY on SF-25-J.Jones, Illegal Contact, 5 yards, enforced at ATL 13 - No Play.\r\nPenalty on SF-0-R.Green, Defensive Holding, declined.",
         "playEndTime": "2026-10-25T18:56:50.287Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8469,10 +8510,10 @@
           },
           {
             "playStatId": "10330060-2732-6060-0930-002e5f062957",
-            "gsisPlayerId": "00-0039345",
-            "gsisPlayerName": "R.Green",
-            "gsisPlayerJerseyNumber": "00",
-            "personId": "32004752-4533-1722-8b86-264d60ec9241",
+            "gsisPlayerId": "00-0038039",
+            "gsisPlayerName": "J.Jones",
+            "gsisPlayerJerseyNumber": "25",
+            "personId": "32004a4f-4e40-3934-31a5-290d0def1a4b",
             "statType": 93,
             "teamId": "10404500-e7cb-7fce-3f10-4eeb269bd179",
             "yards": 5
@@ -11945,7 +11986,7 @@
       },
       {
         "playId": 3888,
-        "clockTime": "04:08",
+        "clockTime": "04:09",
         "down": 4,
         "driveNetYards": -2,
         "drivePlayCount": 3,
@@ -11955,8 +11996,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "ATL  4-12  ATL 33",
         "playDeleted": false,
-        "playDescription": "(4:08) J.Bailey punts 20 yards to SF 47, Center-L.McCullough, out of bounds.",
-        "playDescriptionWithJerseyNumbers": "(4:08) 16-J.Bailey punts 20 yards to SF 47, Center-49-L.McCullough, out of bounds.",
+        "playDescription": "(4:09) J.Bailey punts 20 yards to SF 47, Center-L.McCullough, out of bounds.",
+        "playDescriptionWithJerseyNumbers": "(4:09) 16-J.Bailey punts 20 yards to SF 47, Center-49-L.McCullough, out of bounds.",
         "playEndTime": "2026-10-25T19:52:11.100Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

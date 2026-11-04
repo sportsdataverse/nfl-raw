@@ -11,6 +11,7 @@
     "fullName": "New England Patriots"
   },
   "category": "SNF",
+  "hideCategory": false,
   "date": "2026-09-10",
   "time": "2026-09-10T00:20:00Z",
   "broadcastInfo": {

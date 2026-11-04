@@ -11,6 +11,7 @@
     "fullName": "Tampa Bay Buccaneers"
   },
   "category": "SNF",
+  "hideCategory": false,
   "date": "2026-11-09",
   "time": "2026-11-09T01:20:00Z",
   "broadcastInfo": {

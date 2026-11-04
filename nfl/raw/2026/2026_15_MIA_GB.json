@@ -11,6 +11,7 @@
     "fullName": "Miami Dolphins"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-12-20",
   "time": "2026-12-20T18:00:00Z",
   "broadcastInfo": {

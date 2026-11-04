@@ -11,6 +11,7 @@
     "fullName": "Baltimore Ravens"
   },
   "category": "TNF",
+  "hideCategory": false,
   "date": "2027-01-01",
   "time": "2027-01-01T01:15:00Z",
   "broadcastInfo": {

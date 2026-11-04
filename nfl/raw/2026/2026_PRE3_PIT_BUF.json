@@ -11,6 +11,7 @@
     "fullName": "Pittsburgh Steelers"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-08-27",
   "time": "2026-08-27T23:00:00Z",
   "broadcastInfo": {

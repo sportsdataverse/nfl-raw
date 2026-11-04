@@ -11,21 +11,22 @@
     "fullName": "Miami Dolphins"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-11-22",
   "time": "2026-11-22T18:00:00Z",
   "broadcastInfo": {
     "homeNetworkChannels": [
-      "FOX"
+      "CBS"
     ],
     "awayNetworkChannels": [
-      "FOX"
+      "CBS"
     ],
     "internationalWatchOptions": [],
     "streamingNetworks": [
       {
-        "hostNetwork": "FOX",
+        "hostNetwork": "CBS",
         "networks": [
-          "FOX"
+          "CBS"
         ],
         "streamType": "en-pri"
       }
@@ -96,7 +97,7 @@
     }
   ],
   "extensions": [],
-  "version": 9,
+  "version": 10,
   "summary": null,
   "driveChart": null,
   "replays": null,

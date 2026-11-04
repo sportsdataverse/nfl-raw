@@ -11,6 +11,7 @@
     "fullName": "Seattle Seahawks"
   },
   "category": "TNF",
+  "hideCategory": false,
   "date": "2026-10-16",
   "time": "2026-10-16T00:15:00Z",
   "broadcastInfo": {

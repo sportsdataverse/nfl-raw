@@ -11,6 +11,7 @@
     "fullName": "Cleveland Browns"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-25",
   "time": "2026-10-25T17:00:00Z",
   "broadcastInfo": {
@@ -93,7 +94,7 @@
   "version": 7,
   "summary": {
     "gameId": "aaf6f621-4feb-11f1-abca-2c54536568a9",
-    "offset": 572,
+    "offset": 574,
     "attendance": 63710,
     "clock": "00:00",
     "distance": 10,
@@ -141,7 +142,7 @@
   },
   "driveChart": {
     "gameId": "aaf6f621-4feb-11f1-abca-2c54536568a9",
-    "offset": 572,
+    "offset": 574,
     "drives": [
       {
         "sequence": 1,
@@ -12791,8 +12792,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "TEN  1-Goal  CLE 1",
         "playDeleted": false,
-        "playDescription": "(1:08) (Shotgun) C.Ward pass incomplete short left.",
-        "playDescriptionWithJerseyNumbers": "(1:08) (Shotgun) 1-C.Ward pass incomplete short left.",
+        "playDescription": "(1:08) (Shotgun) C.Ward pass incomplete short left to C.Dike.",
+        "playDescriptionWithJerseyNumbers": "(1:08) (Shotgun) 1-C.Ward pass incomplete short left to 17-C.Dike.",
         "playEndTime": "2026-10-25T19:59:40.537Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
@@ -12819,7 +12820,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-2794-1480-1120-0024fe236719",
+            "playStatId": "10330060-2794-1480-1150-0024cd180449",
+            "gsisPlayerId": "00-0040705",
+            "gsisPlayerName": "C.Dike",
+            "gsisPlayerJerseyNumber": "17",
+            "personId": "32004449-4b18-9231-a177-a769ad8ba0d2",
+            "statType": 115,
+            "teamId": "10402100-447f-396e-8149-0a434ffb2f23",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2794-1480-1120-0032fbc6f365",
             "gsisPlayerId": "00-0040676",
             "gsisPlayerName": "C.Ward",
             "gsisPlayerJerseyNumber": "01",

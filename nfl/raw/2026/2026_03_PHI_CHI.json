@@ -11,6 +11,7 @@
     "fullName": "Philadelphia Eagles"
   },
   "category": "MNF",
+  "hideCategory": false,
   "date": "2026-09-29",
   "time": "2026-09-29T00:15:00Z",
   "broadcastInfo": {

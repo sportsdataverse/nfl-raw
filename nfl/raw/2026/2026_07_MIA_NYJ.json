@@ -11,6 +11,7 @@
     "fullName": "Miami Dolphins"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-25",
   "time": "2026-10-25T17:00:00Z",
   "broadcastInfo": {
@@ -105,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "aaf6ec9e-4feb-11f1-abca-2c54536568a9",
-    "offset": 430,
+    "offset": 433,
     "attendance": 72456,
     "clock": "00:39",
     "distance": 12,
@@ -153,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "aaf6ec9e-4feb-11f1-abca-2c54536568a9",
-    "offset": 430,
+    "offset": 433,
     "drives": [
       {
         "sequence": 1,
@@ -8113,8 +8114,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIA  2-10  MIA 17",
         "playDeleted": false,
-        "playDescription": "(5:01) O.Gordon up the middle to MIA 20 for 3 yards (D.Jackson; A.Thomas).",
-        "playDescriptionWithJerseyNumbers": "(5:01) 0-O.Gordon up the middle to MIA 20 for 3 yards (95-D.Jackson; 1-A.Thomas).",
+        "playDescription": "(5:01) O.Gordon up the middle to MIA 20 for 3 yards (D.Jackson).",
+        "playDescriptionWithJerseyNumbers": "(5:01) 0-O.Gordon up the middle to MIA 20 for 3 yards (95-D.Jackson).",
         "playEndTime": "2026-10-25T19:00:47.253Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8141,22 +8142,12 @@
             "yards": 3
           },
           {
-            "playStatId": "10330060-2782-5390-0820-002d6c16c1d3",
+            "playStatId": "10330060-2782-5390-0790-0022322b8d01",
             "gsisPlayerId": "00-0041549",
             "gsisPlayerName": "D.Jackson",
             "gsisPlayerJerseyNumber": "95",
             "personId": "32004a41-4367-5972-659a-7da844354782",
-            "statType": 82,
-            "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-2782-5390-0820-0039eb038690",
-            "gsisPlayerId": "00-0040133",
-            "gsisPlayerName": "A.Thomas",
-            "gsisPlayerJerseyNumber": "01",
-            "personId": "32005448-4f02-9457-6442-59bf797e4ae8",
-            "statType": 82,
+            "statType": 79,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
             "yards": null
           }
@@ -8528,8 +8519,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIA  1-10  MIA 41",
         "playDeleted": false,
-        "playDescription": "(2:12) J.Wright right guard to MIA 47 for 6 yards (K.Enagbare; D.Jackson).",
-        "playDescriptionWithJerseyNumbers": "(2:12) 5-J.Wright right guard to MIA 47 for 6 yards (52-K.Enagbare; 95-D.Jackson).",
+        "playDescription": "(2:12) J.Wright right guard to MIA 47 for 6 yards (K.Enagbare; H.Phillips).",
+        "playDescriptionWithJerseyNumbers": "(2:12) 5-J.Wright right guard to MIA 47 for 6 yards (52-K.Enagbare; 97-H.Phillips).",
         "playEndTime": "2026-10-25T19:04:35.073Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8567,10 +8558,10 @@
           },
           {
             "playStatId": "10330060-2782-6730-0820-0036b3db4f67",
-            "gsisPlayerId": "00-0041549",
-            "gsisPlayerName": "D.Jackson",
-            "gsisPlayerJerseyNumber": "95",
-            "personId": "32004a41-4367-5972-659a-7da844354782",
+            "gsisPlayerId": "00-0034782",
+            "gsisPlayerName": "H.Phillips",
+            "gsisPlayerJerseyNumber": "97",
+            "personId": "32005048-4921-5142-5ef5-133a36dda72f",
             "statType": 82,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
             "yards": null

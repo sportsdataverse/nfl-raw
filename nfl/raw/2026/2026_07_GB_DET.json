@@ -11,6 +11,7 @@
     "fullName": "Green Bay Packers"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-25",
   "time": "2026-10-25T20:25:00Z",
   "broadcastInfo": {
@@ -93,7 +94,7 @@
   "version": 7,
   "summary": {
     "gameId": "aaf6fda2-4feb-11f1-abca-2c54536568a9",
-    "offset": 462,
+    "offset": 471,
     "attendance": 64008,
     "clock": "00:00",
     "distance": 10,
@@ -141,7 +142,7 @@
   },
   "driveChart": {
     "gameId": "aaf6fda2-4feb-11f1-abca-2c54536568a9",
-    "offset": 462,
+    "offset": 471,
     "drives": [
       {
         "sequence": 1,
@@ -8725,8 +8726,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DET  2-9  GB 10",
         "playDeleted": false,
-        "playDescription": "(6:40) (Shotgun) J.Goff pass short middle to J.Williams for 10 yards, TOUCHDOWN [L.Van Ness].",
-        "playDescriptionWithJerseyNumbers": "(6:40) (Shotgun) 16-J.Goff pass short middle to 1-J.Williams for 10 yards, TOUCHDOWN [90-L.Van Ness].",
+        "playDescription": "(6:40) (Shotgun) P.Sewell reported in as eligible.  J.Goff pass short middle to J.Williams for 10 yards, TOUCHDOWN [L.Van Ness].",
+        "playDescriptionWithJerseyNumbers": "(6:40) (Shotgun) 58-P.Sewell reported in as eligible.  16-J.Goff pass short middle to 1-J.Williams for 10 yards, TOUCHDOWN [90-L.Van Ness].",
         "playEndTime": "2026-10-25T22:18:58.307Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -13267,18 +13268,18 @@
       },
       {
         "playId": 4156,
-        "clockTime": "01:09",
+        "clockTime": "01:08",
         "down": 3,
-        "driveNetYards": 64,
-        "drivePlayCount": 7,
+        "driveNetYards": 71,
+        "drivePlayCount": 10,
         "driveSequence": 20,
-        "driveTimeOfPossession": "2:12",
+        "driveTimeOfPossession": "3:21",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DET  3-1  GB 6",
         "playDeleted": false,
-        "playDescription": "(1:09) PENALTY on DET-C.Mahogany, False Start, 5 yards, enforced at GB 6 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(1:09) PENALTY on DET-73-C.Mahogany, False Start, 5 yards, enforced at GB 6 - No Play.",
+        "playDescription": "(1:08) PENALTY on DET-P.Sewell, False Start, 5 yards, enforced at GB 6 - No Play.  10-second runoff declined.",
+        "playDescriptionWithJerseyNumbers": "(1:08) PENALTY on DET-58-P.Sewell, False Start, 5 yards, enforced at GB 6 - No Play.  10-second runoff declined.",
         "playEndTime": null,
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -13296,10 +13297,10 @@
         "stats": [
           {
             "playStatId": "10330060-2814-1560-0930-001bb838be8d",
-            "gsisPlayerId": "00-0039408",
-            "gsisPlayerName": "C.Mahogany",
-            "gsisPlayerJerseyNumber": "73",
-            "personId": "32004d41-4839-9714-9758-c27ab0db5eac",
+            "gsisPlayerId": "00-0036880",
+            "gsisPlayerName": "P.Sewell",
+            "gsisPlayerJerseyNumber": "58",
+            "personId": "32005345-5747-8214-9180-519633263ceb",
             "statType": 93,
             "teamId": "10401540-f97c-2d19-6fcd-fac6490a48b7",
             "yards": 5

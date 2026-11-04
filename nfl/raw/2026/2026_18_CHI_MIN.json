@@ -11,6 +11,7 @@
     "fullName": "Chicago Bears"
   },
   "category": null,
+  "hideCategory": false,
   "date": null,
   "time": null,
   "broadcastInfo": {

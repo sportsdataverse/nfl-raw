@@ -11,6 +11,7 @@
     "fullName": "Chicago Bears"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-18",
   "time": "2026-10-18T17:00:00Z",
   "broadcastInfo": {

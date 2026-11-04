@@ -11,6 +11,7 @@
     "fullName": "Kansas City Chiefs"
   },
   "category": "TNF",
+  "hideCategory": false,
   "date": "2026-12-04",
   "time": "2026-12-04T01:15:00Z",
   "broadcastInfo": {

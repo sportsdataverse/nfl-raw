@@ -11,6 +11,7 @@
     "fullName": "Washington Commanders"
   },
   "category": "TNF",
+  "hideCategory": false,
   "date": "2026-11-13",
   "time": "2026-11-13T01:15:00Z",
   "broadcastInfo": {

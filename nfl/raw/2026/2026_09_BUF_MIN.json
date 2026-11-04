@@ -11,6 +11,7 @@
     "fullName": "Buffalo Bills"
   },
   "category": "MNF",
+  "hideCategory": false,
   "date": "2026-11-10",
   "time": "2026-11-10T01:15:00Z",
   "broadcastInfo": {

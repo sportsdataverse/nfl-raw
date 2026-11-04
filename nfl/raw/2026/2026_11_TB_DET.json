@@ -11,21 +11,22 @@
     "fullName": "Tampa Bay Buccaneers"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-11-22",
   "time": "2026-11-22T18:00:00Z",
   "broadcastInfo": {
     "homeNetworkChannels": [
-      "CBS"
+      "FOX"
     ],
     "awayNetworkChannels": [
-      "CBS"
+      "FOX"
     ],
     "internationalWatchOptions": [],
     "streamingNetworks": [
       {
-        "hostNetwork": "CBS",
+        "hostNetwork": "FOX",
         "networks": [
-          "CBS"
+          "FOX"
         ],
         "streamType": "en-pri"
       }
@@ -90,7 +91,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 8,
   "summary": null,
   "driveChart": null,
   "replays": null,

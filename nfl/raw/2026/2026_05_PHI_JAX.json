@@ -11,6 +11,7 @@
     "fullName": "Philadelphia Eagles"
   },
   "category": null,
+  "hideCategory": false,
   "date": "2026-10-11",
   "time": "2026-10-11T13:30:00Z",
   "broadcastInfo": {
