@@ -106,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab1661ac-4feb-11f1-abca-2c54536568a9",
-    "offset": 462,
+    "offset": 467,
     "attendance": 70080,
     "clock": "00:07",
     "distance": 11,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab1661ac-4feb-11f1-abca-2c54536568a9",
-    "offset": 462,
+    "offset": 467,
     "drives": [
       {
         "sequence": 1,
@@ -12274,15 +12274,15 @@
         "clockTime": "03:40",
         "down": 1,
         "driveNetYards": 30,
-        "drivePlayCount": 8,
+        "drivePlayCount": 9,
         "driveSequence": 19,
-        "driveTimeOfPossession": "4:00",
+        "driveTimeOfPossession": "4:04",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  1-10  50",
         "playDeleted": false,
-        "playDescription": "(3:40) M.Washington up the middle to NYJ 48 for 2 yards (D.Belton).",
-        "playDescriptionWithJerseyNumbers": "(3:40) 4-M.Washington up the middle to NYJ 48 for 2 yards (6-D.Belton).",
+        "playDescription": "(3:40) M.Washington up the middle to NYJ 48 for 2 yards (D.Belton; H.Phillips).",
+        "playDescriptionWithJerseyNumbers": "(3:40) 4-M.Washington up the middle to NYJ 48 for 2 yards (6-D.Belton; 97-H.Phillips).",
         "playEndTime": "2026-11-01T20:48:20.887Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -12309,12 +12309,22 @@
             "yards": 2
           },
           {
-            "playStatId": "10330060-2913-9140-0790-002a8fbeda37",
+            "playStatId": "10330060-2913-9140-0820-002dfbfd0a5f",
             "gsisPlayerId": "00-0038123",
             "gsisPlayerName": "D.Belton",
             "gsisPlayerJerseyNumber": "06",
             "personId": "32004245-4c77-9644-30b4-fa0c97f77e59",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2913-9140-0820-00371d756309",
+            "gsisPlayerId": "00-0034782",
+            "gsisPlayerName": "H.Phillips",
+            "gsisPlayerJerseyNumber": "97",
+            "personId": "32005048-4921-5142-5ef5-133a36dda72f",
+            "statType": 82,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
             "yards": null
           }

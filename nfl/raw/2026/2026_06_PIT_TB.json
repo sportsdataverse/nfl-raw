@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "aab58c4b-4feb-11f1-abca-2c54536568a9",
-    "offset": 555,
+    "offset": 557,
     "attendance": 64660,
     "clock": "01:00",
     "distance": 10,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "aab58c4b-4feb-11f1-abca-2c54536568a9",
-    "offset": 555,
+    "offset": 557,
     "drives": [
       {
         "sequence": 1,
@@ -916,7 +916,7 @@
         "startedQuarter": 5,
         "startedTime": "2026-10-18T20:32:58.713Z",
         "startedYardLine": "TB 26",
-        "endedClock": "00:00",
+        "endedClock": "01:00",
         "endedDescription": "Downs",
         "endedPlayId": 4994,
         "endedPlaySequenceNumber": 4994.0,
@@ -927,7 +927,7 @@
         "firstDowns": 2,
         "inside20": false,
         "plays": 10,
-        "timeOfPossession": "3:15",
+        "timeOfPossession": "2:15",
         "totalEndedWithScore": false,
         "yardsGained": 15,
         "yardsGainedByPenalty": 0,
@@ -16469,7 +16469,7 @@
       },
       {
         "playId": 5021,
-        "clockTime": "00:00",
+        "clockTime": "01:00",
         "down": 0,
         "driveNetYards": 0,
         "drivePlayCount": 0,
