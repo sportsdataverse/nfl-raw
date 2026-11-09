@@ -10,7 +10,7 @@
     "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/DEN",
     "fullName": "Denver Broncos"
   },
-  "category": "TNF",
+  "category": null,
   "hideCategory": false,
   "date": "2026-11-27",
   "time": "2026-11-27T20:00:00Z",
@@ -123,7 +123,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 8,
   "summary": null,
   "driveChart": null,
   "replays": null,
