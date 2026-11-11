@@ -46,6 +46,12 @@
         ]
       },
       {
+        "audience": "AUDIO_NETWORK_AUDIENCE_HOME_SAP",
+        "languages": [
+          "es"
+        ]
+      },
+      {
         "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
         "languages": [
           "es"
@@ -100,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab580cb7-4feb-11f1-abca-2c54536568a9",
-    "offset": 569,
+    "offset": 574,
     "attendance": 67590,
     "clock": "00:37",
     "distance": 12,
@@ -148,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab580cb7-4feb-11f1-abca-2c54536568a9",
-    "offset": 569,
+    "offset": 574,
     "drives": [
       {
         "sequence": 1,
@@ -1448,7 +1454,7 @@
             "personId": "32005354-5270-2090-cc17-67cd6da43535",
             "statType": 111,
             "teamId": "10402120-b0bc-693d-098a-803014096eb0",
-            "yards": 0
+            "yards": 6
           },
           {
             "playStatId": "10330060-3080-2230-0210-003dbe641dd8",
@@ -1478,7 +1484,7 @@
             "personId": "32004855-5430-4546-3068-451b429a0c40",
             "statType": 113,
             "teamId": "10402120-b0bc-693d-098a-803014096eb0",
-            "yards": 6
+            "yards": 0
           },
           {
             "playStatId": "10330060-3080-2230-0790-006c74fb4632",
@@ -2052,8 +2058,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  2-5  LAC 49",
         "playDeleted": false,
-        "playDescription": "(8:43) Direct snap to O.Hampton.  J.Herbert pass incomplete deep middle to T.Harris.",
-        "playDescriptionWithJerseyNumbers": "(8:43) Direct snap to 8-O.Hampton.  10-J.Herbert pass incomplete deep middle to 9-T.Harris.",
+        "playDescription": "(8:43) (Shotgun) Direct snap to O.Hampton.  J.Herbert pass incomplete deep middle to T.Harris.",
+        "playDescriptionWithJerseyNumbers": "(8:43) (Shotgun) Direct snap to 8-O.Hampton.  10-J.Herbert pass incomplete deep middle to 9-T.Harris.",
         "playEndTime": "2026-11-08T21:18:40.080Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -3222,15 +3228,15 @@
         "clockTime": "03:12",
         "down": 1,
         "driveNetYards": 24,
-        "drivePlayCount": 5,
+        "drivePlayCount": 6,
         "driveSequence": 4,
-        "driveTimeOfPossession": "1:43",
+        "driveTimeOfPossession": "2:32",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  1-10  LAC 35",
         "playDeleted": false,
-        "playDescription": "(3:12) O.Hampton up the middle to LAC 40 for 5 yards (T.Togiai).",
-        "playDescriptionWithJerseyNumbers": "(3:12) 8-O.Hampton up the middle to LAC 40 for 5 yards (72-T.Togiai).",
+        "playDescription": "(3:12) O.Hampton up the middle to LAC 40 for 5 yards (T.Togiai; A.Al-Shaair).",
+        "playDescriptionWithJerseyNumbers": "(3:12) 8-O.Hampton up the middle to LAC 40 for 5 yards (72-T.Togiai; 0-A.Al-Shaair).",
         "playEndTime": "2026-11-08T21:35:45.837Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -3257,12 +3263,22 @@
             "yards": 5
           },
           {
-            "playStatId": "10330060-3080-8730-0790-0022862d7f1d",
+            "playStatId": "10330060-3080-8730-0820-002c0a517b41",
             "gsisPlayerId": "00-0036883",
             "gsisPlayerName": "T.Togiai",
             "gsisPlayerJerseyNumber": "72",
             "personId": "3200544f-4731-9136-e0d4-c4b70b445fea",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10402120-b0bc-693d-098a-803014096eb0",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-3080-8730-0820-0039c35d1fe0",
+            "gsisPlayerId": "00-0035166",
+            "gsisPlayerName": "A.Al-Shaair",
+            "gsisPlayerJerseyNumber": "00",
+            "personId": "3200414c-5310-7778-36da-c32d1386abd2",
+            "statType": 82,
             "teamId": "10402120-b0bc-693d-098a-803014096eb0",
             "yards": null
           }
@@ -12960,16 +12976,16 @@
         "playId": 4090,
         "clockTime": "05:56",
         "down": 1,
-        "driveNetYards": 59,
-        "drivePlayCount": 6,
+        "driveNetYards": 71,
+        "drivePlayCount": 10,
         "driveSequence": 23,
-        "driveTimeOfPossession": "3:15",
+        "driveTimeOfPossession": "4:31",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  1-10  HOU 44",
         "playDeleted": false,
-        "playDescription": "(5:56) O.Hampton right tackle to HOU 12 for 32 yards (D.Stingley). HOU-D.Stingley was injured during the play.",
-        "playDescriptionWithJerseyNumbers": "(5:56) 8-O.Hampton right tackle to HOU 12 for 32 yards (24-D.Stingley). HOU-24-D.Stingley was injured during the play.",
+        "playDescription": "(5:56) O.Hampton right tackle pushed ob at HOU 12 for 32 yards (C.Bullock). HOU-D.Stingley was injured during the play.",
+        "playDescriptionWithJerseyNumbers": "(5:56) 8-O.Hampton right tackle pushed ob at HOU 12 for 32 yards (2-C.Bullock). HOU-24-D.Stingley was injured during the play.",
         "playEndTime": "2026-11-09T00:05:44.793Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -13007,10 +13023,10 @@
           },
           {
             "playStatId": "10330060-3084-0900-0790-00339b21ff58",
-            "gsisPlayerId": "00-0037237",
-            "gsisPlayerName": "D.Stingley",
-            "gsisPlayerJerseyNumber": "24",
-            "personId": "32005354-4960-1420-a38e-b73a2b4cd5a6",
+            "gsisPlayerId": "00-0039838",
+            "gsisPlayerName": "C.Bullock",
+            "gsisPlayerJerseyNumber": "02",
+            "personId": "32004255-4c47-5420-e681-392e513abf49",
             "statType": 79,
             "teamId": "10402120-b0bc-693d-098a-803014096eb0",
             "yards": null

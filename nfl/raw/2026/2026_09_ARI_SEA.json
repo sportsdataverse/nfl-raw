@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab581f17-4feb-11f1-abca-2c54536568a9",
-    "offset": 435,
+    "offset": 437,
     "attendance": 68636,
     "clock": "00:38",
     "distance": 12,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab581f17-4feb-11f1-abca-2c54536568a9",
-    "offset": 435,
+    "offset": 437,
     "drives": [
       {
         "sequence": 1,
@@ -10722,16 +10722,16 @@
         "playId": 3494,
         "clockTime": "07:47",
         "down": 4,
-        "driveNetYards": 73,
-        "drivePlayCount": 10,
+        "driveNetYards": 76,
+        "drivePlayCount": 14,
         "driveSequence": 17,
-        "driveTimeOfPossession": "4:04",
+        "driveTimeOfPossession": "6:08",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  4-1  SEA 32",
         "playDeleted": false,
-        "playDescription": "(7:47) (Shotgun) G.Minshew pass short right to T.McBride ran ob at SEA 17 for 15 yards.",
-        "playDescriptionWithJerseyNumbers": "(7:47) (Shotgun) 15-G.Minshew pass short right to 85-T.McBride ran ob at SEA 17 for 15 yards.",
+        "playDescription": "(7:47) (Shotgun) G.Minshew pass short right to T.McBride pushed ob at SEA 17 for 15 yards (J.Love).",
+        "playDescriptionWithJerseyNumbers": "(7:47) (Shotgun) 15-G.Minshew pass short right to 85-T.McBride pushed ob at SEA 17 for 15 yards (20-J.Love).",
         "playEndTime": "2026-11-08T23:56:52.757Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10816,6 +10816,16 @@
             "statType": 113,
             "teamId": "10403800-517c-7b8c-65a3-c61b95d86123",
             "yards": 0
+          },
+          {
+            "playStatId": "10330060-3113-4940-0790-00833b752092",
+            "gsisPlayerId": "00-0034974",
+            "gsisPlayerName": "J.Love",
+            "gsisPlayerJerseyNumber": "20",
+            "personId": "32004c4f-5613-3771-4f23-34180a3619b8",
+            "statType": 79,
+            "teamId": "10404600-adcd-28ac-5826-b4d95ec2a228",
+            "yards": null
           }
         ]
       },

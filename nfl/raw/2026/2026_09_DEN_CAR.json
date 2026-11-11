@@ -106,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab380efd-4feb-11f1-abca-2c54536568a9",
-    "offset": 501,
+    "offset": 504,
     "attendance": 73075,
     "clock": "00:29",
     "distance": 11,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab380efd-4feb-11f1-abca-2c54536568a9",
-    "offset": 501,
+    "offset": 504,
     "drives": [
       {
         "sequence": 1,
@@ -6740,8 +6740,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DEN  2-4  DEN 46",
         "playDeleted": false,
-        "playDescription": "(1:07) (No Huddle, Shotgun) B.Nix pass short left to C.Sutton to CAR 45 for 9 yards (T.Dodson).",
-        "playDescriptionWithJerseyNumbers": "(1:07) (No Huddle, Shotgun) 10-B.Nix pass short left to 14-C.Sutton to CAR 45 for 9 yards (33-T.Dodson).",
+        "playDescription": "(1:07) (No Huddle, Shotgun) B.Nix pass short left to C.Sutton to CAR 45 for 9 yards (C.Thornton).",
+        "playDescriptionWithJerseyNumbers": "(1:07) (No Huddle, Shotgun) 10-B.Nix pass short left to 14-C.Sutton to CAR 45 for 9 yards (31-C.Thornton).",
         "playEndTime": "2026-11-08T19:24:10.557Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6819,10 +6819,10 @@
           },
           {
             "playStatId": "10330060-3012-1020-0790-007bb2a00952",
-            "gsisPlayerId": "00-0035352",
-            "gsisPlayerName": "T.Dodson",
-            "gsisPlayerJerseyNumber": "33",
-            "personId": "3200444f-4434-1460-b378-91176d704c77",
+            "gsisPlayerId": "00-0040296",
+            "gsisPlayerName": "C.Thornton",
+            "gsisPlayerJerseyNumber": "31",
+            "personId": "32005448-4f77-0480-6b9e-c4f3415b199c",
             "statType": 79,
             "teamId": "10400750-259b-33ac-eee3-a3852e83cd1f",
             "yards": null
@@ -13523,19 +13523,19 @@
         "driveNetYards": -10,
         "drivePlayCount": 3,
         "driveSequence": 18,
-        "driveTimeOfPossession": "1:05",
+        "driveTimeOfPossession": "1:16",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DEN  2-8  DEN 26",
         "playDeleted": false,
-        "playDescription": "(2:53) A.Palczewski reported in as eligible.  B.Nix FUMBLES (Aborted) at DEN 19, touched at DEN 20, recovered by DEN-J.Coleman at DEN 8. J.Coleman to DEN 8 for no gain (P.Jones).",
-        "playDescriptionWithJerseyNumbers": "(2:53) 63-A.Palczewski reported in as eligible.  10-B.Nix FUMBLES (Aborted) at DEN 19, touched at DEN 20, recovered by DEN-20-J.Coleman at DEN 8. 20-J.Coleman to DEN 8 for no gain (91-P.Jones).",
-        "playEndTime": null,
+        "playDescription": "(2:53) A.Palczewski reported in as eligible.  B.Nix FUMBLES (Aborted) at DEN 19, touched at DEN 20, recovered by DEN-J.Coleman at DEN 8.",
+        "playDescriptionWithJerseyNumbers": "(2:53) 63-A.Palczewski reported in as eligible.  10-B.Nix FUMBLES (Aborted) at DEN 19, touched at DEN 20, recovered by DEN-20-J.Coleman at DEN 8.",
+        "playEndTime": "2026-11-08T21:02:14.640Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": false,
         "playSequenceNumber": 4436.0,
-        "playStartTime": "2026-11-08T21:02:08Z",
+        "playStartTime": "2026-11-08T21:02:08.497Z",
         "playType": "RUSH",
         "quarter": 4,
         "scoringPlayType": "UNSPECIFIED",
@@ -13584,36 +13584,6 @@
             "statType": 55,
             "teamId": "10401400-b89b-96e5-55d1-caa7e18de3d8",
             "yards": 0
-          },
-          {
-            "playStatId": "10330060-3014-4360-0790-0055e828f72c",
-            "gsisPlayerId": "00-0037007",
-            "gsisPlayerName": "P.Jones",
-            "gsisPlayerJerseyNumber": "91",
-            "personId": "32004a4f-4e82-6250-ea6a-1df1567c082f",
-            "statType": 79,
-            "teamId": "10400750-259b-33ac-eee3-a3852e83cd1f",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-3014-4360-1200-00630276b1ba",
-            "gsisPlayerId": "00-0037007",
-            "gsisPlayerName": "P.Jones",
-            "gsisPlayerJerseyNumber": "91",
-            "personId": "32004a4f-4e82-6250-ea6a-1df1567c082f",
-            "statType": 120,
-            "teamId": "10400750-259b-33ac-eee3-a3852e83cd1f",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-3014-4360-4020-0074d921bf9e",
-            "gsisPlayerId": "00-0037007",
-            "gsisPlayerName": "P.Jones",
-            "gsisPlayerJerseyNumber": "91",
-            "personId": "32004a4f-4e82-6250-ea6a-1df1567c082f",
-            "statType": 402,
-            "teamId": "10400750-259b-33ac-eee3-a3852e83cd1f",
-            "yards": 18
           }
         ]
       },

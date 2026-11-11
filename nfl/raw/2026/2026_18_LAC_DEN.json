@@ -38,6 +38,12 @@
         "languages": [
           "es"
         ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_AWAY_SAP",
+        "languages": [
+          "es"
+        ]
       }
     ]
   },

@@ -106,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab381724-4feb-11f1-abca-2c54536568a9",
-    "offset": 537,
+    "offset": 542,
     "attendance": 73628,
     "clock": "00:36",
     "distance": 11,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab381724-4feb-11f1-abca-2c54536568a9",
-    "offset": 537,
+    "offset": 542,
     "drives": [
       {
         "sequence": 1,
@@ -2809,10 +2809,10 @@
         "playId": 734,
         "clockTime": "04:30",
         "down": 1,
-        "driveNetYards": 0,
-        "drivePlayCount": 2,
+        "driveNetYards": 82,
+        "drivePlayCount": 10,
         "driveSequence": 4,
-        "driveTimeOfPossession": "0:16",
+        "driveTimeOfPossession": "4:39",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  1-10  KC 18",
@@ -2862,7 +2862,7 @@
             "personId": "32004d41-4840-1939-e4c1-bb89191b4e71",
             "statType": 112,
             "teamId": "10402310-a47e-10ea-7442-16b633633637",
-            "yards": 0
+            "yards": -4
           }
         ]
       },
@@ -3152,8 +3152,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  2-1  KC 44",
         "playDeleted": false,
-        "playDescription": "(3:13) (Shotgun) P.Mahomes pass short right to X.Worthy to NYJ 45 for 11 yards (D.Belton; A.Thomas).",
-        "playDescriptionWithJerseyNumbers": "(3:13) (Shotgun) 15-P.Mahomes pass short right to 1-X.Worthy to NYJ 45 for 11 yards (6-D.Belton; 1-A.Thomas).",
+        "playDescription": "(3:13) (No Huddle, Shotgun) P.Mahomes pass short right to X.Worthy to NYJ 45 for 11 yards (D.Belton; A.Thomas).",
+        "playDescriptionWithJerseyNumbers": "(3:13) (No Huddle, Shotgun) 15-P.Mahomes pass short right to 1-X.Worthy to NYJ 45 for 11 yards (6-D.Belton; 1-A.Thomas).",
         "playEndTime": "2026-11-08T18:35:36.870Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -5348,8 +5348,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  1-10  NYJ 24",
         "playDeleted": false,
-        "playDescription": "(6:21) (Shotgun) K.Walker right end to NYJ 25 for -1 yards (D.Bailey).  The ball spot was assisted by replay.",
-        "playDescriptionWithJerseyNumbers": "(6:21) (Shotgun) 9-K.Walker right end to NYJ 25 for -1 yards (31-D.Bailey).  The ball spot was assisted by replay.",
+        "playDescription": "(6:21) (Shotgun) K.Walker right end to NYJ 25 for -1 yards (D.Bailey).",
+        "playDescriptionWithJerseyNumbers": "(6:21) (Shotgun) 9-K.Walker right end to NYJ 25 for -1 yards (31-D.Bailey).",
         "playEndTime": "2026-11-08T19:02:11.277Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

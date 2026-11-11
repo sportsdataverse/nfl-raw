@@ -100,7 +100,7 @@
   "version": 8,
   "summary": {
     "gameId": "ab381a59-4feb-11f1-abca-2c54536568a9",
-    "offset": 460,
+    "offset": 462,
     "attendance": 62984,
     "clock": "00:37",
     "distance": 12,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab381a59-4feb-11f1-abca-2c54536568a9",
-    "offset": 460,
+    "offset": 462,
     "drives": [
       {
         "sequence": 1,
@@ -10217,8 +10217,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "DET  2-7  MIA 25",
         "playDeleted": false,
-        "playDescription": "(4:38) (Shotgun) J.Goff pass incomplete short left to S.LaPorta.",
-        "playDescriptionWithJerseyNumbers": "(4:38) (Shotgun) 16-J.Goff pass incomplete short left to 87-S.LaPorta.",
+        "playDescription": "(4:38) (Shotgun) J.Goff pass incomplete short left to S.LaPorta (M.Herring).",
+        "playDescriptionWithJerseyNumbers": "(4:38) (Shotgun) 16-J.Goff pass incomplete short left to 87-S.LaPorta (90-M.Herring).",
         "playEndTime": "2026-11-08T20:28:44.307Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10255,7 +10255,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-3043-5010-1120-00318daeec80",
+            "playStatId": "10330060-3043-5010-0850-0039debc2091",
+            "gsisPlayerId": "00-0036682",
+            "gsisPlayerName": "M.Herring",
+            "gsisPlayerJerseyNumber": "90",
+            "personId": "32004845-5256-4752-3f1a-38971faac140",
+            "statType": 85,
+            "teamId": "10402700-1662-d8ad-f45c-0b0ea460d045",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-3043-5010-1120-004f4080e663",
             "gsisPlayerId": "00-0033106",
             "gsisPlayerName": "J.Goff",
             "gsisPlayerJerseyNumber": "16",
