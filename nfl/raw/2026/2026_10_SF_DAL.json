@@ -16,10 +16,12 @@
   "time": "2026-11-15T21:25:00Z",
   "broadcastInfo": {
     "homeNetworkChannels": [
-      "FOX"
+      "FOX",
+      "FOX DEPORTES"
     ],
     "awayNetworkChannels": [
-      "FOX"
+      "FOX",
+      "FOX DEPORTES"
     ],
     "internationalWatchOptions": [],
     "streamingNetworks": [
@@ -29,6 +31,13 @@
           "FOX"
         ],
         "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "FOXDEPORTES",
+        "networks": [
+          "FOXDEPORTES"
+        ],
+        "streamType": "es-alt-1"
       }
     ],
     "territory": "REGIONAL",
@@ -97,7 +106,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 8,
   "summary": null,
   "driveChart": null,
   "replays": null,
