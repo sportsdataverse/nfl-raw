@@ -211525,6 +211525,19 @@
 {
 "season": 2026,
 "espn_team_id": "28",
+"espn_athlete_id": "5151317",
+"espn_full_name": "Robert Henry Jr.",
+"espn_jersey": "30O",
+"fox_team_id": "19",
+"fox_player_id": "329722",
+"fox_player_name": "Robert Henry Jr.",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "28",
 "espn_athlete_id": "3886601",
 "espn_full_name": "Shy Tuttle",
 "espn_jersey": "96",

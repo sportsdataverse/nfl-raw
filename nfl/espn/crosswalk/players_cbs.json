@@ -253086,6 +253086,19 @@
 {
 "season": 2026,
 "espn_team_id": "19",
+"espn_athlete_id": "4695086",
+"espn_full_name": "Chandler Martin",
+"espn_jersey": "55",
+"cbs_team_id": "422",
+"cbs_player_id": "3168017",
+"cbs_player_name": "Chandler Martin",
+"cbs_jersey": "55",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "19",
 "espn_athlete_id": "4257188",
 "espn_full_name": "Charlie Jones",
 "espn_jersey": "89",
@@ -259567,6 +259580,19 @@
 "cbs_player_id": "3122449",
 "cbs_player_name": "Ricky Barber",
 "cbs_jersey": "50",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "28",
+"espn_athlete_id": "5151317",
+"espn_full_name": "Robert Henry Jr.",
+"espn_jersey": "30O",
+"cbs_team_id": "433",
+"cbs_player_id": "29123025",
+"cbs_player_name": "Robert Henry Jr.",
+"cbs_jersey": "34",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },

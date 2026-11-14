@@ -328161,6 +328161,19 @@
 {
 "season": 2026,
 "espn_team_id": "19",
+"espn_athlete_id": "4695086",
+"espn_full_name": "Chandler Martin",
+"espn_jersey": "55",
+"yahoo_team_id": "nfl.t.19",
+"yahoo_player_id": "nfl.p.42470",
+"yahoo_player_name": "Chandler Martin",
+"yahoo_jersey": "55",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "19",
 "espn_athlete_id": "4257188",
 "espn_full_name": "Charlie Jones",
 "espn_jersey": "89",
@@ -334629,6 +334642,19 @@
 "yahoo_player_id": "nfl.p.42147",
 "yahoo_player_name": "Ricky Barber",
 "yahoo_jersey": "50",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "28",
+"espn_athlete_id": "5151317",
+"espn_full_name": "Robert Henry Jr.",
+"espn_jersey": "30O",
+"yahoo_team_id": "nfl.t.28",
+"yahoo_player_id": "nfl.p.42986",
+"yahoo_player_name": "Robert Henry Jr.",
+"yahoo_jersey": "34",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
