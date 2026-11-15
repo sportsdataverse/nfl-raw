@@ -321323,6 +321323,19 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "3044720",
+"espn_full_name": "Joshua Dobbs",
+"espn_jersey": "6",
+"yahoo_team_id": "nfl.t.8",
+"yahoo_player_id": "nfl.p.30248",
+"yahoo_player_name": "Joshua Dobbs",
+"yahoo_jersey": "11",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "4361425",
 "espn_full_name": "Juice Scruggs",
 "espn_jersey": "70",
@@ -321330,6 +321343,19 @@
 "yahoo_player_id": "nfl.p.40066",
 "yahoo_player_name": "Juice Scruggs",
 "yahoo_jersey": "70",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
+"espn_athlete_id": "4242521",
+"espn_full_name": "K.J. Britt",
+"espn_jersey": "40",
+"yahoo_team_id": "nfl.t.8",
+"yahoo_player_id": "nfl.p.33564",
+"yahoo_player_name": "K.J. Britt",
+"yahoo_jersey": "40",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -327271,6 +327297,19 @@
 "yahoo_player_id": "nfl.p.31942",
 "yahoo_player_name": "Mitch Wishnowsky",
 "yahoo_jersey": "19",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "17",
+"espn_athlete_id": "16771",
+"espn_full_name": "Morgan Moses",
+"espn_jersey": "76",
+"yahoo_team_id": "nfl.t.17",
+"yahoo_player_id": "nfl.p.27594",
+"yahoo_player_name": "Morgan Moses",
+"yahoo_jersey": "76",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
