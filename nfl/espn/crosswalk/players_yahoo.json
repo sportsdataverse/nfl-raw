@@ -325450,7 +325450,7 @@
 "yahoo_team_id": "nfl.t.14",
 "yahoo_player_id": "nfl.p.40399",
 "yahoo_player_name": "Xavier Smith",
-"yahoo_jersey": "15",
+"yahoo_jersey": "19",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -325801,7 +325801,7 @@
 "yahoo_team_id": "nfl.t.15",
 "yahoo_player_id": "nfl.p.42250",
 "yahoo_player_name": "Keith Cooper Jr.",
-"yahoo_jersey": "96",
+"yahoo_jersey": "97",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -336968,7 +336968,7 @@
 "yahoo_team_id": "nfl.t.34",
 "yahoo_player_id": "nfl.p.30860",
 "yahoo_player_name": "Dare Ogunbowale",
-"yahoo_jersey": "23",
+"yahoo_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
 },

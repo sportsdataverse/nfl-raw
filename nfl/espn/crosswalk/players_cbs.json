@@ -246248,6 +246248,19 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "3044720",
+"espn_full_name": "Joshua Dobbs",
+"espn_jersey": "6",
+"cbs_team_id": "413",
+"cbs_player_id": "2071844",
+"cbs_player_name": "Joshua Dobbs",
+"cbs_jersey": "11",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "4361425",
 "espn_full_name": "Juice Scruggs",
 "espn_jersey": "70",
@@ -246255,6 +246268,19 @@
 "cbs_player_id": "2967572",
 "cbs_player_name": "Juice Scruggs",
 "cbs_jersey": "70",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
+"espn_athlete_id": "4242521",
+"espn_full_name": "K.J. Britt",
+"espn_jersey": "40",
+"cbs_team_id": "413",
+"cbs_player_id": "2804540",
+"cbs_player_name": "K.J. Britt",
+"cbs_jersey": "40",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -250336,7 +250362,7 @@
 "cbs_team_id": "427",
 "cbs_player_id": "2986749",
 "cbs_player_name": "Xavier Smith",
-"cbs_jersey": "19",
+"cbs_jersey": "14",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -252183,6 +252209,19 @@
 "cbs_player_id": "2240526",
 "cbs_player_name": "Mitch Wishnowsky",
 "cbs_jersey": "19",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "17",
+"espn_athlete_id": "16771",
+"espn_full_name": "Morgan Moses",
+"espn_jersey": "76",
+"cbs_team_id": "420",
+"cbs_player_id": "1759343",
+"cbs_player_name": "Morgan Moses",
+"cbs_jersey": "76",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },

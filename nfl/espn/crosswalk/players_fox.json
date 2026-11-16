@@ -198317,6 +198317,32 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "3044720",
+"espn_full_name": "Joshua Dobbs",
+"espn_jersey": "6",
+"fox_team_id": "21",
+"fox_player_id": "13236",
+"fox_player_name": "Joshua Dobbs",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
+"espn_athlete_id": "4242521",
+"espn_full_name": "K.J. Britt",
+"espn_jersey": "40",
+"fox_team_id": "21",
+"fox_player_id": "22402",
+"fox_player_name": "K.J. Britt",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "5093004",
 "espn_full_name": "Keith Abney II",
 "espn_jersey": "28",
@@ -204225,6 +204251,19 @@
 "fox_team_id": "4",
 "fox_player_id": "14977",
 "fox_player_name": "Mitch Wishnowsky",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "17",
+"espn_athlete_id": "16771",
+"espn_full_name": "Morgan Moses",
+"espn_jersey": "76",
+"fox_team_id": "4",
+"fox_player_id": "10571",
+"fox_player_name": "Morgan Moses",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
