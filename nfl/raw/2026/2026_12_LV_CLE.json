@@ -10,29 +10,50 @@
     "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/LV",
     "fullName": "Las Vegas Raiders"
   },
-  "category": null,
+  "category": "SNF",
   "hideCategory": false,
-  "date": "2026-11-29",
-  "time": "2026-11-29T18:00:00Z",
+  "date": "2026-11-30",
+  "time": "2026-11-30T01:20:00Z",
   "broadcastInfo": {
     "homeNetworkChannels": [
-      "FOX"
+      "NBC",
+      "UNIVERSO"
     ],
     "awayNetworkChannels": [
-      "FOX"
+      "NBC",
+      "UNIVERSO"
     ],
     "internationalWatchOptions": [],
     "streamingNetworks": [
       {
-        "hostNetwork": "FOX",
+        "hostNetwork": "NBC",
         "networks": [
-          "FOX"
+          "NBC"
         ],
         "streamType": "en-pri"
+      },
+      {
+        "hostNetwork": "UNIVERSO",
+        "networks": [
+          "UNIVERSO"
+        ],
+        "streamType": "es-alt-1"
       }
     ],
-    "territory": "REGIONAL",
+    "territory": "NATIONAL",
     "audioNetworks": [
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
+        "languages": [
+          "es"
+        ]
+      },
       {
         "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
         "languages": [
@@ -97,7 +118,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 11,
   "summary": null,
   "driveChart": null,
   "replays": null,

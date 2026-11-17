@@ -10,50 +10,29 @@
     "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/NE",
     "fullName": "New England Patriots"
   },
-  "category": "SNF",
+  "category": null,
   "hideCategory": false,
-  "date": "2026-11-30",
-  "time": "2026-11-30T01:20:00Z",
+  "date": "2026-11-29",
+  "time": "2026-11-29T21:05:00Z",
   "broadcastInfo": {
     "homeNetworkChannels": [
-      "NBC",
-      "UNIVERSO"
+      "CBS"
     ],
     "awayNetworkChannels": [
-      "NBC",
-      "UNIVERSO"
+      "CBS"
     ],
     "internationalWatchOptions": [],
     "streamingNetworks": [
       {
-        "hostNetwork": "NBC",
+        "hostNetwork": "CBS",
         "networks": [
-          "NBC"
+          "CBS"
         ],
         "streamType": "en-pri"
-      },
-      {
-        "hostNetwork": "UNIVERSO",
-        "networks": [
-          "UNIVERSO"
-        ],
-        "streamType": "es-alt-1"
       }
     ],
-    "territory": "NATIONAL",
+    "territory": "REGIONAL",
     "audioNetworks": [
-      {
-        "audience": "AUDIO_NETWORK_AUDIENCE_WESTWOOD_ONE",
-        "languages": [
-          "en"
-        ]
-      },
-      {
-        "audience": "AUDIO_NETWORK_AUDIENCE_ENTRAVISION",
-        "languages": [
-          "es"
-        ]
-      },
       {
         "audience": "AUDIO_NETWORK_AUDIENCE_HOME",
         "languages": [
@@ -118,7 +97,7 @@
     }
   ],
   "extensions": [],
-  "version": 7,
+  "version": 11,
   "summary": null,
   "driveChart": null,
   "replays": null,
