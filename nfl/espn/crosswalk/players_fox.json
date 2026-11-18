@@ -209003,6 +209003,19 @@
 {
 "season": 2026,
 "espn_team_id": "24",
+"espn_athlete_id": "2579621",
+"espn_full_name": "Denzel Perryman",
+"espn_jersey": "6",
+"fox_team_id": "13",
+"fox_player_id": "11412",
+"fox_player_name": "Denzel Perryman",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "24",
 "espn_athlete_id": "4362477",
 "espn_full_name": "Derius Davis",
 "espn_jersey": "12",
@@ -213657,6 +213670,19 @@
 {
 "season": 2026,
 "espn_team_id": "33",
+"espn_athlete_id": "2578570",
+"espn_full_name": "Jacoby Brissett",
+"espn_jersey": "11",
+"fox_team_id": "33",
+"fox_player_id": "12306",
+"fox_player_name": "Jacoby Brissett",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
 "espn_athlete_id": "4372066",
 "espn_full_name": "Jake Moody",
 "espn_jersey": "45",
@@ -213715,6 +213741,19 @@
 "fox_team_id": "33",
 "fox_player_id": "9631",
 "fox_player_name": "John Jenkins",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
+"espn_athlete_id": "4035479",
+"espn_full_name": "John Simpson",
+"espn_jersey": "74",
+"fox_team_id": "33",
+"fox_player_id": "21563",
+"fox_player_name": "John Simpson",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -213949,6 +213988,19 @@
 "fox_team_id": "33",
 "fox_player_id": "22200",
 "fox_player_name": "Rashod Bateman",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
+"espn_athlete_id": "4243371",
+"espn_full_name": "Riley Patterson",
+"espn_jersey": "35",
+"fox_team_id": "33",
+"fox_player_id": "22521",
+"fox_player_name": "Riley Patterson",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0

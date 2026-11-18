@@ -332139,6 +332139,19 @@
 {
 "season": 2026,
 "espn_team_id": "24",
+"espn_athlete_id": "2579621",
+"espn_full_name": "Denzel Perryman",
+"espn_jersey": "6",
+"yahoo_team_id": "nfl.t.24",
+"yahoo_player_id": "nfl.p.28436",
+"yahoo_player_name": "Denzel Perryman",
+"yahoo_jersey": "6",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "24",
 "espn_athlete_id": "4362477",
 "espn_full_name": "Derius Davis",
 "espn_jersey": "12",
@@ -336806,6 +336819,19 @@
 {
 "season": 2026,
 "espn_team_id": "33",
+"espn_athlete_id": "2578570",
+"espn_full_name": "Jacoby Brissett",
+"espn_jersey": "11",
+"yahoo_team_id": "nfl.t.33",
+"yahoo_player_id": "nfl.p.29325",
+"yahoo_player_name": "Jacoby Brissett",
+"yahoo_jersey": "11",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
 "espn_athlete_id": "4372066",
 "espn_full_name": "Jake Moody",
 "espn_jersey": "45",
@@ -336865,6 +336891,19 @@
 "yahoo_player_id": "nfl.p.26705",
 "yahoo_player_name": "John Jenkins",
 "yahoo_jersey": "94",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
+"espn_athlete_id": "4035479",
+"espn_full_name": "John Simpson",
+"espn_jersey": "74",
+"yahoo_team_id": "nfl.t.33",
+"yahoo_player_id": "nfl.p.32779",
+"yahoo_player_name": "John Simpson",
+"yahoo_jersey": "74",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -337099,6 +337138,19 @@
 "yahoo_player_id": "nfl.p.33415",
 "yahoo_player_name": "Rashod Bateman",
 "yahoo_jersey": "7",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
+"espn_athlete_id": "4243371",
+"espn_full_name": "Riley Patterson",
+"espn_jersey": "35",
+"yahoo_team_id": "nfl.t.33",
+"yahoo_player_id": "nfl.p.33781",
+"yahoo_player_name": "Riley Patterson",
+"yahoo_jersey": "35",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },

@@ -257077,6 +257077,19 @@
 {
 "season": 2026,
 "espn_team_id": "24",
+"espn_athlete_id": "2579621",
+"espn_full_name": "Denzel Perryman",
+"espn_jersey": "6",
+"cbs_team_id": "428",
+"cbs_player_id": "1860814",
+"cbs_player_name": "Denzel Perryman",
+"cbs_jersey": "6",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "24",
 "espn_athlete_id": "4362477",
 "espn_full_name": "Derius Davis",
 "espn_jersey": "12",
@@ -261744,6 +261757,19 @@
 {
 "season": 2026,
 "espn_team_id": "33",
+"espn_athlete_id": "2578570",
+"espn_full_name": "Jacoby Brissett",
+"espn_jersey": "11",
+"cbs_team_id": "406",
+"cbs_player_id": "1877247",
+"cbs_player_name": "Jacoby Brissett",
+"cbs_jersey": "11",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
 "espn_athlete_id": "4372066",
 "espn_full_name": "Jake Moody",
 "espn_jersey": "45",
@@ -261803,6 +261829,19 @@
 "cbs_player_id": "1877278",
 "cbs_player_name": "John Jenkins",
 "cbs_jersey": "94",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
+"espn_athlete_id": "4035479",
+"espn_full_name": "John Simpson",
+"espn_jersey": "74",
+"cbs_team_id": "406",
+"cbs_player_id": "2239533",
+"cbs_player_name": "John Simpson",
+"cbs_jersey": "74",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -262037,6 +262076,19 @@
 "cbs_player_id": "2960940",
 "cbs_player_name": "Rashod Bateman",
 "cbs_jersey": "7",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
+"espn_athlete_id": "4243371",
+"espn_full_name": "Riley Patterson",
+"espn_jersey": "35",
+"cbs_team_id": "406",
+"cbs_player_id": "2865368",
+"cbs_player_name": "Riley Patterson",
+"cbs_jersey": "35",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
