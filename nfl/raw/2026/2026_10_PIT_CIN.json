@@ -121,7 +121,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab78aa48-4feb-11f1-abca-2c54536568a9",
-    "offset": 491,
+    "offset": 493,
     "attendance": 66860,
     "clock": "00:20",
     "distance": 8,
@@ -169,7 +169,7 @@
   },
   "driveChart": {
     "gameId": "ab78aa48-4feb-11f1-abca-2c54536568a9",
-    "offset": 491,
+    "offset": 493,
     "drives": [
       {
         "sequence": 1,
@@ -6088,16 +6088,16 @@
         "playId": 1895,
         "clockTime": "01:52",
         "down": 2,
-        "driveNetYards": 43,
-        "drivePlayCount": 9,
+        "driveNetYards": 42,
+        "drivePlayCount": 10,
         "driveSequence": 8,
-        "driveTimeOfPossession": "3:48",
+        "driveTimeOfPossession": "4:03",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  2-8  CIN 18",
         "playDeleted": false,
-        "playDescription": "(1:52) (Shotgun) A.Rodgers pass short right to B.Skowronek to CIN 18 for no gain (D.Hill).",
-        "playDescriptionWithJerseyNumbers": "(1:52) (Shotgun) 8-A.Rodgers pass short right to 15-B.Skowronek to CIN 18 for no gain (23-D.Hill).",
+        "playDescription": "(1:52) (Shotgun) A.Rodgers pass short right to B.Skowronek to CIN 18 for no gain (D.Hill) [B.Mafe].",
+        "playDescriptionWithJerseyNumbers": "(1:52) (Shotgun) 8-A.Rodgers pass short right to 15-B.Skowronek to CIN 18 for no gain (23-D.Hill) [53-B.Mafe].",
         "playEndTime": "2026-11-16T02:39:23.957Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6164,7 +6164,17 @@
             "yards": 0
           },
           {
-            "playStatId": "10330060-3261-8950-0790-006e6d7197e0",
+            "playStatId": "10330060-3261-8950-1100-0069cc89b3d8",
+            "gsisPlayerId": "00-0038133",
+            "gsisPlayerName": "B.Mafe",
+            "gsisPlayerJerseyNumber": "53",
+            "personId": "32004d41-4641-5291-9981-cb7520c897a8",
+            "statType": 110,
+            "teamId": "10400920-57c1-7656-e77e-1af3d900483e",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-3261-8950-0790-00737393285a",
             "gsisPlayerId": "00-0037743",
             "gsisPlayerName": "D.Hill",
             "gsisPlayerJerseyNumber": "23",

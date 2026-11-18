@@ -106,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab381724-4feb-11f1-abca-2c54536568a9",
-    "offset": 542,
+    "offset": 545,
     "attendance": 73628,
     "clock": "00:36",
     "distance": 11,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab381724-4feb-11f1-abca-2c54536568a9",
-    "offset": 542,
+    "offset": 545,
     "drives": [
       {
         "sequence": 1,
@@ -2361,8 +2361,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  3-1  KC 34",
         "playDeleted": false,
-        "playDescription": "(5:40) H.Nourzad reported in as eligible.  J.Fields up the middle to KC 34 for no gain (K.Enagbare).\r\nNew York Jets challenged the runner was down by contact ruling, and the play was REVERSED.\r\nH.Nourzad reported in as eligible.  J.Fields up the middle to KC 34 for no gain. FUMBLES, RECOVERED by NYJ-D.Davis at KC 34.",
-        "playDescriptionWithJerseyNumbers": "(5:40) 64-H.Nourzad reported in as eligible.  6-J.Fields up the middle to KC 34 for no gain (52-K.Enagbare).\r\nNew York Jets challenged the runner was down by contact ruling, and the play was REVERSED.\r\n64-H.Nourzad reported in as eligible.  6-J.Fields up the middle to KC 34 for no gain. FUMBLES, RECOVERED by NYJ-56-D.Davis at KC 34.",
+        "playDescription": "(5:40) H.Nourzad reported in as eligible. Direct snap to J.Fields.  J.Fields up the middle to KC 34 for no gain (K.Enagbare).\r\nNew York Jets challenged the runner was down by contact ruling, and the play was REVERSED.\r\nH.Nourzad reported in as eligible. Direct snap to J.Fields.  J.Fields up the middle to KC 34 for no gain. FUMBLES, RECOVERED by NYJ-D.Davis at KC 34.",
+        "playDescriptionWithJerseyNumbers": "(5:40) 64-H.Nourzad reported in as eligible. Direct snap to 6-J.Fields.  6-J.Fields up the middle to KC 34 for no gain (52-K.Enagbare).\r\nNew York Jets challenged the runner was down by contact ruling, and the play was REVERSED.\r\n64-H.Nourzad reported in as eligible. Direct snap to 6-J.Fields.  6-J.Fields up the middle to KC 34 for no gain. FUMBLES, RECOVERED by NYJ-56-D.Davis at KC 34.",
         "playEndTime": "2026-11-08T18:20:15.630Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

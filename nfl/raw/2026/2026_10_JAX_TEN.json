@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab789e15-4feb-11f1-abca-2c54536568a9",
-    "offset": 471,
+    "offset": 479,
     "attendance": 61239,
     "clock": "00:03",
     "distance": 5,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab789e15-4feb-11f1-abca-2c54536568a9",
-    "offset": 471,
+    "offset": 479,
     "drives": [
       {
         "sequence": 1,
@@ -4502,8 +4502,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "JAX  2-8  JAX 33",
         "playDeleted": false,
-        "playDescription": "(10:27) (Shotgun) T.Lawrence pass short middle to P.Washington pushed ob at TEN 17 for 50 yards (T.Adams).\r\nPenalty on TEN-O.Oladejo, Neutral Zone Infraction, declined.",
-        "playDescriptionWithJerseyNumbers": "(10:27) (Shotgun) 16-T.Lawrence pass short middle to 11-P.Washington pushed ob at TEN 17 for 50 yards (29-T.Adams).\r\nPenalty on TEN-7-O.Oladejo, Neutral Zone Infraction, declined.",
+        "playDescription": "(10:27) (Shotgun) T.Lawrence pass short middle to P.Washington pushed ob at TEN 17 for 50 yards (T.Adams).\r\nPenalty on TEN-O.Oladejo, Defensive Offside, declined.",
+        "playDescriptionWithJerseyNumbers": "(10:27) (Shotgun) 16-T.Lawrence pass short middle to 11-P.Washington pushed ob at TEN 17 for 50 yards (29-T.Adams).\r\nPenalty on TEN-7-O.Oladejo, Defensive Offside, declined.",
         "playEndTime": "2026-11-15T18:53:11.677Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -7444,10 +7444,10 @@
         "playId": 2217,
         "clockTime": "14:53",
         "down": 1,
-        "driveNetYards": 22,
-        "drivePlayCount": 4,
+        "driveNetYards": 23,
+        "drivePlayCount": 7,
         "driveSequence": 12,
-        "driveTimeOfPossession": "1:26",
+        "driveTimeOfPossession": "2:25",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TEN  1-10  TEN 41",
@@ -7487,7 +7487,7 @@
             "personId": "32005741-5206-5305-364b-76c1f988f45e",
             "statType": 111,
             "teamId": "10402100-447f-396e-8149-0a434ffb2f23",
-            "yards": 4
+            "yards": -1
           },
           {
             "playStatId": "10330060-3222-2170-0210-003ed3b69a26",
@@ -7517,7 +7517,7 @@
             "personId": "32004845-4c49-3059-9e89-11f76a704998",
             "statType": 113,
             "teamId": "10402100-447f-396e-8149-0a434ffb2f23",
-            "yards": 5
+            "yards": 10
           },
           {
             "playStatId": "10330060-3222-2170-0790-0068b24c815e",
@@ -13303,15 +13303,15 @@
         "clockTime": "00:49",
         "down": 1,
         "driveNetYards": 42,
-        "drivePlayCount": 5,
+        "drivePlayCount": 6,
         "driveSequence": 20,
-        "driveTimeOfPossession": "1:00",
+        "driveTimeOfPossession": "1:10",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TEN  1-10  TEN 49",
         "playDeleted": false,
-        "playDescription": "(:49) (No Huddle, Shotgun) C.Ward pass short left to X.Restrepo to JAX 40 for 11 yards (F.Oluokun).",
-        "playDescriptionWithJerseyNumbers": "(:49) (No Huddle, Shotgun) 1-C.Ward pass short left to 87-X.Restrepo to JAX 40 for 11 yards (23-F.Oluokun).",
+        "playDescription": "(:49) (No Huddle, Shotgun) C.Ward pass short middle to X.Restrepo to JAX 40 for 11 yards (F.Oluokun).",
+        "playDescriptionWithJerseyNumbers": "(:49) (No Huddle, Shotgun) 1-C.Ward pass short middle to 87-X.Restrepo to JAX 40 for 11 yards (23-F.Oluokun).",
         "playEndTime": "2026-11-15T21:10:36.600Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab788967-4feb-11f1-abca-2c54536568a9",
-    "offset": 508,
+    "offset": 512,
     "attendance": 78332,
     "clock": "00:29",
     "distance": 10,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab788967-4feb-11f1-abca-2c54536568a9",
-    "offset": 508,
+    "offset": 512,
     "drives": [
       {
         "sequence": 1,
@@ -1262,7 +1262,7 @@
         "playId": 170,
         "clockTime": "13:09",
         "down": 1,
-        "driveNetYards": 4,
+        "driveNetYards": 5,
         "drivePlayCount": 2,
         "driveSequence": 2,
         "driveTimeOfPossession": "0:28",
@@ -1270,8 +1270,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "GB  1-10  GB 5",
         "playDeleted": false,
-        "playDescription": "(13:09) C.Brooks up the middle to GB 5 for no gain (C.Banks).",
-        "playDescriptionWithJerseyNumbers": "(13:09) 30-C.Brooks up the middle to GB 5 for no gain (95-C.Banks).",
+        "playDescription": "(13:09) (Shotgun) C.Brooks up the middle to GB 5 for no gain (C.Banks).",
+        "playDescriptionWithJerseyNumbers": "(13:09) (Shotgun) 30-C.Brooks up the middle to GB 5 for no gain (95-C.Banks).",
         "playEndTime": "2026-11-15T18:07:03.887Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8607,8 +8607,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "GB  4-10  MIN 44",
         "playDeleted": false,
-        "playDescription": "(6:01) (No Huddle, Shotgun) J.Love pass short left to M.Golden ran ob at MIN 32 for 12 yards.",
-        "playDescriptionWithJerseyNumbers": "(6:01) (No Huddle, Shotgun) 10-J.Love pass short left to 0-M.Golden ran ob at MIN 32 for 12 yards.",
+        "playDescription": "(6:01) (No Huddle, Shotgun) J.Love pass short left to M.Golden pushed ob at MIN 32 for 12 yards (J.Pierre).",
+        "playDescriptionWithJerseyNumbers": "(6:01) (No Huddle, Shotgun) 10-J.Love pass short left to 0-M.Golden pushed ob at MIN 32 for 12 yards (23-J.Pierre).",
         "playEndTime": "2026-11-15T20:01:27.093Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8693,6 +8693,16 @@
             "statType": 113,
             "teamId": "10401800-ab22-323d-721a-cee4713c4c2d",
             "yards": 0
+          },
+          {
+            "playStatId": "10330060-3182-7620-0790-008356e5f6d6",
+            "gsisPlayerId": "00-0035795",
+            "gsisPlayerName": "J.Pierre",
+            "gsisPlayerJerseyNumber": "23",
+            "personId": "32005049-4556-8615-e463-2015c1729e2f",
+            "statType": 79,
+            "teamId": "10403000-5851-f9d5-da45-78365a05b6b0",
+            "yards": null
           }
         ]
       },
@@ -11481,8 +11491,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIN  1-10  GB 35",
         "playDeleted": false,
-        "playDescription": "(8:24) J.Mason right guard to GB 29 for 6 yards (C.McClellan; D.Dennis-Sutton).",
-        "playDescriptionWithJerseyNumbers": "(8:24) 27-J.Mason right guard to GB 29 for 6 yards (55-C.McClellan; 51-D.Dennis-Sutton).",
+        "playDescription": "(8:24) J.Mason right guard to GB 29 for 6 yards (C.McClellan; I.McDuffie).",
+        "playDescriptionWithJerseyNumbers": "(8:24) 27-J.Mason right guard to GB 29 for 6 yards (55-C.McClellan; 58-I.McDuffie).",
         "playEndTime": "2026-11-15T20:37:20.187Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11520,10 +11530,10 @@
           },
           {
             "playStatId": "10330060-3183-6550-0820-003b673625bc",
-            "gsisPlayerId": "00-0040877",
-            "gsisPlayerName": "D.Dennis-Sutton",
-            "gsisPlayerJerseyNumber": "51",
-            "personId": "32004445-4e52-7092-8d4b-491e6fe2a5ac",
+            "gsisPlayerId": "00-0036658",
+            "gsisPlayerName": "I.McDuffie",
+            "gsisPlayerJerseyNumber": "58",
+            "personId": "32004d43-4481-4431-6d49-3bf354c84128",
             "statType": 82,
             "teamId": "10401800-ab22-323d-721a-cee4713c4c2d",
             "yards": null

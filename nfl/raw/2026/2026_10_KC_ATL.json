@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab582f5b-4feb-11f1-abca-2c54536568a9",
-    "offset": 718,
+    "offset": 722,
     "attendance": 72045,
     "clock": "00:02",
     "distance": 6,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab582f5b-4feb-11f1-abca-2c54536568a9",
-    "offset": 718,
+    "offset": 722,
     "drives": [
       {
         "sequence": 1,
@@ -3575,8 +3575,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  3-8  KC 36",
         "playDeleted": false,
-        "playDescription": "(1:45) (Shotgun) P.Mahomes pass incomplete short right to E.Johnson (J.Pearce).\r\nPenalty on KC-M.Caliendo, Offensive Holding, declined.",
-        "playDescriptionWithJerseyNumbers": "(1:45) (Shotgun) 15-P.Mahomes pass incomplete short right to 10-E.Johnson (27-J.Pearce).\r\nPenalty on KC-66-M.Caliendo, Offensive Holding, declined.",
+        "playDescription": "(1:45) (Shotgun) P.Mahomes pass incomplete short right to E.Johnson.\r\nPenalty on KC-M.Caliendo, Offensive Holding, declined.",
+        "playDescriptionWithJerseyNumbers": "(1:45) (Shotgun) 15-P.Mahomes pass incomplete short right to 10-E.Johnson.\r\nPenalty on KC-66-M.Caliendo, Offensive Holding, declined.",
         "playEndTime": "2026-11-15T18:35:22.780Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -3623,17 +3623,7 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-3160-9430-0850-0044c39e0a39",
-            "gsisPlayerId": "00-0040578",
-            "gsisPlayerName": "J.Pearce",
-            "gsisPlayerJerseyNumber": "27",
-            "personId": "32005045-4127-9289-4a5c-1de3f930dfef",
-            "statType": 85,
-            "teamId": "10400200-f401-4e53-5175-0974e4f16cf7",
-            "yards": null
-          },
-          {
-            "playStatId": "10330060-3160-9430-1120-00593fb25874",
+            "playStatId": "10330060-3160-9430-1120-004bfaf99415",
             "gsisPlayerId": "00-0033873",
             "gsisPlayerName": "P.Mahomes",
             "gsisPlayerJerseyNumber": "15",
@@ -4903,7 +4893,7 @@
       },
       {
         "playId": 1402,
-        "clockTime": "09:54",
+        "clockTime": "09:55",
         "down": 1,
         "driveNetYards": 42,
         "drivePlayCount": 9,
@@ -4913,8 +4903,8 @@
         "nextPlayIsGoalToGo": true,
         "prePlayByPlay": "ATL  1-Goal  KC 5",
         "playDeleted": false,
-        "playDescription": "(9:54) M.Penix scrambles right end ran ob at KC 4 for 1 yard (N.Bolton).\r\nPENALTY on ATL-C.Lindstrom, Offensive Holding, 10 yards, enforced at KC 5 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(9:54) 9-M.Penix scrambles right end ran ob at KC 4 for 1 yard (32-N.Bolton).\r\nPENALTY on ATL-63-C.Lindstrom, Offensive Holding, 10 yards, enforced at KC 5 - No Play.",
+        "playDescription": "(9:55) M.Penix scrambles right end ran ob at KC 4 for 1 yard (N.Bolton).\r\nPENALTY on ATL-C.Lindstrom, Offensive Holding, 10 yards, enforced at KC 5 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(9:55) 9-M.Penix scrambles right end ran ob at KC 4 for 1 yard (32-N.Bolton).\r\nPENALTY on ATL-63-C.Lindstrom, Offensive Holding, 10 yards, enforced at KC 5 - No Play.",
         "playEndTime": "2026-11-15T18:55:02.187Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": true,
@@ -12920,7 +12910,7 @@
       },
       {
         "playId": 4090,
-        "clockTime": "03:48",
+        "clockTime": "03:50",
         "down": 2,
         "driveNetYards": 6,
         "drivePlayCount": 4,
@@ -12930,8 +12920,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "KC  2-5  ATL 39",
         "playDeleted": false,
-        "playDescription": "(3:48) H.Nourzad reported in as eligible.  N.Carter right guard to ATL 38 for 1 yard (C.Thomas).",
-        "playDescriptionWithJerseyNumbers": "(3:48) 64-H.Nourzad reported in as eligible.  35-N.Carter right guard to ATL 38 for 1 yard (99-C.Thomas).",
+        "playDescription": "(3:50) H.Nourzad reported in as eligible.  N.Carter right guard to ATL 38 for 1 yard (C.Thomas).",
+        "playDescriptionWithJerseyNumbers": "(3:50) 64-H.Nourzad reported in as eligible.  35-N.Carter right guard to ATL 38 for 1 yard (99-C.Thomas).",
         "playEndTime": "2026-11-15T20:55:02.817Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

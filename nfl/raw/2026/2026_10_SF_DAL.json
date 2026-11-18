@@ -109,7 +109,7 @@
   "version": 8,
   "summary": {
     "gameId": "ab78a748-4feb-11f1-abca-2c54536568a9",
-    "offset": 515,
+    "offset": 519,
     "attendance": 90763,
     "clock": "00:00",
     "distance": 10,
@@ -157,7 +157,7 @@
   },
   "driveChart": {
     "gameId": "ab78a748-4feb-11f1-abca-2c54536568a9",
-    "offset": 515,
+    "offset": 519,
     "drives": [
       {
         "sequence": 1,
@@ -4426,10 +4426,10 @@
         "playId": 1278,
         "clockTime": "12:06",
         "down": 2,
-        "driveNetYards": 59,
-        "drivePlayCount": 11,
+        "driveNetYards": 61,
+        "drivePlayCount": 14,
         "driveSequence": 6,
-        "driveTimeOfPossession": "5:38",
+        "driveTimeOfPossession": "7:45",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "SF  2-12  SF 39",
@@ -4489,7 +4489,7 @@
             "personId": "32005055-5224-3289-b108-8aab5e23b748",
             "statType": 112,
             "teamId": "10404500-e7cb-7fce-3f10-4eeb269bd179",
-            "yards": 0
+            "yards": -5
           }
         ]
       },
@@ -7819,8 +7819,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "SF  1-10  SF 44",
         "playDeleted": false,
-        "playDescription": "(13:49) B.Purdy pass incomplete deep left to D.Samuel (J.Barham).\r\nPENALTY on DAL-J.Houston, Defensive Offside, 5 yards, enforced at SF 44 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(13:49) 13-B.Purdy pass incomplete deep left to 19-D.Samuel (55-J.Barham).\r\nPENALTY on DAL-41-J.Houston, Defensive Offside, 5 yards, enforced at SF 44 - No Play.",
+        "playDescription": "(13:49) B.Purdy pass incomplete deep left to D.Samuel [D.Winters].\r\nPENALTY on DAL-J.Houston, Defensive Offside, 5 yards, enforced at SF 44 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(13:49) 13-B.Purdy pass incomplete deep left to 19-D.Samuel [53-D.Winters].\r\nPENALTY on DAL-41-J.Houston, Defensive Offside, 5 yards, enforced at SF 44 - No Play.",
         "playEndTime": "2026-11-15T23:11:51.007Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

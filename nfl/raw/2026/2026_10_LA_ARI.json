@@ -106,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab78a133-4feb-11f1-abca-2c54536568a9",
-    "offset": 447,
+    "offset": 449,
     "attendance": 60926,
     "clock": "00:39",
     "distance": 12,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab78a133-4feb-11f1-abca-2c54536568a9",
-    "offset": 447,
+    "offset": 449,
     "drives": [
       {
         "sequence": 1,
@@ -2545,15 +2545,15 @@
         "clockTime": "05:22",
         "down": 1,
         "driveNetYards": 35,
-        "drivePlayCount": 2,
+        "drivePlayCount": 6,
         "driveSequence": 3,
-        "driveTimeOfPossession": "0:39",
+        "driveTimeOfPossession": "3:11",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  1-10  AZ 35",
         "playDeleted": false,
-        "playDescription": "(5:22) C.Beck pass short right to D.Duvernay to AZ 39 for 4 yards (J.McCollough; K.Kinchens).",
-        "playDescriptionWithJerseyNumbers": "(5:22) 19-C.Beck pass short right to 81-D.Duvernay to AZ 39 for 4 yards (2-J.McCollough; 5-K.Kinchens).",
+        "playDescription": "(5:22) (Shotgun) C.Beck pass short right to D.Duvernay to AZ 39 for 4 yards (J.McCollough; K.Kinchens).",
+        "playDescriptionWithJerseyNumbers": "(5:22) (Shotgun) 19-C.Beck pass short right to 81-D.Duvernay to AZ 39 for 4 yards (2-J.McCollough; 5-K.Kinchens).",
         "playEndTime": "2026-11-15T21:31:35.630Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab78a43c-4feb-11f1-abca-2c54536568a9",
-    "offset": 588,
+    "offset": 592,
     "attendance": 62624,
     "clock": "00:34",
     "distance": 13,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab78a43c-4feb-11f1-abca-2c54536568a9",
-    "offset": 588,
+    "offset": 592,
     "drives": [
       {
         "sequence": 1,
@@ -2798,18 +2798,18 @@
       },
       {
         "playId": 689,
-        "clockTime": "02:31",
+        "clockTime": "02:32",
         "down": 1,
-        "driveNetYards": 26,
-        "drivePlayCount": 4,
+        "driveNetYards": 49,
+        "drivePlayCount": 11,
         "driveSequence": 4,
-        "driveTimeOfPossession": "2:32",
+        "driveTimeOfPossession": "6:19",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  1-10  LV 35",
         "playDeleted": false,
-        "playDescription": "(2:31) (Shotgun) F.Mendoza pass short left to I.Thomas to LV 48 for 13 yards (J.Jobe).",
-        "playDescriptionWithJerseyNumbers": "(2:31) (Shotgun) 15-F.Mendoza pass short left to 80-I.Thomas to LV 48 for 13 yards (29-J.Jobe).",
+        "playDescription": "(2:32) (Shotgun) F.Mendoza pass short left to I.Thomas to LV 48 for 13 yards (J.Jobe).",
+        "playDescriptionWithJerseyNumbers": "(2:32) (Shotgun) 15-F.Mendoza pass short left to 80-I.Thomas to LV 48 for 13 yards (29-J.Jobe).",
         "playEndTime": "2026-11-15T21:32:32.397Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11106,8 +11106,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LV  1-10  LV 47",
         "playDeleted": false,
-        "playDescription": "(3:28) F.Mendoza pass incomplete short right to M.Mayer.",
-        "playDescriptionWithJerseyNumbers": "(3:28) 15-F.Mendoza pass incomplete short right to 87-M.Mayer.",
+        "playDescription": "(3:28) (No Huddle, Shotgun) F.Mendoza pass incomplete short right to M.Mayer.",
+        "playDescriptionWithJerseyNumbers": "(3:28) (No Huddle, Shotgun) 15-F.Mendoza pass incomplete short right to 87-M.Mayer.",
         "playEndTime": "2026-11-15T23:42:21.120Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -11151,7 +11151,7 @@
             "personId": "32004d45-4e51-6487-98a2-f3a9ce2f5835",
             "statType": 112,
             "teamId": "10402520-96bf-e9f2-4f68-8521ca896060",
-            "yards": 0
+            "yards": 6
           }
         ]
       },

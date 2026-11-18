@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab789365-4feb-11f1-abca-2c54536568a9",
-    "offset": 493,
+    "offset": 496,
     "attendance": 64235,
     "clock": "00:38",
     "distance": 13,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "ab789365-4feb-11f1-abca-2c54536568a9",
-    "offset": 493,
+    "offset": 496,
     "drives": [
       {
         "sequence": 1,
@@ -4015,8 +4015,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "MIA  3-14  IND 49",
         "playDeleted": false,
-        "playDescription": "(12:06) (Shotgun) K.McCord pass incomplete short left to K.Coleman.\r\nPENALTY on IND-A.Gardner, Defensive Pass Interference, 15 yards, enforced at IND 49 - No Play.",
-        "playDescriptionWithJerseyNumbers": "(12:06) (Shotgun) 14-K.McCord pass incomplete short left to 21-K.Coleman.\r\nPENALTY on IND-1-A.Gardner, Defensive Pass Interference, 15 yards, enforced at IND 49 - No Play.",
+        "playDescription": "(12:06) (Shotgun) K.McCord pass incomplete short left to K.Coleman (A.Gardner).\r\nPENALTY on IND-A.Gardner, Defensive Pass Interference, 15 yards, enforced at IND 49 - No Play.",
+        "playDescriptionWithJerseyNumbers": "(12:06) (Shotgun) 14-K.McCord pass incomplete short left to 21-K.Coleman (1-A.Gardner).\r\nPENALTY on IND-1-A.Gardner, Defensive Pass Interference, 15 yards, enforced at IND 49 - No Play.",
         "playEndTime": "2026-11-15T18:47:56.507Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -8726,8 +8726,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "IND  3-2  MIA 34",
         "playDeleted": false,
-        "playDescription": "(4:31) (Shotgun) J.Taylor up the middle to MIA 33 for 1 yard (R.McGraw; K.Grant).",
-        "playDescriptionWithJerseyNumbers": "(4:31) (Shotgun) 28-J.Taylor up the middle to MIA 33 for 1 yard (59-R.McGraw; 78-K.Grant).",
+        "playDescription": "(4:31) (No Huddle, Shotgun) J.Taylor up the middle to MIA 33 for 1 yard (R.McGraw; K.Grant).",
+        "playDescriptionWithJerseyNumbers": "(4:31) (No Huddle, Shotgun) 28-J.Taylor up the middle to MIA 33 for 1 yard (59-R.McGraw; 78-K.Grant).",
         "playEndTime": "2026-11-15T20:13:49.153Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
