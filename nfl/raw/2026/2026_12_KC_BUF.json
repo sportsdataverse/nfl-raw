@@ -10,8 +10,8 @@
     "currentLogo": "https://static.www.nfl.com/{formatInstructions}/league/api/clubs/logos/KC",
     "fullName": "Kansas City Chiefs"
   },
-  "category": null,
-  "hideCategory": false,
+  "category": "SNF",
+  "hideCategory": true,
   "date": "2026-11-27",
   "time": "2026-11-27T01:20:00Z",
   "broadcastInfo": {
@@ -118,7 +118,7 @@
     }
   ],
   "extensions": [],
-  "version": 12,
+  "version": 14,
   "summary": null,
   "driveChart": null,
   "replays": null,

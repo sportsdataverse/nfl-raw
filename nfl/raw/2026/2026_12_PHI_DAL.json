@@ -17,13 +17,11 @@
   "broadcastInfo": {
     "homeNetworkChannels": [
       "FOX",
-      "FOX ONE",
       "FOX DEPORTES",
       "TUBI"
     ],
     "awayNetworkChannels": [
       "FOX",
-      "FOX ONE",
       "FOX DEPORTES",
       "TUBI"
     ],
@@ -32,7 +30,8 @@
       {
         "hostNetwork": "FOX",
         "networks": [
-          "FOX"
+          "FOX",
+          "TUBI"
         ],
         "streamType": "en-pri"
       },
@@ -128,7 +127,7 @@
     }
   ],
   "extensions": [],
-  "version": 9,
+  "version": 11,
   "summary": null,
   "driveChart": null,
   "replays": null,
