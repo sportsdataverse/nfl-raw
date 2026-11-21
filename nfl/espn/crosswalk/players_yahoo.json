@@ -323033,7 +323033,7 @@
 "yahoo_player_id": "nfl.p.42700",
 "yahoo_player_name": "A.J. Haulcy",
 "yahoo_jersey": "25",
-"match_method": "fuzzy_jw",
+"match_method": "exact_name",
 "match_confidence": 1.0
 },
 {
@@ -323592,6 +323592,19 @@
 "yahoo_player_id": "nfl.p.30627",
 "yahoo_player_name": "Pharaoh Brown",
 "yahoo_jersey": "49",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "11",
+"espn_athlete_id": "4050373",
+"espn_full_name": "Quez Watkins",
+"espn_jersey": "9",
+"yahoo_team_id": "nfl.t.11",
+"yahoo_player_id": "nfl.p.32870",
+"yahoo_player_name": "Quez Watkins",
+"yahoo_jersey": "9",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },

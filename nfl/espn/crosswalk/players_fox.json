@@ -199988,7 +199988,7 @@
 "fox_player_id": "329422",
 "fox_player_name": "A.J. Haulcy",
 "fox_jersey": null,
-"match_method": "fuzzy_jw",
+"match_method": "exact_name",
 "match_confidence": 1.0
 },
 {
@@ -200533,6 +200533,19 @@
 "fox_team_id": "2",
 "fox_player_id": "13610",
 "fox_player_name": "Pharaoh Brown",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "11",
+"espn_athlete_id": "4050373",
+"espn_full_name": "Quez Watkins",
+"espn_jersey": "9",
+"fox_team_id": "2",
+"fox_player_id": "21650",
+"fox_player_name": "Quez Watkins",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
