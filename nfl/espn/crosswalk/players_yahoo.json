@@ -317721,6 +317721,19 @@
 },
 {
 "season": 2026,
+"espn_team_id": "2",
+"espn_athlete_id": "4241476",
+"espn_full_name": "Tyrell Shavers",
+"espn_jersey": "14",
+"yahoo_team_id": "nfl.t.2",
+"yahoo_player_id": "nfl.p.40630",
+"yahoo_player_name": "Tyrell Shavers",
+"yahoo_jersey": "14",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
 "espn_team_id": "3",
 "espn_athlete_id": "4683553",
 "espn_full_name": "Austin Booker",
@@ -319828,6 +319841,19 @@
 {
 "season": 2026,
 "espn_team_id": "6",
+"espn_athlete_id": "4360307",
+"espn_full_name": "Derion Kendrick",
+"espn_jersey": "15D",
+"yahoo_team_id": "nfl.t.6",
+"yahoo_player_id": "nfl.p.34168",
+"yahoo_player_name": "Derion Kendrick",
+"yahoo_jersey": "15",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "6",
 "espn_athlete_id": "4683848",
 "espn_full_name": "Donovan Ezeiruaku",
 "espn_jersey": "6",
@@ -319965,6 +319991,19 @@
 "yahoo_player_id": "nfl.p.34133",
 "yahoo_player_name": "James Mitchell",
 "yahoo_jersey": "84",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "6",
+"espn_athlete_id": "4372519",
+"espn_full_name": "Jashaun Corbin",
+"espn_jersey": "36",
+"yahoo_team_id": "nfl.t.6",
+"yahoo_player_id": "nfl.p.34665",
+"yahoo_player_name": "Jashaun Corbin",
+"yahoo_jersey": "36",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -320939,7 +320978,7 @@
 "yahoo_team_id": "nfl.t.7",
 "yahoo_player_id": "nfl.p.31893",
 "yahoo_player_name": "Taylor Rapp",
-"yahoo_jersey": null,
+"yahoo_jersey": "30",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -321473,6 +321512,19 @@
 "yahoo_player_id": "nfl.p.42771",
 "yahoo_player_name": "Keith Abney II",
 "yahoo_jersey": "6",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
+"espn_athlete_id": "4360383",
+"espn_full_name": "Kerby Joseph",
+"espn_jersey": "31",
+"yahoo_team_id": "nfl.t.8",
+"yahoo_player_id": "nfl.p.34053",
+"yahoo_player_name": "Kerby Joseph",
+"yahoo_jersey": "31",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -324501,7 +324553,7 @@
 "yahoo_team_id": "nfl.t.13",
 "yahoo_player_id": "nfl.p.32948",
 "yahoo_player_name": "Cody White",
-"yahoo_jersey": null,
+"yahoo_jersey": "82",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -325867,6 +325919,19 @@
 "yahoo_player_id": "nfl.p.34036",
 "yahoo_player_name": "Greg Dulcich",
 "yahoo_jersey": "85",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "15",
+"espn_athlete_id": "4876013",
+"espn_full_name": "Jack Browning",
+"espn_jersey": "31",
+"yahoo_team_id": "nfl.t.15",
+"yahoo_player_id": "nfl.p.41280",
+"yahoo_player_name": "Jack Browning",
+"yahoo_jersey": "31",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -327777,7 +327842,7 @@
 "yahoo_team_id": "nfl.t.18",
 "yahoo_player_id": "nfl.p.41019",
 "yahoo_player_name": "Audric Estime",
-"yahoo_jersey": null,
+"yahoo_jersey": "30",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -330221,7 +330286,7 @@
 "yahoo_team_id": "nfl.t.21",
 "yahoo_player_id": "nfl.p.41935",
 "yahoo_player_name": "Jaydon Blue",
-"yahoo_jersey": null,
+"yahoo_jersey": "30",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -331008,6 +331073,19 @@
 {
 "season": 2026,
 "espn_team_id": "22",
+"espn_athlete_id": "11394",
+"espn_full_name": "Josh Johnson",
+"espn_jersey": "9",
+"yahoo_team_id": "nfl.t.22",
+"yahoo_player_id": "nfl.p.8937",
+"yahoo_player_name": "Josh Johnson",
+"yahoo_jersey": "9",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "22",
 "espn_athlete_id": "3693166",
 "espn_full_name": "Josh Sweat",
 "espn_jersey": "10",
@@ -331274,7 +331352,7 @@
 "yahoo_team_id": "nfl.t.22",
 "yahoo_player_id": "nfl.p.42981",
 "yahoo_player_name": "Wydett Williams Jr.",
-"yahoo_jersey": null,
+"yahoo_jersey": "31",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -332093,7 +332171,7 @@
 "yahoo_team_id": "nfl.t.24",
 "yahoo_player_id": "nfl.p.40113",
 "yahoo_player_name": "Daiyan Henley",
-"yahoo_jersey": null,
+"yahoo_jersey": "0",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -332678,7 +332756,7 @@
 "yahoo_team_id": "nfl.t.25",
 "yahoo_player_id": "nfl.p.41916",
 "yahoo_player_name": "C.J. West",
-"yahoo_jersey": "99",
+"yahoo_jersey": "90",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -333016,7 +333094,7 @@
 "yahoo_team_id": "nfl.t.25",
 "yahoo_player_id": "nfl.p.26699",
 "yahoo_player_name": "Keenan Allen",
-"yahoo_jersey": null,
+"yahoo_jersey": "3",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -336748,6 +336826,19 @@
 "yahoo_player_id": "nfl.p.29341",
 "yahoo_player_name": "Chris Moore",
 "yahoo_jersey": "17",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
+"espn_athlete_id": "5211114",
+"espn_full_name": "David Olajiga",
+"espn_jersey": "65",
+"yahoo_team_id": "nfl.t.33",
+"yahoo_player_id": "nfl.p.41526",
+"yahoo_player_name": "David Olajiga",
+"yahoo_jersey": "65",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },

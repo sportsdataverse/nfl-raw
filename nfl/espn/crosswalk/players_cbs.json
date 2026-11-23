@@ -242646,6 +242646,19 @@
 },
 {
 "season": 2026,
+"espn_team_id": "2",
+"espn_athlete_id": "4241476",
+"espn_full_name": "Tyrell Shavers",
+"espn_jersey": "14",
+"cbs_team_id": "407",
+"cbs_player_id": "2741208",
+"cbs_player_name": "Tyrell Shavers",
+"cbs_jersey": "14",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
 "espn_team_id": "3",
 "espn_athlete_id": "4683553",
 "espn_full_name": "Austin Booker",
@@ -244753,6 +244766,19 @@
 {
 "season": 2026,
 "espn_team_id": "6",
+"espn_athlete_id": "4360307",
+"espn_full_name": "Derion Kendrick",
+"espn_jersey": "15D",
+"cbs_team_id": "411",
+"cbs_player_id": "2963289",
+"cbs_player_name": "Derion Kendrick",
+"cbs_jersey": "15",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "6",
 "espn_athlete_id": "4683848",
 "espn_full_name": "Donovan Ezeiruaku",
 "espn_jersey": "6",
@@ -244890,6 +244916,19 @@
 "cbs_player_id": "2963242",
 "cbs_player_name": "James Mitchell",
 "cbs_jersey": "84",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "6",
+"espn_athlete_id": "4372519",
+"espn_full_name": "Jashaun Corbin",
+"espn_jersey": "36",
+"cbs_team_id": "411",
+"cbs_player_id": "2965967",
+"cbs_player_name": "Jashaun Corbin",
+"cbs_jersey": "36",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -246398,6 +246437,19 @@
 "cbs_player_id": "29125039",
 "cbs_player_name": "Keith Abney II",
 "cbs_jersey": "6",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
+"espn_athlete_id": "4360383",
+"espn_full_name": "Kerby Joseph",
+"espn_jersey": "31",
+"cbs_team_id": "413",
+"cbs_player_id": "2961816",
+"cbs_player_name": "Kerby Joseph",
+"cbs_jersey": "31",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -250779,6 +250831,19 @@
 "cbs_player_id": "2964274",
 "cbs_player_name": "Greg Dulcich",
 "cbs_jersey": "85",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "15",
+"espn_athlete_id": "4876013",
+"espn_full_name": "Jack Browning",
+"espn_jersey": "31",
+"cbs_team_id": "418",
+"cbs_player_id": "26700793",
+"cbs_player_name": "Jack Browning",
+"cbs_jersey": "31",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -255946,6 +256011,19 @@
 {
 "season": 2026,
 "espn_team_id": "22",
+"espn_athlete_id": "11394",
+"espn_full_name": "Josh Johnson",
+"espn_jersey": "9",
+"cbs_team_id": "404",
+"cbs_player_id": "1325808",
+"cbs_player_name": "Josh Johnson",
+"cbs_jersey": "9",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "22",
 "espn_athlete_id": "3693166",
 "espn_full_name": "Josh Sweat",
 "espn_jersey": "10",
@@ -257616,7 +257694,7 @@
 "cbs_team_id": "429",
 "cbs_player_id": "3164056",
 "cbs_player_name": "C.J. West",
-"cbs_jersey": "99",
+"cbs_jersey": "90",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -261686,6 +261764,19 @@
 "cbs_player_id": "1871375",
 "cbs_player_name": "Chris Moore",
 "cbs_jersey": "17",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "33",
+"espn_athlete_id": "5211114",
+"espn_full_name": "David Olajiga",
+"espn_jersey": "65",
+"cbs_team_id": "406",
+"cbs_player_id": "29379145",
+"cbs_player_name": "David Olajiga",
+"cbs_jersey": "65",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
