@@ -106,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab998f5e-4feb-11f1-abca-2c54536568a9",
-    "offset": 463,
+    "offset": 465,
     "attendance": 59911,
     "clock": "00:35",
     "distance": 12,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab998f5e-4feb-11f1-abca-2c54536568a9",
-    "offset": 463,
+    "offset": 465,
     "drives": [
       {
         "sequence": 1,
@@ -6371,16 +6371,16 @@
         "playId": 2029,
         "clockTime": "00:54",
         "down": 1,
-        "driveNetYards": 18,
-        "drivePlayCount": 3,
+        "driveNetYards": 46,
+        "drivePlayCount": 9,
         "driveSequence": 12,
-        "driveTimeOfPossession": "0:10",
+        "driveTimeOfPossession": "0:54",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NO  1-10  NO 17",
         "playDeleted": false,
-        "playDescription": "(:54) (Shotgun) T.Shough pass incomplete short left to C.Olave.",
-        "playDescriptionWithJerseyNumbers": "(:54) (Shotgun) 6-T.Shough pass incomplete short left to 12-C.Olave.",
+        "playDescription": "(:54) (Shotgun) T.Shough pass incomplete short left to C.Olave (D.Bush).",
+        "playDescriptionWithJerseyNumbers": "(:54) (Shotgun) 6-T.Shough pass incomplete short left to 12-C.Olave (12-D.Bush).",
         "playEndTime": "2026-11-22T19:24:07.257Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -6417,7 +6417,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-3312-0290-1120-003981575df4",
+            "playStatId": "10330060-3312-0290-0850-0033f9cd25e2",
+            "gsisPlayerId": "00-0035525",
+            "gsisPlayerName": "D.Bush",
+            "gsisPlayerJerseyNumber": "12",
+            "personId": "32004255-5323-1883-1a34-05cf13caa3d4",
+            "statType": 85,
+            "teamId": "10400810-db30-43d6-221c-620006f3ca19",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-3312-0290-1120-004b4a128135",
             "gsisPlayerId": "00-0040743",
             "gsisPlayerName": "T.Shough",
             "gsisPlayerJerseyNumber": "06",

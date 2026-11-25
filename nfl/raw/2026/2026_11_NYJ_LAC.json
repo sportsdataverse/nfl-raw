@@ -106,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab999e6f-4feb-11f1-abca-2c54536568a9",
-    "offset": 443,
+    "offset": 447,
     "attendance": 68195,
     "clock": "00:43",
     "distance": 10,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab999e6f-4feb-11f1-abca-2c54536568a9",
-    "offset": 443,
+    "offset": 447,
     "drives": [
       {
         "sequence": 1,
@@ -1427,8 +1427,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "LAC  1-10  LAC 35",
         "playDeleted": false,
-        "playDescription": "(9:05) (Shotgun) O.Hampton left guard to LAC 41 for 6 yards (D.Jackson; J.Sherwood).",
-        "playDescriptionWithJerseyNumbers": "(9:05) (Shotgun) 8-O.Hampton left guard to LAC 41 for 6 yards (95-D.Jackson; 44-J.Sherwood).",
+        "playDescription": "(9:05) (Shotgun) O.Hampton left guard to LAC 41 for 6 yards (D.Jackson; H.Phillips).",
+        "playDescriptionWithJerseyNumbers": "(9:05) (Shotgun) 8-O.Hampton left guard to LAC 41 for 6 yards (95-D.Jackson; 97-H.Phillips).",
         "playEndTime": "2026-11-22T21:16:05.187Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -1466,10 +1466,10 @@
           },
           {
             "playStatId": "10330060-3360-3450-0820-00378660bfd8",
-            "gsisPlayerId": "00-0036500",
-            "gsisPlayerName": "J.Sherwood",
-            "gsisPlayerJerseyNumber": "44",
-            "personId": "32005348-4580-6239-250b-dfa910f6272d",
+            "gsisPlayerId": "00-0034782",
+            "gsisPlayerName": "H.Phillips",
+            "gsisPlayerJerseyNumber": "97",
+            "personId": "32005048-4921-5142-5ef5-133a36dda72f",
             "statType": 82,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
             "yards": null
@@ -3792,10 +3792,10 @@
         "playId": 1267,
         "clockTime": "09:31",
         "down": 1,
-        "driveNetYards": 21,
-        "drivePlayCount": 3,
+        "driveNetYards": 70,
+        "drivePlayCount": 11,
         "driveSequence": 5,
-        "driveTimeOfPossession": "1:13",
+        "driveTimeOfPossession": "6:24",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYJ  1-10  NYJ 30",
@@ -3845,7 +3845,7 @@
             "personId": "3200534d-4926-9700-a278-7821d73d1c6a",
             "statType": 111,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
-            "yards": 19
+            "yards": 16
           },
           {
             "playStatId": "10330060-3361-2670-0210-0043dd0bc52d",
@@ -3875,7 +3875,7 @@
             "personId": "32005441-5956-6412-dca1-e3900d5daf1c",
             "statType": 113,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
-            "yards": 0
+            "yards": 3
           },
           {
             "playStatId": "10330060-3361-2670-0790-007b4e7937dc",
@@ -6480,16 +6480,16 @@
         "playId": 2155,
         "clockTime": "12:48",
         "down": 2,
-        "driveNetYards": 37,
-        "drivePlayCount": 6,
+        "driveNetYards": 75,
+        "drivePlayCount": 18,
         "driveSequence": 8,
-        "driveTimeOfPossession": "3:13",
+        "driveTimeOfPossession": "10:00",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYJ  2-7  NYJ 22",
         "playDeleted": false,
-        "playDescription": "(12:48) (Shotgun) G.Smith pass short right to M.Taylor to NYJ 28 for 6 yards (T.Jefferson).",
-        "playDescriptionWithJerseyNumbers": "(12:48) (Shotgun) 7-G.Smith pass short right to 85-M.Taylor to NYJ 28 for 6 yards (23-T.Jefferson).",
+        "playDescription": "(12:48) (No Huddle, Shotgun) G.Smith pass short right to M.Taylor to NYJ 28 for 6 yards (T.Jefferson).",
+        "playDescriptionWithJerseyNumbers": "(12:48) (No Huddle, Shotgun) 7-G.Smith pass short right to 85-M.Taylor to NYJ 28 for 6 yards (23-T.Jefferson).",
         "playEndTime": "2026-11-22T22:41:33.727Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

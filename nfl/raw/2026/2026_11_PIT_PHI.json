@@ -106,7 +106,7 @@
   "version": 9,
   "summary": {
     "gameId": "abbf1908-4feb-11f1-abca-2c54536568a9",
-    "offset": 547,
+    "offset": 549,
     "attendance": 69879,
     "clock": "00:27",
     "distance": 13,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "abbf1908-4feb-11f1-abca-2c54536568a9",
-    "offset": 547,
+    "offset": 549,
     "drives": [
       {
         "sequence": 1,
@@ -12118,8 +12118,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "PIT  3-8  PHI 29",
         "playDeleted": false,
-        "playDescription": "(2:04) (Shotgun) A.Rodgers left end to PHI 22 for 7 yards (N.Smith; M.Carter).",
-        "playDescriptionWithJerseyNumbers": "(2:04) (Shotgun) 8-A.Rodgers left end to PHI 22 for 7 yards (3-N.Smith; 35-M.Carter).",
+        "playDescription": "(2:04) (Shotgun) A.Rodgers scrambles left end to PHI 22 for 7 yards (N.Smith; M.Carter).",
+        "playDescriptionWithJerseyNumbers": "(2:04) (Shotgun) 8-A.Rodgers scrambles left end to PHI 22 for 7 yards (3-N.Smith; 35-M.Carter).",
         "playEndTime": "2026-11-22T20:55:39.653Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,

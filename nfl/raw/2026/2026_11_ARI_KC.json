@@ -106,7 +106,7 @@
   "version": 7,
   "summary": {
     "gameId": "ab999891-4feb-11f1-abca-2c54536568a9",
-    "offset": 444,
+    "offset": 446,
     "attendance": 73511,
     "clock": "00:36",
     "distance": 12,
@@ -154,7 +154,7 @@
   },
   "driveChart": {
     "gameId": "ab999891-4feb-11f1-abca-2c54536568a9",
-    "offset": 444,
+    "offset": 446,
     "drives": [
       {
         "sequence": 1,
@@ -12352,13 +12352,13 @@
         "driveNetYards": 4,
         "drivePlayCount": 3,
         "driveSequence": 18,
-        "driveTimeOfPossession": "0:26",
+        "driveTimeOfPossession": "0:41",
         "nextPlayType": "PLAY_FROM_SCRIMMAGE",
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "AZ  1-10  AZ 20",
         "playDeleted": false,
-        "playDescription": "(1:52) (Shotgun) J.Johnson pass incomplete short right to S.Fehoko (K.Fulton).",
-        "playDescriptionWithJerseyNumbers": "(1:52) (Shotgun) 9-J.Johnson pass incomplete short right to 80-S.Fehoko (8-K.Fulton).",
+        "playDescription": "(1:52) (Shotgun) J.Johnson pass incomplete short right to S.Fehoko (K.Fulton) [F.Anudike-Uzomah].",
+        "playDescriptionWithJerseyNumbers": "(1:52) (Shotgun) 9-J.Johnson pass incomplete short right to 80-S.Fehoko (8-K.Fulton) [91-F.Anudike-Uzomah].",
         "playEndTime": "2026-11-22T20:42:30.753Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -12405,7 +12405,17 @@
             "yards": null
           },
           {
-            "playStatId": "10330060-3343-7960-1120-00442e3fe5bf",
+            "playStatId": "10330060-3343-7960-1100-004c37965128",
+            "gsisPlayerId": "00-0039006",
+            "gsisPlayerName": "F.Anudike-Uzomah",
+            "gsisPlayerJerseyNumber": "91",
+            "personId": "3200414e-5541-5291-dc35-8fecbffa9ee6",
+            "statType": 110,
+            "teamId": "10402310-a47e-10ea-7442-16b633633637",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-3343-7960-1120-005e49dc9e06",
             "gsisPlayerId": "00-0026300",
             "gsisPlayerName": "J.Johnson",
             "gsisPlayerJerseyNumber": "09",

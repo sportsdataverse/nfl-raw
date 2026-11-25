@@ -100,7 +100,7 @@
   "version": 7,
   "summary": {
     "gameId": "aa04a6ca-4feb-11f1-abca-2c54536568a9",
-    "offset": 484,
+    "offset": 486,
     "attendance": 63193,
     "clock": "00:29",
     "distance": 12,
@@ -148,7 +148,7 @@
   },
   "driveChart": {
     "gameId": "aa04a6ca-4feb-11f1-abca-2c54536568a9",
-    "offset": 484,
+    "offset": 486,
     "drives": [
       {
         "sequence": 1,
@@ -273,7 +273,7 @@
         "endedPlayId": 961,
         "endedPlaySequenceNumber": 961.0,
         "endedQuarter": 2,
-        "endedTime": null,
+        "endedTime": "2026-09-27T17:36:01.587Z",
         "endedWithScore": false,
         "endedYardLine": "NYJ 15",
         "firstDowns": 0,
@@ -3606,14 +3606,14 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "NYJ  4-15  NYJ 15",
         "playDeleted": false,
-        "playDescription": "(15:00) A.McNamara punts 57 yards to DET 28, Center-T.Hennessy. T.Kennedy to DET 39 for 11 yards (Q.Stiggers). ** Injury Update: NYJ-Q.Stiggers has returned to the game.",
-        "playDescriptionWithJerseyNumbers": "(15:00) 14-A.McNamara punts 57 yards to DET 28, Center-42-T.Hennessy. 85-T.Kennedy to DET 39 for 11 yards (37-Q.Stiggers). ** Injury Update: NYJ-37-Q.Stiggers has returned to the game.",
-        "playEndTime": null,
+        "playDescription": "(15:00) A.McNamara punts 57 yards to DET 28, Center-T.Hennessy. T.Kennedy to DET 39 for 11 yards (Q.Stiggers; T.Hennessy). ** Injury Update: NYJ-Q.Stiggers has returned to the game.",
+        "playDescriptionWithJerseyNumbers": "(15:00) 14-A.McNamara punts 57 yards to DET 28, Center-42-T.Hennessy. 85-T.Kennedy to DET 39 for 11 yards (37-Q.Stiggers; 42-T.Hennessy). ** Injury Update: NYJ-37-Q.Stiggers has returned to the game.",
+        "playEndTime": "2026-09-27T17:36:01.587Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
         "playScored": false,
         "playSequenceNumber": 961.0,
-        "playStartTime": "2026-09-27T17:35:52Z",
+        "playStartTime": "2026-09-27T17:35:51.820Z",
         "playType": "PUNT",
         "quarter": 2,
         "scoringPlayType": "UNSPECIFIED",
@@ -3644,12 +3644,22 @@
             "yards": 11
           },
           {
-            "playStatId": "10330060-2130-9610-0790-003e5499fc90",
+            "playStatId": "10330060-2130-9610-0820-003207057691",
             "gsisPlayerId": "00-0039789",
             "gsisPlayerName": "Q.Stiggers",
             "gsisPlayerJerseyNumber": "37",
             "personId": "32005354-4935-1543-9ae0-94207f32c46c",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-2130-9610-0820-004cebc71d79",
+            "gsisPlayerId": "00-0033260",
+            "gsisPlayerName": "T.Hennessy",
+            "gsisPlayerJerseyNumber": "42",
+            "personId": "32004845-4e54-0649-1753-a0ff4df1325c",
+            "statType": 82,
             "teamId": "10403430-1bc3-42c4-c7d8-39f38aed5f12",
             "yards": null
           }

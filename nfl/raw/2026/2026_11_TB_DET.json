@@ -94,7 +94,7 @@
   "version": 8,
   "summary": {
     "gameId": "ab999586-4feb-11f1-abca-2c54536568a9",
-    "offset": 493,
+    "offset": 496,
     "attendance": 64024,
     "clock": "00:07",
     "distance": 11,
@@ -142,7 +142,7 @@
   },
   "driveChart": {
     "gameId": "ab999586-4feb-11f1-abca-2c54536568a9",
-    "offset": 493,
+    "offset": 496,
     "drives": [
       {
         "sequence": 1,
@@ -1967,8 +1967,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TB  1-10  DET 32",
         "playDeleted": false,
-        "playDescription": "(7:41) B.Irving right tackle to DET 32 for no gain (B.Branch).",
-        "playDescriptionWithJerseyNumbers": "(7:41) 7-B.Irving right tackle to DET 32 for no gain (32-B.Branch).",
+        "playDescription": "(7:41) B.Irving right tackle to DET 32 for no gain (B.Branch; T.Williams).",
+        "playDescriptionWithJerseyNumbers": "(7:41) 7-B.Irving right tackle to DET 32 for no gain (32-B.Branch; 91-T.Williams).",
         "playEndTime": "2026-11-22T18:19:32.613Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -1995,12 +1995,22 @@
             "yards": 0
           },
           {
-            "playStatId": "10330060-3330-4440-0790-002375ad28cb",
+            "playStatId": "10330060-3330-4440-0820-00293ccc8ab0",
             "gsisPlayerId": "00-0039141",
             "gsisPlayerName": "B.Branch",
             "gsisPlayerJerseyNumber": "32",
             "personId": "32004252-4149-1198-dc01-dafbfa415bff",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10401540-f97c-2d19-6fcd-fac6490a48b7",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-3330-4440-0820-003637324442",
+            "gsisPlayerId": "00-0040672",
+            "gsisPlayerName": "T.Williams",
+            "gsisPlayerJerseyNumber": "91",
+            "personId": "32005749-4c54-7635-e493-fa5bfedf094c",
+            "statType": 82,
             "teamId": "10401540-f97c-2d19-6fcd-fac6490a48b7",
             "yards": null
           }
@@ -10023,8 +10033,8 @@
         "nextPlayIsGoalToGo": false,
         "prePlayByPlay": "TB  2-13  TB 17",
         "playDeleted": false,
-        "playDescription": "(11:14) (Shotgun) B.Mayfield scrambles right end to TB 18 for 1 yard (D.Wonnum).",
-        "playDescriptionWithJerseyNumbers": "(11:14) (Shotgun) 6-B.Mayfield scrambles right end to TB 18 for 1 yard (98-D.Wonnum).",
+        "playDescription": "(11:14) (Shotgun) B.Mayfield scrambles right end to TB 18 for 1 yard (D.Wonnum; R.McCreary).",
+        "playDescriptionWithJerseyNumbers": "(11:14) (Shotgun) 6-B.Mayfield scrambles right end to TB 18 for 1 yard (98-D.Wonnum; 21-R.McCreary).",
         "playEndTime": "2026-11-22T20:26:41.643Z",
         "playIsEndOfQuarter": false,
         "playIsGoalToGo": false,
@@ -10051,12 +10061,22 @@
             "yards": 1
           },
           {
-            "playStatId": "10330060-3333-1200-0790-00216ec6505b",
+            "playStatId": "10330060-3333-1200-0820-002ff9f6ad47",
             "gsisPlayerId": "00-0036335",
             "gsisPlayerName": "D.Wonnum",
             "gsisPlayerJerseyNumber": "98",
             "personId": "3200574f-4e27-2160-1623-df369bc69f58",
-            "statType": 79,
+            "statType": 82,
+            "teamId": "10401540-f97c-2d19-6fcd-fac6490a48b7",
+            "yards": null
+          },
+          {
+            "playStatId": "10330060-3333-1200-0820-0034b2f9c8e7",
+            "gsisPlayerId": "00-0038125",
+            "gsisPlayerName": "R.McCreary",
+            "gsisPlayerJerseyNumber": "21",
+            "personId": "32004d43-4370-0734-eba8-250c4b4f71dd",
+            "statType": 82,
             "teamId": "10401540-f97c-2d19-6fcd-fac6490a48b7",
             "yards": null
           }
