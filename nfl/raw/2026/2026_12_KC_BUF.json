@@ -17,10 +17,14 @@
   "broadcastInfo": {
     "homeNetworkChannels": [
       "NBC",
+      "PEACOCK",
+      "TELEMUNDO",
       "UNIVERSO"
     ],
     "awayNetworkChannels": [
       "NBC",
+      "PEACOCK",
+      "TELEMUNDO",
       "UNIVERSO"
     ],
     "internationalWatchOptions": [],
@@ -33,8 +37,9 @@
         "streamType": "en-pri"
       },
       {
-        "hostNetwork": "UNIVERSO",
+        "hostNetwork": "TELEMUNDO",
         "networks": [
+          "TELEMUNDO",
           "UNIVERSO"
         ],
         "streamType": "es-alt-1"
@@ -118,9 +123,93 @@
     }
   ],
   "extensions": [],
-  "version": 14,
-  "summary": null,
-  "driveChart": null,
+  "version": 15,
+  "summary": {
+    "gameId": "abbf321b-4feb-11f1-abca-2c54536568a9",
+    "offset": 1,
+    "attendance": null,
+    "clock": "15:00",
+    "distance": 10,
+    "down": 1,
+    "gameBookUrl": null,
+    "isGoalToGo": false,
+    "isRedZone": false,
+    "phase": "PREGAME",
+    "quarter": "Q1",
+    "startTime": null,
+    "weather": null,
+    "yardLine": "35",
+    "awayTeam": {
+      "teamId": "10402310-a47e-10ea-7442-16b633633637",
+      "hasPossession": false,
+      "score": {
+        "q1": 0,
+        "q2": 0,
+        "q3": 0,
+        "q4": 0,
+        "ot": 0,
+        "total": 0
+      },
+      "timeouts": {
+        "remaining": 3,
+        "used": 0
+      }
+    },
+    "homeTeam": {
+      "teamId": "10400610-c40e-a673-1743-2ce2a5d5d731",
+      "hasPossession": true,
+      "score": {
+        "q1": 0,
+        "q2": 0,
+        "q3": 0,
+        "q4": 0,
+        "ot": 0,
+        "total": 0
+      },
+      "timeouts": {
+        "remaining": 3,
+        "used": 0
+      }
+    }
+  },
+  "driveChart": {
+    "gameId": "abbf321b-4feb-11f1-abca-2c54536568a9",
+    "offset": 1,
+    "drives": [],
+    "plays": [
+      {
+        "playId": 1,
+        "clockTime": null,
+        "down": 0,
+        "driveNetYards": 0,
+        "drivePlayCount": 0,
+        "driveSequence": 0,
+        "driveTimeOfPossession": null,
+        "nextPlayType": "FREE_KICK",
+        "nextPlayIsGoalToGo": false,
+        "prePlayByPlay": "KC - BUF",
+        "playDeleted": false,
+        "playDescription": "GAME",
+        "playDescriptionWithJerseyNumbers": "GAME",
+        "playEndTime": null,
+        "playIsEndOfQuarter": false,
+        "playIsGoalToGo": false,
+        "playScored": false,
+        "playSequenceNumber": 1.0,
+        "playStartTime": null,
+        "playType": "GAME_START",
+        "quarter": 1,
+        "scoringPlayType": "UNSPECIFIED",
+        "scoringTeamId": null,
+        "specialTeamsPlayType": "UNSPECIFIED",
+        "yardLine": null,
+        "yardsGained": 0,
+        "yardsRemaining": 0,
+        "stats": []
+      }
+    ],
+    "scoringSummaries": []
+  },
   "replays": null,
   "taggedVideos": null,
   "awayTeamStandings": null,
