@@ -243297,6 +243297,19 @@
 {
 "season": 2026,
 "espn_team_id": "3",
+"espn_athlete_id": "3948283",
+"espn_full_name": "Stephen Carlson",
+"espn_jersey": "88",
+"cbs_team_id": "409",
+"cbs_player_id": "3116783",
+"cbs_player_name": "Stephen Carlson",
+"cbs_jersey": "88",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "3",
 "espn_athlete_id": "3121544",
 "espn_full_name": "T.J. Edwards",
 "espn_jersey": "53",
@@ -246079,6 +246092,19 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "4361939",
+"espn_full_name": "Andre Cisco",
+"espn_jersey": "28",
+"cbs_team_id": "413",
+"cbs_player_id": "2963562",
+"cbs_player_name": "Andre Cisco",
+"cbs_jersey": "28",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "4685442",
 "espn_full_name": "Anthony Lucas",
 "espn_jersey": "61",
@@ -246508,6 +246534,19 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "4241217",
+"espn_full_name": "Larry Borom",
+"espn_jersey": "79",
+"cbs_team_id": "413",
+"cbs_player_id": "2865762",
+"cbs_player_name": "Larry Borom",
+"cbs_jersey": "79",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "4039020",
 "espn_full_name": "Levi Onwuzurike",
 "espn_jersey": "95",
@@ -246528,6 +246567,19 @@
 "cbs_player_id": "2865270",
 "cbs_player_name": "Malcolm Rodriguez",
 "cbs_jersey": "44",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
+"espn_athlete_id": "4586333",
+"espn_full_name": "Mekhi Wingo",
+"espn_jersey": "94",
+"cbs_team_id": "413",
+"cbs_player_id": "26698762",
+"cbs_player_name": "Mekhi Wingo",
+"cbs_jersey": "94",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -247217,6 +247269,19 @@
 "cbs_player_id": "28874927",
 "cbs_player_name": "Matthew Golden",
 "cbs_jersey": "0",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "9",
+"espn_athlete_id": "4361423",
+"espn_full_name": "Micah Parsons",
+"espn_jersey": "1",
+"cbs_team_id": "414",
+"cbs_player_id": "2967590",
+"cbs_player_name": "Micah Parsons",
+"cbs_jersey": "1",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },

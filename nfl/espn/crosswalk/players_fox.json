@@ -195379,6 +195379,19 @@
 {
 "season": 2026,
 "espn_team_id": "3",
+"espn_athlete_id": "3948283",
+"espn_full_name": "Stephen Carlson",
+"espn_jersey": "88",
+"fox_team_id": "20",
+"fox_player_id": "20971",
+"fox_player_name": "Stephen Carlson",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "3",
 "espn_athlete_id": "3121544",
 "espn_full_name": "T.J. Edwards",
 "espn_jersey": "53",
@@ -198148,6 +198161,19 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "4361939",
+"espn_full_name": "Andre Cisco",
+"espn_jersey": "28",
+"fox_team_id": "21",
+"fox_player_id": "22269",
+"fox_player_name": "Andre Cisco",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "4685442",
 "espn_full_name": "Anthony Lucas",
 "espn_jersey": "61",
@@ -198564,6 +198590,19 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "4241217",
+"espn_full_name": "Larry Borom",
+"espn_jersey": "79",
+"fox_team_id": "21",
+"fox_player_id": "22391",
+"fox_player_name": "Larry Borom",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "4039020",
 "espn_full_name": "Levi Onwuzurike",
 "espn_jersey": "95",
@@ -198583,6 +198622,19 @@
 "fox_team_id": "21",
 "fox_player_id": "22942",
 "fox_player_name": "Malcolm Rodriguez",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
+"espn_athlete_id": "4586333",
+"espn_full_name": "Mekhi Wingo",
+"espn_jersey": "94",
+"fox_team_id": "21",
+"fox_player_id": "327876",
+"fox_player_name": "Mekhi Wingo",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0
@@ -199246,6 +199298,19 @@
 "fox_team_id": "22",
 "fox_player_id": "328580",
 "fox_player_name": "Matthew Golden",
+"fox_jersey": null,
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "9",
+"espn_athlete_id": "4361423",
+"espn_full_name": "Micah Parsons",
+"espn_jersey": "1",
+"fox_team_id": "22",
+"fox_player_id": "22183",
+"fox_player_name": "Micah Parsons",
 "fox_jersey": null,
 "match_method": "exact_name",
 "match_confidence": 1.0

@@ -318367,7 +318367,20 @@
 "yahoo_player_name": "Skyler Thomas",
 "yahoo_jersey": null,
 "match_method": "exact_name",
-"match_confidence": 0.6667
+"match_confidence": 0.7143
+},
+{
+"season": 2026,
+"espn_team_id": "3",
+"espn_athlete_id": "3948283",
+"espn_full_name": "Stephen Carlson",
+"espn_jersey": "88",
+"yahoo_team_id": "nfl.t.3",
+"yahoo_player_id": "nfl.p.32273",
+"yahoo_player_name": "Stephen Carlson",
+"yahoo_jersey": "88",
+"match_method": "exact_name",
+"match_confidence": 1.0
 },
 {
 "season": 2026,
@@ -321154,6 +321167,19 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "4361939",
+"espn_full_name": "Andre Cisco",
+"espn_jersey": "28",
+"yahoo_team_id": "nfl.t.8",
+"yahoo_player_id": "nfl.p.33453",
+"yahoo_player_name": "Andre Cisco",
+"yahoo_jersey": "28",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "4685442",
 "espn_full_name": "Anthony Lucas",
 "espn_jersey": "61",
@@ -321583,6 +321609,19 @@
 {
 "season": 2026,
 "espn_team_id": "8",
+"espn_athlete_id": "4241217",
+"espn_full_name": "Larry Borom",
+"espn_jersey": "79",
+"yahoo_team_id": "nfl.t.8",
+"yahoo_player_id": "nfl.p.33539",
+"yahoo_player_name": "Larry Borom",
+"yahoo_jersey": "79",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
 "espn_athlete_id": "4039020",
 "espn_full_name": "Levi Onwuzurike",
 "espn_jersey": "95",
@@ -321603,6 +321642,19 @@
 "yahoo_player_id": "nfl.p.34144",
 "yahoo_player_name": "Malcolm Rodriguez",
 "yahoo_jersey": "44",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "8",
+"espn_athlete_id": "4586333",
+"espn_full_name": "Mekhi Wingo",
+"espn_jersey": "94",
+"yahoo_team_id": "nfl.t.8",
+"yahoo_player_id": "nfl.p.41091",
+"yahoo_player_name": "Mekhi Wingo",
+"yahoo_jersey": "94",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -322292,6 +322344,19 @@
 "yahoo_player_id": "nfl.p.41808",
 "yahoo_player_name": "Matthew Golden",
 "yahoo_jersey": "0",
+"match_method": "exact_name",
+"match_confidence": 1.0
+},
+{
+"season": 2026,
+"espn_team_id": "9",
+"espn_athlete_id": "4361423",
+"espn_full_name": "Micah Parsons",
+"espn_jersey": "1",
+"yahoo_team_id": "nfl.t.9",
+"yahoo_player_id": "nfl.p.33400",
+"yahoo_player_name": "Micah Parsons",
+"yahoo_jersey": "1",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
@@ -330221,7 +330286,7 @@
 "yahoo_team_id": "nfl.t.21",
 "yahoo_player_id": "nfl.p.34175",
 "yahoo_player_name": "Chance Campbell",
-"yahoo_jersey": null,
+"yahoo_jersey": "59",
 "match_method": "exact_name",
 "match_confidence": 1.0
 },
